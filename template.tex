@@ -1,0 +1,382 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, letterpaper]{article}
+
+
+%--------------------------------
+% MACRO
+%--------------------------------
+\usepackage{xstring}
+\usepackage{ifthen}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+
+\newcommand{\fl}[1]{%
+    \StrLeft{#1}{1}[\firstletter]%
+    \firstletter
+}
+
+% SYMBOL
+%--------------------------------
+\usepackage{amssymb}
+
+
+% LAYOUT
+%--------------------------------
+% Margins
+\usepackage{geometry}
+\geometry{$geometry$}
+
+% Do not indent paragraphs
+\setlength\parindent{0in}
+
+% Enable multicolumns
+\usepackage{multicol}
+\setlength{\columnsep}{-3cm}
+% \usepackage{vwcol}
+% largeur change
+
+
+% NUMBERING
+%--------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\rfoot{\thepage/\pageref{LastPage}}
+
+% Uncomment to suppress page numbers
+% \pagenumbering{gobble}
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+% KC edits
+\setmainfont{$mainfont$}
+% Cool ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\small #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+\usepackage[compact]{titlesec}
+\titleformat{\section}
+  {\normalfont\large}{\thesection}{1em}{}[{\titlerule[0.2pt]}]
+
+
+% PDF SETUP
+%--------------------------------
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={$name$},
+  pdfsubject={$name$'s CV},
+  pdftitle={$name$'s CV},
+  colorlinks, breaklinks, xetex, bookmarks,
+  filecolor=black,
+  urlcolor=[rgb]{0,0.558,0.765},
+  linkcolor=[rgb]{0,0,0},
+  citecolor=[rgb]{0,0.558,0.765}
+}
+
+
+
+
+
+
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+
+\begin{multicols}{2}
+
+
+%--------------------------------
+{\LARGE \textbf{$name$}}\\
+% \large \textbf{$status$}
+
+
+$if(nationality)$
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Nationalité}}{\textbf{Nationality}}: $nationality$
+$endif$
+
+\vspace*{.1cm}
+
+\faHome \quad 12 avenue Lavoisier \\ \hspace*{.6cm} 92500 Rueil-Malmaison \\ \hspace*{.6cm} France
+
+$if(phone)$
+\faPhone \quad $phone$
+$endif$
+
+$if(email)$
+\faEnvelope \quad \href{mailto:$email$}{$email$}
+$endif$
+
+$if(website)$
+\faGlobe \quad \href{http://$website$}{$website$}
+$endif$
+
+$if(github)$
+\faGithub \quad \href{https://github.com/$github$}{$github$}
+$endif$
+
+
+\vspace{.2cm}
+
+
+$if(langage)$
+$for(langage)$
+\textbf{$langage.lang$}: $langage.degree$ \\
+$endfor$
+$endif$
+
+
+% SKILLS
+%--------------------------------
+$if(skills)$
+
+\columnbreak
+
+
+$if(status)$
+$for(status)$
+{\large\textbf{$status.title$}} \\
+$endfor$
+$endif$
+
+%
+% \ifthenelse{\equal{$lang$}{fr}}{
+%   \section*{\textbf{Compétence principale}}}{
+%   \section*{\textbf{Mains Skills}}} \\
+
+
+
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Scientific Programming}}
+\vspace{-.4cm}
+
+\setlength{\columnsep}{0cm}
+\begin{multicols}{2}
+
+$for(skills.program)$
+$skills.program$\\
+$endfor$
+\end{multicols}
+
+
+\vspace{-.2cm}
+
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Web et Préparation de Document}}{\textbf{Web and Document Preparation}}
+\vspace{-.4cm}
+
+\begin{multicols}{2}
+
+$for(skills.document)$
+$skills.document$\\
+$endfor$
+
+
+\end{multicols}
+\end{multicols}
+$endif$
+
+% $if(intro)$
+% $intro$
+% $endif$
+
+
+%------------------
+$if(experience)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Expérience Professionnelle}}}{
+  \section*{\textbf{Experience}}}
+\noindent
+
+$for(experience)$
+\note{$experience.years$}
+$if(experience.unit)$$experience.unit$,$endif$ \textsc{$experience.employer$}\\
+$experience.city$\\
+\emph{$experience.job$}\\[.14cm]
+
+$endfor$
+$endif$
+
+%------------------
+$if(education)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Formation}}}{
+  \section*{\textbf{Education}}}
+
+\noindent
+$for(education)$
+\note{$education.years$}$education.subject$$if(education.degree)$, $education.degree$$endif$\\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\
+$if(education.honour)$\textbf{$education.honour$}$endif$\\[.14cm]
+$endfor$
+$endif$
+
+
+
+
+
+%------------------
+$if(licenses)$
+\section*{Certifications}
+\noindent
+$for(licenses)$
+\note{$licenses.year$}$licenses.subject$$if(licenses.degree)$, $licenses.degree$$endif$\\
+\emph{$licenses.institute$}$if(licenses.city)$, $licenses.city$$endif$\\[.14cm]
+$endfor$
+$endif$
+
+
+%------------------
+$if(grants)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Bourse}}}{
+  \section*{\textbf{Grants}}}
+
+% \section*{Bourses}
+\noindent
+$for(grants)$
+\note{$grants.year$} $grants.title$ \\$grants.amount$ \\[.14cm]
+$endfor$
+$endif$
+
+
+%------------------
+$if(teaching)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Enseignement}}}{
+  \section*{\textbf{Teaching}}}
+
+\noindent
+$for(teaching)$
+\note{$teaching.year$}$teaching.institute$ ($teaching.time$) \\
+\emph{$teaching.description$}\\[.14cm]
+$endfor$
+$endif$
+
+
+
+
+%------------------
+$if(references)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Articles publiés dans un journal à comité de lecture}}}{
+  \section*{\textbf{Articles published in peer-reviewed journal}}}
+
+
+\noindent
+\begin{enumerate}[leftmargin=*]
+  $for(references)$
+  \ifthenelse{\equal{$references.type$}{article-journal}}{
+  \item{
+  $for(references.author)$
+  \ifthenelse{\equal{$references.author.family$}{Cazelles} \AND \equal{$references.author.given$}{Kévin}}{
+  \textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
+  $endfor$
+  $for(references.issued)$ $references.issued.year$$endfor$. $references.title$. \emph{$references.container-title$}, $references.volume$($references.issue$):$references.page$.$if(references.URL)$\\ \href{$references.URL$}{$references.URL$} $endif$
+  }}{}
+  $endfor$
+  $for(references)$
+  \ifthenelse{\equal{$references.type$}{manuscript}}{
+  \item{
+  $for(references.author)$
+  \ifthenelse{\equal{$references.author.family$}{Cazelles}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
+  $endfor$ $for(references.issued)$ $references.issued.year$$endfor$. $references.title$. \emph{Article soumis}
+  }}{}
+  $endfor$
+\end{enumerate}
+$endif$
+
+
+
+%------------------
+$if(popularization)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Vulgarisation scientfique}}}{
+  \section*{\textbf{Science popularization}}}
+\noindent
+
+\begin{enumerate}[leftmargin=*]
+
+$for(popularization)$
+\item{
+  $for(popularization.author)$
+    \ifthenelse{\equal{$popularization.author.family$}{Cazelles}}{\textbf{$popularization.author.family$ \fl{$popularization.author.given$.}}}{$popularization.author.family$ \fl{$popularization.author.given$.}}.,
+  $endfor$
+  $popularization.year$. $popularization.title$.
+  \emph{$popularization.container-title$}.
+  $if(popularization.url)$ \href{$popularization.url$}{Available online} $endif$
+}
+$endfor$
+\end{enumerate}
+
+$endif$
+
+
+%------------------
+$if(tobepublished)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Articles en préparation ou accepté}}}{
+  \section*{\textbf{In preparation or accepted articles}}}
+\noindent
+
+\begin{enumerate}[leftmargin=*]
+
+$for(tobepublished)$
+\item{
+  $for(tobepublished.author)$
+    \ifthenelse{\equal{$tobepublished.author.family$}{Cazelles}}{\textbf{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}}{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}.,
+  $endfor$
+  $tobepublished.year$. $tobepublished.title$.
+  \emph{$tobepublished.container-title$}.
+  $if(tobepublished.url)$ \href{$popularization.url$}{Available online} $endif$
+}
+$endfor$
+\end{enumerate}
+
+$endif$
+
+
+
+
+%------------------
+$if(reviewer)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Réviseur pour les jounaux à comité de lecture suivants~:}}}{
+  \section*{\textbf{Reviewer for the following peer-reviewed journals:}}}
+
+$for(reviewer)$
+{\emph{$reviewer$}},
+$endfor$
+\emph{Theoretical Ecology}.
+
+$endif$
+
+
+
+\end{document}

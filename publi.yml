@@ -1,0 +1,236 @@
+---
+references:
+- id: Massol2017
+  type: article-journal
+  author:
+  - family: Massol
+    given: François
+  - family: Dubart
+    given: Maxime
+  - family: Calcagno
+    given: Vincent
+  - family: Cazelles
+    given: Kévin
+  - family: Jacquet
+    given: Claire
+  - family: Kéfi
+    given: Sonia
+  - family: Gravel
+    given: Dominique
+  issued:
+  - year: '2017'
+  title: Island Biogeography of Food Webs
+  container-title: Advances in Ecological Research
+  page: '183-262'
+  volume: '56'
+  keyword: Biogeography,Co-occurrence,Ecological networks,Indirect interactions,Null
+    models
+  URL: http://link.springer.com/10.1007/s12080-015-0281-9
+  DOI: 10.1016/bs.aecr.2016.10.004
+  ISSN: '1874-1738'
+
+- id: Cazelles2016
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kévin
+  - family: Araújo
+    given: Miguel B.
+  - family: Mouquet
+    given: Nicolas
+  - family: Gravel
+    given: Dominique
+  issued:
+  - year: '2016'
+    month: '3'
+  title: A theory for species co-occurrence in interaction networks
+  container-title: Theoretical Ecology
+  page: '39-48'
+  volume: '9'
+  issue: '1'
+  abstract: 'The study of species co-occurrences has been central in community ecology
+    since the foundation of the discipline. Co-occurrence data are, nevertheless,
+    a neglected source of information to model species distributions and biogeographers
+    are still debating about the impact of biotic interactions on species distributions
+    across geographical scales. We argue that a theory of species co-occurrence in
+    ecological networks is needed to better inform interpretation of co-occurrence
+    data, to formulate hypotheses for different community assembly mechanisms, and
+    to extend the analysis of species distributions currently focused on the relationship
+    between occurrences and abiotic factors. The main objective of this paper is to
+    provide the first building blocks of a general theory for species co-occurrences.
+    We formalize the problem with definitions of the different probabilities that
+    are studied in the context of co-occurrence analyses. We analyze three species
+    interactions modules and conduct multi-species simulations in order to document
+    five principles influencing the associations between species within an ecological
+    network: (i) direct interactions impact pairwise co-occurrence, (ii) indirect
+    interactions impact pairwise co-occurrence, (iii) pairwise co-occurrence rarely
+    are symmetric, (iv) the strength of an association decreases with the length of
+    the shortest path between two species, and (v) the strength of an association
+    decreases with the number of interactions a species is experiencing. Our analyses
+    reveal the difficulty of the interpretation of species interactions from co-occurrence
+    data. We discuss whether the inference of the structure of interaction networks
+    is feasible from co-occurrence data. We also argue that species distributions
+    models could benefit from incorporating conditional probabilities of interactions
+    within the models as an attempt to take into account the contribution of biotic
+    interactions to shaping individual distributions of species.'
+  keyword: Biogeography,Co-occurrence,Ecological networks,Indirect interactions,Null
+    models
+  URL: http://link.springer.com/10.1007/s12080-015-0281-9
+  DOI: 10.1007/s12080-015-0281-9
+  ISSN: '1874-1738'
+
+- id: Cazelles2015b
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kévin
+  - family: Mouquet
+    given: Nicolas
+  - family: Mouillot
+    given: David
+  - family: Gravel
+    given: Dominique
+  issued:
+  - year: '2015'
+    month: '11'
+  title: On the integration of biotic interaction and environmental constraints at
+    the biogeographical scale
+  container-title: Ecography
+  page: n/a-n/a
+  issue: October
+  URL: http://doi.wiley.com/10.1111/ecog.01714
+  DOI: 10.1111/ecog.01714
+  ISSN: '09067590'
+
+- id: Poisot2015b
+  type: article-journal
+  author:
+  - family: Poisot
+    given: Timothée
+  - family: Cirtwill
+    given: Alyssa R.
+  - family: Cazelles
+    given: Kévin
+  - family: Gravel
+    given: Dominique
+  - family: Fortin
+    given: Marie-Josée
+  - family: Stouffer
+    given: Daniel B.
+  editor:
+  - family: Vamosi
+    given: Jana
+  issued:
+  - year: '2016'
+    month: '3'
+  title: The structure of probabilistic networks
+  container-title: Methods in Ecology and Evolution
+  page: '303-312'
+  volume: '7'
+  issue: '3'
+  keyword: connectance,degree distribution,ecological networks,modularity,nestedness
+  URL: http://biorxiv.org/lookup/doi/10.1101/016485 http://doi.wiley.com/10.1111/2041-210X.12468
+  DOI: 10.1111/2041-210X.12468
+  ISSN: 2041210X
+
+- id: LeStradic2015
+  type: article-journal
+  author:
+  - family: Le Stradic
+    given: Soizig
+  - family: Silveira
+    given: Fernando a. O.
+  - family: Buisson
+    given: Elise
+  - family: Cazelles
+    given: Kévin
+  - family: Carvalho
+    given: Vanessa
+  - family: Fernandes
+    given: G. Wilson
+  issued:
+  - year: '2015'
+    month: '8'
+  title: Diversity of germination strategies and seed dormancy in herbaceous species
+    of campo rupestre grasslands
+  container-title: Austral Ecology
+  page: '537-546'
+  volume: '40'
+  issue: '5'
+  keyword: fire-related germination,neotropical grassland,physiological dormancy,temperature
+    fluctuation
+  URL: http://doi.wiley.com/10.1111/aec.12221
+  DOI: 10.1111/aec.12221
+  ISSN: '14429985'
+
+- id: Cazelles2014a
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: B.
+  - family: Cazelles
+    given: Kévin
+  - family: Chavez
+    given: Mario
+  issued:
+  - year: '2013'
+    month: '11'
+  title: 'Wavelet analysis in ecology and epidemiology: impact of statistical tests'
+  container-title: Journal of The Royal Society Interface
+  page: '20130585-20130585'
+  volume: '11'
+  issue: '91'
+  keyword: biometrics,environmental science
+  URL: http://rsif.royalsocietypublishing.org/cgi/doi/10.1098/rsif.2013.0585
+  DOI: 10.1098/rsif.2013.0585
+  ISSN: '1742-5689'
+
+- id: Cazelles2013
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kévin
+  - family: Otten
+    given: W.
+  - family: Baveye
+    given: P. C.
+  - family: Falconer
+    given: R. E.
+  issued:
+  - year: '2013'
+    month: '1'
+  title: 'Soil fungal dynamics: Parameterisation and sensitivity analysis of modelled
+    physiological processes, soil architecture and carbon distribution'
+  container-title: Ecological Modelling
+  publisher: Elsevier B.V.
+  page: '165-173'
+  volume: '248'
+  abstract: The role of fungi in soil ecosystem sustainability is poorly understood,
+    as is the extent to which it is affected by the microscale heterogeneity of soils
+    with respect to structure, chemistry and biology. This is due to the complexity
+    of soil ecosystems, presenting significant challenges to their study in situ.
+    Many theoretical and simulation models have been developed to link nutrient levels
+    to colony dynamics. Unfortunately, there is currently no model that can take both
+    structural and nutritional microscale heterogeneity into account, and is parameterised
+    for the soil environment. In this context, the objective of this article is to
+    develop such a 3D spatially explicit model of fungal dynamics, and to calibrate
+    it for a soil system using data from the literature. A sensitivity analysis is
+    carried out to better understand the uncertainties in the input parameters and
+    their effect on colony dynamics in terms of biomass yield and respiration rates.
+    The results highlight simulation outcomes that are most suited to validation by
+    experimentation. The results also indicate that predictions in biomass yield are
+    sensitive to uncertainties in model parameters relative to the soil-fungal complex
+    that at this point are insufficiently understood experimentally and still have
+    to be estimated by model fitting. The latter parameters, which influence biomass
+    yield and respiration, are associated with biomass recycling processes such as
+    adsorption (,??ni) desorption (??ni, ??i), insulation (??ni) and biomass yield
+    efficiency (e{open}1), and translocation (Dv). The model now opens up great opportunities
+    for hypothesis-driven research, combining theoretical models and novel types of
+    experimentation, especially given the recently acquired ability to generate artificial,
+    replicable soil-like microcosms on which to test model predictions. ?? 2012 Elsevier
+    B.V.
+  keyword: Carbon,Fungi colony dynamics,Micro-scale heterogeneity,Sensitivity analysis,Soil
+  URL: http://linkinghub.elsevier.com/retrieve/pii/S030438001200419X
+  DOI: 10.1016/j.ecolmodel.2012.08.008
+  ISSN: '03043800'
+...

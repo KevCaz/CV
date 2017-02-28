@@ -1,0 +1,267 @@
+---
+# Settings
+mainfont: Arial
+fontsize: 10pt
+lang: eng
+geometry: letterpaper, left=40mm, right=20mm, top=20mm, bottom=20mm
+
+# Personal details
+name: Kevin Cazelles
+status:
+  - title:
+  - title: Phd in theoretical ecology
+  - title: Agricultural Engineer
+nationality: french
+phone: "+33 6 38 45 42 79"
+email: kevin.cazelles@gmail.com
+website: http://kevincazelles.fr
+github: KevCaz
+mainskills: "Biologie, Ecologie, Biogéographie, bio-informatique, modélisation mathématiques et statistiques"
+
+
+
+
+
+experience:
+
+- years: "Summer 2012"
+  employer: Ecole Normale Supérieure
+  unit: Laboratoire Ecologie et Evolution
+  job: "Research Professional, working on wavelets: statistical testing, code in C and application to time series of dengue in Southern Asia."
+  city: Paris, France
+  description:
+    - working on wavelets
+
+- years: "Early 2012"
+  employer: Université de Montpellier
+  unit: Institut des Sciences de l'Evolution
+  job: "Four months’ training period, working on species distribution model and biotic interactions."
+  city: Paris, France
+  description:
+    - working on species distribution model and biotic interactions.
+
+- years: "2011"
+  employer: Universidade Federal de Minas Gerais
+  unit: "Laboratório de Ecologia Evolutiva e Biodiversidade"
+  job: "Six months’ training period, working on herbaceous plant communities in Cerrado: phenology and germination."
+  city: Belo Horizonte, Brazil
+  description:
+    - working on herbaceous plant communities in Cerrado phenology and germination.
+
+- years: "2009"
+  employer: Abertay University
+  unit: SIMBIOS Centre
+  job: "Six months’ training period, working on modelling fungal growth dynamics in a realistic soil environment."
+  city: Dundee, United Kingdom
+  description:
+    - working on modelling fungal growth dynamics.
+
+
+
+
+education:
+- years: 2012-2016
+  subject: \textbf{Phd Thesis}. \textit{Influence of biotic interactions on the geographic distribution of species.}
+  institute: Université du Québec À Rimouski, Canada; Université de Montpellier, France (Joint PhD).
+  honour: Doctor of Philosophy in Ecology
+  # {Phd Thesis. My main project is to find elegant methods to introduce both interactions among species and evolution in species distribution models.}
+- years: 2008--2012
+  subject: \textbf{M.Sc Agronomy and Ecology}
+  institute: AgroParisTech, Paris, France
+  honour: Diploma of Agronomy Engineer and Master of Science in Ecology and Evolution
+
+
+
+
+grants:
+- year: "2016"
+  title: Grant from the FRQNT (Fonds de Recherche du Québec Nature et Technologies)
+  amount: "20,000C$/year"
+- year: 2016
+  title: Excellence awards of the Quebec Centre for Biodiversity Science
+  amount: "1,500C$"
+- year: 2012-2015
+  title: Grant from the Ministry of Higher Education and Research of France
+  amount: "24 000/year"
+- year: 2015-2016
+  title: Grant from the Frontenac program (mobility program for joint Phd between France and Québec)
+  amount: "6,000C$/year"
+
+
+
+
+teaching:
+- year: "2016"
+  time: 2 days
+  institute: Quebec Centre For Biodiversity Science
+  description: Organizing a two-days event on data vizualization in biodiversity science for graduate students.
+- year: "2014-2016"
+  time: 16h/year
+  institute: Université du Québec à Rimouski
+  description: Presenter for the QCBS R Workshop Series.
+- year: "2014-2015"
+  time: 1 day/year
+  institute: Université du Québec à Rimouski
+  description: Advanced R course on data vizulation and graphics editing.
+- year: "2013-2015"
+  time: 64h/year
+  institute: Université de Monpellier
+  description: Practical course for first year undergraduates in developmental biology.
+- year: "2014"
+  time: 1 day
+  institute: Universidade Federal de Minas Gerais
+  description: Advanced R course on map editing.
+
+
+
+
+
+skills:
+  program:
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ C/C++
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab
+    - $\blacksquare \square \square \square \square$ Python
+    - $\blacksquare \square \square \square \square$ Julia
+    - $\blacksquare \square \square \square \square$ Java
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square \square$ UNIX
+
+
+  document:
+    - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Javascript
+    - $\blacksquare \blacksquare \square \square \square$ PostgreSQL
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ YAML
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Latex
+    - $\blacksquare \blacksquare \square \square \square$ Inkscape
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
+
+
+
+
+langage:
+  - lang: French
+    degree: mother tong
+  - lang: English
+    degree: fluency
+    certif: TOEIC (905)
+  - lang: Portugese
+    degree: fluency
+  - lang: German
+    degree: beginner
+  - lang: Chinese
+    degree: beginner
+
+
+popularization:
+  - title: La Biodiversité en territoire isolée
+    author:
+    - family: Cazelles
+      given: Kévin
+    container-title: Accromath
+    year: '2014'
+    volume: 9.1
+    url: http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/
+    category: popularization
+
+
+tobepublished:
+- id: Albouy2017
+  type: article-journal
+  author:
+  - family: Albouy
+    given: C.
+  - family: Archamabult
+    given: P.
+  - family: Appeltans
+    given: W.
+  - family: Araujo
+    given: M. B.
+  - family: Cazelles
+    given: K.
+  - family: Cirtwill
+    given: A. R.
+  - family: Fortin
+    given: Galizana Ibanez
+    suffix: M.-J. and
+  - family: Leroux
+    suffix: S. J.
+  - family: L.
+    given: Pelissier.
+  - family: Poisot
+    given: T.
+  - family: Stouffer
+    given: D.
+  - family: Wood
+    given: S. A.
+  - family: Gravel
+    given: D.
+  year: '2017'
+  title: The marine food web is globally connected
+  container-title: in prep
+
+- id: Cazelles2017
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Albouy
+    given: Camille
+  - family: Baiser
+    suffix: Benjamin
+  - family: Dalsgaard
+    given: Bo
+  - family: Farwig
+    given: Nina
+  - family: Lehmann J.
+    given: Louise J
+  - family: Mouquet
+    given: Nicolas
+  - family: Pelissier
+    given: Loic
+  - family: Svenning
+    given: J.-C.
+  - family: Talluto
+    given: Matthew V.
+  - family: Thuillier
+    given: Wilfried
+  - family: Gravel
+    given: Dominique
+  year: '2017'
+  title: Do interacting species co-occur differently from not-interacting species?
+  container-title: in prep
+  volume: '9'
+  URL: http://link.springer.com/10.1007/s12080-015-0281-9
+
+- id: Roslin2017
+  type: article-journal
+  author:
+  - family: Kopelke
+    given: J. -P
+  - family: Nyman
+    given: Tommi
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  - family: Vissault
+    given: Steve
+  - family: Roslin
+    given: Tomas
+  year: '2017'
+  title: Food-web structure of willow-galling sawflies and their natural enemies across
+    Europe
+  container-title: accepted in Ecology (data paper)
+
+
+
+reviewer:
+- Ecography
+- Ecology Letters
+- Global Ecology and Biogeography
+- Proceedings of the Royal Society B
+---
