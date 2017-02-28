@@ -18,6 +18,7 @@
 # *.ps
 # *.eps
 *.pdf
+.DS_Store
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
