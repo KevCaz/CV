@@ -26,7 +26,7 @@ experience:
 - years: "Été 2012"
   employer: Ecole Normale Supérieure
   unit: Laboratoire Ecologie et Evolution
-  job: "Ingénieur de recherche, travaux sur les ondelettes: implémentation de méthode statistiques en C et applications aux séries temporelles de cas de dengue en Asie du Sud."
+  job: "Ingénieur de recherche, implémentation de méthode statistiques d'ondelettes en C, applications aux séries temporelles de cas de dengue en Asie du Sud."
   city: Paris, France
   description:
     - travaux sur les ondelettes
@@ -34,7 +34,7 @@ experience:
 - years: "Début 2012"
   employer: Université de Montpellier
   unit: Institut des Sciences de l'Evolution
-  job: "Stage de Master de quatre mois, travaux sur l'intégration des interactions écologiques dans les modèles de distribution d'espèce."
+  job: "Stage de Master de quatre mois, travaux de recherche portant sur l'intégration des interactions écologiques dans les modèles de distribution d'espèce."
   city: Montpellier, France et Rimouski, Canada
   description:
     - travaux sur la théorie en biogéographie
@@ -42,7 +42,7 @@ experience:
 - years: "2011"
   employer: Universidade Federal de Minas Gerais
   unit: "Laboratório de Ecologia Evolutiva e Biodiversidade"
-  job: "Stage de 6 mois, travail sur les communautées de plantes herbacées dans le Cerrado: étude de la phénologie et la germination."
+  job: "Stage de 6 mois, travaux de recherche sur les communautées de plantes herbacées dans le Cerrado: étude de la phénologie et la germination."
   city: Belo Horizonte, Brésil
   description:
     - travail sur les communautées de plantes herbacées dans le Cerrado.
@@ -57,11 +57,10 @@ experience:
 
 
 
-
 education:
 - years: 2012--2016
   subject: "Thèse de Doctorat : \\textit{Influence des interactions biotiques sur la répartition géographique des espèces.}"
-  institute: Université du Québec À Rimouski, Canada; Université de Montpellier, France (cotutelle).
+  institute: Université du Québec À Rimouski, Canada / Université de Montpellier, France (cotutelle).
   honour: Doctorat en Écologie
   # {Phd Thesis. My main project is to find elegant methods to introduce both interactions among species and evolution in species distribution models.}
 - years: 2008--2012
@@ -75,19 +74,22 @@ education:
 grants:
 - year: 2016
   title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: "20 000C$"
+  amount: 20 000C$
 - year: 2016
   title: Bourse d'Excellence du Centre de la Science de la Biodiversité du Québec (CSBQ)
-  amount: "1 500C$"
+  amount: 1 500C$
 - year: 2015
   title: Prix de présentation du CSBQ
   amount: "150C$"
-- year: 2012--2015
-  title: Bourse du Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche
-  amount: 24 000\EUR/year
 - year: 2015--2016
   title: Bourse du programme Frontenac (programme de mobilité pour les thèse en cotutelle France/Québec)
-  amount: "6 000C$/année"
+  amount: 6 000C$/année
+- year: 2012--2015
+  title: Bourse du Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche
+  amount: 24 000\EUR/année
+- year: 2012--2015
+  title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
+  amount: 4 000C$/year
 
 
 
@@ -96,24 +98,23 @@ teaching:
 - year: 2016
   time: 2 jours
   institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
-  description: Organisation d'un évènement de deux jours sur la representation de données pour étudiants gradués.
+  description: Organisation d'un évènement de deux jours sur la représentation de données pour étudiants gradués.
 - year: 2014--2016
-  time: 16h/year
+  time: 16h/année
   institute: Université du Québec à Rimouski
-  description: Présenteur des ateliers R organisé par le CSBQ.
-- year: "2014-2015"
-  time: 1 jour/year
+  description: Présenteur des ateliers R organisés par le CSBQ.
+- year: 2014--2015
+  time: 1 jour/année
   institute: Université du Québec à Rimouski
-  description: Cours avancé de R sur la représentation de données et l'edition de graphiques.
-- year: "2013-2015"
-  time: 64h/year
+  description: Cours de programmation avancé en R sur la représentation de données et l'edition de graphiques.
+- year: 2013--2015
+  time: 64h/année
   institute: Université de Monpellier
   description: Travaux pratiques de biologie du développement pour les étudiants de première année de licence en biologie.
-- year: "2014"
+- year: 2014
   time: 1 jour
   institute: Universidade Federal de Minas Gerais
   description: Cours avancé sur l'utilisation du langage R en tant que Système d'Information Géographique.
-
 
 
 skills:
@@ -236,8 +237,19 @@ tobepublished:
   year: '2017'
   title: Do interacting species co-occur differently from not-interacting species?
   container-title: in prep
-  volume: '9'
-  URL: http://link.springer.com/10.1007/s12080-015-0281-9
+
+- id: Cazelles2017
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  year: '2017'
+  title: Towards a metabolic theory of island biogeography?
+  container-title: in prep
+
+
 
 - id: Roslin2017
   type: article-journal

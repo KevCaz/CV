@@ -61,12 +61,12 @@ experience:
 
 education:
 - years: 2012-2016
-  subject: \textbf{Phd Thesis}. \textit{Influence of biotic interactions on the geographic distribution of species.}
+  subject: Phd Thesis. \textit{Influence of biotic interactions on the geographic distribution of species.}
   institute: Université du Québec À Rimouski, Canada / Université de Montpellier, France (Joint PhD).
   honour: Doctor of Philosophy in Ecology
   # {Phd Thesis. My main project is to find elegant methods to introduce both interactions among species and evolution in species distribution models.}
 - years: 2008--2012
-  subject: \textbf{M.Sc Agronomy and Ecology}
+  subject: Studies in Agricultural Engineering and M.Sc, Ecology and Evolution
   institute: AgroParisTech, Paris, France
   honour: Diploma of Agronomy Engineer and Master of Science in Ecology and Evolution
 
@@ -78,39 +78,43 @@ grants:
   title: Grant from the FRQNT (Fonds de Recherche du Québec Nature et Technologies)
   amount: "20,000C$/year"
 - year: 2016
-  title: Excellence awards of the Quebec Centre for Biodiversity Science
-  amount: "1,500C$"
-- year: 2012--2015
-  title: Grant from the Ministry of Higher Education and Research of France
-  amount: "24 000C$/year"
-- year: 2012--2015
-  title: Grant from the FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: "4,000C$/year"
+  title: Excellence awards of the Quebec Centre for Biodiversity Science (QCBS)
+  amount: 1,500C$
+- year: 2015
+  title: Award for the second best oral presentation of the QCBS annual meeting
+  amount: "150C$"
 - year: 2015--2016
   title: Grant from the Frontenac program (mobility program for joint Phd between France and Québec)
-  amount: "6,000C$/year"
+  amount: 6,000C$/year
+- year: 2012--2015
+  title: Grant from the Ministry of Higher Education and Research of France
+  amount: 24 000\EUR$/year
+- year: 2012--2015
+  title: Grant from the FRQNT
+  amount: "4,000C$/year"
+
 
 
 
 
 teaching:
-- year: "2016"
+- year: 2016
   time: 2 days
   institute: Quebec Centre For Biodiversity Science
   description: Organizing a two-days event on data vizualization in biodiversity science for graduate students.
-- year: "2014-2016"
+- year: 2014--2016
   time: 16h/year
   institute: Université du Québec à Rimouski
-  description: Presenter for the QCBS R Workshop Series.
-- year: "2014-2015"
+  description: Presenter for the QCBS R workshop series.
+- year: 2014--2015
   time: 1 day/year
   institute: Université du Québec à Rimouski
-  description: Advanced R course on data vizulation and graphics editing.
-- year: "2013-2015"
+  description: Advanced R course on data visualization and graphics editing.
+- year: 2013--2015
   time: 64h/year
   institute: Université de Monpellier
   description: Practical course for first year undergraduates in developmental biology.
-- year: "2014"
+- year: 2014
   time: 1 day
   institute: Universidade Federal de Minas Gerais
   description: Advanced R course on map editing.
@@ -129,7 +133,7 @@ skills:
     - $\blacksquare \square \square \square \square$ Java
     - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
     - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square \square$ UNIX
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
 
 
   document:
@@ -194,8 +198,8 @@ tobepublished:
     given: M.-J.
   - family: Leroux
     given: S
-  - family: L.
-    given: Pelissier.
+  - family: Pelissier
+    given: L
   - family: Poisot
     given: T.
   - family: Stouffer
@@ -238,8 +242,18 @@ tobepublished:
   year: '2017'
   title: Do interacting species co-occur differently from not-interacting species?
   container-title: in prep
-  volume: '9'
-  URL: http://link.springer.com/10.1007/s12080-015-0281-9
+
+- id: Cazelles2017
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  year: '2017'
+  title: Towards a metabolic theory of island biogeography?
+  container-title: in prep
+
 
 - id: Roslin2017
   type: article-journal

@@ -258,7 +258,7 @@ $endif$
 %------------------
 $if(grants)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Bourse}}}{
+  \section*{\textbf{Bourses}}}{
   \section*{\textbf{Grants}}}
 
 % \section*{Bourses}
@@ -350,8 +350,8 @@ $endif$
 %------------------
 $if(reviewer)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Réviseur pour les jounaux à comité de lecture suivants~:}}}{
-  \section*{\textbf{Reviewer for the following peer-reviewed journals:}}}
+  \section*{\textbf{Réviseur pour les jounaux à comité de lecture suivants}}}{
+  \section*{\textbf{Reviewer for the following peer-reviewed journals}}}
 
 $for(reviewer)$
 {\emph{$reviewer$}},
