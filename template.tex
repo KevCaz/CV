@@ -11,6 +11,8 @@
 \usepackage{ifthen}
 \usepackage{enumitem}
 \usepackage{fontawesome}
+% for the € symbole
+\usepackage{marvosym}
 
 \newcommand{\fl}[1]{%
     \StrLeft{#1}{1}[\firstletter]%
@@ -216,7 +218,7 @@ $if(education)$
 $for(education)$
 \note{$education.years$}$education.subject$$if(education.degree)$, $education.degree$$endif$\\
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\
-$if(education.honour)${\large\textbf{$education.honour$}$endif$}\\[.14cm]
+$if(education.honour)$\textbf{$education.honour$}$endif$\\[.14cm]
 $endfor$
 $endif$
 

@@ -59,9 +59,9 @@ experience:
 
 
 education:
-- years: 2012-2016
+- years: 2012--2016
   subject: "Thèse de Doctorat : \\textit{Influence des interactions biotiques sur la répartition géographique des espèces.}"
-  institute: Université du Québec À Rimouski, Canada; Université de Montpellier, France (Joint PhD).
+  institute: Université du Québec À Rimouski, Canada; Université de Montpellier, France (cotutelle).
   honour: Doctorat en Écologie
   # {Phd Thesis. My main project is to find elegant methods to introduce both interactions among species and evolution in species distribution models.}
 - years: 2008--2012
@@ -73,31 +73,31 @@ education:
 
 
 grants:
-- year: "2016"
+- year: 2016
   title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: "20 000C$/année"
+  amount: "20 000C$"
 - year: 2016
   title: Bourse d'Excellence du Centre de la Science de la Biodiversité du Québec (CSBQ)
   amount: "1 500C$"
 - year: 2015
   title: Prix de présentation du CSBQ
-  amount: "150$"
-- year: 2012-2015
+  amount: "150C$"
+- year: 2012--2015
   title: Bourse du Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche
-  amount: "24 000/year"
-- year: 2015-2016
-  title: Bourse du programme Frontenac (programem de mobilité pour les thèse en cotutelle entre la France et le Québec)
+  amount: 24 000\EUR/year
+- year: 2015--2016
+  title: Bourse du programme Frontenac (programme de mobilité pour les thèse en cotutelle France/Québec)
   amount: "6 000C$/année"
 
 
 
 
 teaching:
-- year: "2016"
+- year: 2016
   time: 2 jours
   institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
   description: Organisation d'un évènement de deux jours sur la representation de données pour étudiants gradués.
-- year: "2014-2016"
+- year: 2014--2016
   time: 16h/year
   institute: Université du Québec à Rimouski
   description: Présenteur des ateliers R organisé par le CSBQ.
