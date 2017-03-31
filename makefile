@@ -17,6 +17,8 @@ publi.yml: publi.bib
 	pandoc-citeproc -y $< $ > $@
 
 
-.PHONY: all
+towebsite:
+	cp *.pdf ~/Sites/kevcazHugoWebsite/static/pdf
+
 clean :
 	rm $(pdfe) $(pdff)

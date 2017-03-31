@@ -173,84 +173,82 @@ popularization:
 
 
 tobepublished:
-- id: Albouy2017
-  type: article-journal
-  author:
-  - family: Albouy
-    given: C.
-  - family: Archamabult
-    given: P.
-  - family: Appeltans
-    given: W.
-  - family: Araujo
-    given: M. B.
-  - family: Cazelles
-    given: K.
-  - family: Cirtwill
-    given: A. R.
-  - family: Fortin
-    given: Galizana Ibanez
-    suffix: M.-J. and
-  - family: Leroux
-    suffix: S. J.
-  - family: L.
-    given: Pelissier.
-  - family: Poisot
-    given: T.
-  - family: Stouffer
-    given: D.
-  - family: Wood
-    given: S. A.
-  - family: Gravel
-    given: D.
-  year: '2017'
-  title: The marine food web is globally connected
-  container-title: in prep
-
-- id: Cazelles2017
-  type: article-journal
-  author:
-  - family: Cazelles
-    given: Kevin
-  - family: Albouy
-    given: Camille
-  - family: Baiser
-    suffix: Benjamin
-  - family: Dalsgaard
-    given: Bo
-  - family: Farwig
-    given: Nina
-  - family: Lehmann J.
-    given: Louise J
-  - family: Mouquet
-    given: Nicolas
-  - family: Pelissier
-    given: Loic
-  - family: Svenning
-    given: J.-C.
-  - family: Talluto
-    given: Matthew V.
-  - family: Thuillier
-    given: Wilfried
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: Do interacting species co-occur differently from not-interacting species?
-  container-title: in prep
-
-- id: Cazelles2017
-  type: article-journal
-  author:
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: Towards a metabolic theory of island biogeography?
-  container-title: in prep
-
-
-
+# - id: Albouy2017
+#   type: article-journal
+#   author:
+#   - family: Albouy
+#     given: C.
+#   - family: Archamabult
+#     given: P.
+#   - family: Appeltans
+#     given: W.
+#   - family: Araujo
+#     given: M. B.
+#   - family: Cazelles
+#     given: K.
+#   - family: Cirtwill
+#     given: A. R.
+#   - family: Fortin
+#     given: Galizana Ibanez
+#     suffix: M.-J. and
+#   - family: Leroux
+#     suffix: S. J.
+#   - family: L.
+#     given: Pelissier.
+#   - family: Poisot
+#     given: T.
+#   - family: Stouffer
+#     given: D.
+#   - family: Wood
+#     given: S. A.
+#   - family: Gravel
+#     given: D.
+#   year: '2017'
+#   title: The marine food web is globally connected
+#   container-title: in prep
+#
+# - id: Cazelles2017
+#   type: article-journal
+#   author:
+#   - family: Cazelles
+#     given: Kevin
+#   - family: Albouy
+#     given: Camille
+#   - family: Baiser
+#     suffix: Benjamin
+#   - family: Dalsgaard
+#     given: Bo
+#   - family: Farwig
+#     given: Nina
+#   - family: Lehmann J.
+#     given: Louise J
+#   - family: Mouquet
+#     given: Nicolas
+#   - family: Pelissier
+#     given: Loic
+#   - family: Svenning
+#     given: J.-C.
+#   - family: Talluto
+#     given: Matthew V.
+#   - family: Thuillier
+#     given: Wilfried
+#   - family: Gravel
+#     given: Dominique
+#   year: '2017'
+#   title: Do interacting species co-occur differently from not-interacting species?
+#   container-title: in prep
+#
+# - id: Cazelles2017
+#   type: article-journal
+#   author:
+#   - family: Cazelles
+#     given: Kevin
+#   - family: Gravel
+#     given: Dominique
+#   year: '2017'
+#   title: Towards a metabolic theory of island biogeography?
+#   container-title: in prep
+# 
 - id: Roslin2017
   type: article-journal
   author:
@@ -278,4 +276,5 @@ reviewer:
 - Ecology Letters
 - Global Ecology and Biogeography
 - Proceedings of the Royal Society B
+- Journal of Animal Ecology
 ---
