@@ -18,7 +18,11 @@ publi.yml: publi.bib
 
 
 towebsite:
+	zip CV_KevCaz_eng.zip CV_KevCaz_eng.pdf
+	zip CV_KevCaz_fr.zip CV_KevCaz_fr.pdf
 	cp *.pdf ~/Sites/kevcazHugoWebsite/static/pdf
+	cp *.zip ~/Sites/kevcazHugoWebsite/static/zip
+	rm *.zip
 
 clean :
 	rm $(pdfe) $(pdff)
