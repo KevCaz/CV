@@ -1,12 +1,17 @@
 # CV_latex
 
-This is my Curriculum Vitae I created using XeLaTex, I was strongly inspired by what [SteveViss](https://github.com/SteveViss) did (see these [files](https://github.com/SteveViss/steveviss.github.com/tree/dev/public/_cv) from the sources of his website).
+This is my Curriculum Vitae created using XeLaTex. I was strongly inspired by
+what [SteveViss](https://github.com/SteveViss) did (see these [files](https://github.com/SteveViss/steveviss.github.com/tree/dev/public/_cv)
+from the sources of his website).
 
-Regarding the icons inserted in the CV, I used the [fontawesome-latex](https://github.com/xdanaux/fontawesome-latex) package kindly made available by [xdanaux](https://github.com/xdanaux).
+To add some useful icons in the CV (it improves the visual grepping for sure),
+I used the [fontawesome-latex](https://github.com/xdanaux/fontawesome-latex)
+package kindly made available by [xdanaux](https://github.com/xdanaux).
 
-Hope this could help.
+Hope this could help!
 
 
 ## Todo
 
 - [ ] add OrcID icon
+- [ ] I should find a way to deal with hyphenated names in publication sections.
