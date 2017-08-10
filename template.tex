@@ -123,7 +123,7 @@ $endif$
 
 \vspace*{.1cm}
 
-\faHome \quad 12 avenue Lavoisier \\ \hspace*{.6cm} 92500 Rueil-Malmaison \\ \hspace*{.6cm} France
+\faHome \quad 4 Garibaldi Street \\ \hspace*{.6cm} NGuelph \\ \hspace*{.6cm} ON, Canada
 
 $if(phone)$
 \faPhone \quad $phone$
@@ -141,6 +141,9 @@ $if(github)$
 \faGithub \quad \href{https://github.com/$github$}{$github$}
 $endif$
 
+$if(orcid)$
+OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}
+$endif$
 
 \vspace{.2cm}
 
@@ -324,7 +327,7 @@ $endif$
 $if(tobepublished)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{Articles soumis ou à soumettre très prochainement}}}{
-  \section*{\textbf{Accepted articles}}}
+  \section*{\textbf{In Preparation / Submitted / Accepted articles}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
@@ -356,7 +359,6 @@ $if(reviewer)$
 $for(reviewer)$
 {\emph{$reviewer$}},
 $endfor$
-\emph{Theoretical Ecology}.
 
 $endif$
 

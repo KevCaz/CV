@@ -16,6 +16,7 @@ phone: "+33 6 38 45 42 79"
 email: kevin.cazelles@gmail.com
 website: http://kevincazelles.fr
 github: KevCaz
+orcid: 0000-0001-6619-9874
 mainskills: "Biologie, Ecologie, Biogéographie, bio-informatique, modélisation mathématiques et statistiques"
 
 
@@ -23,6 +24,14 @@ mainskills: "Biologie, Ecologie, Biogéographie, bio-informatique, modélisation
 
 
 experience:
+
+- years: "Since June 2017"
+  employer: University of Guelph
+  unit: McCann Lab
+  job: "Post-doctoral fellow: theoretical investigations to build an energetic theory of island biogeography."
+  city: Guelph ON, Canada
+  description:
+    -
 
 - years: "Summer 2012"
   employer: Ecole Normale Supérieure
@@ -127,11 +136,11 @@ skills:
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ C/C++
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab
-    - $\blacksquare \square \square \square \square$ Python
-    - $\blacksquare \square \square \square \square$ Julia
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
+    - $\blacksquare \blacksquare \square \square \square$ Python
+    - $\blacksquare \blacksquare \square \square \square$ Julia
     - $\blacksquare \square \square \square \square$ Java
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
+    - $\blacksquare \blacksquare \square \square \square$ Sage
     - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
 
@@ -165,15 +174,15 @@ langage:
 
 
 popularization:
-  - title: La Biodiversité en territoire isolée
-    author:
-    - family: Cazelles
-      given: Kévin
-    container-title: Accromath
-    year: '2014'
-    volume: 9.1
-    url: http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/
-    category: popularization
+- title: La Biodiversité en territoire isolée
+  author:
+  - family: Cazelles
+    given: Kévin
+  container-title: Accromath
+  year: '2014'
+  volume: 9.1
+  url: http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/
+  category: popularization
 
 
 tobepublished:
@@ -181,36 +190,97 @@ tobepublished:
   type: article-journal
   author:
   - family: Albouy
-    given: C.
+    given: Camille
   - family: Archamabult
-    given: P.
+    given: Philippe
   - family: Appeltans
     given: W.
-  - family: Araujo
+  - family: Araújo
     given: M. B.
   - family: Cazelles
-    given: K.
+    given: Kevin
   - family: Cirtwill
     given: A. R.
-  - family: Galizana
-    given: Nuria
   - family: Fortin
     given: M.-J.
   - family: Leroux
-    given: S
+    given: S. J.
   - family: Pelissier
-    given: L
+    given: Loïc
   - family: Poisot
     given: T.
   - family: Stouffer
-    given: D.
+    given: Daniel
   - family: Wood
     given: S. A.
   - family: Gravel
-    given: D.
+    given: Dominique
   year: '2017'
   title: The marine food web is globally connected
-  container-title: in prep
+  container-title: submitted
+
+- id: Galiana2017
+  type: article-journal
+  author:
+  - family: Galiana
+    given: Nuria
+  - family: Lurgi
+    given: Miguel
+  - family: Claramunt
+    given: Bernat
+  - family: Fortin
+    given: M.-J.
+  - family: Leroux
+    given: S. J.
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  - family: Montoya
+    given: José M.
+  year: '2017'
+  title: The spatial scaling of species interaction networks
+  container-title: in revision
+
+- id: Legagneux2017
+  type: article-journal
+  author:
+  - family: Legagneux
+    given: Pierre
+  - family: Casajus
+    given: Nicolas
+  - family: Cazelles
+    given: Kevin
+  - family: Chevallier
+    given: Clément
+  - family: Chevrinais
+    given: Marion
+  - family: Guéry
+    given: Lorelei
+  - family: Jacquet
+    given: Claire
+  - family: Jaffré
+    given: Mikaël
+  - family: Naud
+    given:  Marie-José
+  - family: Noisette
+    given: Fanny
+  - family: Ropars
+    given: Pasclae
+  - family: Vissault
+    given: Steve
+  - family: Archamabult
+    given: Philippe
+  - family: Berteaux
+    given: Dominique
+  - family: Bêty
+    given: Joel
+  - family: Gravel
+    given: Dominique
+  year: '2017'
+  title: "Our house is burning: climate change vs biodiversity coverage in the media"
+  container-title: in revision
+
 
 - id: Cazelles2017
   type: article-journal
@@ -225,14 +295,14 @@ tobepublished:
     given: Bo
   - family: Farwig
     given: Nina
-  - family: Lehmann J.
+  - family: Lehmann
     given: Louise J
   - family: Mouquet
     given: Nicolas
   - family: Pelissier
-    given: Loic
+    given: Loïc
   - family: Svenning
-    given: J.-C.
+    given: Jens-Christian
   - family: Talluto
     given: Matthew V.
   - family: Thuillier
@@ -243,6 +313,23 @@ tobepublished:
   title: Do interacting species co-occur differently from not-interacting species?
   container-title: in prep
 
+- id: Solarik2017
+  type: article-journal
+  author:
+  - family: Solarik
+    given: Kevin
+  - family: Cazelles
+    given: Kevin
+  - family: Bergeron
+    given: Yves
+  - family: Messier
+    given: Christian
+  - family: Gravel
+    given: Dominique
+  year: '2017'
+  title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
+  container-title: in prep
+
 - id: Cazelles2017
   type: article-journal
   author:
@@ -251,30 +338,27 @@ tobepublished:
   - family: Gravel
     given: Dominique
   year: '2017'
-  title: Towards a metabolic theory of island biogeography?
+  title: Towards a metabolic theory of island biogeography.
   container-title: in prep
 
-
-- id: Roslin2017
+- id: Wheeler2017
   type: article-journal
   author:
-  - family: Kopelke
-    given: J. -P
-  - family: Nyman
-    given: Tommi
+  - family: Wheeler
+    given: Helen C.
+  - family: Berteaux
+    given: Dominique
+  - family: Furgal
+    given: Chris
   - family: Cazelles
     given: Kevin
-  - family: Gravel
-    given: Dominique
-  - family: Vissault
-    given: Steve
-  - family: Roslin
-    given: Tomas
+  - family: Yoccoz
+    given: Nigel G.
+  - family: Grémillet
+    given: David
   year: '2017'
-  title: Food-web structure of willow-galling sawflies and their natural enemies across
-    Europe
-  container-title: accepted in Ecology (data paper)
-
+  title: "From monitoring to desired outcomes: Network analysis identifies key needs for the integration of socio-ecological outcomes in arctic wildlife monitoring"
+  container-title: submitted
 
 
 reviewer:

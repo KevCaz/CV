@@ -15,6 +15,7 @@ phone: "+33 6 38 45 42 79"
 email: kevin.cazelles@gmail.com
 website: http://kevincazelles.fr
 github: KevCaz
+orcid: 0000-0001-6619-9874
 nationality: française
 
 mainskills: "Biologie, écologie, Biogéographie, bio-informatique, modélisation mathématiques et statistiques"
@@ -22,6 +23,14 @@ mainskills: "Biologie, écologie, Biogéographie, bio-informatique, modélisatio
 
 
 experience:
+
+- years: "Depuis juin 2017"
+  employer: University of Guelph
+  unit: McCann Lab
+  job: "Chercheur post-doctoral: travaux théorique sur une théorie énergetique de la biogéographie insulaire."
+  city: Guelph ON, Canada
+  description:
+    - travaux de recherche sur des modèles théoriques
 
 - years: "Été 2012"
   employer: Ecole Normale Supérieure
@@ -121,7 +130,7 @@ skills:
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ C/C++
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
     - $\blacksquare \square \square \square \square$ Python
     - $\blacksquare \square \square \square \square$ Julia
     - $\blacksquare \square \square \square \square$ Java
@@ -183,13 +192,13 @@ tobepublished:
   - family: Appeltans
     given: W.
   - family: Araújo
-    given: M. B.
+    given: "M. B."
   - family: Cazelles
     given: Kevin
   - family: Cirtwill
-    given: A. R.
+    given: "A. R."
   - family: Fortin
-    given: M.-J.
+    given: "M.-J."
   - family: Leroux
     given: S. J.
   - family: Pelissier
@@ -227,7 +236,7 @@ tobepublished:
     given: José M.
   year: '2017'
   title: The spatial scaling of species interaction networks
-  container-title: submitted
+  container-title: in revision
 
 - id: Legagneux2017
   type: article-journal
@@ -266,7 +275,7 @@ tobepublished:
     given: Dominique
   year: '2017'
   title: "Our house is burning: climate change vs biodiversity coverage in the media"
-  container-title: in prep
+  container-title: in revision
 
 
 - id: Cazelles2017
@@ -327,8 +336,29 @@ tobepublished:
   - family: Gravel
     given: Dominique
   year: '2017'
-  title: Towards a metabolic theory of island biogeography
+  title: Towards a metabolic theory of island biogeography.
   container-title: in prep
+
+
+- id: Wheeler2017
+  type: article-journal
+  author:
+  - family: Wheeler
+    given: Helen C.
+  - family: Berteaux
+    given: Dominique
+  - family: Furgal
+    given: Chris
+  - family: Cazelles
+    given: Kevin
+  - family: Yoccoz
+    given: Nigel G.
+  - family: Grémillet
+    given: David
+  year: '2017'
+  title: "From monitoring to desired outcomes: Network analysis identifies key needs for the integration of socio-ecological outcomes in arctic wildlife monitoring"
+  container-title: submitted
+
 
 
 reviewer:
