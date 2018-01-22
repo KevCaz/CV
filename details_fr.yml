@@ -81,6 +81,9 @@ education:
 
 
 grants:
+- year: 2017
+  title: Prix ACFAS pour la meilleur thése en co-tutelle France-Canada (lauréat français)
+  amount: "1 500$C"
 - year: 2016
   title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
   amount: 20 000C$
@@ -104,6 +107,14 @@ grants:
 
 
 teaching:
+- year: 2017
+  time: 3 jours
+  institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
+  description: Intervenant dans un atelier sur les méta-analyses.
+- year: 2017
+  time: 5 jours
+  institute: Université de Sherbrooke
+  description: Intervenant dans une école d'été de statistique bayesienne pour écologues.
 - year: 2016
   time: 2 jours
   institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
@@ -126,34 +137,6 @@ teaching:
   description: Cours avancé sur l'utilisation du langage R en tant que Système d'Information Géographique.
 
 
-skills:
-  program:
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ C/C++
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
-    - $\blacksquare \square \square \square \square$ Python
-    - $\blacksquare \square \square \square \square$ Julia
-    - $\blacksquare \square \square \square \square$ Java
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
-
-
-  document:
-    - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Javascript
-    - $\blacksquare \blacksquare \square \square \square$ PostgreSQL
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ YAML
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Latex
-    - $\blacksquare \blacksquare \square \square \square$ Inkscape
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
-
-
-
-
-
 langage:
   - lang: Français
     degree: langue maternelle
@@ -166,208 +149,4 @@ langage:
     degree: débutant
   - lang: Chinese
     degree: débutant
-
-
-popularization:
-  - title: La Biodiversité en territoire isolée
-    author:
-    - family: Cazelles
-      given: Kévin
-    container-title: Accromath
-    year: '2014'
-    volume: 9.1
-    url: http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/
-    category: popularization
-
-
-
-tobepublished:
-- id: Albouy2017
-  type: article-journal
-  author:
-  - family: Albouy
-    given: Camille
-  - family: Archamabult
-    given: Philippe
-  - family: Appeltans
-    given: W.
-  - family: Araújo
-    given: "M. B."
-  - family: Cazelles
-    given: Kevin
-  - family: Cirtwill
-    given: "A. R."
-  - family: Fortin
-    given: "M.-J."
-  - family: Leroux
-    given: S. J.
-  - family: Pelissier
-    given: Loïc
-  - family: Poisot
-    given: T.
-  - family: Stouffer
-    given: Daniel
-  - family: Wood
-    given: S. A.
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: The marine food web is globally connected
-  container-title: submitted
-
-- id: Galiana2017
-  type: article-journal
-  author:
-  - family: Galiana
-    given: Nuria
-  - family: Lurgi
-    given: Miguel
-  - family: Claramunt
-    given: Bernat
-  - family: Fortin
-    given: M.-J.
-  - family: Leroux
-    given: S. J.
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  - family: Montoya
-    given: José M.
-  year: '2017'
-  title: The spatial scaling of species interaction networks
-  container-title: in revision
-
-- id: Legagneux2017
-  type: article-journal
-  author:
-  - family: Legagneux
-    given: Pierre
-  - family: Casajus
-    given: Nicolas
-  - family: Cazelles
-    given: Kevin
-  - family: Chevallier
-    given: Clément
-  - family: Chevrinais
-    given: Marion
-  - family: Guéry
-    given: Lorelei
-  - family: Jacquet
-    given: Claire
-  - family: Jaffré
-    given: Mikaël
-  - family: Naud
-    given:  Marie-José
-  - family: Noisette
-    given: Fanny
-  - family: Ropars
-    given: Pasclae
-  - family: Vissault
-    given: Steve
-  - family: Archamabult
-    given: Philippe
-  - family: Berteaux
-    given: Dominique
-  - family: Bêty
-    given: Joel
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: "Our house is burning: climate change vs biodiversity coverage in the media"
-  container-title: in revision
-
-
-- id: Cazelles2017
-  type: article-journal
-  author:
-  - family: Cazelles
-    given: Kevin
-  - family: Albouy
-    given: Camille
-  - family: Baiser
-    given: Benjamin
-  - family: Dalsgaard
-    given: Bo
-  - family: Farwig
-    given: Nina
-  - family: Lehmann
-    given: Louise J
-  - family: Mouquet
-    given: Nicolas
-  - family: Pelissier
-    given: Loïc
-  - family: Svenning
-    given: Jens-Christian
-  - family: Talluto
-    given: Matthew V.
-  - family: Thuillier
-    given: Wilfried
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: Do interacting species co-occur differently from not-interacting species?
-  container-title: in prep
-
-
-- id: Solarik2017
-  type: article-journal
-  author:
-  - family: Solarik
-    given: Kevin
-  - family: Cazelles
-    given: Kevin
-  - family: Bergeron
-    given: Yves
-  - family: Messier
-    given: Christian
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
-  container-title: in prep
-
-
-- id: Cazelles2017
-  type: article-journal
-  author:
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  year: '2017'
-  title: Towards a metabolic theory of island biogeography.
-  container-title: in prep
-
-
-- id: Wheeler2017
-  type: article-journal
-  author:
-  - family: Wheeler
-    given: Helen C.
-  - family: Berteaux
-    given: Dominique
-  - family: Furgal
-    given: Chris
-  - family: Cazelles
-    given: Kevin
-  - family: Yoccoz
-    given: Nigel G.
-  - family: Grémillet
-    given: David
-  year: '2017'
-  title: "From monitoring to desired outcomes: Network analysis identifies key needs for the integration of socio-ecological outcomes in arctic wildlife monitoring"
-  container-title: submitted
-
-
-
-reviewer:
-- Ecography
-- Ecology Letters
-- Global Ecology and Biogeography
-- Journal of Animal Ecology
-- Journal of Vegetation Science
-- Methods in Ecology and Evolution
-- Proceedings of the Royal Society B
-- Theoretical Ecology
 ---

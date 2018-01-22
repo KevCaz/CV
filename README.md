@@ -13,5 +13,6 @@ Hope this could help!
 
 ## Todo
 
-- [ ] add OrcID icon
-- [ ] I should find a way to deal with hyphenated names in publication sections.
+- [ ] add OrcID icon + code to retrieve publication from orcid
+- [ ] add code / packages section
+- [ ] add inSileco

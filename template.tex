@@ -108,9 +108,7 @@
 %--------------------------------
 \begin{document}
 
-
 \begin{multicols}{2}
-
 
 %--------------------------------
 {\LARGE \textbf{$name$}}\\
@@ -123,7 +121,7 @@ $endif$
 
 \vspace*{.1cm}
 
-\faHome \quad 4 Garibaldi Street \\ \hspace*{.6cm} NGuelph \\ \hspace*{.6cm} ON, Canada
+\faHome \quad 90 Queen St \\ \hspace*{.6cm} N1E 4R8 Guelph \\ \hspace*{.6cm} ON, Canada
 
 $if(phone)$
 \faPhone \quad $phone$
@@ -214,8 +212,8 @@ $endif$
 $if(education)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Formation}}}{
-  \section*{\textbf{Education}}}
+  \section*{\textbf{\faGraduationCap ~ Formation}}}{
+  \section*{\textbf{\faGraduationCap ~ Education}}}
 
 \noindent
 $for(education)$
@@ -232,8 +230,8 @@ $endif$
 %------------------
 $if(experience)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Expérience Professionnelle}}}{
-  \section*{\textbf{Experience}}}
+  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
+  \section*{\textbf{\faLineChart ~ Experience}}}
 \noindent
 
 $for(experience)$
@@ -261,8 +259,8 @@ $endif$
 %------------------
 $if(grants)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Bourses}}}{
-  \section*{\textbf{Grants}}}
+  \section*{\textbf{\faTrophy ~ Bourses et récompenses}}}{
+  \section*{\textbf{\faTrophy ~ Grants and awards}}}
 
 % \section*{Bourses}
 \noindent
@@ -276,8 +274,8 @@ $endif$
 $if(teaching)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Enseignement}}}{
-  \section*{\textbf{Teaching}}}
+  \section*{\textbf{\faUsers ~ Enseignement}}}{
+  \section*{\textbf{\faUsers ~ Teaching}}}
 
 \noindent
 $for(teaching)$
@@ -293,8 +291,8 @@ $endif$
 $if(references)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Articles publiés dans un journal à comité de lecture}}}{
-  \section*{\textbf{Articles published in peer-reviewed journal}}}
+  \section*{\textbf{\faPencilSquareO ~ Articles publiés dans un journal à comité de lecture}}}{
+  \section*{\textbf{\faPencilSquareO ~ Articles published in peer-reviewed journal}}}
 
 
 \noindent
@@ -303,7 +301,7 @@ $if(references)$
   \ifthenelse{\equal{$references.type$}{article-journal}}{
   \item{
   $for(references.author)$
-  \ifthenelse{\equal{$references.author.family$}{Cazelles} \AND \equal{$references.author.given$}{Kévin}}{
+  \ifthenelse{\equal{$references.author.given$}{K.} \OR \equal{$references.author.given$}{Kévin} \OR \equal{$references.author.given$}{Kevin} \AND \equal{$references.author.family$}{Cazelles}}{
   \textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
   $endfor$
   $for(references.issued)$ $references.issued.year$$endfor$. $references.title$. \emph{$references.container-title$}, $references.volume$($references.issue$):$references.page$.$if(references.URL)$\\ \href{$references.URL$}{$references.URL$} $endif$
@@ -326,8 +324,8 @@ $endif$
 %------------------
 $if(tobepublished)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Articles soumis ou à soumettre très prochainement}}}{
-  \section*{\textbf{In Preparation / Submitted / Accepted articles}}}
+  \section*{\textbf{\faCogs ~ Articles soumis ou à soumettre très prochainement}}}{
+  \section*{\textbf{\faCogs ~ In Preparation / Submitted / Accepted articles}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
