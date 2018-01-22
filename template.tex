@@ -351,11 +351,11 @@ $endif$
 %------------------
 $if(reviewer)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Réviseur pour les jounaux à comité de lecture suivants}}}{
-  \section*{\textbf{Reviewer for the following peer-reviewed journals}}}
+  \section*{\textbf{\faSearch ~ Réviseur pour les jounaux à comité de lecture suivants}}}{
+  \section*{\textbf{\faSearch ~ Reviewer for the following peer-reviewed journals}}}
 
 $for(reviewer)$
-{\emph{$reviewer$}},
+{\emph{$reviewer$}} 
 $endfor$
 
 $endif$
