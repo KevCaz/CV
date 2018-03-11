@@ -383,7 +383,8 @@ $if(code)$
 \begin{enumerate}[leftmargin=*]
 $for(code)$
 \item{
-  \textbf{$code.name$} - $code.description$.
+  \textbf{$code.name$} -
+  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$}
   $if(code.github)$\\ \faGithub \quad \href{https://github.com/$code.github$}{$code.github$}$endif$
   $if(code.zenodo)$\\ Zenodo \quad \href{https://zenodo.org/record/$code.zenodo$}{$code.zenodo$}$endif$
 }
