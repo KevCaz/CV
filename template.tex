@@ -135,6 +135,10 @@ $if(website)$
 \faGlobe \quad \href{http://$website$}{$website$}
 $endif$
 
+$if(website)$
+\faGlobe \quad \href{http://$blog$}{$blog$}
+$endif$
+
 $if(github)$
 \faGithub \quad \href{https://github.com/$github$}{$github$}
 $endif$
@@ -363,13 +367,38 @@ $endfor$
 $endif$
 
 
+
+
+\vspace{.5cm}
+% CODE
+%------------------
+$if(code)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faCode ~ Code}}}{
+  \section*{\textbf{\faCode ~ Code}}}
+
+\noindent
+
+\begin{enumerate}[leftmargin=*]
+$for(code)$
+\item{
+  \textbf{$code.name$} - $code.description$.
+  $if(code.github)$\\ \faGithub \quad \href{https://github.com/$code.github$}{$code.github$}$endif$
+  $if(code.zenodo)$\\ Zenodo \quad \href{https://zenodo.org/record/$code.zenodo$}{$code.zenodo$}$endif$
+}
+$endfor$
+$endif$
+\end{enumerate}
+
+
 \vspace{.5cm}
 % POPULARIZATION
 %------------------
 $if(popularization)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{Vulgarisation scientfique}}}{
-  \section*{\textbf{Science popularization}}}
+  \section*{\textbf{\faShareAlt ~ Vulgarisation scientfique}}}{
+  \section*{\textbf{\faShareAlt ~ Science popularization}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
@@ -385,8 +414,27 @@ $for(popularization)$
 }
 $endfor$
 \end{enumerate}
+$endif$
+
+
+
+\vspace{.5cm}
+% PRESS
+%------------------
+$if(media)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\faNewspaperO ~ \textbf{Mention dans les médias}}}{
+  \section*{\faNewspaperO ~ \textbf{Media}}}
+\noindent
+
+$for(media)$
+\note{\quad \quad \quad \quad \quad \quad $media.type$}
+\textbf{$media.media$} ($media.year$, $media.lang$). \\
+\href{$media.url$}{$media.url$} \\[.14cm]
+$endfor$
 
 $endif$
+
 
 
 

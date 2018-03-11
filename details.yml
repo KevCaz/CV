@@ -15,9 +15,8 @@ skills:
   document:
     - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
     - $\blacksquare \blacksquare \blacksquare \square \square$ Javascript
-    - $\blacksquare \blacksquare \square \square \square$ PostgreSQL
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ YAML
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Jekyll Hugo
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Latex
     - $\blacksquare \blacksquare \square \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
@@ -69,7 +68,7 @@ tobepublished:
   title: The marine food web is globally connected
   container-title: submitted
 
-- id: Galiana2017
+- id: Galiana2018
   type: article-journal
   author:
   - family: Galiana
@@ -88,7 +87,7 @@ tobepublished:
     given: Dominique
   - family: Montoya
     given: José M.
-  year: '2017'
+  year: '2018'
   title: The spatial scaling of species interaction networks
   container-title: accepted
 
@@ -141,7 +140,7 @@ tobepublished:
   title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
   container-title: in prep
 
-- id: Cazelles2017
+- id: Cazelles2018
   type: article-journal
   author:
   - family: Cazelles
@@ -152,7 +151,7 @@ tobepublished:
   title: Towards a metabolic theory of island biogeography.
   container-title: in prep
 
-- id: Wheeler2017
+- id: Wheeler2018
   type: article-journal
   author:
   - family: Wheeler
@@ -170,6 +169,60 @@ tobepublished:
   year: '2018'
   title: "From monitoring to desired outcomes: Network analysis identifies key needs for the integration of socio-ecological outcomes in arctic wildlife monitoring"
   container-title: submitted
+
+code:
+  - name: graphicsutils
+    description_eng: a set of graphical functions.
+    description_fr: un ensemble de fonctions graphiques.
+    type: R package
+    github: https://github.com/inSileco/graphicsutils
+  - name: letiRmisc
+    description_eng: a set of miscellenous functions.
+    description_fr: un ensemble de fonctions diverses.
+    type: R package
+    github: inSileco/letiRmisc
+  - name: citesR
+    type: R package
+    description_eng: a R client for the CITES Species+ API.
+    description_fr: un client pour l'API du CITES / Species+.
+    github: ibartomeus/citesr
+  - name: burningHouse
+    description: "code to reproduce the analysis by Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
+    type: reproducible science
+    github: KevCaz/burningHouse
+    zenodo: 1134897
+
+media:
+    - media: la Presse
+      year: 2018
+      type: \faPencil
+      lang: FR
+      url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
+    - media: Anthropocenemagazine
+      year: 2018
+      url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
+      type: \faPencil
+      lang: ENG
+    - media: Greenreport
+      year: 2018
+      url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
+      type: \faPencil
+      lang: IT
+    - media: 20 minutes
+      year: 2018
+      url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
+      type: \faPencil
+      lang: FR
+    - media: RFI
+      year: 2018
+      url: http://www.rfi.fr/emission/20180218-2-chaos-climatique-financier-jouzel-larrouturou
+      type: \faMicrophone
+      lang: FR
+    - media: le Devoir
+      year: 2018
+      url: http://www.ledevoir.com/socie dpkg-reconfigure locales te/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
+      type: \faPencil
+      lang: FR
 
 
 reviewer:

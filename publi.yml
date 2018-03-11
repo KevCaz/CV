@@ -1,5 +1,54 @@
 ---
 references:
+- id: MacDougall_2018
+  type: article-journal
+  author:
+  - family: MacDougall
+    given: Andrew S.
+  - family: Harvey
+    given: Eric
+  - family: McCune
+    given: Jenny L.
+  - family: Nilsson
+    given: Karin A.
+  - family: Bennett
+    given: Joseph
+  - family: Firn
+    given: Jennifer
+  - family: Bartley
+    given: Timothy
+  - family: Grace
+    given: James B.
+  - family: Kelly
+    given: Jocelyn
+  - family: Tunney
+    given: Tyler D.
+  - family: McMeans
+    given: Bailey
+  - family: Matsuzaki
+    given: Shin-Ichiro S.
+  - family: Kadoya
+    given: Taku
+  - family: Esch
+    given: Ellen
+  - family: Cazelles
+    given: Kevin
+  - family: Lester
+    given: Nigel
+  - family: McCann
+    given: Kevin S.
+  issued:
+  - year: '2018'
+    month: '3'
+  title: Context-dependent interactions and the regulation of species richness in
+    freshwater fish
+  container-title: Nature Communications
+  publisher: Springer Nature
+  volume: '9'
+  issue: '1'
+  URL: https://doi.org/10.1038%2Fs41467-018-03419-1
+  DOI: 10.1038/s41467-018-03419-1
+
 - id: Legagneux_2018
   type: article-journal
   author:

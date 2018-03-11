@@ -14,6 +14,7 @@ status:
 phone: "+33 6 38 45 42 79"
 email: kevin.cazelles@gmail.com
 website: kevincazelles.fr
+blog: insileco.github.io/
 github: KevCaz
 orcid: 0000-0001-6619-9874
 nationality: française
@@ -107,6 +108,10 @@ grants:
 
 
 teaching:
+- year: 2018
+  time: 3 hours
+  institute: Institut de recherche en biologie végétale, Montreal
+  description: "Utiliser R comme un système d'information géographique"
 - year: 2017
   time: 3 jours
   institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
