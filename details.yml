@@ -187,7 +187,8 @@ code:
     description_fr: un client pour l'API du CITES / Species+.
     github: ibartomeus/citesr
   - name: burningHouse
-    description: "code to reproduce the analysis by Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
+    description_eng: "code to reproduce the analysis by Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
+    description_fr: "code pour reproduire les analyses de Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
     type: reproducible science
     github: KevCaz/burningHouse
     zenodo: 1134897

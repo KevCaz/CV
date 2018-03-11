@@ -380,17 +380,13 @@ $if(code)$
 
 \noindent
 
-\begin{enumerate}[leftmargin=*]
 $for(code)$
-\item{
   \textbf{$code.name$} -
-  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$}
-  $if(code.github)$\\ \faGithub \quad \href{https://github.com/$code.github$}{$code.github$}$endif$
-  $if(code.zenodo)$\\ Zenodo \quad \href{https://zenodo.org/record/$code.zenodo$}{$code.zenodo$}$endif$
-}
+  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$} ($code.type$).
+  $if(code.github)$\\ \faGithub ~ \href{https://github.com/$code.github$}{$code.github$}$endif$
+  $if(code.zenodo)$~ Zenodo: \href{https://zenodo.org/record/$code.zenodo$}{$code.zenodo$}$endif$ \\[.14cm]
 $endfor$
 $endif$
-\end{enumerate}
 
 
 \vspace{.5cm}
