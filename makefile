@@ -16,12 +16,14 @@ $(pdff) : $(srcf) publi.yml
 publi.yml: publi.bib
 	pandoc-citeproc -y $< $ > $@
 
+# getpubli:
 
 towebsite:
 	zip CV_KevCaz_eng.zip CV_KevCaz_eng.pdf
 	zip CV_KevCaz_fr.zip CV_KevCaz_fr.pdf
-	cp *.pdf ~/Github/Websites/kevcazHugoWebsite/static/pdf
-	cp *.zip ~/Github/Websites/kevcazHugoWebsite/static/zip
+	cp publi.yml ~/Github/Websites/kevcaz.github.io/data/publi.yaml
+	cp *.pdf ~/Github/Websites/kevcaz.github.io/static/pdf
+	cp *.zip ~/Github/Websites/kevcaz.github.io/static/zip
 	rm *.zip
 
 clean :

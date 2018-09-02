@@ -8,4 +8,8 @@ To add some useful icons in the CV (it improves the visual grepping for sure),
 I used the [fontawesome-latex](https://github.com/xdanaux/fontawesome-latex)
 package kindly made available by [xdanaux](https://github.com/xdanaux).
 
-Hope this could help!
+
+# To do:
+
+- retrieve publication from orcid
+<!-- add talk section -->

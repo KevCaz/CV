@@ -1,5 +1,33 @@
 ---
 references:
+- id: Galiana_2018
+  type: article-journal
+  author:
+  - family: Galiana
+    given: Nuria
+  - family: Lurgi
+    given: Miguel
+  - family: Claramunt-López
+    given: Bernat
+  - family: Fortin
+    given: Marie-Josée
+  - family: Leroux
+    given: Shawn
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  - family: Montoya
+    given: José M.
+  issued:
+  - year: 2018
+    month: 4
+  title: The spatial scaling of species interaction networks
+  container-title: Nature Ecology & Evolution
+  publisher: Springer Nature
+  URL: https://doi.org/10.1038%2Fs41559-018-0517-3
+  DOI: 10.1038/s41559-018-0517-3
+
 - id: MacDougall_2018
   type: article-journal
   author:
@@ -38,8 +66,8 @@ references:
   - family: McCann
     given: Kevin S.
   issued:
-  - year: '2018'
-    month: '3'
+  - year: 2018
+    month: 3
   title: Context-dependent interactions and the regulation of species richness in
     freshwater fish
   container-title: Nature Communications
@@ -85,8 +113,8 @@ references:
   - family: Gravel
     given: Dominique
   issued:
-  - year: '2018'
-    month: '1'
+  - year: 2018
+    month: 1
   title: 'Our house is burning: Discrepancy in climate change vs. Biodiversity coverage
     in the media as compared to scientific literature'
   title-short: Our house is burning
@@ -112,8 +140,8 @@ references:
   - family: Roslin
     given: Tomas
   issued:
-  - year: '2017'
-    month: '3'
+  - year: 2017
+    month: 3
   title: Food-web structure of willow-galling sawflies and their natural enemies across
     europe
   container-title: Ecology
@@ -139,7 +167,7 @@ references:
   - family: Gravel
     given: D.
   issued:
-  - year: '2017'
+  - year: 2017
   title: Island biogeography of food webs
   container-title: 'Networks of invasion: A synthesis of concepts'
   publisher: Elsevier BV
@@ -159,8 +187,8 @@ references:
   - family: Gravel
     given: Dominique
   issued:
-  - year: '2016'
-    month: '1'
+  - year: 2016
+    month: 1
   title: On the integration of biotic interaction and environmental constraints at
     the biogeographical scale
   container-title: Ecography
@@ -183,8 +211,8 @@ references:
   - family: Gravel
     given: Dominique
   issued:
-  - year: '2015'
-    month: '10'
+  - year: 2015
+    month: 10
   title: A theory for species co-occurrence in interaction networks
   container-title: Theoretical Ecology
   publisher: Springer Nature
@@ -210,8 +238,8 @@ references:
   - family: Stouffer
     given: D.B.
   issued:
-  - year: '2015'
-    month: '9'
+  - year: 2015
+    month: 9
   title: The structure of probabilistic networks
   container-title: Methods Ecol Evol
   publisher: Wiley-Blackwell
@@ -237,7 +265,7 @@ references:
   - family: Stouffer
     given: Daniel
   issued:
-  - year: '2015'
+  - year: 2015
   title: The structure of probabilistic networks
   URL: http://doi.org/10.1101/016485
   DOI: 10.1101/016485
@@ -258,8 +286,8 @@ references:
   - family: Fernandes
     given: G. Wilson
   issued:
-  - year: '2015'
-    month: '2'
+  - year: 2015
+    month: 2
   title: Diversity of germination strategies and seed dormancy in herbaceous species
     of campo rupestre grasslands
   container-title: Austral Ecology
@@ -278,8 +306,8 @@ references:
   - family: Cazelles
     given: K.
   issued:
-  - year: '2014'
-    month: '4'
+  - year: 2014
+    month: 4
   title: Major urban centers have weak influence on the timing of dengue epidemics
     in southeast asia
   container-title: International Journal of Infectious Diseases
@@ -299,8 +327,8 @@ references:
   - family: Chavez
     given: M.
   issued:
-  - year: '2013'
-    month: '11'
+  - year: 2013
+    month: 11
   title: 'Wavelet analysis in ecology and epidemiology: Impact of statistical tests'
   title-short: Wavelet analysis in ecology and epidemiology
   container-title: Journal of The Royal Society Interface
@@ -323,8 +351,8 @@ references:
   - family: Falconer
     given: R.E.
   issued:
-  - year: '2013'
-    month: '1'
+  - year: 2013
+    month: 1
   title: 'Soil fungal dynamics: Parameterisation and sensitivity analysis of modelled
     physiological processes, soil architecture and carbon distribution'
   title-short: Soil fungal dynamics

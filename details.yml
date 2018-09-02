@@ -18,7 +18,7 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
     - $\blacksquare \blacksquare \blacksquare \square \square$ Jekyll Hugo
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Latex
-    - $\blacksquare \blacksquare \square \square \square$ Inkscape
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
 
@@ -26,7 +26,7 @@ popularization:
 - title: La Biodiversité en territoire isolée
   author:
   - family: Cazelles
-    given: Kévin
+    given: Kevin
   container-title: Accromath
   year: '2014'
   volume: 9.1
@@ -67,29 +67,6 @@ tobepublished:
   year: '2018'
   title: The marine food web is globally connected
   container-title: submitted
-
-- id: Galiana2018
-  type: article-journal
-  author:
-  - family: Galiana
-    given: Nuria
-  - family: Lurgi
-    given: Miguel
-  - family: Claramunt
-    given: Bernat
-  - family: Fortin
-    given: M.-J.
-  - family: Leroux
-    given: S. J.
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  - family: Montoya
-    given: José M.
-  year: '2018'
-  title: The spatial scaling of species interaction networks
-  container-title: accepted
 
 
 - id: Cazelles2018
@@ -176,11 +153,11 @@ code:
     description_fr: un ensemble de fonctions graphiques.
     type: R package
     github: https://github.com/inSileco/graphicsutils
-  - name: letiRmisc
+  - name: inSilecoMisc
     description_eng: a set of miscellenous functions.
     description_fr: un ensemble de fonctions diverses.
     type: R package
-    github: inSileco/letiRmisc
+    github: inSileco/inSilecoMisc
   - name: citesR
     type: R package
     description_eng: a R client for the CITES Species+ API.
@@ -234,6 +211,12 @@ reviewer:
 - Journal of Animal Ecology,
 - Journal of Vegetation Science,
 - Methods in Ecology and Evolution,
+- PeerJ,
+- Population Ecology,
 - Proceedings of the Royal Society B,
 - Theoretical Ecology.
+
+
+editor:
+- Since 2018, recommander for PCI Ecology.
 ---
