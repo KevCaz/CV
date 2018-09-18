@@ -23,7 +23,7 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
 
 popularization:
-- title: La Biodiversité en territoire isolée
+- title: "La Biodiversité en territoire isolée"
   author:
   - family: Cazelles
     given: Kevin
@@ -65,7 +65,7 @@ tobepublished:
   - family: Gravel
     given: Dominique
   year: '2018'
-  title: The marine food web is globally connected
+  title: "The marine food web is globally connected"
   container-title: submitted
 
 
@@ -204,6 +204,7 @@ media:
 
 
 reviewer:
+- American Naturalist,
 - Ecography,
 - Ecology,
 - Ecology Letters,
