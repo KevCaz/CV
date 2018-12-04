@@ -1,5 +1,22 @@
 ---
 references:
+- id: Geschke_2018
+  type: article-journal
+  author:
+  - family: Geschke
+    given: Jonas
+  - family: Cazelles
+    given: Kevin
+  - family: Bartomeus
+    given: Ignasi
+  issued:
+  - year: 2018
+  title: 'Rcites: An r package to access the cites speciesplus database'
+  title-short: Rcites
+  container-title: Journal of Open Source Software
+  URL: http://doi.org/10.21105/joss.01091
+  DOI: 10.21105/joss.01091
+
 - id: Galiana_2018
   type: article-journal
   author:
@@ -22,7 +39,7 @@ references:
   issued:
   - year: 2018
     month: 4
-  title: "The spatial scaling of species interaction networks"
+  title: The spatial scaling of species interaction networks
   container-title: Nature Ecology & Evolution
   publisher: Springer Nature
   URL: https://doi.org/10.1038%2Fs41559-018-0517-3
@@ -171,7 +188,7 @@ references:
   title: Island biogeography of food webs
   container-title: 'Networks of invasion: A synthesis of concepts'
   publisher: Elsevier BV
-  page: '183-262'
+  page: 183-262
   URL: https://doi.org/10.1016%2Fbs.aecr.2016.10.004
   DOI: 10.1016/bs.aecr.2016.10.004
 
@@ -193,7 +210,7 @@ references:
     the biogeographical scale
   container-title: Ecography
   publisher: Wiley-Blackwell
-  page: '921-931'
+  page: 921-931
   volume: '39'
   issue: '10'
   URL: http://dx.doi.org/10.1111/ecog.01714
@@ -216,7 +233,7 @@ references:
   title: A theory for species co-occurrence in interaction networks
   container-title: Theoretical Ecology
   publisher: Springer Nature
-  page: '39-48'
+  page: 39-48
   volume: '9'
   issue: '1'
   URL: https://doi.org/10.1007%2Fs12080-015-0281-9
@@ -292,7 +309,7 @@ references:
     of campo rupestre grasslands
   container-title: Austral Ecology
   publisher: Wiley-Blackwell
-  page: '537-546'
+  page: 537-546
   volume: '40'
   issue: '5'
   URL: http://dx.doi.org/10.1111/aec.12221
@@ -317,7 +334,7 @@ references:
   URL: http://dx.doi.org/10.1016/j.ijid.2014.03.873
   DOI: 10.1016/j.ijid.2014.03.873
 
-- id: Cazelles_2013
+- id: Cazelles_2013b
   type: article-journal
   author:
   - family: Cazelles
@@ -333,7 +350,7 @@ references:
   title-short: Wavelet analysis in ecology and epidemiology
   container-title: Journal of The Royal Society Interface
   publisher: The Royal Society
-  page: '20130585-20130585'
+  page: 20130585-20130585
   volume: '11'
   issue: '91'
   URL: http://dx.doi.org/10.1098/rsif.2013.0585
@@ -358,7 +375,7 @@ references:
   title-short: Soil fungal dynamics
   container-title: Ecological Modelling
   publisher: Elsevier BV
-  page: '165-173'
+  page: 165-173
   volume: '248'
   URL: http://dx.doi.org/10.1016/j.ecolmodel.2012.08.008
   DOI: 10.1016/j.ecolmodel.2012.08.008
