@@ -1,5 +1,30 @@
 ---
 references:
+- id: Wheeler_2018
+  type: article-journal
+  author:
+  - family: Wheeler
+    given: Helen C.
+  - family: Berteaux
+    given: Dominique
+  - family: Furgal
+    given: Chris
+  - family: Cazelles
+    given: Kevin
+  - family: Yoccoz
+    given: Nigel G.
+  - family: Grémillet
+    given: David
+  issued:
+  - year: 2018
+    month: 11
+  title: Identifying key needs for the integration of social-ecological outcomes in
+    arctic wildlife monitoring
+  container-title: Conservation Biology
+  publisher: Wiley
+  URL: https://doi.org/10.1111%2Fcobi.13257
+  DOI: 10.1111/cobi.13257
+
 - id: Geschke_2018
   type: article-journal
   author:

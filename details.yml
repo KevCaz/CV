@@ -128,25 +128,6 @@ tobepublished:
   title: Towards a metabolic theory of island biogeography.
   container-title: in prep
 
-- id: Wheeler2018
-  type: article-journal
-  author:
-  - family: Wheeler
-    given: Helen C.
-  - family: Berteaux
-    given: Dominique
-  - family: Furgal
-    given: Chris
-  - family: Cazelles
-    given: Kevin
-  - family: Yoccoz
-    given: Nigel G.
-  - family: Grémillet
-    given: David
-  year: '2018'
-  title: "From monitoring to desired outcomes: Network analysis identifies key needs for the integration of socio-ecological outcomes in arctic wildlife monitoring"
-  container-title: submitted
-
 code:
   - name: graphicsutils
     description_eng: a set of graphical functions.
@@ -208,6 +189,7 @@ reviewer:
 - Ecography,
 - Ecology,
 - Ecology Letters,
+- Environment, Development and Sustainability,
 - Global Ecology and Biogeography,
 - Journal of Animal Ecology,
 - Journal of Vegetation Science,

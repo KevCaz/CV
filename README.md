@@ -24,4 +24,4 @@ brew cask install mactex
 # To do:
 
 - [ ] retrieve publication from orcid
-<!-- add talk section -->
+- [ ] add Software section

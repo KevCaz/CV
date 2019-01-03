@@ -23,7 +23,6 @@ towebsite:
 	zip CV_KevCaz_fr.zip CV_KevCaz_fr.pdf
 	cp publi.yml publi.yaml
 	sed -i 's/container-title/container/g' publi.yaml
-	# add a sed container-title => container
 	mv publi.yaml ~/Github/Websites/kevcaz.github.io/data/publi.yaml
 	cp *.pdf ~/Github/Websites/kevcaz.github.io/static/docs/cv
 	cp *.zip ~/Github/Websites/kevcaz.github.io/static/docs/cv
