@@ -21,7 +21,8 @@ distribution.
 brew cask install mactex
 ```
 
+
 # To do:
 
 - [ ] retrieve publication from orcid
-- [ ] add Software section
+- [ ] add editor + member of Ropenscience

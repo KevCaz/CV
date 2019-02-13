@@ -16,7 +16,7 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
     - $\blacksquare \blacksquare \blacksquare \square \square$ Javascript
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Jekyll Hugo
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Jekyll Hugo
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Latex
     - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
@@ -115,18 +115,8 @@ tobepublished:
     given: Dominique
   year: '2018'
   title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
-  container-title: in prep
+  container-title: submitted
 
-- id: Cazelles2018
-  type: article-journal
-  author:
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  year: '2018'
-  title: Towards a metabolic theory of island biogeography.
-  container-title: in prep
 
 code:
   - name: graphicsutils
@@ -144,12 +134,6 @@ code:
     description_eng: a R client for the CITES Species+ API.
     description_fr: un client pour l'API du CITES / Species+.
     github: ibartomeus/citesr
-  - name: burningHouse
-    description_eng: "code to reproduce the analysis by Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
-    description_fr: "code pour reproduire les analyses de Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
-    type: reproducible science
-    github: KevCaz/burningHouse
-    zenodo: 1134897
 
 media:
     - media: la Presse
@@ -194,6 +178,7 @@ reviewer:
 - Journal of Animal Ecology,
 - Journal of Vegetation Science,
 - Methods in Ecology and Evolution,
+- Oikos,
 - PeerJ,
 - Population Ecology,
 - Proceedings of the Royal Society B,

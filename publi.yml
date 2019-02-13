@@ -1,5 +1,35 @@
 ---
 references:
+- id: Bartley_2019
+  type: article-journal
+  author:
+  - family: Bartley
+    given: Timothy J.
+  - family: McCann
+    given: Kevin S.
+  - family: Bieg
+    given: Carling
+  - family: Cazelles
+    given: Kevin
+  - family: Granados
+    given: Monica
+  - family: Guzzo
+    given: Matthew M.
+  - family: MacDougall
+    given: Andrew S.
+  - family: Tunney
+    given: Tyler D.
+  - family: McMeans
+    given: Bailey C.
+  issued:
+  - year: 2019
+    month: 2
+  title: Food web rewiring in a changing world
+  container-title: Nature Ecology & Evolution
+  publisher: Springer Nature
+  URL: https://doi.org/10.1038%2Fs41559-018-0772-3
+  DOI: 10.1038/s41559-018-0772-3
+
 - id: Wheeler_2018
   type: article-journal
   author:
