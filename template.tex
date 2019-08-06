@@ -122,7 +122,7 @@ $endif$
 
 \vspace*{.1cm}
 
-\faHome \quad 90 Queen St \\ \hspace*{.6cm} N1E 4R8 Guelph \\ \hspace*{.6cm} ON, Canada
+\faHome \quad 4 Terry Blvd \\ \hspace*{.6cm} N1E 1X5 Guelph \\ \hspace*{.6cm} ON, Canada
 
 $if(phone)$
 \faPhone \quad $phone$
@@ -306,8 +306,7 @@ $if(references)$
   \ifthenelse{\equal{$references.type$}{article-journal}}{
   \item{
   $for(references.author)$
-  \ifthenelse{\equal{$references.author.given$}{K.} \OR \equal{$references.author.given$}{Kévin} \OR \equal{$references.author.given$}{Kevin} \AND \equal{$references.author.family$}{Cazelles}}{
-  \textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
+  \ifthenelse{\equal{$references.author.given$}{K.} \OR \equal{$references.author.given$}{Kévin} \OR \equal{$references.author.given$}{Kevin} \AND \equal{$references.author.family$}{Cazelles}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
   $endfor$
   $for(references.issued)$ $references.issued.year$$endfor$. $references.title$.
   \emph{$references.container-title$} \textbf{$references.volume$}$if(references.issue)$($references.issue$)$endif$$if(references.page)$:$references.page$$endif$.
@@ -319,8 +318,7 @@ $if(references)$
   \item{
   $for(references.author)$
   \ifthenelse{\equal{$references.author.family$}{Cazelles}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
-  $endfor$ $for(references.issued)$ $references.issued.year$$endfor$. $references.title$. \emph{Article soumis}
-  }}{}
+  $endfor$ $for(references.issued)$ $references.issued.year$$endfor$. $references.title$}}{}
   $endfor$
 \end{enumerate}
 $endif$
@@ -331,8 +329,8 @@ $endif$
 %------------------
 $if(tobepublished)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCogs ~ Articles soumis ou à soumettre très prochainement}}}{
-  \section*{\textbf{\faCogs ~ In Preparation / Submitted / Accepted articles}}}
+  \section*{\textbf{\faCogs ~ Articles acceptés}}}{
+  \section*{\textbf{\faCogs ~ Accepted articles}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
@@ -342,7 +340,7 @@ $for(tobepublished)$
   $for(tobepublished.author)$
     \ifthenelse{\equal{$tobepublished.author.family$}{Cazelles}}{\textbf{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}}{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}.,
   $endfor$
-  $tobepublished.year$. $tobepublished.title$.
+  $tobepublished.year$. $tobepublished.title$
   \emph{$tobepublished.container-title$}.
   $if(tobepublished.url)$ \href{$popularization.url$}{popularization.url}} $endif$
 }
@@ -382,10 +380,10 @@ $if(code)$
 \noindent
 
 $for(code)$
-  \textbf{$code.name$} -
-  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$} ($code.type$).
-  $if(code.github)$\\ \faGithub ~ \href{https://github.com/$code.github$}{$code.github$}$endif$
-  $if(code.zenodo)$~ Zenodo: \href{https://zenodo.org/record/$code.zenodo$}{$code.zenodo$}$endif$ \\[.14cm]
+  \textbf{$code.name$} ($code.type$) --
+  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$}
+  $if(code.github)$\\ \faGithub ~ \href{https://github.com/$code.github$}{$code.github$}$endif$ $if(code.cran)$;~ CRAN: \href{https://cran.r-project.org/web/packages/$code.cran$}{$code.cran$}$endif$
+  $if(code.zenodo)$;~ Zenodo: \href{https://zenodo.org/record/$code.zenodo$}{10.5281/zenodo.$code.zenodo$}$endif$ \\[.14cm]
 $endfor$
 $endif$
 
