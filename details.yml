@@ -2,15 +2,15 @@
 skills:
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ C/C++
+    - $\blacksquare \blacksquare \blacksquare \square \square$ C
+    - $\blacksquare \blacksquare \blacksquare \square \square$ C++
     - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
     - $\blacksquare \blacksquare \square \square \square$ Julia
     - $\blacksquare \blacksquare \square \square \square$ Python
     - $\blacksquare \square \square \square \square$ Java
-    - $\blacksquare \blacksquare \square \square \square$ Sage
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
     - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
-
 
   document:
     - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
@@ -85,9 +85,10 @@ code:
     cran: rcites
   - name: rmangal
     type: R package
-    description_eng: a R client for the Mangal (collection of published ecological networks) API.
+    description_eng: a R client Mangal (collection of published ecological networks) API.
     description_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
     github: mangal-wg/rmangal
+
 
 media:
     - media: la Presse

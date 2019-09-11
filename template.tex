@@ -363,6 +363,12 @@ $for(reviewer)$
 {\emph{$reviewer$}}
 $endfor$
 
+\ifthenelse{\equal{$lang$}{fr}}{
+  \textbf{Recommandeur pour PCI ecology}.
+  }{
+  \textbf{Recommander for PCI ecology}.
+  }
+
 $endif$
 
 
@@ -374,8 +380,10 @@ $endif$
 $if(code)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCode ~ Code}}}{
-  \section*{\textbf{\faCode ~ Code}}}
+  \section*{\textbf{\faCode ~ Code}}
+  }{
+  \section*{\textbf{\faCode ~ Code}}
+  }
 
 \noindent
 

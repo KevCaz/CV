@@ -32,4 +32,4 @@ towebsite:
 	rm *.zip
 
 clean :
-	rm $(pdfe) $(pdff)
+	rm $(pdfe) $(pdff) pubs.bib
