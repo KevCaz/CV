@@ -11,12 +11,6 @@ status:
   - title:
   - title: Docteur en écologie théorique
   - title: Ingénieur agronome
-phone: "+33 6 38 45 42 79"
-email: kevin.cazelles@gmail.com
-website: kevcaz.github.io
-blog: insileco.github.io/
-github: KevCaz
-orcid: 0000-0001-6619-9874
 nationality: française
 
 mainskills: "Biologie, écologie, Biogéographie, bio-informatique, modélisation mathématiques et statistiques"
@@ -84,25 +78,25 @@ education:
 grants:
 - year: 2017
   title: Prix ACFAS pour la meilleur thése en co-tutelle France-Canada (lauréat français)
-  amount: "1 500$ CA"
+  amount: "1 500$CA"
 - year: 2016
   title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: "20 000$ CA"
+  amount: "20 000$CA"
 - year: 2016
   title: Bourse d'Excellence du Centre de la Science de la Biodiversité du Québec (CSBQ)
-  amount: "1 500$ CA"
+  amount: "1 500$CA"
 - year: 2015
   title: Prix de présentation du CSBQ
-  amount: "150$ CA"
+  amount: "150$CA"
 - year: 2015--2016
   title: Bourse du programme Frontenac (programme de mobilité pour les thèse en cotutelle France/Québec)
-  amount: "6 000$ CA/année"
+  amount: "6 000$CA/année"
 - year: 2012--2015
   title: Bourse du Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche
   amount: 24 000\EUR/année
 - year: 2012--2015
   title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: 4 000$ CA/year
+  amount: 4 000$CA/year
 
 
 
@@ -110,35 +104,35 @@ grants:
 teaching:
 - year: 2018
   time: 3 hours
-  institute: Institut de recherche en biologie végétale, Montreal
+  institute: Institut de recherche en biologie végétale, Montréal, Canada
   description: "Utiliser R comme un système d'information géographique"
 - year: 2017
   time: 3 jours
-  institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
+  institute: Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description: Intervenant dans un atelier sur les méta-analyses.
 - year: 2017
   time: 5 jours
-  institute: Université de Sherbrooke
+  institute: Université de Sherbrooke, Canada
   description: Intervenant dans une école d'été de statistique bayesienne pour écologues.
 - year: 2016
   time: 2 jours
-  institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
+  institute: Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description: Organisation d'un évènement de deux jours sur la représentation de données pour étudiants gradués.
 - year: 2014--2016
   time: 16h/année
-  institute: Université du Québec à Rimouski
+  institute: Université du Québec à Rimouski, Canada
   description: Présenteur des ateliers R organisés par le CSBQ.
 - year: 2014--2015
   time: 1 jour/année
-  institute: Université du Québec à Rimouski
+  institute: Université du Québec à Rimouski, Canada
   description: Cours de programmation avancé en R sur la représentation de données et l'edition de graphiques.
 - year: 2013--2015
   time: 64h/année
-  institute: Université de Monpellier
+  institute: Université de Monpellier, France
   description: Travaux pratiques de biologie du développement pour les étudiants de première année de licence en biologie.
 - year: 2014
   time: 1 jour
-  institute: Universidade Federal de Minas Gerais
+  institute: Universidade Federal de Minas Gerais, Brésil
   description: Cours avancé sur l'utilisation du langage R en tant que Système d'Information Géographique.
 
 

@@ -124,29 +124,6 @@ references:
   URL: https://doi.org/10.24072%2Fpci.ecology.100017
   DOI: 10.24072/pci.ecology.100017
 
-- id: Bartley_2019
-  type: article-journal
-  author:
-  - family: Bartley
-    given: Timothy J.
-  - family: Guzzo
-    given: Matthew M.
-  - family: Cazelles
-    given: Kevin
-  - family: Verville
-    given: Alex
-  - family: McMeans
-    given: Bailey C.
-  - family: McCann
-    given: Kevin S.
-  issued:
-  - year: 2019
-    month: 3
-  title: Thermal preferences drive behavioural responses but not biomass responses
-    of predatory fishes to lake morphometry
-  publisher: Cold Spring Harbor Laboratory
-  URL: https://doi.org/10.1101%2F572925
-  DOI: 10.1101/572925
 
 - id: Bartley_2019
   type: article-journal
@@ -180,35 +157,6 @@ references:
   issue: '3'
   URL: https://doi.org/10.1038%2Fs41559-018-0772-3
   DOI: 10.1038/s41559-018-0772-3
-
-- id: Bartley_2018
-  type: article-journal
-  author:
-  - family: Bartley
-    given: Timothy J
-  - family: McCann
-    given: Kevin S
-  - family: Bieg
-    given: Carling
-  - family: Cazelles
-    given: Kévin
-  - family: Granados
-    given: Monica
-  - family: Guzzo
-    given: Matthew M
-  - family: MacDougall
-    given: Andrew S
-  - family: Tunney
-    given: Tyler D
-  - family: McMeans
-    given: Bailey C
-  issued:
-  - year: 2018
-    month: 11
-  title: Food web rewiring in a changing world
-  publisher: PeerJ
-  URL: https://doi.org/10.7287%2Fpeerj.preprints.27187v2
-  DOI: 10.7287/peerj.preprints.27187v2
 
 - id: Geschke_2018
   type: article-journal
@@ -259,35 +207,6 @@ references:
   issue: '4'
   URL: https://doi.org/10.1111%2Fcobi.13257
   DOI: 10.1111/cobi.13257
-
-- id: Bartley_2018
-  type: article-journal
-  author:
-  - family: Bartley
-    given: Timothy J
-  - family: McCann
-    given: Kevin S
-  - family: Bieg
-    given: Carling
-  - family: Cazelles
-    given: Kévin
-  - family: Granados
-    given: Monica
-  - family: Guzzo
-    given: Matthew M
-  - family: MacDougall
-    given: Andrew S
-  - family: Tunney
-    given: Tyler D
-  - family: McMeans
-    given: Bailey C
-  issued:
-  - year: 2018
-    month: 9
-  title: Nature rewires in a changing world
-  publisher: PeerJ
-  URL: https://doi.org/10.7287%2Fpeerj.preprints.27187v1
-  DOI: 10.7287/peerj.preprints.27187v1
 
 - id: Galiana_2018
   type: article-journal
@@ -516,36 +435,6 @@ references:
   issue: '1'
   URL: https://doi.org/10.1007%2Fs12080-015-0281-9
   DOI: 10.1007/s12080-015-0281-9
-
-- id: Poisot_2015
-  type: article-journal
-  author:
-  - family: Poisot
-    given: Timothée
-  - family: Cirtwill
-    given: Alyssa R.
-  - family: Cazelles
-    given: Kévin
-  - family: Gravel
-    given: Dominique
-  - family: Fortin
-    given: Marie-Josée
-  - family: Stouffer
-    given: Daniel B.
-  editor:
-  - family: Vamosi
-    given: Jana
-  issued:
-  - year: 2015
-    month: 10
-  title: The structure of probabilistic networks
-  container-title: Methods in Ecology and Evolution
-  publisher: Wiley
-  page: 303-312
-  volume: '7'
-  issue: '3'
-  URL: https://doi.org/10.1111%2F2041-210x.12468
-  DOI: 10.1111/2041-210x.12468
 
 - id: Poisot_2015
   type: article-journal

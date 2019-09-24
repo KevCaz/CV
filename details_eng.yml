@@ -12,12 +12,6 @@ status:
   - title: Phd in theoretical ecology
   - title: Agricultural Engineer
 nationality: French
-phone: "+33 6 38 45 42 79"
-email: kevin.cazelles@gmail.com
-website: kevcaz.github.io
-blog: insileco.github.io/
-github: KevCaz
-orcid: 0000-0001-6619-9874
 mainskills: "Biologie, Ecologie, Biogéographie, bio-informatique, modélisation mathématiques et statistiques"
 
 
@@ -86,25 +80,25 @@ education:
 grants:
 - year: 2017
   title: ACFAS award for the best joint PhD France-Canada (French laureate)
-  amount: "1,500$ CA"
+  amount: "CA$1,500"
 - year: 2016
   title: Grant from the FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: "20,000$ CA"
+  amount: "CA$20,000"
 - year: 2016
   title: Excellence awards of the Quebec Centre for Biodiversity Science (QCBS)
-  amount: 1,500$ CA
+  amount: CA$1,500
 - year: 2015
   title: Award for the second best oral presentation of the QCBS annual meeting
-  amount: "150$ CA"
+  amount: CA$150
 - year: 2015--2016
   title: Grant from the Frontenac program (mobility program for joint Phd between France and Québec)
-  amount: 6,000$ CA/year
+  amount: CA$6,000/year
 - year: 2012--2015
   title: Grant from the Ministry of Higher Education and Research of France
-  amount: 24 000\EUR$/year
+  amount: \EUR24 000/year
 - year: 2012--2015
   title: Grant from the FRQNT
-  amount: "4,000$ CA/year"
+  amount: "CA$4,000/year"
 
 
 
@@ -113,35 +107,35 @@ grants:
 teaching:
 - year: 2018
   time: 3 hours
-  institute: Institut de recherche en biologie végétale, Montreal
+  institute: Institut de recherche en biologie végétale, Montreal, Canada
   description: "Use R as a geographic information system"
 - year: 2017
   time: 3 days
-  institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
+  institute: Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description: Instructor in a meta-analyses workshop.
 - year: 2017
   time: 5 days
-  institute: University of Sherbrooke
+  institute: University of Sherbrooke, Canada
   description: Instructor in the summer school "Bayesian Statistics for Ecologists".
 - year: 2016
   time: 2 days
-  institute: Quebec Centre For Biodiversity Science
+  institute: Quebec Centre For Biodiversity Science, Canada
   description: Organizing a two-days event on data vizualization in biodiversity science for graduate students.
 - year: 2014--2016
   time: 16h/year
-  institute: Université du Québec à Rimouski
+  institute: Université du Québec à Rimouski, Canada
   description: Presenter for the QCBS R workshop series.
 - year: 2014--2015
   time: 1 day/year
-  institute: Université du Québec à Rimouski
+  institute: Université du Québec à Rimouski, Canada
   description: Advanced R course on data visualization and graphics editing.
 - year: 2013--2015
   time: 64h/year
-  institute: Université de Monpellier
-  description: Practical course for first year undergraduates in developmental biology.
+  institute: Université de Monpellier, France
+  description: Practical course for first year undergraduates in developmental biology (TA).
 - year: 2014
   time: 1 day
-  institute: Universidade Federal de Minas Gerais
+  institute: Universidade Federal de Minas Gerais, Brazil
   description: Advanced R course on map editing.
 
 

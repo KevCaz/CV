@@ -144,6 +144,10 @@ $if(github)$
 \faGithub \quad \href{https://github.com/$github$}{$github$}
 $endif$
 
+$if(twitter)$
+\faTwitter \quad \href{https://twitter.com/$github$}{$twitter$}
+$endif$
+
 $if(orcid)$
 OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}
 $endif$
@@ -243,8 +247,7 @@ $for(experience)$
 \note{$experience.years$}
 $if(experience.unit)$$experience.unit$,$endif$ \textsc{$experience.employer$}\\
 $experience.city$\\
-\emph{$experience.job$}\\[.14cm]
-
+\emph{$experience.job$}\\[.3cm]
 $endfor$
 $endif$
 
@@ -329,8 +332,8 @@ $endif$
 %------------------
 $if(tobepublished)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCogs ~ Articles acceptés}}}{
-  \section*{\textbf{\faCogs ~ Accepted articles}}}
+  \section*{\textbf{\faCogs ~ Articles en révision}}}{
+  \section*{\textbf{\faCogs ~ In review}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
@@ -343,6 +346,7 @@ $for(tobepublished)$
   $tobepublished.year$. $tobepublished.title$
   \emph{$tobepublished.container-title$}.
   $if(tobepublished.url)$ \href{$popularization.url$}{popularization.url}} $endif$
+  $if(tobepublished.notes)$ $popularization.url$ $endif$
 }
 $endfor$
 \end{enumerate}

@@ -1,15 +1,23 @@
 ---
+phone: "+33 6 38 45 42 79"
+email: kevin.cazelles@gmail.com
+website: kevcaz.github.io
+blog: insileco.github.io/
+github: KevCaz
+twitter: "@KCazelles"
+orcid: 0000-0001-6619-9874
 skills:
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
-    - $\blacksquare \blacksquare \blacksquare \square \square$ C
     - $\blacksquare \blacksquare \blacksquare \square \square$ C++
+    - $\blacksquare \blacksquare \blacksquare \square \square$ C
     - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
     - $\blacksquare \blacksquare \square \square \square$ Julia
     - $\blacksquare \blacksquare \square \square \square$ Python
     - $\blacksquare \square \square \square \square$ Java
     - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
     - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Git
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
 
   document:
@@ -22,7 +30,19 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
 
+
+researchgrant:
+  - status: "(in review)"
+    title: Early warning signals of ecosystem change for the Great Lakes.
+    authors: "Guzzo MM, Cazelles K, Gellner G, Säterberg T, Koops M, Curie W, McCann KS"
+    year: 2012--2015
+    title: Grant from the FRQNT
+    prgm: Great Lakes Fishery Commission, Fishery Research
+    amount: "CA$199,975"
+
+
 popularization:
+
 - title: "La Biodiversité en territoire isolée"
   author:
   - family: Cazelles
@@ -32,6 +52,7 @@ popularization:
   volume: 9.1
   url: http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/
   category: popularization
+
 - title: "Sommes-nous bien informés ? : écarts entre la couverture du changement climatique et de la biodiversité par les médias et la littérature scientifique"
   author:
   - family: Legagneux
@@ -47,7 +68,7 @@ popularization:
 
 tobepublished:
 
-- id: Solarik2017
+- id: Solarik2018
   type: article-journal
   author:
   - family: Solarik
@@ -60,9 +81,43 @@ tobepublished:
     given: Christian
   - family: Gravel
     given: Dominique
-  year: '2018'
+  year: '2019'
   title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
   container-title: Journal of Ecology
+
+- id: Blanchet2019
+  type: article-journal
+  author:
+  - family: Blanchet
+    given: F. Guillaume
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  year: '2019'
+  title: Co-occurrence is not evidence of ecological interactions?
+  container-title: Ecology Letters
+  notes: "(all authors contributed equally)"
+
+- id: Bartley_2019
+  type: article-journal
+  author:
+  - family: Bartley
+    given: Timothy J.
+  - family: Guzzo
+    given: Matthew M.
+  - family: Cazelles
+    given: Kevin
+  - family: Verville
+    given: Alex
+  - family: McMeans
+    given: Bailey C.
+  - family: McCann
+    given: Kevin S.
+  container-title: Oecologia
+  year: 2019
+  title: Thermal preferences drive behavioural responses but not biomass responses of predatory fishes to lake morphometry
+  notes: "(three first authors contributed equally)"
 
 
 code:
@@ -78,16 +133,19 @@ code:
     github: inSileco/inSilecoMisc
   - name: rcites
     type: R package
-    description_eng: a R client for the CITES Species+ API.
+    description_eng: an R client for the CITES Species+ API.
     description_fr: un client pour l'API du CITES / Species+.
     github: ropensci/rcites
     zenodo: 1490219
     cran: rcites
   - name: rmangal
     type: R package
-    description_eng: a R client Mangal (collection of published ecological networks) API.
+    description_eng: an R client for Mangal API (Mangal is collection of published ecological networks).
     description_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
-    github: mangal-wg/rmangal
+    github: ropensci/rmangal
+
+# compendium:
+#
 
 
 media:
