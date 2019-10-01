@@ -1,5 +1,6 @@
-srcf = template.tex details_fr.yml details.yml pubs.yml
-srce = template.tex details_eng.yml details.yml pubs.yml
+srcf = template.tex details_fr.yml
+srce = template.tex details_eng.yml
+srcd = details.yml pubs.yml talk.yaml
 FLAGS = --pdf-engine=xelatex
 pdfe = CV_KevCaz_eng.pdf
 pdff = CV_KevCaz_fr.pdf
@@ -8,10 +9,10 @@ pathws = $(HOME)/Github/Websites/KevCaz.github.io/
 
 all: pubs.yml $(pdfe) $(pdff)
 
-$(pdfe) : $(srce) pubs.yml
+$(pdfe) : $(srce) $(srcd) pubs.yml
 	pandoc $(filter-out $<,$^ ) -o $@ --template=$< $(FLAGS)
 
-$(pdff) : $(srcf) pubs.yml
+$(pdff) : $(srcf) $(srcd) pubs.yml
 	pandoc $(filter-out $<,$^ ) -o $@ --template=$< $(FLAGS)
 
 pubs.yml: pubs.bib

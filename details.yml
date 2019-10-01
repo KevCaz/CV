@@ -97,7 +97,7 @@ tobepublished:
   year: '2019'
   title: Co-occurrence is not evidence of ecological interactions?
   container-title: Ecology Letters
-  notes: "(all authors contributed equally)"
+  note: "all authors contributed equally."
 
 - id: Bartley_2019
   type: article-journal
@@ -117,7 +117,7 @@ tobepublished:
   container-title: Oecologia
   year: 2019
   title: Thermal preferences drive behavioural responses but not biomass responses of predatory fishes to lake morphometry
-  notes: "(three first authors contributed equally)"
+  note: "the 3 first authors contributed equally."
 
 
 code:
@@ -202,4 +202,6 @@ reviewer:
 editor:
 - Since 2018, recommander for PCI Ecology.
 - Since 2018, member of ROpenSci
+
+
 ---
