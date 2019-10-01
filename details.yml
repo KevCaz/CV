@@ -32,12 +32,24 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
 
 
-researchgrant:
-  - status: "(in review)"
-    title: Early warning signals of ecosystem change for the Great Lakes.
-    authors: "Guzzo MM, Cazelles K, Gellner G, Säterberg T, Koops M, Curie W, McCann KS"
-    year: 2012--2015
-    title: Grant from the FRQNT
+rgrant:
+  - title: Early warning signals of ecosystem change for the Great Lakes
+    author:
+      - family: Guzzo
+        given: Matthew J.
+      - family: Cazelles
+        given: Kevin
+      - family: Gellner, Koops M
+        given: Gabriel
+      - family: Säterberg
+        given: Torbjörn
+      - family: Koops
+        given: M
+      - family: Curie
+        given:  W
+      - family: McCann
+        given: Kevin S.
+    year: (in review)
     prgm: Great Lakes Fishery Commission, Fishery Research
     amount: "CA$199,975"
 
@@ -162,6 +174,11 @@ code:
     type: Research compendium
     github: KevCaz/burningHouse
     zenodo: 1134897
+  - name: QCBSRworkshops
+    descri_eng: "Set up continuous deployment for the QCBS R workshops"
+    descri_fr: "Mise en place d'un déploiement continu pour les ateliers R du CSBQ."
+    type: continuous integration
+    github: QCBSRworkshops
 
 
 

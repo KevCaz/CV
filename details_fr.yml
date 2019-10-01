@@ -103,7 +103,7 @@ grants:
 
 teaching:
 - year: 2018
-  time: 3 hours
+  time: 3h
   institute: Institut de recherche en biologie végétale, Montréal, Canada
   description: "Utiliser R comme un système d'information géographique"
 - year: 2017
@@ -118,6 +118,10 @@ teaching:
   time: 2 jours
   institute: Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description: Organisation d'un évènement de deux jours sur la représentation de données pour étudiants gradués.
+- year: 2015
+  time: 3h
+  institute: Université du Québec à Rimouski, Canada
+  description: "Introduction aux chaines de Markov"
 - year: 2014--2016
   time: 16h/année
   institute: Université du Québec à Rimouski, Canada

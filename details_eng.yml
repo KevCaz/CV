@@ -106,7 +106,7 @@ grants:
 
 teaching:
 - year: 2018
-  time: 3 hours
+  time: 3h
   institute: Institut de recherche en biologie végétale, Montreal, Canada
   description: "Use R as a geographic information system"
 - year: 2017
@@ -121,6 +121,10 @@ teaching:
   time: 2 days
   institute: Quebec Centre For Biodiversity Science, Canada
   description: Organizing a two-days event on data vizualization in biodiversity science for graduate students.
+- year: 2015
+  time: 3h
+  institute: Université du Québec à Rimouski, Canada
+  description: "An introduction to Markov chains"
 - year: 2014--2016
   time: 16h/year
   institute: Université du Québec à Rimouski, Canada

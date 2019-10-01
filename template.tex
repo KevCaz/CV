@@ -301,14 +301,28 @@ $endif$
 
 
 
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faHandHoldingUsd ~ Fonds de recherche}}}{
+  \section*{\textbf{\faHandHoldingUsd ~ Research grants}}}
+  $for(rgrant)$
+  $for(rgrant.author)$
+  \ifthenelse{\equal{$rgrant.author.given$}{K.} \OR \equal{$rgrant.author.given$}{Kévin} \OR \equal{$rgrant.author.given$}{Kevin} \AND \equal{$rgrant.author.family$}{Cazelles}}{\textbf{$rgrant.author.family$ \fl{$rgrant.author.given$.}}}{$rgrant.author.family$ \fl{$rgrant.author.given$.}}.,
+  $endfor$
+  {\emph{$rgrant.title$} $rgrant.year$}. $rgrant.prgm$, $rgrant.amount$.
+  $endfor$
+%------------------
 
+
+
+
+\vspace{.4cm}
 %------------------
 $if(references)$
-%------------------
+
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faPen ~ Articles publiés dans un journal à comité de lecture}}}{
   \section*{\textbf{\faPen ~ Articles published in peer-reviewed journal}}}
-
 
 \noindent
 \begin{enumerate}[leftmargin=*]
