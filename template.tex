@@ -452,7 +452,7 @@ $endif$
   \section*{\textbf{\faBullhorn~ Présentations}}}{
   \section*{\textbf{\faBullhorn ~ Presentation}}}
 \noindent
-\subsection*{\textbf{Conference Presentations}}
+\subsection*{\textbf{- Conference Presentations}}
 
 $for(talk)$
   $for(talk.author)$
@@ -467,13 +467,13 @@ $endfor$
 
 
 %------------------
-\subsection*{\textbf{Seminars}}
+\subsection*{\textbf{- Seminars}}
 
 $for(seminar)$
   $for(seminar.author)$
-    \ifthenelse{\equal{$seminar.author.given$}{K.} \OR     \equal{$seminar.author.given$}{Kévin} \OR \equal{$seminar.author.given$}{Kevin}   \AND  \equal{$seminar.author.family$}{Cazelles}}{\textbf{$seminar.author.family$    \fl{$seminar.author.given$.}}}{$seminar.author.family$ \fl{$seminar.author.given$.}}.,
+    \ifthenelse{\equal{$seminar.author.given$}{K.} \OR     \equal{$seminar.author.given$}{Kévin} \OR \equal{$seminar.author.given$}{Kevin}   \AND  \equal{$seminar.author.family$}{Cazelles}}{\textbf{$seminar.author.family$    \fl{$seminar.author.given$.}}}{$seminar.author.family$ \fl{$seminar.author.given$.}}.
   $endfor$
-\emph{$seminar.title$}$seminar.where$ ($seminar.date$).\\[.14cm]
+\emph{$seminar.title$} $seminar.where$ ($seminar.date$).\\[.14cm]
 $endfor$
 %------------------
 

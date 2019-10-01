@@ -124,31 +124,43 @@ code:
   - name: graphicsutils
     descri_eng: a set of miscellenous graphical functions.
     descri_fr: un ensemble de fonctions graphiques.
-    type: \faRProject package
+    type: \faRProject &nbsp;package
     github: https://github.com/inSileco/graphicsutils
   - name: inSilecoMisc
     descri_eng: a set of miscellenous functions.
     descri_fr: un ensemble de fonctions diverses.
-    type: R package
+    type: \faRProject &nbsp;package
     github: inSileco/inSilecoMisc
   - name: rcites
-    type: R package
+    type: \faRProject &nbsp;package
     descri_eng: an R client for the CITES Species+ API.
     descri_fr: un client pour l'API du CITES / Species+.
     github: ropensci/rcites
     zenodo: 1490219
     cran: rcites
   - name: rmangal
-    type: R package
+    type: \faRProject &nbsp;package
     descri_eng: an R client for Mangal API (Mangal is collection of published ecological networks).
     descri_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
     github: ropensci/rmangal
   - name: HomogenFishOntario
-    descri_eng: Reproducible pipeline for 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'.
-    descri_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
+    descri_eng: "Reproducible analysis pipeline for 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
+    descri_fr: "Suite d'analyses reporductible pour 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
     type: Research compendium
     github: McCannLab/HomogenFishOntario
     zenodo: 3383237
+  - name: monitoringOutcomes
+    descri_eng: "Reproducible analysis pipeline for 'Wheeler et al. (2019) DOI:10.1111/cobi.13257'."
+    descri_fr: "Suite d'analyses reporductible pour 'Wheeler et al. (2019) DOI:10.1111/cobi.13257'."
+    type: Research compendium
+    github: KevCaz/monitoringOutcomes
+    zenodo: 1652737
+  - name: burningHouse
+    descri_eng: "Reproducible analysis pipeline for 'Legagneux et al. (2018) DOI:10.3389/fevo.2017.00175'."
+    descri_fr: "Suite d'analyses reporductible pour 'Legagneux et al. (2018) DOI:10.3389/fevo.2017.00175'."
+    type: Research compendium
+    github: KevCaz/burningHouse
+    zenodo: 1134897
 
 
 
