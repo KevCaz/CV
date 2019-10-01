@@ -4,6 +4,7 @@ email: kevin.cazelles@gmail.com
 website: kevcaz.github.io
 blog: insileco.github.io/
 github: KevCaz
+rgate: Kevin_Cazelles
 twitter: "@KCazelles"
 orcid: 0000-0001-6619-9874
 skills:
@@ -117,7 +118,7 @@ tobepublished:
   container-title: Oecologia
   year: 2019
   title: Thermal preferences drive behavioural responses but not biomass responses of predatory fishes to lake morphometry
-  note: "the 3 first authors contributed equally."
+  note: "The 3 first authors contributed equally."
 
 
 code:
