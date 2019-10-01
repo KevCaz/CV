@@ -10,7 +10,10 @@
 \usepackage{xstring}
 \usepackage{ifthen}
 \usepackage{enumitem}
-\usepackage{fontawesome}
+% \usepackage{fontawesome}
+\usepackage{fontawesome5}
+% fontawesome5
+
 % for the € symbole
 \usepackage{marvosym}
 
@@ -239,8 +242,8 @@ $endif$
 %------------------
 $if(experience)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
-  \section*{\textbf{\faLineChart ~ Experience}}}
+  \section*{\textbf{\faChartLine ~ Expérience Professionnelle}}}{
+  \section*{\textbf{\faChartLine ~ Experience}}}
 \noindent
 
 $for(experience)$
@@ -299,8 +302,8 @@ $endif$
 $if(references)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faPencilSquareO ~ Articles publiés dans un journal à comité de lecture}}}{
-  \section*{\textbf{\faPencilSquareO ~ Articles published in peer-reviewed journal}}}
+  \section*{\textbf{\faPen ~ Articles publiés dans un journal à comité de lecture}}}{
+  \section*{\textbf{\faPen ~ Articles published in peer-reviewed journal}}}
 
 
 \noindent
@@ -328,7 +331,7 @@ $endif$
 
 
 
-\vspace{.5cm}
+\vspace{.25cm}
 %------------------
 $if(tobepublished)$
 \ifthenelse{\equal{$lang$}{fr}}{
@@ -354,7 +357,7 @@ $endif$
 
 
 
-\vspace{.5cm}
+\vspace{.25cm}
 % REVIEWER
 %------------------
 $if(reviewer)$
@@ -377,7 +380,7 @@ $endif$
 
 
 
-\vspace{.5cm}
+\vspace{.25cm}
 % CODE
 %------------------
 $if(code)$
@@ -392,20 +395,20 @@ $if(code)$
 
 $for(code)$
   \textbf{$code.name$} ($code.type$) --
-  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$}
+  \ifthenelse{\equal{$lang$}{fr}}{$code.descri_fr$}{$code.descri_eng$}
   $if(code.github)$\\ \faGithub ~ \href{https://github.com/$code.github$}{$code.github$}$endif$ $if(code.cran)$;~ CRAN: \href{https://cran.r-project.org/web/packages/$code.cran$}{$code.cran$}$endif$
-  $if(code.zenodo)$;~ Zenodo: \href{https://zenodo.org/record/$code.zenodo$}{10.5281/zenodo.$code.zenodo$}$endif$ \\[.14cm]
+  $if(code.zenodo)$;~ DOI: \href{https://zenodo.org/record/$code.zenodo$}{10.5281/zenodo.$code.zenodo$}$endif$ \\[.14cm]
 $endfor$
 $endif$
 
 
-\vspace{.5cm}
+\vspace{.25cm}
 % POPULARIZATION
 %------------------
 $if(popularization)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faShareAlt ~ Vulgarisation scientfique}}}{
-  \section*{\textbf{\faShareAlt ~ Science popularization}}}
+  \section*{\textbf{\faShareAltSquare ~ Vulgarisation scientfique}}}{
+  \section*{\textbf{\faShareAltSquare ~ Science popularization}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
@@ -425,13 +428,13 @@ $endif$
 
 
 
-\vspace{.5cm}
+\vspace{.25cm}
 % PRESS
 %------------------
 $if(media)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\faNewspaperO ~ \textbf{Mention dans les médias}}}{
-  \section*{\faNewspaperO ~ \textbf{Media}}}
+  \section*{\faNewspaper ~ \textbf{Mention dans les médias}}}{
+  \section*{\faNewspaper ~ \textbf{Media}}}
 \noindent
 
 $for(media)$
@@ -449,7 +452,7 @@ $endif$
   \section*{\textbf{\faBullhorn~ Présentations}}}{
   \section*{\textbf{\faBullhorn ~ Presentation}}}
 \noindent
-\subsection*{\textbf{Conference Presentations}}
+\subsection*{\textbf{\faRProject Conference Presentations}}
 
 $for(talk)$
   $for(talk.author)$

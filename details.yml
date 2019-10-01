@@ -122,52 +122,57 @@ tobepublished:
 
 code:
   - name: graphicsutils
-    description_eng: a set of graphical functions.
-    description_fr: un ensemble de fonctions graphiques.
+    descri_eng: a set of miscellenous graphical functions.
+    descri_fr: un ensemble de fonctions graphiques.
     type: R package
     github: https://github.com/inSileco/graphicsutils
   - name: inSilecoMisc
-    description_eng: a set of miscellenous functions.
-    description_fr: un ensemble de fonctions diverses.
+    descri_eng: a set of miscellenous functions.
+    descri_fr: un ensemble de fonctions diverses.
     type: R package
     github: inSileco/inSilecoMisc
   - name: rcites
     type: R package
-    description_eng: an R client for the CITES Species+ API.
-    description_fr: un client pour l'API du CITES / Species+.
+    descri_eng: an R client for the CITES Species+ API.
+    descri_fr: un client pour l'API du CITES / Species+.
     github: ropensci/rcites
     zenodo: 1490219
     cran: rcites
   - name: rmangal
     type: R package
-    description_eng: an R client for Mangal API (Mangal is collection of published ecological networks).
-    description_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
+    descri_eng: an R client for Mangal API (Mangal is collection of published ecological networks).
+    descri_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
     github: ropensci/rmangal
+  - name: HomogenFishOntario
+    descri_eng: Reproducible pipeline for 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'.
+    descri_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
+    type: Research compendium
+    github: McCannLab/HomogenFishOntario
+    zenodo: 3383237
 
-# compendium:
-#
+
 
 
 media:
     - media: la Presse
       year: 2018
-      type: \faPencil
+      type: \faPen
       lang: FR
       url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
     - media: Anthropocenemagazine
       year: 2018
       url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
-      type: \faPencil
+      type: \faPen
       lang: ENG
     - media: Greenreport
       year: 2018
       url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
-      type: \faPencil
+      type: \faPen
       lang: IT
     - media: 20 minutes
       year: 2018
       url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
-      type: \faPencil
+      type: \faPen
       lang: FR
     - media: RFI
       year: 2018
@@ -177,7 +182,7 @@ media:
     - media: le Devoir
       year: 2018
       url: http://www.ledevoir.com/socie dpkg-reconfigure locales te/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
-      type: \faPencil
+      type: \faPen
       lang: FR
 
 
