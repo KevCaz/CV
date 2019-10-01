@@ -124,7 +124,7 @@ code:
   - name: graphicsutils
     descri_eng: a set of miscellenous graphical functions.
     descri_fr: un ensemble de fonctions graphiques.
-    type: R package
+    type: \faRProject package
     github: https://github.com/inSileco/graphicsutils
   - name: inSilecoMisc
     descri_eng: a set of miscellenous functions.
@@ -149,7 +149,6 @@ code:
     type: Research compendium
     github: McCannLab/HomogenFishOntario
     zenodo: 3383237
-
 
 
 
@@ -207,6 +206,5 @@ reviewer:
 editor:
 - Since 2018, recommander for PCI Ecology.
 - Since 2018, member of ROpenSci
-
 
 ---
