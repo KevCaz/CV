@@ -132,6 +132,23 @@ tobepublished:
   title: Thermal preferences drive behavioural responses but not biomass responses of predatory fishes to lake morphometry
   note: "The 3 first authors contributed equally."
 
+- id: Warne_2019
+  type: article-journal
+  author:
+  - family: Warn P. K.
+    given: Connor
+  - family: McCann
+    given: Kevin S.
+  - family: Rooney
+    given: Neil
+  - family: Cazelles
+    given: Kevin
+  - family: Guzzo
+    given: Matthew M.
+  container-title: Geophysical Research Letters
+  year: 2019
+  title: "Geography and morphology affect the ice duration dynamics of northern
+hemisphere lakes worldwide"
 
 code:
   - name: graphicsutils
@@ -153,24 +170,24 @@ code:
     cran: rcites
   - name: rmangal
     type: \faRProject &nbsp;package
-    descri_eng: an R client for Mangal API (Mangal is collection of published ecological networks).
+    descri_eng: an R client for Mangal API (Mangal is a collection of published ecological networks).
     descri_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
     github: ropensci/rmangal
   - name: HomogenFishOntario
     descri_eng: "Reproducible analysis pipeline for 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
-    descri_fr: "Suite d'analyses reporductible pour 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
+    descri_fr: "Suite d'analyses reproductiblse pour 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
     type: Research compendium
     github: McCannLab/HomogenFishOntario
     zenodo: 3383237
   - name: monitoringOutcomes
     descri_eng: "Reproducible analysis pipeline for 'Wheeler et al. (2019) DOI:10.1111/cobi.13257'."
-    descri_fr: "Suite d'analyses reporductible pour 'Wheeler et al. (2019) DOI:10.1111/cobi.13257'."
+    descri_fr: "Suite d'analyses reproductibles pour 'Wheeler et al. (2019) DOI:10.1111/cobi.13257'."
     type: Research compendium
     github: KevCaz/monitoringOutcomes
     zenodo: 1652737
   - name: burningHouse
     descri_eng: "Reproducible analysis pipeline for 'Legagneux et al. (2018) DOI:10.3389/fevo.2017.00175'."
-    descri_fr: "Suite d'analyses reporductible pour 'Legagneux et al. (2018) DOI:10.3389/fevo.2017.00175'."
+    descri_fr: "Suite d'analyses reproductibles pour 'Legagneux et al. (2018) DOI:10.3389/fevo.2017.00175'."
     type: Research compendium
     github: KevCaz/burningHouse
     zenodo: 1134897

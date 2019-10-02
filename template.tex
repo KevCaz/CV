@@ -470,7 +470,10 @@ $endif$
   \section*{\textbf{\faBullhorn~ Présentations}}}{
   \section*{\textbf{\faBullhorn ~ Presentation}}}
 \noindent
-\subsection*{\textbf{- Conference Presentations}}
+\ifthenelse{\equal{$lang$}{fr}}{
+  \subsection*{\textbf{- Présentations leur de conférence internationales}}}{
+  \subsection*{\textbf{- Conference Presentations}}}
+\noindent
 
 $for(talk)$
   $for(talk.author)$
@@ -485,7 +488,11 @@ $endfor$
 
 
 %------------------
-\subsection*{\textbf{- Seminars}}
+\ifthenelse{\equal{$lang$}{fr}}{
+  \subsection*{\textbf{- Séminaires}}}{
+  \subsection*{\textbf{- Seminar}}}
+\noindent
+
 
 $for(seminar)$
   $for(seminar.author)$

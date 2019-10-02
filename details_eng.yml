@@ -23,7 +23,7 @@ experience:
 - years: "June 2017 - "
   employer: University of Guelph
   unit: McCann Lab
-  job: "Post-doctoral fellow: theoretical investigations to build an energetic theory of island biogeography."
+  job: "Post-doctoral fellow: working on the impact of human activities on fish communities and on building a framework that uses biotracers to create spatial fingerprints to determine the provenance of species."
   city: Guelph ON, Canada
   description:
     -
@@ -55,10 +55,10 @@ experience:
 - years: "2009"
   employer: Abertay University
   unit: SIMBIOS Centre
-  job: "Six months’ training period, working on modelling fungal growth dynamics in a realistic soil environment."
+  job: "Six months’ training period, working on modeling fungal growth dynamics in a realistic soil environment."
   city: Dundee, United Kingdom
   description:
-    - working on modelling fungal growth dynamics.
+    - working on modeling fungal growth dynamics.
 
 
 
@@ -105,6 +105,10 @@ grants:
 
 
 teaching:
+- year: 2019
+  time: 2 days
+  institute: Université du Québec à Montréal, Montreal, Canada
+  description: "An Introduction to R"
 - year: 2018
   time: 3h
   institute: Institut de recherche en biologie végétale, Montreal, Canada
@@ -120,7 +124,7 @@ teaching:
 - year: 2016
   time: 2 days
   institute: Quebec Centre For Biodiversity Science, Canada
-  description: Organizing a two-days event on data vizualization in biodiversity science for graduate students.
+  description: Organizing a two-days event on data visualization in biodiversity science for graduate students.
 - year: 2015
   time: 3h
   institute: Université du Québec à Rimouski, Canada
@@ -145,14 +149,14 @@ teaching:
 
 langage:
   - lang: French
-    degree: mother tong
+    degree: Native Speaker
   - lang: English
-    degree: fluency
+    degree:  Fluent
     certif: TOEIC (905)
   - lang: Portugese
-    degree: fluency
+    degree: Conversational
   - lang: German
-    degree: beginner
+    degree: Beginner
   - lang: Chinese
-    degree: beginner
+    degree: Beginner
 ---

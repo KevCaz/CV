@@ -22,7 +22,7 @@ experience:
 - years: "Juin 2017 - "
   employer: University of Guelph
   unit: McCann Lab
-  job: "Chercheur post-doctoral: travaux théorique sur une théorie énergetique de la biogéographie insulaire."
+  job: "Chercheur post-doctoral: travaux sur les impactes des activities humaines sur les communautés de poissons et sur le dévelopement d'un cadre théorique pour créer des empreintes spatiales uniques aux espèces basées sut les traceurs biologiques. "
   city: Guelph ON, Canada
   description:
     - travaux de recherche sur des modèles théoriques
@@ -30,7 +30,7 @@ experience:
 - years: "Été 2012"
   employer: Ecole Normale Supérieure
   unit: Laboratoire Ecologie et Evolution
-  job: "Ingénieur de recherche, implémentation de méthode statistiques d'ondelettes en C, applications aux séries temporelles de cas de dengue en Asie du Sud."
+  job: "Ingénieur de recherche, implémentation de méthodes statistiques d'ondelettes en C, applications aux séries temporelles de cas de dengue en Asie du Sud."
   city: Paris, France
   description:
     - travaux sur les ondelettes
@@ -54,7 +54,7 @@ experience:
 - years: "2009"
   employer: Abertay University
   unit: SIMBIOS Centre
-  job: "Stage de 6 mois, travaux sur la modélisation de la croisance mycellienne dans un environment pédologique réaliste."
+  job: "Stage de 6 mois, travaux sur la modélisation de la croisance mycellienne."
   city: Dundee, UK
   description:
     - travaux sur la modélisation de la croisance mycellienne.
@@ -89,19 +89,23 @@ grants:
   title: Prix de présentation du CSBQ
   amount: "150$CA"
 - year: 2015--2016
-  title: Bourse du programme Frontenac (programme de mobilité pour les thèse en cotutelle France/Québec)
+  title: Bourse du programme Frontenac (programme de mobilité pour les thèses en cotutelle France/Québec)
   amount: "6 000$CA/année"
 - year: 2012--2015
   title: Bourse du Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche
   amount: 24 000\EUR/année
 - year: 2012--2015
   title: Bourse du FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: 4 000$CA/year
+  amount: 4 000$CA/année
 
 
 
 
 teaching:
+- year: 2018
+  time: 2 jours
+  institute: Université du Québec à Montréal, Canada
+  description: "Introduction à R"
 - year: 2018
   time: 3h
   institute: Institut de recherche en biologie végétale, Montréal, Canada
