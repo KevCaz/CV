@@ -302,15 +302,15 @@ $endif$
 
 
 %------------------
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faHandHoldingUsd ~ Fonds de recherche}}}{
-  \section*{\textbf{\faHandHoldingUsd ~ Research grants}}}
-  $for(rgrant)$
-  $for(rgrant.author)$
-  \ifthenelse{\equal{$rgrant.author.given$}{K.} \OR \equal{$rgrant.author.given$}{Kévin} \OR \equal{$rgrant.author.given$}{Kevin} \AND \equal{$rgrant.author.family$}{Cazelles}}{\textbf{$rgrant.author.family$ \fl{$rgrant.author.given$.}}}{$rgrant.author.family$ \fl{$rgrant.author.given$.}}.,
-  $endfor$
-  {\emph{$rgrant.title$} $rgrant.year$}. $rgrant.prgm$, $rgrant.amount$.
-  $endfor$
+% \ifthenelse{\equal{$lang$}{fr}}{
+%   \section*{\textbf{\faHandHoldingUsd ~ Fonds de recherche}}}{
+%   \section*{\textbf{\faHandHoldingUsd ~ Research grants}}}
+%   $for(rgrant)$
+%   $for(rgrant.author)$
+%   \ifthenelse{\equal{$rgrant.author.given$}{K.} \OR \equal{$rgrant.author.given$}{Kévin} \OR \equal{$rgrant.author.given$}{Kevin} \AND \equal{$rgrant.author.family$}{Cazelles}}{\textbf{$rgrant.author.family$ \fl{$rgrant.author.given$.}}}{$rgrant.author.family$ \fl{$rgrant.author.given$.}}.,
+%   $endfor$
+%   {\emph{$rgrant.title$} $rgrant.year$}. $rgrant.prgm$, $rgrant.amount$.
+%   $endfor$
 %------------------
 
 
@@ -366,7 +366,7 @@ $for(tobepublished)$
   $endfor$
   $tobepublished.year$. $tobepublished.title$
   \emph{$tobepublished.container-title$}.
-  $if(tobepublished.note)$ $tobepublished.note$ $endif$
+  $if(tobepublished.note)$ Note: $tobepublished.note$ $endif$
 }
 $endfor$
 \end{enumerate}
@@ -467,8 +467,8 @@ $endif$
 
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faBullhorn~ Présentations}}}{
-  \section*{\textbf{\faBullhorn ~ Presentation}}}
+  \section*{\textbf{\faBullhorn~ Présentations et posters}}}{
+  \section*{\textbf{\faBullhorn ~ Presentations and posters}}}
 \noindent
 \ifthenelse{\equal{$lang$}{fr}}{
   \subsection*{\textbf{- Présentations leur de conférence internationales}}}{
@@ -493,12 +493,26 @@ $endfor$
   \subsection*{\textbf{- Seminar}}}
 \noindent
 
-
 $for(seminar)$
   $for(seminar.author)$
     \ifthenelse{\equal{$seminar.author.given$}{K.} \OR     \equal{$seminar.author.given$}{Kévin} \OR \equal{$seminar.author.given$}{Kevin}   \AND  \equal{$seminar.author.family$}{Cazelles}}{\textbf{$seminar.author.family$    \fl{$seminar.author.given$.}}}{$seminar.author.family$ \fl{$seminar.author.given$.}}.
   $endfor$
 \emph{$seminar.title$} $seminar.where$ ($seminar.date$).\\[.14cm]
+$endfor$
+%------------------
+
+
+%------------------
+\subsection*{\textbf{- Posters}}
+
+$for(poster)$
+  $for(poster.author)$
+    \ifthenelse{\equal{$poster.author.given$}{K.} \OR     \equal{$poster.author.given$}{Kévin} \OR \equal{$poster.author.given$}{Kevin}   \AND  \equal{$poster.author.family$}{Cazelles}}{\textbf{$poster.author.family$    \fl{$poster.author.given$.}}}{$poster.author.family$ \fl{$poster.author.given$.}}.
+  $endfor$
+\emph{$poster.title$}.
+  $for(poster.conference)$
+    $poster.conference.name$, $poster.conference.where$ ($poster.conference.date$).\\[.14cm]
+  $endfor$
 $endfor$
 %------------------
 

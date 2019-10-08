@@ -81,7 +81,7 @@ popularization:
 
 tobepublished:
 
-- id: Solarik2018
+- id: Solarik2019
   type: article-journal
   author:
   - family: Solarik
@@ -96,7 +96,7 @@ tobepublished:
     given: Dominique
   year: '2019'
   title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
-  container-title: Journal of Ecology
+  container-title: "Journal of Ecology (accepted)"
 
 - id: Blanchet2019
   type: article-journal
@@ -130,7 +130,7 @@ tobepublished:
   container-title: Oecologia
   year: 2019
   title: Thermal preferences drive behavioural responses but not biomass responses of predatory fishes to lake morphometry
-  note: "The 3 first authors contributed equally."
+  note: "the three first authors contributed equally."
 
 - id: Warne_2019
   type: article-journal
@@ -173,6 +173,7 @@ code:
     descri_eng: an R client for Mangal API (Mangal is a collection of published ecological networks).
     descri_fr: un client pour l'API Mangal (collection de réseaux écologiques publiés).
     github: ropensci/rmangal
+    cran: rmangal
   - name: HomogenFishOntario
     descri_eng: "Reproducible analysis pipeline for 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
     descri_fr: "Suite d'analyses reproductiblse pour 'Cazelles et al. (2019) DOI:10.1111/gcb.14829'."
