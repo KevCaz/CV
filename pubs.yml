@@ -1,5 +1,55 @@
 ---
 references:
+- id: Brice_2019
+  type: article-journal
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Cazelles
+    given: Kevin
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  editor:
+  - family: Boucher-Lalonde
+    given: Véronique
+  issued:
+  - year: 2019
+    month: 7
+  title: Disturbances amplify tree community responses to climate change in the temperateboreal
+    ecotone
+  container-title: Global Ecology and Biogeography
+  publisher: Wiley
+  page: 1668-1681
+  volume: '28'
+  issue: '11'
+  URL: https://doi.org/10.1111%2Fgeb.12971
+  DOI: 10.1111/geb.12971
+
+- id: Solarik_2019
+  type: article-journal
+  author:
+  - family: Solarik
+    given: Kevin A.
+  - family: Cazelles
+    given: Kevin
+  - family: Messier
+    given: Christian
+  - family: Bergeron
+    given: Yves
+  - family: Gravel
+    given: Dominique
+  issued:
+  - year: 2019
+    month: 10
+  title: Priority effects will impede range shifts of temperate tree species into
+    the boreal forest
+  container-title: Journal of Ecology
+  publisher: Wiley
+  URL: https://doi.org/10.1111%2F1365-2745.13311
+  DOI: 10.1111/1365-2745.13311
+
 - id: Cazelles_2019
   type: article-journal
   author:
@@ -29,7 +79,7 @@ references:
     given: Kevin S.
   issued:
   - year: 2019
-    month: 9
+    month: 10
   title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
     communities are explained by gamefish movement and not climate change'
   title-short: Homogenization of freshwater lakes
@@ -83,30 +133,6 @@ references:
   URL: https://doi.org/10.1038%2Fs41559-019-0950-y
   DOI: 10.1038/s41559-019-0950-y
 
-- id: Brice_2019
-  type: article-journal
-  author:
-  - family: Brice
-    given: Marie-Hélène
-  - family: Cazelles
-    given: Kevin
-  - family: Legendre
-    given: Pierre
-  - family: Fortin
-    given: Marie-Josée
-  editor:
-  - family: Boucher-Lalonde
-    given: Véronique
-  issued:
-  - year: 2019
-    month: 7
-  title: Disturbances amplify tree community responses to climate change in the temperateboreal
-    ecotone
-  container-title: Global Ecology and Biogeography
-  publisher: Wiley
-  URL: https://doi.org/10.1111%2Fgeb.12971
-  DOI: 10.1111/geb.12971
-
 - id: Cazelles_2019
   type: article-journal
   author:
@@ -123,7 +149,6 @@ references:
   page: '100017'
   URL: https://doi.org/10.24072%2Fpci.ecology.100017
   DOI: 10.24072/pci.ecology.100017
-
 
 - id: Bartley_2019
   type: article-journal
@@ -151,7 +176,7 @@ references:
     month: 2
   title: Food web rewiring in a changing world
   container-title: Nature Ecology & Evolution
-  publisher: Springer Nature
+  publisher: Springer Science; Business Media LLC
   page: 345-354
   volume: '3'
   issue: '3'
@@ -198,7 +223,7 @@ references:
   issued:
   - year: 2019
     month: 1
-  title: Identifying key needs for the integration of social-ecological outcomes in
+  title: Identifying key needs for the integration of socialecological outcomes in
     arctic wildlife monitoring
   container-title: Conservation Biology
   publisher: Wiley
@@ -232,7 +257,7 @@ references:
     month: 4
   title: The spatial scaling of species interaction networks
   container-title: Nature Ecology & Evolution
-  publisher: Springer Nature
+  publisher: Springer Science; Business Media LLC
   page: 782-790
   volume: '2'
   issue: '5'
@@ -282,7 +307,7 @@ references:
   title: Context-dependent interactions and the regulation of species richness in
     freshwater fish
   container-title: Nature Communications
-  publisher: Springer Nature
+  publisher: Springer Science; Business Media LLC
   volume: '9'
   issue: '1'
   URL: https://doi.org/10.1038%2Fs41467-018-03419-1
@@ -465,6 +490,7 @@ references:
   issue: '3'
   URL: https://doi.org/10.1111%2F2041-210x.12468
   DOI: 10.1111/2041-210x.12468
+
 
 - id: Le_Stradic_2015
   type: article-journal

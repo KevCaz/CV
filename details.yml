@@ -81,23 +81,6 @@ popularization:
 
 tobepublished:
 
-- id: Solarik2019
-  type: article-journal
-  author:
-  - family: Solarik
-    given: Kevin
-  - family: Cazelles
-    given: Kevin
-  - family: Bergeron
-    given: Yves
-  - family: Messier
-    given: Christian
-  - family: Gravel
-    given: Dominique
-  year: '2019'
-  title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
-  container-title: "Journal of Ecology (accepted)"
-
 - id: Blanchet2019
   type: article-journal
   author:
@@ -235,6 +218,7 @@ media:
 
 reviewer:
 - American Naturalist,
+- Canadian Journal of Fisheries and Aquatic Sciences,
 - Ecography,
 - Ecology,
 - Ecology Letters,

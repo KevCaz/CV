@@ -21,7 +21,6 @@ pubs.yml: pubs.bib
 pubs.bib:
 	Rscript -e "mypubs()"
 
-
 towebsite:
 	zip CV_KevCaz_eng.zip CV_KevCaz_eng.pdf
 	zip CV_KevCaz_fr.zip CV_KevCaz_fr.pdf
