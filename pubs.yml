@@ -1,587 +1,587 @@
 ---
 references:
-- id: Brice_2019
-  type: article-journal
+- id:              Brice_2019
+  type:            article-journal
   author:
-  - family: Brice
-    given: Marie-Hélène
-  - family: Cazelles
-    given: Kevin
-  - family: Legendre
-    given: Pierre
-  - family: Fortin
-    given: Marie-Josée
+  - family:        Brice
+    given:         Marie-Hélène
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Legendre
+    given:         Pierre
+  - family:        Fortin
+    given:         Marie-Josée
   editor:
-  - family: Boucher-Lalonde
-    given: Véronique
+  - family:        Boucher-Lalonde
+    given:         Véronique
   issued:
-  - year: 2019
-    month: 7
-  title: Disturbances amplify tree community responses to climate change in the temperateboreal
+  - year:          2019
+    month:         7
+  title:           Disturbances amplify tree community responses to climate change in the temperateboreal
     ecotone
   container-title: Global Ecology and Biogeography
-  publisher: Wiley
-  page: 1668-1681
-  volume: '28'
-  issue: '11'
-  URL: https://doi.org/10.1111%2Fgeb.12971
-  DOI: 10.1111/geb.12971
+  publisher:       Wiley
+  page:            1668-1681
+  volume:          '28'
+  issue:           '11'
+  URL:             https://doi.org/10.1111%2Fgeb.12971
+  DOI:             10.1111/geb.12971
 
-- id: Solarik_2019
-  type: article-journal
+- id:              Solarik_2019
+  type:            article-journal
   author:
-  - family: Solarik
-    given: Kevin A.
-  - family: Cazelles
-    given: Kevin
-  - family: Messier
-    given: Christian
-  - family: Bergeron
-    given: Yves
-  - family: Gravel
-    given: Dominique
+  - family:        Solarik
+    given:         Kevin A.
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Messier
+    given:         Christian
+  - family:        Bergeron
+    given:         Yves
+  - family:        Gravel
+    given:         Dominique
   issued:
-  - year: 2019
-    month: 10
-  title: Priority effects will impede range shifts of temperate tree species into
+  - year:          2019
+    month:         10
+  title:           Priority effects will impede range shifts of temperate tree species into
     the boreal forest
   container-title: Journal of Ecology
-  publisher: Wiley
-  URL: https://doi.org/10.1111%2F1365-2745.13311
-  DOI: 10.1111/1365-2745.13311
+  publisher:       Wiley
+  URL:             https://doi.org/10.1111%2F1365-2745.13311
+  DOI:             10.1111/1365-2745.13311
 
-- id: Cazelles_2019
-  type: article-journal
+- id:              Cazelles_2019
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: Kevin
-  - family: Bartley
-    given: Timothy
-  - family: Guzzo
-    given: Matthew M.
-  - family: Brice
-    given: Marie-Hélène
-  - family: MacDougall
-    given: Andrew S.
-  - family: Bennett
-    given: Joseph R.
-  - family: Esch
-    given: Ellen H.
-  - family: Kadoya
-    given: Taku
-  - family: Kelly
-    given: Jocelyn
-  - family: Matsuzaki
-    given: Shin-ichiro
-  - family: Nilsson
-    given: Karin A.
-  - family: McCann
-    given: Kevin S.
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Bartley
+    given:         Timothy
+  - family:        Guzzo
+    given:         Matthew M.
+  - family:        Brice
+    given:         Marie-Hélène
+  - family:        MacDougall
+    given:         Andrew S.
+  - family:        Bennett
+    given:         Joseph R.
+  - family:        Esch
+    given:         Ellen H.
+  - family:        Kadoya
+    given:         Taku
+  - family:        Kelly
+    given:         Jocelyn
+  - family:        Matsuzaki
+    given:         Shin-ichiro
+  - family:        Nilsson
+    given:         Karin A.
+  - family:        McCann
+    given:         Kevin S.
   issued:
-  - year: 2019
-    month: 10
+  - year:          2019
+    month:         10
   title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
     communities are explained by gamefish movement and not climate change'
-  title-short: Homogenization of freshwater lakes
+  title-short:     Homogenization of freshwater lakes
   container-title: Global Change Biology
-  publisher: Wiley
-  URL: https://doi.org/10.1111%2Fgcb.14829
-  DOI: 10.1111/gcb.14829
+  publisher:       Wiley
+  URL:             https://doi.org/10.1111%2Fgcb.14829
+  DOI:             10.1111/gcb.14829
 
-- id: Albouy_2019
-  type: article-journal
+- id:              Albouy_2019
+  type:            article-journal
   author:
-  - family: Albouy
-    given: Camille
-  - family: Archambault
-    given: Philippe
-  - family: Appeltans
-    given: Ward
-  - family: Araújo
-    given: Miguel B.
-  - family: Beauchesne
-    given: David
-  - family: Cazelles
-    given: Kevin
-  - family: Cirtwill
-    given: Alyssa R.
-  - family: Fortin
-    given: Marie-Josée
-  - family: Galiana
-    given: Nuria
-  - family: Leroux
-    given: Shawn J.
-  - family: Pellissier
-    given: Loïc
-  - family: Poisot
-    given: Timothée
-  - family: Stouffer
-    given: Daniel B.
-  - family: Wood
-    given: Spencer A.
-  - family: Gravel
-    given: Dominique
+  - family:        Albouy
+    given:         Camille
+  - family:        Archambault
+    given:         Philippe
+  - family:        Appeltans
+    given:         Ward
+  - family:        Araújo
+    given:         Miguel B.
+  - family:        Beauchesne
+    given:         David
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Cirtwill
+    given:         Alyssa R.
+  - family:        Fortin
+    given:         Marie-Josée
+  - family:        Galiana
+    given:         Nuria
+  - family:        Leroux
+    given:         Shawn J.
+  - family:        Pellissier
+    given:         Loïc
+  - family:        Poisot
+    given:         Timothée
+  - family:        Stouffer
+    given:         Daniel B.
+  - family:        Wood
+    given:         Spencer A.
+  - family:        Gravel
+    given:         Dominique
   issued:
-  - year: 2019
-    month: 7
-  title: The marine fish food web is globally connected
+  - year:          2019
+    month:         7
+  title:           The marine fish food web is globally connected
   container-title: Nature Ecology & Evolution
-  publisher: Springer Science; Business Media LLC
-  page: 1153-1161
-  volume: '3'
-  issue: '8'
-  URL: https://doi.org/10.1038%2Fs41559-019-0950-y
-  DOI: 10.1038/s41559-019-0950-y
+  publisher:       Springer Science; Business Media LLC
+  page:            1153-1161
+  volume:          '3'
+  issue:           '8'
+  URL:             https://doi.org/10.1038%2Fs41559-019-0950-y
+  DOI:             10.1038/s41559-019-0950-y
 
-- id: Cazelles_2019
-  type: article-journal
+- id:              Cazelles_2019
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: Kevin
-  - family: McCann
-    given: Kevin S
+  - family:        Cazelles
+    given:         Kevin
+  - family:        McCann
+    given:         Kevin S
   issued:
-  - year: 2019
-    month: 4
-  title: Diversity-stability and the structure of perturbations
+  - year:          2019
+    month:         4
+  title:           Diversity-stability and the structure of perturbations
   container-title: Peer Community In Ecology
-  publisher: Peer Community In
-  page: '100017'
-  URL: https://doi.org/10.24072%2Fpci.ecology.100017
-  DOI: 10.24072/pci.ecology.100017
+  publisher:       Peer Community In
+  page:            '100017'
+  URL:             https://doi.org/10.24072%2Fpci.ecology.100017
+  DOI:             10.24072/pci.ecology.100017
 
-- id: Bartley_2019
-  type: article-journal
+- id:              Bartley_2019
+  type:            article-journal
   author:
-  - family: Bartley
-    given: Timothy J.
-  - family: McCann
-    given: Kevin S.
-  - family: Bieg
-    given: Carling
-  - family: Cazelles
-    given: Kevin
-  - family: Granados
-    given: Monica
-  - family: Guzzo
-    given: Matthew M.
-  - family: MacDougall
-    given: Andrew S.
-  - family: Tunney
-    given: Tyler D.
-  - family: McMeans
-    given: Bailey C.
+  - family:        Bartley
+    given:         Timothy J.
+  - family:        McCann
+    given:         Kevin S.
+  - family:        Bieg
+    given:         Carling
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Granados
+    given:         Monica
+  - family:        Guzzo
+    given:         Matthew M.
+  - family:        MacDougall
+    given:         Andrew S.
+  - family:        Tunney
+    given:         Tyler D.
+  - family:        McMeans
+    given:         Bailey C.
   issued:
-  - year: 2019
-    month: 2
-  title: Food web rewiring in a changing world
+  - year:          2019
+    month:         2
+  title:           Food web rewiring in a changing world
   container-title: Nature Ecology & Evolution
-  publisher: Springer Science; Business Media LLC
-  page: 345-354
-  volume: '3'
-  issue: '3'
-  URL: https://doi.org/10.1038%2Fs41559-018-0772-3
-  DOI: 10.1038/s41559-018-0772-3
+  publisher:       Springer Science; Business Media LLC
+  page:            345-354
+  volume:          '3'
+  issue:           '3'
+  URL:             https://doi.org/10.1038%2Fs41559-018-0772-3
+  DOI:             10.1038/s41559-018-0772-3
 
-- id: Geschke_2018
-  type: article-journal
+- id:              Geschke_2018
+  type:            article-journal
   author:
-  - family: Geschke
-    given: Jonas
-  - family: Cazelles
-    given: Kevin
-  - family: Bartomeus
-    given: Ignasi
+  - family:        Geschke
+    given:         Jonas
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Bartomeus
+    given:         Ignasi
   issued:
-  - year: 2018
-    month: 11
-  title: 'Rcites: An r package to access the CITES speciesplus database'
-  title-short: Rcites
+  - year:          2018
+    month:         11
+  title: 'Rcites:  An r package to access the CITES speciesplus database'
+  title-short:     Rcites
   container-title: Journal of Open Source Software
-  publisher: The Open Journal
-  page: '1091'
-  volume: '3'
-  issue: '31'
-  URL: https://doi.org/10.21105%2Fjoss.01091
-  DOI: 10.21105/joss.01091
+  publisher:       The Open Journal
+  page:            '1091'
+  volume:          '3'
+  issue:           '31'
+  URL:             https://doi.org/10.21105%2Fjoss.01091
+  DOI:             10.21105/joss.01091
 
-- id: Wheeler_2019
-  type: article-journal
+- id:              Wheeler_2019
+  type:            article-journal
   author:
-  - family: Wheeler
-    given: Helen C.
-  - family: Berteaux
-    given: Dominique
-  - family: Furgal
-    given: Chris
-  - family: Cazelles
-    given: Kevin
-  - family: Yoccoz
-    given: Nigel G.
-  - family: Grémillet
-    given: David
+  - family:        Wheeler
+    given:         Helen C.
+  - family:        Berteaux
+    given:         Dominique
+  - family:        Furgal
+    given:         Chris
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Yoccoz
+    given:         Nigel G.
+  - family:        Grémillet
+    given:         David
   issued:
-  - year: 2019
-    month: 1
-  title: Identifying key needs for the integration of socialecological outcomes in
+  - year:          2019
+    month:         1
+  title:           Identifying key needs for the integration of socialecological outcomes in
     arctic wildlife monitoring
   container-title: Conservation Biology
-  publisher: Wiley
-  page: 861-872
-  volume: '33'
-  issue: '4'
-  URL: https://doi.org/10.1111%2Fcobi.13257
-  DOI: 10.1111/cobi.13257
+  publisher:       Wiley
+  page:            861-872
+  volume:          '33'
+  issue:           '4'
+  URL:             https://doi.org/10.1111%2Fcobi.13257
+  DOI:             10.1111/cobi.13257
 
-- id: Galiana_2018
-  type: article-journal
+- id:              Galiana_2018
+  type:            article-journal
   author:
-  - family: Galiana
-    given: Nuria
-  - family: Lurgi
-    given: Miguel
-  - family: Claramunt-López
-    given: Bernat
-  - family: Fortin
-    given: Marie-Josée
-  - family: Leroux
-    given: Shawn
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  - family: Montoya
-    given: José M.
+  - family:        Galiana
+    given:         Nuria
+  - family:        Lurgi
+    given:         Miguel
+  - family:        Claramunt-López
+    given:         Bernat
+  - family:        Fortin
+    given:         Marie-Josée
+  - family:        Leroux
+    given:         Shawn
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Gravel
+    given:         Dominique
+  - family:        Montoya
+    given:         José M.
   issued:
-  - year: 2018
-    month: 4
-  title: The spatial scaling of species interaction networks
+  - year:          2018
+    month:         4
+  title:           The spatial scaling of species interaction networks
   container-title: Nature Ecology & Evolution
-  publisher: Springer Science; Business Media LLC
-  page: 782-790
-  volume: '2'
-  issue: '5'
-  URL: https://doi.org/10.1038%2Fs41559-018-0517-3
-  DOI: 10.1038/s41559-018-0517-3
+  publisher:       Springer Science; Business Media LLC
+  page:            782-790
+  volume:          '2'
+  issue:           '5'
+  URL:             https://doi.org/10.1038%2Fs41559-018-0517-3
+  DOI:             10.1038/s41559-018-0517-3
 
-- id: MacDougall_2018
-  type: article-journal
+- id:              MacDougall_2018
+  type:            article-journal
   author:
-  - family: MacDougall
-    given: Andrew S.
-  - family: Harvey
-    given: Eric
-  - family: McCune
-    given: Jenny L.
-  - family: Nilsson
-    given: Karin A.
-  - family: Bennett
-    given: Joseph
-  - family: Firn
-    given: Jennifer
-  - family: Bartley
-    given: Timothy
-  - family: Grace
-    given: James B.
-  - family: Kelly
-    given: Jocelyn
-  - family: Tunney
-    given: Tyler D.
-  - family: McMeans
-    given: Bailey
-  - family: Matsuzaki
-    given: Shin-Ichiro S.
-  - family: Kadoya
-    given: Taku
-  - family: Esch
-    given: Ellen
-  - family: Cazelles
-    given: Kevin
-  - family: Lester
-    given: Nigel
-  - family: McCann
-    given: Kevin S.
+  - family:        MacDougall
+    given:         Andrew S.
+  - family:        Harvey
+    given:         Eric
+  - family:        McCune
+    given:         Jenny L.
+  - family:        Nilsson
+    given:         Karin A.
+  - family:        Bennett
+    given:         Joseph
+  - family:        Firn
+    given:         Jennifer
+  - family:        Bartley
+    given:         Timothy
+  - family:        Grace
+    given:         James B.
+  - family:        Kelly
+    given:         Jocelyn
+  - family:        Tunney
+    given:         Tyler D.
+  - family:        McMeans
+    given:         Bailey
+  - family:        Matsuzaki
+    given:         Shin-Ichiro S.
+  - family:        Kadoya
+    given:         Taku
+  - family:        Esch
+    given:         Ellen
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Lester
+    given:         Nigel
+  - family:        McCann
+    given:         Kevin S.
   issued:
-  - year: 2018
-    month: 3
-  title: Context-dependent interactions and the regulation of species richness in
+  - year:          2018
+    month:         3
+  title:           Context-dependent interactions and the regulation of species richness in
     freshwater fish
   container-title: Nature Communications
-  publisher: Springer Science; Business Media LLC
-  volume: '9'
-  issue: '1'
-  URL: https://doi.org/10.1038%2Fs41467-018-03419-1
-  DOI: 10.1038/s41467-018-03419-1
+  publisher:       Springer Science; Business Media LLC
+  volume:          '9'
+  issue:           '1'
+  URL:             https://doi.org/10.1038%2Fs41467-018-03419-1
+  DOI:             10.1038/s41467-018-03419-1
 
-- id: Legagneux_2018
-  type: article-journal
+- id:              Legagneux_2018
+  type:            article-journal
   author:
-  - family: Legagneux
-    given: Pierre
-  - family: Casajus
-    given: Nicolas
-  - family: Cazelles
-    given: Kevin
-  - family: Chevallier
-    given: Clément
-  - family: Chevrinais
-    given: Marion
-  - family: Guéry
-    given: Lorelei
-  - family: Jacquet
-    given: Claire
-  - family: Jaffré
-    given: Mikael
-  - family: Naud
-    given: Marie-José
-  - family: Noisette
-    given: Fanny
-  - family: Ropars
-    given: Pascale
-  - family: Vissault
-    given: Steve
-  - family: Archambault
-    given: Philippe
-  - family: Bêty
-    given: Joel
-  - family: Berteaux
-    given: Dominique
-  - family: Gravel
-    given: Dominique
+  - family:        Legagneux
+    given:         Pierre
+  - family:        Casajus
+    given:         Nicolas
+  - family:        Cazelles
+    given:         Kevin
+  - family:        Chevallier
+    given:         Clément
+  - family:        Chevrinais
+    given:         Marion
+  - family:        Guéry
+    given:         Lorelei
+  - family:        Jacquet
+    given:         Claire
+  - family:        Jaffré
+    given:         Mikael
+  - family:        Naud
+    given:         Marie-José
+  - family:        Noisette
+    given:         Fanny
+  - family:        Ropars
+    given:         Pascale
+  - family:        Vissault
+    given:         Steve
+  - family:        Archambault
+    given:         Philippe
+  - family:        Bêty
+    given:         Joel
+  - family:        Berteaux
+    given:         Dominique
+  - family:        Gravel
+    given:         Dominique
   issued:
-  - year: 2018
-    month: 1
+  - year:          2018
+    month:         1
   title: 'Our house is burning: Discrepancy in climate change vs. Biodiversity coverage
     in the media as compared to scientific literature'
-  title-short: Our house is burning
+  title-short:     Our house is burning
   container-title: Frontiers in Ecology and Evolution
-  publisher: Frontiers Media SA
-  volume: '5'
-  URL: https://doi.org/10.3389%2Ffevo.2017.00175
-  DOI: 10.3389/fevo.2017.00175
+  publisher:       Frontiers Media SA
+  volume:          '5'
+  URL:             https://doi.org/10.3389%2Ffevo.2017.00175
+  DOI:             10.3389/fevo.2017.00175
 
-- id: Kopelke_2017
-  type: article-journal
+- id:              Kopelke_2017
+  type:            article-journal
   author:
-  - family: Kopelke
-    given: Jens-Peter
-  - family: Nyman
-    given: Tommi
-  - family: Cazelles
-    given: Kévin
-  - family: Gravel
-    given: Dominique
-  - family: Vissault
-    given: Steve
-  - family: Roslin
-    given: Tomas
+  - family:        Kopelke
+    given:         Jens-Peter
+  - family:        Nyman
+    given:         Tommi
+  - family:        Cazelles
+    given:         Kévin
+  - family:        Gravel
+    given:         Dominique
+  - family:        Vissault
+    given:         Steve
+  - family:        Roslin
+    given:         Tomas
   issued:
-  - year: 2017
-    month: 5
-  title: Food-web structure of willow-galling sawflies and their natural enemies across
+  - year:          2017
+    month:         5
+  title:           Food-web structure of willow-galling sawflies and their natural enemies across
     europe
   container-title: Ecology
-  publisher: Wiley
-  page: 1730-1730
-  volume: '98'
-  issue: '6'
-  URL: https://doi.org/10.1002%2Fecy.1832
-  DOI: 10.1002/ecy.1832
+  publisher:       Wiley
+  page:            1730-1730
+  volume:          '98'
+  issue:           '6'
+  URL:             https://doi.org/10.1002%2Fecy.1832
+  DOI:             10.1002/ecy.1832
 
-- id: Massol_2017
-  type: chapter
+- id:              Massol_2017
+  type:            chapter
   author:
-  - family: Massol
-    given: F.
-  - family: Dubart
-    given: M.
-  - family: Calcagno
-    given: V.
-  - family: Cazelles
-    given: K.
-  - family: Jacquet
-    given: C.
-  - family: Kéfi
-    given: S.
-  - family: Gravel
-    given: D.
+  - family:        Massol
+    given:         F.
+  - family:        Dubart
+    given:         M.
+  - family:        Calcagno
+    given:         V.
+  - family:        Cazelles
+    given:         K.
+  - family:        Jacquet
+    given:         C.
+  - family:        Kéfi
+    given:         S.
+  - family:        Gravel
+    given:         D.
   issued:
-  - year: 2017
-  title: Island biogeography of food webs
+  - year:          2017
+  title:           Island biogeography of food webs
   container-title: 'Networks of invasion: A synthesis of concepts'
-  publisher: Elsevier
-  page: 183-262
-  URL: https://doi.org/10.1016%2Fbs.aecr.2016.10.004
-  DOI: 10.1016/bs.aecr.2016.10.004
+  publisher:       Elsevier
+  page:            183-262
+  URL:             https://doi.org/10.1016%2Fbs.aecr.2016.10.004
+  DOI:             10.1016/bs.aecr.2016.10.004
 
-- id: Cazelles_2016
-  type: article-journal
+- id:              Cazelles_2016
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: Kévin
-  - family: Mouquet
-    given: Nicolas
-  - family: Mouillot
-    given: David
-  - family: Gravel
-    given: Dominique
+  - family:        Cazelles
+    given:         Kévin
+  - family:        Mouquet
+    given:         Nicolas
+  - family:        Mouillot
+    given:         David
+  - family:        Gravel
+    given:         Dominique
   issued:
-  - year: 2016
-    month: 1
-  title: On the integration of biotic interaction and environmental constraints at
+  - year:          2016
+    month:         1
+  title:           On the integration of biotic interaction and environmental constraints at
     the biogeographical scale
   container-title: Ecography
-  publisher: Wiley
-  page: 921-931
-  volume: '39'
-  issue: '10'
-  URL: https://doi.org/10.1111%2Fecog.01714
-  DOI: 10.1111/ecog.01714
+  publisher:       Wiley
+  page:            921-931
+  volume:          '39'
+  issue:           '10'
+  URL:             https://doi.org/10.1111%2Fecog.01714
+  DOI:             10.1111/ecog.01714
 
-- id: Cazelles_2015
-  type: article-journal
+- id:              Cazelles_2015
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: Kévin
-  - family: Araújo
-    given: Miguel B.
-  - family: Mouquet
-    given: Nicolas
-  - family: Gravel
-    given: Dominique
+  - family:        Cazelles
+    given:         Kévin
+  - family:        Araújo
+    given:         Miguel B.
+  - family:        Mouquet
+    given:         Nicolas
+  - family:        Gravel
+    given:         Dominique
   issued:
-  - year: 2015
-    month: 10
-  title: A theory for species co-occurrence in interaction networks
+  - year:          2015
+    month:         10
+  title:           A theory for species co-occurrence in interaction networks
   container-title: Theoretical Ecology
-  publisher: Springer Science; Business Media LLC
-  page: 39-48
-  volume: '9'
-  issue: '1'
-  URL: https://doi.org/10.1007%2Fs12080-015-0281-9
-  DOI: 10.1007/s12080-015-0281-9
+  publisher:       Springer Science; Business Media LLC
+  page:            39-48
+  volume:          '9'
+  issue:           '1'
+  URL:             https://doi.org/10.1007%2Fs12080-015-0281-9
+  DOI:             10.1007/s12080-015-0281-9
 
-- id: Poisot_2015
-  type: article-journal
+- id:              Poisot_2015
+  type:            article-journal
   author:
-  - family: Poisot
-    given: Timothée
-  - family: Cirtwill
-    given: Alyssa R.
-  - family: Cazelles
-    given: Kévin
-  - family: Gravel
-    given: Dominique
-  - family: Fortin
-    given: Marie-Josée
-  - family: Stouffer
-    given: Daniel B.
+  - family:        Poisot
+    given:         Timothée
+  - family:        Cirtwill
+    given:         Alyssa R.
+  - family:        Cazelles
+    given:         Kévin
+  - family:        Gravel
+    given:         Dominique
+  - family:        Fortin
+    given:         Marie-Josée
+  - family:        Stouffer
+    given:         Daniel B.
   editor:
-  - family: Vamosi
-    given: Jana
+  - family:        Vamosi
+    given:         Jana
   issued:
-  - year: 2015
-    month: 10
-  title: The structure of probabilistic networks
+  - year:          2015
+    month:         10
+  title:           The structure of probabilistic networks
   container-title: Methods in Ecology and Evolution
-  publisher: Wiley
-  page: 303-312
-  volume: '7'
-  issue: '3'
-  URL: https://doi.org/10.1111%2F2041-210x.12468
-  DOI: 10.1111/2041-210x.12468
+  publisher:       Wiley
+  page:            303-312
+  volume:          '7'
+  issue:           '3'
+  URL:             https://doi.org/10.1111%2F2041-210x.12468
+  DOI:             10.1111/2041-210x.12468
 
 
-- id: Le_Stradic_2015
-  type: article-journal
+- id:              Le_Stradic_2015
+  type:            article-journal
   author:
-  - family: Stradic
-    given: Soizig Le
-  - family: Silveira
-    given: Fernando A. O.
-  - family: Buisson
-    given: Elise
-  - family: Cazelles
-    given: Kévin
-  - family: Carvalho
-    given: Vanessa
-  - family: Fernandes
-    given: G. Wilson
+  - family:        Stradic
+    given:         Soizig Le
+  - family:        Silveira
+    given:         Fernando A. O.
+  - family:        Buisson
+    given:         Elise
+  - family:        Cazelles
+    given:         Kévin
+  - family:        Carvalho
+    given:         Vanessa
+  - family:        Fernandes
+    given:         G. Wilson
   issued:
-  - year: 2015
-    month: 2
-  title: Diversity of germination strategies and seed dormancy in herbaceous species
+  - year:          2015
+    month:         2
+  title:           Diversity of germination strategies and seed dormancy in herbaceous species
     ofcampo rupestregrasslands
   container-title: Austral Ecology
-  publisher: Wiley
-  page: 537-546
-  volume: '40'
-  issue: '5'
-  URL: https://doi.org/10.1111%2Faec.12221
-  DOI: 10.1111/aec.12221
+  publisher:       Wiley
+  page:            537-546
+  volume:          '40'
+  issue:           '5'
+  URL:             https://doi.org/10.1111%2Faec.12221
+  DOI:             10.1111/aec.12221
 
-- id: Cazelles_2014
-  type: article-journal
+- id:              Cazelles_2014
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: B.
-  - family: Cazelles
-    given: K.
+  - family:        Cazelles
+    given:         B.
+  - family:        Cazelles
+    given:         K.
   issued:
-  - year: 2014
-    month: 4
-  title: Major urban centers have weak influence on the timing of dengue epidemics
+  - year:          2014
+    month:         4
+  title:           Major urban centers have weak influence on the timing of dengue epidemics
     in southeast asia
   container-title: International Journal of Infectious Diseases
-  publisher: Elsevier BV
-  page: '217'
-  volume: '21'
-  URL: https://doi.org/10.1016%2Fj.ijid.2014.03.873
-  DOI: 10.1016/j.ijid.2014.03.873
+  publisher:       Elsevier BV
+  page:            '217'
+  volume:          '21'
+  URL:             https://doi.org/10.1016%2Fj.ijid.2014.03.873
+  DOI:             10.1016/j.ijid.2014.03.873
 
-- id: Cazelles_2014
-  type: article-journal
+- id:              Cazelles_2014
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: Bernard
-  - family: Cazelles
-    given: Kévin
-  - family: Chavez
-    given: Mario
+  - family:        Cazelles
+    given:         Bernard
+  - family:        Cazelles
+    given:         Kévin
+  - family:        Chavez
+    given:         Mario
   issued:
-  - year: 2014
-    month: 2
+  - year:          2014
+    month:         2
   title: 'Wavelet analysis in ecology and epidemiology: Impact of statistical tests'
-  title-short: Wavelet analysis in ecology and epidemiology
+  title-short:     Wavelet analysis in ecology and epidemiology
   container-title: Journal of The Royal Society Interface
-  publisher: The Royal Society
-  page: '20130585'
-  volume: '11'
-  issue: '91'
-  URL: https://doi.org/10.1098%2Frsif.2013.0585
-  DOI: 10.1098/rsif.2013.0585
+  publisher:       The Royal Society
+  page:            '20130585'
+  volume:          '11'
+  issue:           '91'
+  URL:             https://doi.org/10.1098%2Frsif.2013.0585
+  DOI:             10.1098/rsif.2013.0585
 
-- id: Cazelles_2013
-  type: article-journal
+- id:              Cazelles_2013
+  type:            article-journal
   author:
-  - family: Cazelles
-    given: K.
-  - family: Otten
-    given: W.
-  - family: Baveye
-    given: P.C.
-  - family: Falconer
-    given: R.E.
+  - family:        Cazelles
+    given:         K.
+  - family:        Otten
+    given:         W.
+  - family:        Baveye
+    given:         P.C.
+  - family:        Falconer
+    given:         R.E.
   issued:
-  - year: 2013
-    month: 1
+  - year:          2013
+    month:         1
   title: 'Soil fungal dynamics: Parameterisation and sensitivity analysis of modelled
     physiological processes, soil architecture and carbon distribution'
-  title-short: Soil fungal dynamics
+  title-short:     Soil fungal dynamics
   container-title: Ecological Modelling
-  publisher: Elsevier BV
-  page: 165-173
-  volume: '248'
-  URL: https://doi.org/10.1016%2Fj.ecolmodel.2012.08.008
-  DOI: 10.1016/j.ecolmodel.2012.08.008
-...
+  publisher:       Elsevier BV
+  page:            165-173
+  volume:          '248'
+  URL:             https://doi.org/10.1016%2Fj.ecolmodel.2012.08.008
+  DOI:             10.1016/j.ecolmodel.2012.08.008
+---

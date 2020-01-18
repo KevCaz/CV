@@ -54,6 +54,7 @@ rgrant:
     amount: "CA$199,975"
 
 
+
 popularization:
 
 - title: "La Biodiversité en territoire isolée"
@@ -118,7 +119,7 @@ tobepublished:
 - id: Warne_2019
   type: article-journal
   author:
-  - family: Warn P. K.
+  - family: "Warn P. K."
     given: Connor
   - family: McCann
     given: Kevin S.
@@ -130,8 +131,34 @@ tobepublished:
     given: Matthew M.
   container-title: Geophysical Research Letters
   year: 2019
-  title: "Geography and morphology affect the ice duration dynamics of northern
-hemisphere lakes worldwide"
+  title: "Geography and morphology affect the ice duration dynamics of northern hemisphere lakes worldwide"
+
+
+- id: Poisot_2019
+  type: article-journal
+  author:
+  - family: Poisot
+    given: Timothée
+  - family: Gabriel
+    given:  Bergeron
+  - family: Cazelles
+    given: Kevin
+  - family: Dallas
+    given: Tad
+  - family: Gravel
+    given: Dominique
+  - family: MacDonald
+    given: Andrew
+  - family: Mercier
+    given: Benjamin
+  - family: Violet
+    given: Clément
+  - family: Vissault
+    given: Steve
+  container-title: 2Bdetermined
+  year: 2019
+  title: "Environmental biases in the study of ecological networks at the planetary scale"
+
 
 code:
   - name: graphicsutils
@@ -184,6 +211,15 @@ code:
 
 
 media:
+    - media: "Québec Science"
+      title: "Une carte des interactions entre les poissons de toutes les mers"
+      year: 2020
+      lang: fr
+      url: "https://www.quebecscience.qc.ca/sciences/les-10-decouvertes-de-2019/carte-interactions-entre-poissons/"
+    - media: Science
+      year: 2019
+      lang: en
+      url: "https://science.sciencemag.org/content/366/6472/1468.1/tab-pdf"
     - media: la Presse
       year: 2018
       type: \faPen
@@ -217,26 +253,30 @@ media:
 
 
 reviewer:
-- American Naturalist,
-- Canadian Journal of Fisheries and Aquatic Sciences,
-- Ecography,
-- Ecology,
-- Ecology Letters,
-- Entropy,
-- Environment, Development and Sustainability,
-- Global Ecology and Biogeography,
-- Journal of Animal Ecology,
-- Journal of Vegetation Science,
-- Methods in Ecology and Evolution,
-- Oikos,
-- PeerJ,
-- Population Ecology,
-- Proceedings of the Royal Society B,
-- Theoretical Ecology.
+    - American Naturalist,
+    - Biodiversity data journal,
+    - Canadian Journal of Fisheries and Aquatic Sciences,
+    - Diversity and Distributions,
+    - Ecography,
+    - Ecological Applications,
+    - Ecology,
+    - Ecology Letters,
+    - Entropy,
+    - Environment, Development and Sustainability,
+    - Global Ecology and Biogeography,
+    - Journal of Animal Ecology,
+    - Journal of Vegetation Science,
+    - Methods in Ecology and Evolution,
+    - Nature Ecology and Evolution,
+    - Oikos,
+    - PeerJ,
+    - Population Ecology,
+    - Proceedings of the Royal Society B,
+    - Theoretical Ecology.
 
 
 editor:
-- Since 2018, recommander for PCI Ecology.
-- Since 2018, member of ROpenSci
+  - "Since 2018, recommander for PCI Ecology,"
+  - "Since 2019, ambassador for PCI Ecology,"
 
 ---

@@ -22,7 +22,7 @@ experience:
 - years: "Juin 2017 - "
   employer: University of Guelph
   unit: McCann Lab
-  job: "Chercheur post-doctoral: travaux sur les impactes des activities humaines sur les communautés de poissons et sur le dévelopement d'un cadre théorique pour créer des empreintes spatiales uniques aux espèces basées sut les traceurs biologiques. "
+  job: "Chercheur post-doctoral: travaux sur les impactes des activities humaines sur les communautés de poissons et sur le dévelopement d'un cadre théorique pour créer des empreintes spatiales uniques aux espèces basées sut les traceurs biologiques."
   city: Guelph ON, Canada
   description:
     - travaux de recherche sur des modèles théoriques
@@ -141,7 +141,7 @@ teaching:
 - year: 2014
   time: 1 jour
   institute: Universidade Federal de Minas Gerais, Brésil
-  description: Cours avancé sur l'utilisation du langage R en tant que Système d'Information Géographique.
+  description: Cours avancé sur l'utilisation du langage R en comme système d'information géographique (SIG).
 
 
 langage:

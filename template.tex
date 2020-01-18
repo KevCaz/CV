@@ -33,6 +33,7 @@
 \usepackage{geometry}
 \geometry{$geometry$}
 
+
 % Do not indent paragraphs
 \setlength\parindent{0in}
 
@@ -50,7 +51,8 @@
 \usepackage{lastpage}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
-\rfoot{\thepage/\pageref{LastPage}}
+\pagenumbering{gobble}
+% \rfoot{\thepage/\pageref{LastPage}}
 
 % Uncomment to suppress page numbers
 % \pagenumbering{gobble}

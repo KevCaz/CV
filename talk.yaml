@@ -1,5 +1,7 @@
 ---
+
 talk:
+
 - title:      "Towards an Energetic Theory of Island biogeography"
   author:
     - family: Cazelles
@@ -198,6 +200,22 @@ seminar:
 
 
 poster:
+  - title: "Mangal, a global ecological interactions database"
+    author:
+      - family: Vissault
+        given: Steve
+      - family: Gravel
+        given: Dominique
+      - family: Cazelles
+        given: Kevin
+      - family: Poisot
+        given: Timothée
+    conference:
+      - name: "biodiversitynext"
+        url: "https://biodiversitynext.org/"
+        date: 2019-10-21
+        where: "Leiden – The Netherlands"
+    pdf: "/talks/posters/MANGAL_2019.pdf"
   - title: "Long-term forest community changes in the boreal-temperate ecotone"
     author:
       - family: Brice
