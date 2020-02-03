@@ -26,7 +26,9 @@ towebsite:
 	sed -i 's/container-title/container/g' pubs.yaml
 	mv pubs.yaml $(pathws)/data/pubs.yaml
 	cp data/media.yml $(pathws)/data/press.yaml
-	cp data/poster.yml $(pathws)/data/poster.yaml
+	cp data/posters.yml $(pathws)/data/posters.yaml
+	cp data/talks.yml $(pathws)/data/talks.yaml
+	cp data/seminars.yml $(pathws)/data/seminars.yaml
 	cp *.pdf $(pathws)/static/docs/cv
 
 clean :
