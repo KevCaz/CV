@@ -3,7 +3,6 @@
 
 \documentclass[$fontsize$, letterpaper]{article}
 
-
 %--------------------------------
 % MACRO
 %--------------------------------
@@ -453,7 +452,7 @@ $endif$
 %------------------
 $if(media)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\faNewspaper ~ \textbf{Mention dans les médias}}}{
+  \section*{\faNewspaper ~ \textbf{Présence dans les médias}}}{
   \section*{\faNewspaper ~ \textbf{Media}}}
 \noindent
 
@@ -466,56 +465,79 @@ $endfor$
 $endif$
 
 
-
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faBullhorn~ Présentations et posters}}}{
   \section*{\textbf{\faBullhorn ~ Presentations and posters}}}
 \noindent
+
+$if(talk)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \subsection*{\textbf{- Présentations leur de conférence internationales}}}{
   \subsection*{\textbf{- Conference Presentations}}}
-\noindent
+
+\begin{enumerate}[leftmargin=.8cm]
 
 $for(talk)$
+\item{\small
   $for(talk.author)$
     \ifthenelse{\equal{$talk.author.given$}{K.} \OR     \equal{$talk.author.given$}{Kévin} \OR \equal{$talk.author.given$}{Kevin}   \AND  \equal{$talk.author.family$}{Cazelles}}{\textbf{$talk.author.family$    \fl{$talk.author.given$.}}}{$talk.author.family$ \fl{$talk.author.given$.}}.,
   $endfor$
   $for(talk.conference)$
     $talk.conference.name$, $talk.conference.name$ ($talk.conference.date$)
   $endfor$
-\emph{$talk.title$}\\[.16cm]
+\emph{$talk.title$}.
+\par}
 $endfor$
+
+\end{enumerate}
+$endif$
 %------------------
 
 
 %------------------
+$if(seminar)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \subsection*{\textbf{- Séminaires}}}{
   \subsection*{\textbf{- Seminar}}}
-\noindent
+
+\begin{enumerate}[leftmargin=.8cm]
 
 $for(seminar)$
+\item{\small
   $for(seminar.author)$
     \ifthenelse{\equal{$seminar.author.given$}{K.} \OR     \equal{$seminar.author.given$}{Kévin} \OR \equal{$seminar.author.given$}{Kevin}   \AND  \equal{$seminar.author.family$}{Cazelles}}{\textbf{$seminar.author.family$    \fl{$seminar.author.given$.}}}{$seminar.author.family$ \fl{$seminar.author.given$.}}.
   $endfor$
-\emph{$seminar.title$} $seminar.where$ ($seminar.date$).\\[.14cm]
+\emph{$seminar.title$} $seminar.where$ ($seminar.date$).
+\par}
 $endfor$
+
+\end{enumerate}
+$endif$
 %------------------
 
 
+
 %------------------
+$if(poster)$
 \subsection*{\textbf{- Posters}}
 
+\begin{enumerate}[leftmargin=.8cm]
+
 $for(poster)$
+\item{\small
   $for(poster.author)$
-    \ifthenelse{\equal{$poster.author.given$}{K.} \OR     \equal{$poster.author.given$}{Kévin} \OR \equal{$poster.author.given$}{Kevin}   \AND  \equal{$poster.author.family$}{Cazelles}}{\textbf{$poster.author.family$    \fl{$poster.author.given$.}}}{$poster.author.family$ \fl{$poster.author.given$.}}.
+    \ifthenelse{\equal{$poster.author.given$}{K.} \OR     \equal{$poster.author.given$}{Kévin} \OR \equal{$poster.author.given$}{Kevin}   \AND  \equal{$poster.author.family$}{Cazelles}}{\textbf{$poster.author.family$  \fl{$poster.author.given$.}}}{$poster.author.family$ \fl{$poster.author.given$.}}.
   $endfor$
 \emph{$poster.title$}.
   $for(poster.conference)$
-    $poster.conference.name$, $poster.conference.where$ ($poster.conference.date$).\\[.14cm]
+    $poster.conference.name$, $poster.conference.where$ ($poster.conference.date$).
   $endfor$
+\par}
 $endfor$
+
+\end{enumerate}
+$endif$
 %------------------
 
 \end{document}

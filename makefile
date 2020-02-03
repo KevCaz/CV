@@ -1,6 +1,6 @@
 srcf = template.tex details_fr.yml
 srce = template.tex details_eng.yml
-srcd = details.yml pubs.yml talk.yaml
+srcd = details.yml pubs.yml data/*.yml
 FLAGS = --pdf-engine=xelatex
 pdfe = CV_KevCaz_eng.pdf
 pdff = CV_KevCaz_fr.pdf
@@ -9,10 +9,10 @@ pathws = $(HOME)/Github/Websites/KevCaz.github.io/
 
 all: pubs.yml $(pdfe) $(pdff)
 
-$(pdfe) : $(srce) $(srcd) pubs.yml
+$(pdfe) : $(srce) $(srcd)
 	pandoc $(filter-out $<,$^ ) -o $@ --template=$< $(FLAGS)
 
-$(pdff) : $(srcf) $(srcd) pubs.yml
+$(pdff) : $(srcf) $(srcd)
 	pandoc $(filter-out $<,$^ ) -o $@ --template=$< $(FLAGS)
 
 pubs.yml: pubs.bib
@@ -22,14 +22,12 @@ pubs.bib:
 	Rscript -e "mypubs()"
 
 towebsite:
-	zip CV_KevCaz_eng.zip CV_KevCaz_eng.pdf
-	zip CV_KevCaz_fr.zip CV_KevCaz_fr.pdf
 	cp pubs.yml pubs.yaml
 	sed -i 's/container-title/container/g' pubs.yaml
 	mv pubs.yaml $(pathws)/data/pubs.yaml
+	cp data/media.yml $(pathws)/data/press.yaml
+	cp data/poster.yml $(pathws)/data/poster.yaml
 	cp *.pdf $(pathws)/static/docs/cv
-	cp *.zip $(pathws)/static/docs/cv
-	rm *.zip
 
 clean :
 	rm $(pdfe) $(pdff) pubs.bib

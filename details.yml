@@ -210,48 +210,6 @@ code:
 
 
 
-media:
-    - media: "Québec Science"
-      title: "Une carte des interactions entre les poissons de toutes les mers"
-      year: 2020
-      lang: fr
-      url: "https://www.quebecscience.qc.ca/sciences/les-10-decouvertes-de-2019/carte-interactions-entre-poissons/"
-    - media: Science
-      year: 2019
-      lang: en
-      url: "https://science.sciencemag.org/content/366/6472/1468.1/tab-pdf"
-    - media: la Presse
-      year: 2018
-      type: \faPen
-      lang: FR
-      url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
-    - media: Anthropocenemagazine
-      year: 2018
-      url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
-      type: \faPen
-      lang: ENG
-    - media: Greenreport
-      year: 2018
-      url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
-      type: \faPen
-      lang: IT
-    - media: 20 minutes
-      year: 2018
-      url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
-      type: \faPen
-      lang: FR
-    - media: RFI
-      year: 2018
-      url: http://www.rfi.fr/emission/20180218-2-chaos-climatique-financier-jouzel-larrouturou
-      type: \faMicrophone
-      lang: FR
-    - media: le Devoir
-      year: 2018
-      url: http://www.ledevoir.com/socie dpkg-reconfigure locales te/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
-      type: \faPen
-      lang: FR
-
-
 reviewer:
     - American Naturalist,
     - Biodiversity data journal,
