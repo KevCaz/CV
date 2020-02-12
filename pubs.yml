@@ -515,36 +515,6 @@ references:
   URL: https://doi.org/10.1111%2F2041-210x.12468
   DOI: 10.1111/2041-210x.12468
 
-- id: Poisot_2015
-  type: article-journal
-  author:
-  - family: Poisot
-    given: Timothée
-  - family: Cirtwill
-    given: Alyssa R.
-  - family: Cazelles
-    given: Kévin
-  - family: Gravel
-    given: Dominique
-  - family: Fortin
-    given: Marie-Josée
-  - family: Stouffer
-    given: Daniel B.
-  editor:
-  - family: Vamosi
-    given: Jana
-  issued:
-  - year: 2015
-    month: 10
-  title: The structure of probabilistic networks
-  container-title: Methods in Ecology and Evolution
-  publisher: Wiley
-  page: 303-312
-  volume: '7'
-  issue: '3'
-  URL: https://doi.org/10.1111%2F2041-210x.12468
-  DOI: 10.1111/2041-210x.12468
-
 - id: Le_Stradic_2015
   type: article-journal
   author:
