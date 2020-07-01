@@ -333,8 +333,12 @@ $if(references)$
   $for(references.author)$
   \ifthenelse{\equal{$references.author.given$}{K.} \OR \equal{$references.author.given$}{Kévin} \OR \equal{$references.author.given$}{Kevin} \AND \equal{$references.author.family$}{Cazelles}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
   $endfor$
-  $for(references.issued)$ $references.issued.year$$endfor$. $references.title$.
-  \emph{$references.container-title$} \textbf{$references.volume$}$if(references.issue)$($references.issue$)$endif$$if(references.page)$:$references.page$$endif$.
+  $for(references.issued)$ $references.issued.year$$endfor$. $if(references.title)$ $references.title$. $endif$
+  $if(references.container-title)$
+  \emph{$references.container-title$}
+  \textbf{$references.volume$}$if(references.issue)$($references.issue$)$endif$
+  $if(references.page)$:$references.page$$endif$.
+  $endif$
   $if(references.URL)$\\\href{$references.URL$}{$references.URL$} $endif$
   }}{}
   $endfor$

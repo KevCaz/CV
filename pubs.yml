@@ -1,5 +1,115 @@
 ---
 references:
+- id: Blanchet_2020
+  type: article-journal
+  author:
+  - family: Blanchet
+    given: F. Guillaume
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  editor:
+  - family: Jeffers
+    given: Elizabeth
+  issued:
+  - year: 2020
+    month: 5
+  title: Co-occurrence is not evidence of ecological interactions
+  container-title: Ecology Letters
+  publisher: Wiley
+  page: 1050-1063
+  volume: '23'
+  issue: '7'
+  URL: https://doi.org/10.1111%2Fele.13525
+  DOI: 10.1111/ele.13525
+
+- id: Warne_2020
+  type: article-journal
+  author:
+  - family: Warne
+    given: Connor P. K.
+  - family: McCann
+    given: Kevin S.
+  - family: Rooney
+    given: Neil
+  - family: Cazelles
+    given: Kevin
+  - family: Guzzo
+    given: Matthew M.
+  issued:
+  - year: 2020
+    month: 6
+  title: Geography and morphology affect the ice duration dynamics of northern hemisphere
+    lakes worldwide
+  container-title: Geophysical Research Letters
+  publisher: American Geophysical Union (AGU)
+  volume: '47'
+  issue: '12'
+  URL: https://doi.org/10.1029%2F2020gl087953
+  DOI: 10.1029/2020gl087953
+
+- id: McCann_2020
+  type: article-journal
+  author:
+  - family: McCann
+    given: Kevin S.
+  - family: MacDougall
+    given: A. S
+  - family: Fussmann
+    given: G. F.
+  - family: Bieg
+    given: C.
+  - family: Cazelles
+    given: K.
+  - family: Cristescu
+    given: M. E.
+  - family: Fryxell
+    given: J. M.
+  - family: Gellner
+    given: G.
+  - family: Lapointe
+    given: B.
+  - family: Gonzalez
+    given: A.
+  issued:
+  - year: 2020
+    month: 4
+  title: Ecosystem entanglement and the propagation of nutrient-driven instability
+  publisher: Cold Spring Harbor Laboratory
+  URL: https://doi.org/10.1101%2F2020.04.20.050302
+  DOI: 10.1101/2020.04.20.050302
+
+- id: Poisot_2020
+  type: article-journal
+  author:
+  - family: Poisot
+    given: Timothée
+  - family: Bergeron
+    given: Gabriel
+  - family: Cazelles
+    given: Kevin
+  - family: Dallas
+    given: Tad
+  - family: Gravel
+    given: Dominique
+  - family: Macdonald
+    given: Andrew
+  - family: Mercier
+    given: Benjamin
+  - family: Violet
+    given: Clément
+  - family: Vissault
+    given: Steve
+  issued:
+  - year: 2020
+    month: 1
+  title: Environmental biases in the study of ecological networks at the planetary
+    scale
+  publisher: Cold Spring Harbor Laboratory
+  URL: https://doi.org/10.1101%2F2020.01.27.921429
+  DOI: 10.1101/2020.01.27.921429
+
 - id: Brice_2019
   type: article-journal
   author:
@@ -40,13 +150,19 @@ references:
     given: Yves
   - family: Gravel
     given: Dominique
+  editor:
+  - family: Gilliam
+    given: Frank
   issued:
   - year: 2019
-    month: 10
+    month: 11
   title: Priority effects will impede range shifts of temperate tree species into
     the boreal forest
   container-title: Journal of Ecology
   publisher: Wiley
+  page: 1155-1173
+  volume: '108'
+  issue: '3'
   URL: https://doi.org/10.1111%2F1365-2745.13311
   DOI: 10.1111/1365-2745.13311
 
@@ -85,6 +201,9 @@ references:
   title-short: Homogenization of freshwater lakes
   container-title: Global Change Biology
   publisher: Wiley
+  page: 4222-4233
+  volume: '25'
+  issue: '12'
   URL: https://doi.org/10.1111%2Fgcb.14829
   DOI: 10.1111/gcb.14829
 
@@ -168,8 +287,8 @@ references:
   issued:
   - year: 2019
     month: 3
-  title: Thermal preferences drive behavioural responses but not biomass responses
-    of predatory fishes to lake morphometry
+  title: Thermal preference influences depth use but not biomass of predatory fishes
+    in response to lake morphometry
   publisher: Cold Spring Harbor Laboratory
   URL: https://doi.org/10.1101%2F572925
   DOI: 10.1101/572925

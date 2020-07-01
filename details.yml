@@ -13,7 +13,7 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \square \square$ C++
     - $\blacksquare \blacksquare \blacksquare \square \square$ C
     - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
-    - $\blacksquare \blacksquare \square \square \square$ Julia
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Julia
     - $\blacksquare \blacksquare \square \square \square$ Python
     - $\blacksquare \square \square \square \square$ Java
     - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
@@ -82,19 +82,6 @@ popularization:
 
 tobepublished:
 
-- id: Blanchet2019
-  type: article-journal
-  author:
-  - family: Blanchet
-    given: F. Guillaume
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  year: '2019'
-  title: Co-occurrence is not evidence of ecological interactions?
-  container-title: Ecology Letters
-  note: "all authors contributed equally."
 
 - id: Bartley_2019
   type: article-journal
@@ -115,23 +102,6 @@ tobepublished:
   year: 2019
   title: Thermal preferences drive behavioural responses but not biomass responses of predatory fishes to lake morphometry
   note: "the three first authors contributed equally."
-
-- id: Warne_2019
-  type: article-journal
-  author:
-  - family: "Warn P. K."
-    given: Connor
-  - family: McCann
-    given: Kevin S.
-  - family: Rooney
-    given: Neil
-  - family: Cazelles
-    given: Kevin
-  - family: Guzzo
-    given: Matthew M.
-  container-title: Geophysical Research Letters
-  year: 2019
-  title: "Geography and morphology affect the ice duration dynamics of northern hemisphere lakes worldwide"
 
 
 - id: Poisot_2019
@@ -219,6 +189,7 @@ reviewer:
     - Ecological Applications,
     - Ecology,
     - Ecology Letters,
+    - eLife,
     - Entropy,
     - Environment, Development and Sustainability,
     - Global Ecology and Biogeography,
