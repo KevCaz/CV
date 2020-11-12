@@ -4,8 +4,7 @@ srcd = details.yml pubs.yml data/*.yml
 FLAGS = --pdf-engine=xelatex
 pdfe = CV_KevCaz_eng.pdf
 pdff = CV_KevCaz_fr.pdf
-pathws = $(HOME)/Github/Websites/KevCaz.github.io/
-
+pathws = $(HOME)/Projects/websites/KevCaz.github.io
 
 all: pubs.yml $(pdfe) $(pdff)
 

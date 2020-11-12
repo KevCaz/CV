@@ -1,5 +1,10 @@
 ---
-phone: "+33 6 38 45 42 79"
+phone: "+1 (514) 318-8945"
+street: "158 rue Richelieu (App 1)"
+zip: "G1R 1J5"
+city: Quebec
+state: QC
+country: Canada
 email: kevin.cazelles@gmail.com
 website: kevcaz.github.io
 blog: insileco.github.io/
@@ -12,8 +17,8 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
     - $\blacksquare \blacksquare \blacksquare \square \square$ C++
     - $\blacksquare \blacksquare \blacksquare \square \square$ C
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
     - $\blacksquare \blacksquare \blacksquare \square \square$ Julia
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
     - $\blacksquare \blacksquare \square \square \square$ Python
     - $\blacksquare \square \square \square \square$ Java
     - $\blacksquare \blacksquare \blacksquare \square \square$ Sage
@@ -30,28 +35,6 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
-
-
-rgrant:
-  - title: Early warning signals of ecosystem change for the Great Lakes
-    author:
-      - family: Guzzo
-        given: Matthew J.
-      - family: Cazelles
-        given: Kevin
-      - family: Gellner, Koops M
-        given: Gabriel
-      - family: Säterberg
-        given: Torbjörn
-      - family: Koops
-        given: M
-      - family: Curie
-        given:  W
-      - family: McCann
-        given: Kevin S.
-    year: (in review)
-    prgm: Great Lakes Fishery Commission, Fishery Research
-    amount: "CA$199,975"
 
 
 

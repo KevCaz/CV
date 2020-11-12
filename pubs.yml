@@ -1,5 +1,30 @@
 ---
 references:
+- id: Cazelles_2020
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Zemlak
+    given: Tyler
+  - family: Gutgesell
+    given: Marie
+  - family: Myles-Gonzalez
+    given: Emelia
+  - family: Hanner
+    given: Robert
+  - family: McCann
+    given: Kevin Shear
+  issued:
+  - year: 2020
+    month: 10
+  title: 'Spatial fingerprinting: Horizontal fusion of multi-dimensional bio-tracers
+    as solution to global food provenance problems'
+  title-short: Spatial fingerprinting
+  publisher: Cold Spring Harbor Laboratory
+  URL: https://doi.org/10.1101%2F2020.10.01.322453
+  DOI: 10.1101/2020.10.01.322453
+
 - id: Blanchet_2020
   type: article-journal
   author:
@@ -84,7 +109,7 @@ references:
   type: article-journal
   author:
   - family: Poisot
-    given: Timothée
+    given: Timothee
   - family: Bergeron
     given: Gabriel
   - family: Cazelles
@@ -93,12 +118,10 @@ references:
     given: Tad
   - family: Gravel
     given: Dominique
-  - family: Macdonald
+  - family: MacDonald
     given: Andrew
   - family: Mercier
     given: Benjamin
-  - family: Violet
-    given: Clément
   - family: Vissault
     given: Steve
   issued:
@@ -166,46 +189,20 @@ references:
   URL: https://doi.org/10.1111%2F1365-2745.13311
   DOI: 10.1111/1365-2745.13311
 
-- id: Cazelles_2019
+- id: Kevin_Cazelles_61502580
   type: article-journal
   author:
   - family: Cazelles
     given: Kevin
-  - family: Bartley
-    given: Timothy
-  - family: Guzzo
-    given: Matthew M.
-  - family: Brice
-    given: Marie-Hélène
-  - family: MacDougall
-    given: Andrew S.
-  - family: Bennett
-    given: Joseph R.
-  - family: Esch
-    given: Ellen H.
-  - family: Kadoya
-    given: Taku
-  - family: Kelly
-    given: Jocelyn
-  - family: Matsuzaki
-    given: Shin-ichiro
-  - family: Nilsson
-    given: Karin A.
-  - family: McCann
-    given: Kevin S.
   issued:
   - year: 2019
-    month: 10
   title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
     communities are explained by gamefish movement and not climate change'
   title-short: Homogenization of freshwater lakes
   container-title: Global Change Biology
-  publisher: Wiley
-  page: 4222-4233
-  volume: '25'
-  issue: '12'
-  URL: https://doi.org/10.1111%2Fgcb.14829
+  URL: http://doi.org/10.1111/gcb.14829
   DOI: 10.1111/gcb.14829
+  ISSN: 1354-1013
 
 - id: Albouy_2019
   type: article-journal
@@ -231,7 +228,7 @@ references:
   - family: Leroux
     given: Shawn J.
   - family: Pellissier
-    given: Loïc
+    given: LoÃ¯c
   - family: Poisot
     given: Timothée
   - family: Stouffer
@@ -273,17 +270,17 @@ references:
   type: article-journal
   author:
   - family: Bartley
-    given: Timothy J.
+    given: Timothy John
   - family: Guzzo
-    given: Matthew M.
+    given: Matthew M
   - family: Cazelles
     given: Kevin
   - family: Verville
     given: Alex
   - family: McMeans
-    given: Bailey C.
+    given: Bailey C
   - family: McCann
-    given: Kevin S.
+    given: Kevin S
   issued:
   - year: 2019
     month: 3
@@ -326,29 +323,7 @@ references:
   URL: https://doi.org/10.1038%2Fs41559-018-0772-3
   DOI: 10.1038/s41559-018-0772-3
 
-- id: Geschke_2018
-  type: article-journal
-  author:
-  - family: Geschke
-    given: Jonas
-  - family: Cazelles
-    given: Kevin
-  - family: Bartomeus
-    given: Ignasi
-  issued:
-  - year: 2018
-    month: 11
-  title: 'Rcites: An r package to access the CITES speciesplus database'
-  title-short: Rcites
-  container-title: Journal of Open Source Software
-  publisher: The Open Journal
-  page: '1091'
-  volume: '3'
-  issue: '31'
-  URL: https://doi.org/10.21105%2Fjoss.01091
-  DOI: 10.21105/joss.01091
-
-- id: Wheeler_2019
+- id: Wheeler_2018
   type: article-journal
   author:
   - family: Wheeler
@@ -364,17 +339,34 @@ references:
   - family: Grémillet
     given: David
   issued:
-  - year: 2019
-    month: 1
-  title: Identifying key needs for the integration of socialecological outcomes in
+  - year: 2018
+    month: 11
+  title: Identifying key needs for the integration of social-ecological outcomes in
     arctic wildlife monitoring
   container-title: Conservation Biology
   publisher: Wiley
-  page: 861-872
-  volume: '33'
-  issue: '4'
   URL: https://doi.org/10.1111%2Fcobi.13257
   DOI: 10.1111/cobi.13257
+
+- id: Kevin_Cazelles_83357210
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Geschke
+    given: Jonas
+  - family: Cazelles
+    given: Kevin
+  - family: Bartomeus
+    given: Ignasi
+  issued:
+  - year: 2018
+  title: 'Rcites: An r package to access the cites speciesplus database'
+  title-short: Rcites
+  container-title: Journal of Open Source Software
+  URL: http://doi.org/10.21105/joss.01091
+  DOI: 10.21105/joss.01091
+  ISSN: 2475-9066
 
 - id: Galiana_2018
   type: article-journal
@@ -400,10 +392,7 @@ references:
     month: 4
   title: The spatial scaling of species interaction networks
   container-title: Nature Ecology & Evolution
-  publisher: Springer Science; Business Media LLC
-  page: 782-790
-  volume: '2'
-  issue: '5'
+  publisher: Springer Nature
   URL: https://doi.org/10.1038%2Fs41559-018-0517-3
   DOI: 10.1038/s41559-018-0517-3
 
@@ -450,7 +439,7 @@ references:
   title: Context-dependent interactions and the regulation of species richness in
     freshwater fish
   container-title: Nature Communications
-  publisher: Springer Science; Business Media LLC
+  publisher: Springer Nature
   volume: '9'
   issue: '1'
   URL: https://doi.org/10.1038%2Fs41467-018-03419-1
@@ -520,14 +509,11 @@ references:
     given: Tomas
   issued:
   - year: 2017
-    month: 5
+    month: 3
   title: Food-web structure of willow-galling sawflies and their natural enemies across
     europe
   container-title: Ecology
-  publisher: Wiley
-  page: 1730-1730
-  volume: '98'
-  issue: '6'
+  publisher: Wiley-Blackwell
   URL: https://doi.org/10.1002%2Fecy.1832
   DOI: 10.1002/ecy.1832
 
@@ -552,7 +538,7 @@ references:
   - year: 2017
   title: Island biogeography of food webs
   container-title: 'Networks of invasion: A synthesis of concepts'
-  publisher: Elsevier
+  publisher: Elsevier BV
   page: 183-262
   URL: https://doi.org/10.1016%2Fbs.aecr.2016.10.004
   DOI: 10.1016/bs.aecr.2016.10.004
@@ -574,11 +560,11 @@ references:
   title: On the integration of biotic interaction and environmental constraints at
     the biogeographical scale
   container-title: Ecography
-  publisher: Wiley
+  publisher: Wiley-Blackwell
   page: 921-931
   volume: '39'
   issue: '10'
-  URL: https://doi.org/10.1111%2Fecog.01714
+  URL: http://dx.doi.org/10.1111/ecog.01714
   DOI: 10.1111/ecog.01714
 
 - id: Cazelles_2015
@@ -597,7 +583,7 @@ references:
     month: 10
   title: A theory for species co-occurrence in interaction networks
   container-title: Theoretical Ecology
-  publisher: Springer Science; Business Media LLC
+  publisher: Springer Nature
   page: 39-48
   volume: '9'
   issue: '1'
@@ -608,30 +594,25 @@ references:
   type: article-journal
   author:
   - family: Poisot
-    given: Timothée
+    given: T.
   - family: Cirtwill
-    given: Alyssa R.
+    given: A. R.
   - family: Cazelles
-    given: Kévin
+    given: K.
   - family: Gravel
-    given: Dominique
+    given: D.
   - family: Fortin
-    given: Marie-Josée
+    given: M.-J.
   - family: Stouffer
-    given: Daniel B.
-  editor:
-  - family: Vamosi
-    given: Jana
+    given: D. B.
   issued:
   - year: 2015
-    month: 10
+    month: 9
   title: The structure of probabilistic networks
-  container-title: Methods in Ecology and Evolution
-  publisher: Wiley
-  page: 303-312
-  volume: '7'
-  issue: '3'
-  URL: https://doi.org/10.1111%2F2041-210x.12468
+  container-title: Methods Ecol Evol
+  publisher: Wiley-Blackwell
+  page: n/a-n/a
+  URL: http://dx.doi.org/10.1111/2041-210x.12468
   DOI: 10.1111/2041-210x.12468
 
 - id: Le_Stradic_2015
@@ -653,13 +634,13 @@ references:
   - year: 2015
     month: 2
   title: Diversity of germination strategies and seed dormancy in herbaceous species
-    ofcampo rupestregrasslands
+    of campo rupestre grasslands
   container-title: Austral Ecology
-  publisher: Wiley
+  publisher: Wiley-Blackwell
   page: 537-546
   volume: '40'
   issue: '5'
-  URL: https://doi.org/10.1111%2Faec.12221
+  URL: http://dx.doi.org/10.1111/aec.12221
   DOI: 10.1111/aec.12221
 
 - id: Cazelles_2014
@@ -678,29 +659,29 @@ references:
   publisher: Elsevier BV
   page: '217'
   volume: '21'
-  URL: https://doi.org/10.1016%2Fj.ijid.2014.03.873
+  URL: http://dx.doi.org/10.1016/j.ijid.2014.03.873
   DOI: 10.1016/j.ijid.2014.03.873
 
-- id: Cazelles_2014
+- id: Cazelles_2013
   type: article-journal
   author:
   - family: Cazelles
-    given: Bernard
+    given: B.
   - family: Cazelles
-    given: Kévin
+    given: K.
   - family: Chavez
-    given: Mario
+    given: M.
   issued:
-  - year: 2014
-    month: 2
+  - year: 2013
+    month: 11
   title: 'Wavelet analysis in ecology and epidemiology: Impact of statistical tests'
   title-short: Wavelet analysis in ecology and epidemiology
   container-title: Journal of The Royal Society Interface
   publisher: The Royal Society
-  page: '20130585'
+  page: 20130585-20130585
   volume: '11'
   issue: '91'
-  URL: https://doi.org/10.1098%2Frsif.2013.0585
+  URL: http://dx.doi.org/10.1098/rsif.2013.0585
   DOI: 10.1098/rsif.2013.0585
 
 - id: Cazelles_2013
@@ -724,6 +705,6 @@ references:
   publisher: Elsevier BV
   page: 165-173
   volume: '248'
-  URL: https://doi.org/10.1016%2Fj.ecolmodel.2012.08.008
+  URL: http://dx.doi.org/10.1016/j.ecolmodel.2012.08.008
   DOI: 10.1016/j.ecolmodel.2012.08.008
 ...
