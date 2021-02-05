@@ -18,7 +18,7 @@ mainskills: "Biologie, écologie, Biogéographie, bio-informatique, modélisatio
 
 experience:
 
-- years: "Juin 2017 - "
+- years: "Juin 2017 - &nbsp;&nbsp;&nbsp;Octobre 2020"
   employer: University of Guelph
   unit: McCann Lab
   job: "Chercheur post-doctoral: travaux sur les impactes des activities humaines sur les communautés de poissons et sur le dévelopement d'un cadre théorique pour créer des empreintes spatiales uniques aux espèces basées sut les traceurs biologiques."
@@ -101,6 +101,14 @@ grants:
 
 
 teaching:
+- year:          2021
+  time:          2 jours 
+  institute:     Bedford Institute of Oceanography, Halifax NS, Canada
+  description:   "Utiliser des rasters avec R"
+- year:          2020
+  time:          1 semaine
+  institute:     Université du Québec à Rimouski, Rimouski QC, Canada
+  description:   "Adavanced statitsics with R"
 - year: 2018
   time: 2 jours
   institute: Université du Québec à Montréal, Canada

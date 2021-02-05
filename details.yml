@@ -27,7 +27,8 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
 
   document:
-    - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
+    - $\blacksquare \blacksquare \blacksquare \square \square$ postgreSQL/SQLite
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ HTML/CSS
     - $\blacksquare \blacksquare \square \square \square$ Javascript
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Jekyll/Hugo
