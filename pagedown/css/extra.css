@@ -1,0 +1,139 @@
+/* page size */
+@page {
+  size: 8.5in 11in;
+}
+@page:right {
+  @bottom-center {
+    content: counter(page);
+  }
+}
+@page:left {
+  @bottom-center {
+    content: counter(page);
+  }
+}
+
+:root {
+  --pagedjs-margin-right: 0.25in !important;
+  --pagedjs-margin-left: 0.25in !important;
+  --pagedjs-margin-top: 0.25in !important;
+  --pagedjs-margin-bottom: 0.25in !important;
+}
+
+.pagedjs_page {
+  --pagedjs-pagebox-width: 8in;
+  --pagedjs-pagebox-height: 10.5in; 
+} 
+
+
+.logo {
+  width: 1.6in;
+}
+
+.empty {
+  height: 4in;
+}
+
+.adrs {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: .95em;
+}
+
+.adrs h2, h3, h4, h5, p {
+  margin: 0.1em !important;
+  padding: 0em;
+}
+
+.notes {
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: .08in;
+  margin: .08in .08in .15in .0in;
+  min-height: 1.5in;
+  width: 58%;
+  font-size: .9em;
+}
+
+.table {
+  width: 100%;
+  margin: 0;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+}
+
+.width40 {
+  width: 40%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width60 {
+  width: 60%;
+}
+
+.width62 {
+  width: 62%;
+}
+
+.font60 {
+  font-size: 60%;
+}
+
+.font80 {
+  font-size: 80%;
+}
+
+
+
+.empty1 {
+  height: 1in;
+}
+
+.empty2 {
+  height: 2in;
+}
+
+.empty3 {
+  height: 3in;
+}
+
+
+/* convocation */
+
+#convoc_date {
+  
+}
+
+#convoc_title {
+  position: absolute;
+  right: 6em;
+  top: 3em;
+  font-size: 1.6em;
+  text-decoration: underline;
+}
+
+#convoc_main {
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+
+#convoc_signature {
+  text-align: right;
+  padding: 1em;
+  font-size: 1em;
+}
+
+#convoc_date_doc {
+  position: absolute;
+  right: .5em;
+  top: .4em;
+  font-size: 1em;
+}
