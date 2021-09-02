@@ -29,6 +29,6 @@ This version uses the R package [`pagedown`](https://CRAN.R-project.org/package=
 The following R packages are required
 
 ```R
-install.package(c("pagedown", "whisker", "kableExtra"))
+install.package(c("glue", "htmltools", "kableExtra", "pagedown", "whisker"))
 remotes::install_github("mitchelloharawild/icons")
 ```

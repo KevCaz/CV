@@ -1,0 +1,36 @@
+- name: phone
+  value: "(514) 318-8945"
+  icon: mobile-alt
+- name: city
+  icon: home
+  value: Guelph, Ontario
+- name: email
+  value: kevin.cazelles@gmail.com
+  icon: at
+  url: "mailto:kevin.cazelles@gmail.com?subject=Contact&body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"
+- name: website 
+  value: kevcaz.github.io
+  icon: globe
+  url: https://kevcaz.github.io
+- name: blog
+  value: insileco.github.io
+  icon: blog 
+  url: insileco.github.io
+- name: orcid
+  value: "0000-0001-6619-9874"
+  icon: orcid
+  url: http://orcid.org/0000-0001-6619-9874
+- name: github
+  value: KevCaz
+  icon: github 
+  url: https://github.com/KevCaz
+- name: twitter
+  value: KCazelles
+  icon: twitter
+  url: https://twitter.com/KCazelles
+- name: rgate
+  value: "Kevin Cazelles"
+  icon: researchgate
+  url: https://www.researchgate.net/profile/Kevin-Cazelles  
+
+  

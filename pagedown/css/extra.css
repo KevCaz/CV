@@ -14,10 +14,10 @@
 }
 
 :root {
-  --pagedjs-margin-right: 0.25in !important;
-  --pagedjs-margin-left: 0.25in !important;
-  --pagedjs-margin-top: 0.25in !important;
-  --pagedjs-margin-bottom: 0.25in !important;
+  --pagedjs-margin-right: .7in !important;
+  --pagedjs-margin-left: .7in !important;
+  --pagedjs-margin-top: .7in !important;
+  --pagedjs-margin-bottom: 1in !important;
 }
 
 .pagedjs_page {
@@ -34,8 +34,7 @@
   height: 4in;
 }
 
-.adrs {
-  position: absolute;
+.details {
   left: 0px;
   top: 0px;
   font-size: .95em;
@@ -104,36 +103,3 @@
   height: 3in;
 }
 
-
-/* convocation */
-
-#convoc_date {
-  
-}
-
-#convoc_title {
-  position: absolute;
-  right: 6em;
-  top: 3em;
-  font-size: 1.6em;
-  text-decoration: underline;
-}
-
-#convoc_main {
-  padding: 1em;
-  font-size: 1.1em;
-}
-
-
-#convoc_signature {
-  text-align: right;
-  padding: 1em;
-  font-size: 1em;
-}
-
-#convoc_date_doc {
-  position: absolute;
-  right: .5em;
-  top: .4em;
-  font-size: 1em;
-}

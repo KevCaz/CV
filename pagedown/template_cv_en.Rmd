@@ -14,13 +14,31 @@ knitr::opts_chunk$set(
 )
 library(icons)
 library(kableExtra)
+library(yaml)
+library(htmltools)
 rfa <- function(...) fontawesome(...)
 ```
 
-<div class="adrs font90">
-  <img class="logo" src="css/logo.png" alt="Logo"/>
-  <h2>inSileco Inc.</h2>
-  `r rfa("mobile-alt")` +1-514-553-4974 </br>
+<div class="details font90">
+  <!-- <img class="logo" src="css/logo.png" alt="Logo"/> -->
+  <h1> Kevin Cazelles </h1>
+  
+  
+<ul>
+```{R perso_details, echo = FALSE, results = "asis"}
+val <- lapply(
+  yaml.load_file("data/perso_details.yaml"), 
+  function(x) do.call(glue_details, x)
+)
+for (i in seq_along(val)) {
+  tagList()
+  cat(as.character(HTML("<li>", val[[i]], "</li>")))
+}
+```
+</ul>  
+  
+
+  
 </div>
 
 
@@ -31,6 +49,26 @@ rfa <- function(...) fontawesome(...)
 
 </div>
 
+</br></br></br>
 
 
-</br>
+## Professional experience 
+
+
+## `r rfa("graduation-cap")` Education
+
+<hr>
+
+
+## `r rfa("book")` Publications
+
+```{R pubs, echo = FALSE, results = "asis"}
+insert_pubs()
+```
+
+
+
+<hr>
+
+
+
