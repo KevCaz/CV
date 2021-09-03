@@ -133,8 +133,6 @@ references:
 - author:
   - family: Cazelles
     given: Kevin
-  - family: Cazelles
-    given: Kevin Shear
   - family: Zemlak
     given: Tyler Stephen
   - family: Gutgesell
@@ -416,8 +414,6 @@ references:
   type: article-journal
   url: "https://doi.org/10.1111%2Fcobi.13257"
 - author:
-  - family: Cazelles
-    given: Kevin
   - family: Geschke
     given: Jonas
   - family: Cazelles

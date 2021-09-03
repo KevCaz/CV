@@ -1,0 +1,42 @@
+- name: American Naturalist
+  url: www.journals.uchicago.edu/toc/an/current
+- name: Biodiversity data journal
+  url: https://bdj.pensoft.net/
+- name: Canadian Journal of Fisheries and Aquatic Sciences
+  url: https://cdnsciencepub.com/journal/cjfas
+- name: Diversity and Distributions
+  url: https://onlinelibrary.wiley.com/journal/14724642
+- name: Ecography
+  url: https://onlinelibrary.wiley.com/journal/16000587
+- name: Ecological Applications
+  url: https://esajournals.onlinelibrary.wiley.com/journal/19395582
+- name: Ecology
+  url: https://esajournals.onlinelibrary.wiley.com/journal/19399170
+- name: Ecology Letters
+  url: https://onlinelibrary.wiley.com/journal/14610248
+- name: eLife
+  url: https://elifesciences.org/
+- name: Entropy
+  url: https://www.mdpi.com/journal/entropy
+- name: Environment, Development and Sustainability
+  url: https://www.springer.com/journal/10668
+- name: Global Ecology and Biogeography
+  url: https://onlinelibrary.wiley.com/journal/14668238
+- name: Journal of Animal Ecology
+  url: https://besjournals.onlinelibrary.wiley.com/journal/13652656
+- name: Journal of Vegetation Science
+  url: https://onlinelibrary.wiley.com/journal/16541103
+- name: Methods in Ecology and Evolution
+  url: https://besjournals.onlinelibrary.wiley.com/journal/2041210X
+- name: Nature Ecology and Evolution
+  url: https://www.nature.com/natecolevol/
+- name: Oikos
+  url: https://www.oikosjournal.org/
+- name: PeerJ
+  url: https://peerj.com/
+- name: Population Ecology
+  url: https://esj-journals.onlinelibrary.wiley.com/journal/1438390x
+- name: Proceedings of the Royal Society B
+  url: https://royalsocietypublishing.org/journal/rspb
+- name: Theoretical Ecology
+  url: https://www.springer.com/journal/12080

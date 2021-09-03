@@ -26,6 +26,15 @@
 } 
 
 
+.section > h2 {
+  margin-bottom: 0px;
+}
+
+.section hr {
+  margin-top: 0px
+}
+
+
 .logo {
   width: 1.6in;
 }
@@ -103,3 +112,8 @@
   height: 3in;
 }
 
+
+
+a[href^="http"]:not([class="uri"])::after {
+    content: none !important;
+}

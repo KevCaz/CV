@@ -17,7 +17,9 @@ library(kableExtra)
 library(yaml)
 library(htmltools)
 rfa <- function(...) fontawesome(...)
+options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 ```
+
 
 <div class="details font90">
   <!-- <img class="logo" src="css/logo.png" alt="Logo"/> -->
@@ -52,23 +54,60 @@ for (i in seq_along(val)) {
 </br></br></br>
 
 
-## Professional experience 
+## `r rfa("briefcase")` Professional experience 
+
+<hr>
+
+
+## `r rfa("tachometer-alt")` Skills
+
+<hr>
+
 
 
 ## `r rfa("graduation-cap")` Education
 
 <hr>
 
+```{R edu, echo = FALSE, results = "asis"}
+insert_education()
+```
+
+
 
 ## `r rfa("book")` Publications
+
+<hr>
+
+### Peer reviewed
 
 ```{R pubs, echo = FALSE, results = "asis"}
 insert_pubs()
 ```
 
+### Popularization
 
+
+## Reviewer 
+
+```{R reviewer, echo = FALSE, results = "asis"}
+insert_reviewer()
+```
+
+## `r rfa("bullhorn")` Presentations
 
 <hr>
+
+
+### Talks 
+
+
+### Poster
+
+
+
+## `r rfa("newspaper")` Media Coverage
+
 
 
 

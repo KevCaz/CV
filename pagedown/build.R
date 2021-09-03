@@ -11,8 +11,32 @@ library(htmltools)
 rfa <- function(...) fontawesome(...)
 
 
+initials <- function(x) {
+  paste0(toupper(substr(x, 1, 1)), ".")
+}
+
+first_let <- function(given) {
+  glue_collapse(
+    unlist(lapply(strsplit(given, " "), function(x) initial(x))), 
+    " "
+  )
+}
+
+author_focus <- function(x, focus) {
+  for (i in seq_along(x)) {
+    if (x[i] == focus) x[i] <- glue("**{ x[i] }**")
+  }
+  x
+}
+
+
+
 glue_href <- function(val, url) {
-  glue("<a href='{ url }'>{ val }</a>")
+  glue("<a href='{url}'>{val}</a>")
+}
+
+glue_href_md <- function(name, url) {
+  glue("[{name}]({url})")
 }
 
 # Functions 
@@ -48,35 +72,48 @@ glue_pubs <- function(title) {
   glue("<li>", title, "</li>")
 }
 
-glue_authors <- function(names) {
-  glue_collapse(lapply(names, function(x) x$family), sep = ", ", last = " & ")
+
+glue_authors <- function(names, focus = "Cazelles K.") {
+  giv <- lapply(names, function(x) initials(x$given))
+  fam <- lapply(names, function(x) x$family)
+  nm <- author_focus(paste(fam, giv), focus)
+  glue_collapse(nm, sep = ", ", last = " & ")
 }
 
 insert_pubs <- function() {
   pubs <- yaml.load_file("data/pubs.yaml")[[1]]
-  
   # cat(HTML("<ol>"))
   for (i in seq_along(pubs)) {
     auth <- glue_authors(pubs[[i]]$author) 
     year <- substr(pubs[[i]]$issued, 1, 4)
     title <- pubs[[i]]$title
     conta <- pubs[[i]]$'container-title'
-    if (is.null(conta)) conta <- "prepint"
+    if (is.null(conta)) conta <- "preprint"
     doi <- pubs[[i]]$doi
     cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. [{doi}]({doi}).\n\n"))
-    # cat(HTML(
-    #   "<li>", 
-    #   paste0("(", substr(pubs[[i]]$issued, 1, 4), "). "),
-    #   pubs[[i]]$title, 
-    #   pubs[[i]]$"container-title",
-    #   pubs[[i]]$doi,
-    #   "</li>")
-    # )
   }
-  # cat(HTML("</ol>"))
 }
 
 
+
+insert_education <- function() {
+  edu <- yaml.load_file("data/education_en.yaml")
+  for (i in seq_along(edu)) {
+    tmp <- edu[[i]]
+    cat(glue("* {tmp$years}:  **{tmp$honour}**.  {tmp$institute}.\n\n"))
+  }
+} 
+
+
+insert_reviewer <- function() {
+  rev <- yaml.load_file("data/reviewer.yaml")
+  out <- glue_collapse(
+    lapply(rev, function(x) do.call(glue_href_md, x)), 
+    sep = ", ", 
+    last = " and "
+  )
+  glue("As an academic, I have been actively involved in the peer-review process and I have been a reviewer for the following journals: ", out, "I have also been a recommender for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
+}
 
 
 
@@ -85,7 +122,7 @@ template <- readLines("template_cv_en.Rmd")
 
 
 writeLines(
-  whisker::whisker.render(template, list(title = "Kevin Cazelles's CC")), 
+  whisker::whisker.render(template, list(title = "KevCaz's CV")), 
   "cv_en.Rmd"
 )
 out <- rmarkdown::render("cv_en.Rmd")
