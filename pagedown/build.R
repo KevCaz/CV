@@ -121,12 +121,30 @@ insert_talks <- function() {
     
     out <- glue("{i}. {auth}. {title}. [{conf$name}]({conf$url}). {conf$where} ({conf$date}).")
     
-    if (!is.null(tmp$github)) {
-      out <- glue("{out} [{rfa('github')}]({base_gh}{tmp$github})")
+    if (!is.null(tmp[[i]]$github)) {
+      out <- glue("{out} [{rfa('github')}]({base_gh}{tmp[[i]]$github})")
+    }
+    if (!is.null(tmp[[i]]$html)) {
+      out <- glue("{out} [{rfa('html5')}]({tmp[[i]]$html})")
     }
     
-    if (!is.null(tmp$html)) {
-      out <- glue("{out} [{rfa('html5')}]({tmp$html})")
+    
+    cat(glue("{out}\n\n"))
+  }
+}
+
+insert_sems <- function() {
+  tmp <- yaml.load_file("data/seminars.yaml")
+  for (i in seq_along(tmp)) {
+    auth <- glue_authors(tmp[[i]]$author) 
+    
+    out <- glue("{i}. {auth}. {tmp[[i]]$title}. [{tmp[[i]]$where}]({tmp[[i]]$url}). {tmp[[i]]$where} ({tmp[[i]]$date}).")
+    
+    if (!is.null(tmp[[i]]$github)) {
+      out <- glue("{out} [{rfa('github')}]({base_gh}{tmp[[i]]$github})")
+    }
+    if (!is.null(tmp[[i]]$html)) {
+      out <- glue("{out} [{rfa('html5')}]({tmp[[i]]$html})")
     }
     
     cat(glue("{out}\n\n"))

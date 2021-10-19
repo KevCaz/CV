@@ -114,6 +114,10 @@ insert_talks()
 
 ### Seminars
 
+```{R seminars, echo = FALSE, results = "asis"}
+insert_sems()
+```
+
 ### Posters
 
 
