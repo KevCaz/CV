@@ -64,7 +64,7 @@
       url: "https://esa.org/neworleans/"
       date: 2017-08-01
       where: "Victoria, BC, Canada"
-  DOI: "10.13140/RG.2.2.19537.74082"
+  doi: "10.13140/RG.2.2.19537.74082"
   pdf: "/talks/posters/CSEE_DB_2017.pdf"
 
 
@@ -107,9 +107,6 @@
       url: "http://www.arcticnetmeetings.ca/asm2016/"
       date: 2016-12-01
       where: "Winnipeg, MB, Canada"
-    # - name: "QCBS Symposim 2016"
-    #   url:: https://qcbs.ca/events/qcbs-annual-symposium/2016-qcbs-symposium/
-    #   date: 2016-12-01
-    #   where: "Montreal"
-  researchgate: "publication/312232420_Our_house_is_burning_and_we_are_looking_elsewhere_climate_change_vs_biodiversity_loss_coverage_in_the_media"
-  pdf: "/talks/posters/QCBS_PR_2016.pdf
+  pdf: "/talks/posters/QCBS_PR_2016.pdf"
+  # researchgate: |
+  # publication/312232420_Our_house_is_burning_and_we_are_looking_elsewhere_climate_change_vs_biodiversity_loss_coverage_in_the_media

@@ -11,6 +11,7 @@ library(htmltools)
 rfa <- function(...) fontawesome(...)
 
 base_gh <- "https://github.com/"
+base_perso <- "https://kevcaz.github.io"
 
 glue_href <- function(val, url) {
   glue("<a href='{url}'>{val}</a>")
@@ -128,7 +129,6 @@ insert_talks <- function() {
       out <- glue("{out} [{rfa('html5')}]({tmp[[i]]$html})")
     }
     
-    
     cat(glue("{out}\n\n"))
   }
 }
@@ -146,6 +146,33 @@ insert_sems <- function() {
     if (!is.null(tmp[[i]]$html)) {
       out <- glue("{out} [{rfa('html5')}]({tmp[[i]]$html})")
     }
+    if (!is.null(tmp[[i]]$pdf)) {
+      out <- glue("{out} [{rfa('file-pdf')}]({base_perso}{tmp[[i]]$pdf})")
+    }
+    
+    cat(glue("{out}\n\n"))
+  }
+}
+
+insert_posters <- function() {
+  tmp <- yaml.load_file("data/posters.yaml")
+  for (i in seq_along(tmp)) {
+    auth <- glue_authors(tmp[[i]]$author) 
+    title <- tmp[[i]]$title
+    conf <- tmp[[i]]$conference[[1]]
+    
+    out <- glue("{i}. {auth}. {title}. [{conf$name}]({conf$url}). {conf$where} ({conf$date}).")
+    
+    if (!is.null(tmp[[i]]$github)) {
+      out <- glue("{out} [{rfa('github')}]({base_gh}{tmp[[i]]$github})")
+    }
+    if (!is.null(tmp[[i]]$html)) {
+      out <- glue("{out} [{rfa('html5')}]({tmp[[i]]$html})")
+    }
+    if (!is.null(tmp[[i]]$pdf)) {
+      out <- glue("{out} [{rfa('file-pdf')}]({base_perso}{tmp[[i]]$pdf})")
+    }
+    
     
     cat(glue("{out}\n\n"))
   }

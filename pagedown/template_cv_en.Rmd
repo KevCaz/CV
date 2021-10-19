@@ -120,6 +120,10 @@ insert_sems()
 
 ### Posters
 
+```{R posters, echo = FALSE, results = "asis"}
+insert_posters()
+```
+
 
 
 ## `r rfa("newspaper")` Media Coverage
