@@ -62,6 +62,15 @@ insert_perso_details <- function() {
 }
 
 
+insert_education <- function() {
+  edu <- yaml.load_file("data/education_en.yaml")
+  for (i in seq_along(edu)) {
+    tmp <- edu[[i]]
+    cat(glue("* {tmp$years}:  **{tmp$honour}**.  {tmp$institute}.\n\n"))
+  }
+} 
+
+
 glue_pubs <- function(title) {
   glue("<li>", title, "</li>")
 }
@@ -89,14 +98,21 @@ insert_pubs <- function() {
 }
 
 
-
-insert_education <- function() {
-  edu <- yaml.load_file("data/education_en.yaml")
-  for (i in seq_along(edu)) {
-    tmp <- edu[[i]]
-    cat(glue("* {tmp$years}:  **{tmp$honour}**.  {tmp$institute}.\n\n"))
+insert_popu <- function() {
+  tmp <- yaml.load_file("data/popularization.yaml")
+  # cat(HTML("<ol>"))
+  for (i in seq_along(tmp)) {
+    auth <- glue_authors(tmp[[i]]$author) 
+    year <- tmp[[i]]$year
+    title <- tmp[[i]]$title
+    conta <- tmp[[i]]$'container-title'
+    # if (is.null(conta)) conta <- "Preprint"
+    # doi <- pubs[[i]]$doi
+    cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. [{rfa('link')}]({tmp[[i]]$url})\n\n"))
   }
-} 
+}
+
+
 
 
 insert_reviewer <- function() {

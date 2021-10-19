@@ -85,8 +85,12 @@ insert_pubs()
 
 ### Popularization
 
+```{R popu, echo = FALSE, results = "asis"}
+insert_popu()
+```
 
-## Reviewer 
+
+### Editorial and review activities
 
 ```{R reviewer, echo = FALSE, results = "asis"}
 insert_reviewer()
