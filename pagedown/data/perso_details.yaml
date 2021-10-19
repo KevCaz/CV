@@ -1,9 +1,10 @@
 - name: phone
-  value: "(514) 318-8945"
+  value: "+1 514-318-8945"
   icon: mobile-alt
 - name: city
   icon: home
   value: Guelph, Ontario
+  url: https://www.openstreetmap.org/#map=17/43.53071/-80.22864&layers=N
 - name: email
   value: kevin.cazelles@gmail.com
   icon: at

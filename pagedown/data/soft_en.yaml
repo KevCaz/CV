@@ -1,0 +1,50 @@
+- name: rcites
+  desc: R client to access the Speciesplus database via the Speciesplus/CITES Checklist API.
+  url: https://github.com/ropensci/rcites
+  type: R package
+  role: maintainer
+  doi: 10.5281/zenodo.3925896
+  github: inSileco/inSilecoMisc
+    
+- name: graphicsutils
+  desc: Miscellenous graphical function
+  url: https://github.com/inSileco/graphicsutils
+  type: R package
+  role: maintainer
+    
+- name: inSilecoMisc
+  desc: inSileco/inSilecoMisc
+  url:
+  type: R package
+  role: creator
+    
+- name: 
+  desc:
+  github: https://github.com/inSilecoInc/shinySpatialApp
+  type: shiny app
+  role: creator 
+  
+- name: rmangal
+  desc:
+  url:
+  type: R package
+  role: contributor 
+  doi: 
+    
+- name: rgovcan
+  desc: 
+  url:
+  type: R package
+  role:
+  doi:
+  github: VLucet/rgovcan 
+    
+- name: HomogenFishOntario
+  desc: 
+  type: research compendium
+  github: 
+    
+
+- name: 
+  desc: 
+  type: research compendium 

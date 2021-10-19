@@ -1,163 +1,159 @@
----
-talk:
+- title:      "Embracing the blessing of dimensionality to determine species’ provenance"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Myles-Gonzalez
+      given:  Emelia
+    - family: Zemlak
+      given:  Tyler
+    - family: McCann
+      given:  Kevin
+  conference:
+    - name:   "QCBS Annual symposium"
+      url:    "https://qcbs.ca/symposium-2019"
+      date:   2019-12-19
+      where:  "Montreal, Qc, Canada"
+  github:     KevCaz/fightingNoise
+  html:       https://kevcaz.github.io/fightingNoise
 
-  - title:      "Embracing the blessing of dimensionality to determine species’ provenance"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Myles-Gonzalez
-        given:  Emelia
-      - family: Zemlak
-        given:  Tyler
-      - family: McCann
-        given:  Kevin
-    conference:
-      - name:   "QCBS Annual symposium"
-        url:    "https://qcbs.ca/symposium-2019"
-        date:   2019-12-19
-        where:  "Montreal, Qc, Canada"
-    github:     KevCaz/fightingNoise
-    html:       https://kevcaz.github.io/fightingNoise
+- title:      "Towards an Energetic Theory of Island biogeography"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Gravel
+      given:  Dominique
+    - family: McCann
+      given:  Kevin
+  conference:
+    - name:   "ESA Annual Meeting"
+      url:    "https://esa.org/neworleans/"
+      date:   2018-08-01
+      where:  "New-Orleans, LA, USA"
+  github:     KevCaz/talkETIB
+  html:       https://kevcaz.github.io/talkETIB/
 
-  - title:      "Towards an Energetic Theory of Island biogeography"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Gravel
-        given:  Dominique
-      - family: McCann
-        given:  Kevin
-    conference:
-      - name:   "ESA Annual Meeting"
-        url:    "https://esa.org/neworleans/"
-        date:   2018-08-01
-        where:  "New-Orleans, LA, USA"
-    github:     KevCaz/talkETIB
-    html:       https://kevcaz.github.io/talkETIB/
-
-  - title:      "Fighgting Noise with dimensionality"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Myles-Gonzalez
-        given:  Emelia
-      - family: Zemlak
-        given:  Tyler
-      - family: McCann
-        given:  Kevin
-    conference:
-      - name:   "CSEE Annual Meeting"
-        url:    https://www.csee2018.ca/
-        date:   2018-07-01
-        where:  Guelph
-    github:     KevCaz/fightingNoise
-    html:       https://kevcaz.github.io/fightingNoise/#1
+- title:      "Fighgting Noise with dimensionality"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Myles-Gonzalez
+      given:  Emelia
+    - family: Zemlak
+      given:  Tyler
+    - family: McCann
+      given:  Kevin
+  conference:
+    - name:   "CSEE Annual Meeting"
+      url:    https://www.csee2018.ca/
+      date:   2018-07-01
+      where:  Guelph
+  github:     KevCaz/fightingNoise
+  html:       https://kevcaz.github.io/fightingNoise/#1
   
-  - title:      "Towards an Energetic Theory of Island biogeography"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Gravel
-        given:  Dominique
-      - family: McCann
-        given:  Kevin
-    conference:
-      - name:   "Ecology Across Borders"
-        url:    "https://www.britishecologicalsociety.org/events/annual-meeting-2017/"
-        date:   2017-12-01
-        where:  "Ghent, Belgium"
-    html:       https://kevcaz.github.io/talkETIB/
-    github:     KevCaz/talkETIB
+- title:      "Towards an Energetic Theory of Island biogeography"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Gravel
+      given:  Dominique
+    - family: McCann
+      given:  Kevin
+  conference:
+    - name:   "Ecology Across Borders"
+      url:    "https://www.britishecologicalsociety.org/events/annual-meeting-2017/"
+      date:   2017-12-01
+      where:  "Ghent, Belgium"
+  html:       https://kevcaz.github.io/talkETIB/
+  github:     KevCaz/talkETIB
 
-  - title:      "Do ecological interactions impact geographic distributions of species?"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Gravel
-        given:  Dominique
-      - family: McCann
-        given:  Kevin
-    conference:
-      - name:   "Ecology Across Borders"
-        url:    "https://www.britishecologicalsociety.org/events/annual-meeting-2017/"
-        date:   2017-12-01
-        where:  "Ghent, Belgium"
-    html:       https://kevcaz.github.io/talkETIB/
-    github:     KevCaz/talkETIB
+- title:      "Do ecological interactions impact geographic distributions of species?"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Gravel
+      given:  Dominique
+    - family: McCann
+      given:  Kevin
+  conference:
+    - name:   "Ecology Across Borders"
+      url:    "https://www.britishecologicalsociety.org/events/annual-meeting-2017/"
+      date:   2017-12-01
+      where:  "Ghent, Belgium"
+  html:       https://kevcaz.github.io/talkETIB/
+  github:     KevCaz/talkETIB
 
-  - title:      "Teaser of the alien R package"
-    author:
-      - family: Vissault
-        given:  Steve
-      - family: Cazelles
-        given:  Kevin
-    conference:
-      - name:   "R à Québec"
-        url:    http://raquebec.ulaval.ca/2017/archives/12723
-        date:   2017-01-08
-        where:  "Québec, Qc, Canada"
-    html:       https://kevcaz.github.io/Talk_alien/
-    github:     KevCaz/Talk_alien/
+- title:      "Teaser of the alien R package"
+  author:
+    - family: Vissault
+      given:  Steve
+    - family: Cazelles
+      given:  Kevin
+  conference:
+    - name:   "R à Québec"
+      url:    http://raquebec.ulaval.ca/2017/archives/12723
+      date:   2017-01-08
+      where:  "Québec, Qc, Canada"
+  html:       https://kevcaz.github.io/Talk_alien/
+  github:     KevCaz/Talk_alien/
 
-  - title:      "Do ecological interaction impact geographical distributions of species?"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Mouquet
-        given:  Nicolas
-      - family: Gravel
-        given:  Dominique
-    conference:
-      - name:   "QCBS - Annual Symposium"
-        url:    http://raquebec.ulaval.ca/2017/archives/12723
-        date:   2015-12-01
-        where:  "Montreal, Qc, Canada"
-    pdf:        "talks/talks/CSBQ_2015.pdf"
+- title:      "Do ecological interaction impact geographical distributions of species?"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Mouquet
+      given:  Nicolas
+    - family: Gravel
+      given:  Dominique
+  conference:
+    - name:   "QCBS - Annual Symposium"
+      url:    http://raquebec.ulaval.ca/2017/archives/12723
+      date:   2015-12-01
+      where:  "Montreal, Qc, Canada"
+  pdf:        "talks/talks/CSBQ_2015.pdf"
 
-  - title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Mouquet
-        given:  Nicolas
-      - family: Mouillot
-        given:  David
-      - family: Gravel
-        given:  Dominique
-    conference:
-      - name:   "CSEE - Annual Meeting"
-        url:    http://raquebec.ulaval.ca/2017/archives/12723
-        date:   2015-08-01
-        where:  "Saskatoon, SK, Canada"
-    pdf:        "talks/talks/CSEE_2015.pdf"
+- title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Mouquet
+      given:  Nicolas
+    - family: Mouillot
+      given:  David
+    - family: Gravel
+      given:  Dominique
+  conference:
+    - name:   "CSEE - Annual Meeting"
+      url:    http://raquebec.ulaval.ca/2017/archives/12723
+      date:   2015-08-01
+      where:  "Saskatoon, SK, Canada"
+  pdf:        "talks/talks/CSEE_2015.pdf"
 
-  - title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Mouquet
-        given:  Nicolas
-      - family: Mouillot
-        given:  David
-      - family: Gravel
-        given:  Dominique
-    conference:
-      - name:   "BES- SFE - Joint Annual Meeting"
-        date:   2014-12-01
-        url:    "https://www.sfecologie.org/2014/06/09/bes-and-sfe-joint-annual-meeting-2014-9-12-december-lille-france/"
-        where:  "Lille, France"
-    file:       "talks/talks/SFEBSE_2014.pdf"
+- title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Mouquet
+      given:  Nicolas
+    - family: Mouillot
+      given:  David
+    - family: Gravel
+      given:  Dominique
+  conference:
+    - name:   "BES- SFE - Joint Annual Meeting"
+      date:   2014-12-01
+      url:    "https://www.sfecologie.org/2014/06/09/bes-and-sfe-joint-annual-meeting-2014-9-12-december-lille-france/"
+      where:  "Lille, France"
+  file:       "talks/talks/SFEBSE_2014.pdf"
 
-  - title:      "Wavelet Clustering, a tool to integrate spatial and temporal patterns based on their dynamical  properties, application to dengue in Thailand"
-    author:
-      - family: Cazelles
-        given:  Kevin
-      - family: Cazelles
-        given:  Bernard
-    conference:
-      - name:   "Model in Population Biology"
-        date:   2012-08-01
-        url:    "https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/sp237/conferences/mpde12-report"
-        where:  UFSM, Santa Maria, Brazil
-    pdf:        "talks/talks/MIPD_2012.pdf"
----
+- title:      "Wavelet Clustering, a tool to integrate spatial and temporal patterns based on their dynamical  properties, application to dengue in Thailand"
+  author:
+    - family: Cazelles
+      given:  Kevin
+    - family: Cazelles
+      given:  Bernard
+  conference:
+    - name:   "Model in Population Biology"
+      date:   2012-08-01
+      url:    "https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/sp237/conferences/mpde12-report"
+      where:  UFSM, Santa Maria, Brazil
+  pdf:        "talks/talks/MIPD_2012.pdf"

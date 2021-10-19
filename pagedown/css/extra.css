@@ -69,10 +69,14 @@
   margin: 0;
 }
 
-.right {
-  position: absolute;
-  right: 0px;
+.left {
+  float: left;
 }
+
+.right {
+  float: right;
+}
+
 
 .width40 {
   width: 40%;
@@ -89,6 +93,11 @@
 .width62 {
   width: 62%;
 }
+
+.width100 {
+  width: 100%;
+}
+
 
 .font60 {
   font-size: 60%;

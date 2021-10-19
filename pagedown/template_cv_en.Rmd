@@ -2,7 +2,7 @@
 title: {{ title }}
 output:
   pagedown::html_resume:
-    css: ["default-fonts", "default-page", "default", "css/extra.css"]
+    css: ["default-fonts", "default-page", "default", "css/extra.css", "css/fonts.css"]
 ---
 
 
@@ -21,37 +21,30 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 ```
 
 
-<div class="details font90">
+<div class = "details_container">
+
+<div class="left details font90 width40">
   <!-- <img class="logo" src="css/logo.png" alt="Logo"/> -->
   <h1> Kevin Cazelles </h1>
   
-  
-<ul>
 ```{R perso_details, echo = FALSE, results = "asis"}
-val <- lapply(
-  yaml.load_file("data/perso_details.yaml"), 
-  function(x) do.call(glue_details, x)
-)
-for (i in seq_along(val)) {
-  tagList()
-  cat(as.character(HTML("<li>", val[[i]], "</li>")))
-}
-```
-</ul>  
-  
-
-  
+insert_perso_details()
+```  
 </div>
 
 
 <div class="right font80 width60">
+  </br></br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
 
-  <h2>{{ data.title }}</h2>
-
+<!-- <div class = "details_container "> -->
 
 </div>
 
-</br></br></br>
+
+
+<div class="left sections_container width100">
 
 
 ## `r rfa("briefcase")` Professional experience 
@@ -62,6 +55,8 @@ for (i in seq_along(val)) {
 ## `r rfa("tachometer-alt")` Skills
 
 <hr>
+
+
 
 
 
@@ -108,6 +103,7 @@ insert_reviewer()
 
 ## `r rfa("newspaper")` Media Coverage
 
+<hr>
 
 
-
+</div>

@@ -10,6 +10,14 @@ library(htmltools)
 
 rfa <- function(...) fontawesome(...)
 
+glue_href <- function(val, url) {
+  glue("<a href='{url}'>{val}</a>")
+}
+
+glue_href_md <- function(name, url) {
+  glue("[{name}]({url})")
+}
+
 
 initials <- function(x) {
   paste0(toupper(substr(x, 1, 1)), ".")
@@ -31,13 +39,7 @@ author_focus <- function(x, focus) {
 
 
 
-glue_href <- function(val, url) {
-  glue("<a href='{url}'>{val}</a>")
-}
 
-glue_href_md <- function(name, url) {
-  glue("[{name}]({url})")
-}
 
 # Functions 
 glue_details <- function(name, icon, value, url = NULL) {
@@ -47,7 +49,8 @@ glue_details <- function(name, icon, value, url = NULL) {
   if (!is.null(url)) {
     nm <- glue_href(value, url)
   } else nm <- value
-  HTML(glue("<li>{ ic } { nm }</li>"))
+  # HTML(glue("<li>{ ic } { nm }</li>"))
+  cat(glue("* { ic } { nm }\n\n"))
 }
 
 
@@ -56,15 +59,6 @@ insert_perso_details <- function() {
     yaml.load_file("data/perso_details.yaml"), 
     function(x) do.call(glue_details, x)
   )
-  
-  
-  txt <- paste0("<ul>")
-  for (i in seq_along(val)) {
-    txt <- paste0(txt, val[[i]])
-  }
-  txt <- paste0(txt, "<ul/>")
-  
-  cat(HTML(txt))
 }
 
 
@@ -88,7 +82,7 @@ insert_pubs <- function() {
     year <- substr(pubs[[i]]$issued, 1, 4)
     title <- pubs[[i]]$title
     conta <- pubs[[i]]$'container-title'
-    if (is.null(conta)) conta <- "preprint"
+    if (is.null(conta)) conta <- "Preprint"
     doi <- pubs[[i]]$doi
     cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. [{doi}]({doi}).\n\n"))
   }
