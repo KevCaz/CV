@@ -47,6 +47,16 @@ insert_perso_details()
 <div class="left sections_container width100">
 
 
+
+## `r rfa("graduation-cap")` Education
+
+<hr>
+
+```{R edu, echo = FALSE, results = "asis"}
+insert_education()
+```
+
+
 ## `r rfa("briefcase")` Professional experience 
 
 <hr>
@@ -60,13 +70,6 @@ insert_perso_details()
 
 
 
-## `r rfa("graduation-cap")` Education
-
-<hr>
-
-```{R edu, echo = FALSE, results = "asis"}
-insert_education()
-```
 
 
 
@@ -96,14 +99,19 @@ insert_reviewer()
 
 ### Talks 
 
+### Seminars
 
-### Poster
+### Posters
 
 
 
 ## `r rfa("newspaper")` Media Coverage
 
 <hr>
+
+```{R media, echo = FALSE, results = "asis"}
+insert_media()
+```
 
 
 </div>

@@ -106,8 +106,18 @@ insert_reviewer <- function() {
     sep = ", ", 
     last = " and "
   )
-  glue("As an academic, I have been actively involved in the peer-review process and I have been a reviewer for the following journals: ", out, "I have also been a recommender for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
+  glue("As an academic, I have been actively involved in the peer-review process and I have been a reviewer for the following journals: ", out, "I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
 }
+
+
+insert_media <- function() {
+  med <- yaml.load_file("data/media.yaml")
+  for (i in seq_along(med)) {
+    tmp <- med[[i]]
+    cat(glue("* {rfa(tmp$icon)}: {glue_href_md(tmp$title, tmp$url)} -- {tmp$media} ({tmp$year}, {tmp$lang}).\n\n"))
+  }
+}
+
 
 
 

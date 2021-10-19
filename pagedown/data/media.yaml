@@ -1,47 +1,48 @@
 - media: "Québec Science"
   title: "Une carte des interactions entre les poissons de toutes les mers"
   year: 2020
-  type: \faPen
+  icon: pencil-alt
   lang: fr
   url: "https://www.quebecscience.qc.ca/sciences/les-10-decouvertes-de-2019/carte-interactions-entre-poissons/"
 - media: Science
   title: "Trees stumped"
-  type: \faPen
+  icon: pencil-alt
   year: 2019
   lang: en
   url: "https://science.sciencemag.org/content/366/6472/1468.1"
 - media: la Presse
   title: "La biodiversité dans l'ombre des changements climatiques"
   year: 2018
-  type: \faPen
+  icon: pencil-alt
   lang: fr
   url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
 - media: Anthropocenemagazine
   year: 2018
   url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
   title: "As biodiversity declines, so does public attention"
-  type: \faPen
+  icon: pencil-alt
   lang: en
 - media: Greenreport
   title: "La crisi della biodiversità non interessa i media"
   year: 2018
   url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
-  type: \faPen
+  icon: pencil-alt
   lang: it
 - media: 20 minutes
   title: "Pourquoi parle-t-on bien plus du changement climatique que de l’érosion de la biodiversité ?"
   year: 2018
   url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
-  type: \faPen
+  icon: pencil-alt
   lang: fr
 - media: RFI
   year: 2018
+  title: "Interview de Pierre Legagneux à RFI"
   url: http://www.rfi.fr/emission/20180218-2-chaos-climatique-financier-jouzel-larrouturou
-  type: \faMicrophone
+  icon: microphone-alt
   lang: fr
 - media: le Devoir
   year: 2018
   title: "Une grande chance, malgré un manque de soutien"
   url: http://www.ledevoir.com/societe/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
-  type: \faPen
+  icon: pencil-alt
   lang: fr
