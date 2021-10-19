@@ -12,7 +12,7 @@
     - name:   "QCBS Annual symposium"
       url:    "https://qcbs.ca/symposium-2019"
       date:   2019-12-19
-      where:  "Montreal, Qc, Canada"
+      where:  "Montreal, QC, Canada"
   github:     KevCaz/fightingNoise
   html:       https://kevcaz.github.io/fightingNoise
 
@@ -46,7 +46,7 @@
     - name:   "CSEE Annual Meeting"
       url:    https://www.csee2018.ca/
       date:   2018-07-01
-      where:  Guelph
+      where:  "Guelph, ON, Canada"
   github:     KevCaz/fightingNoise
   html:       https://kevcaz.github.io/fightingNoise/#1
   
@@ -92,7 +92,7 @@
     - name:   "R à Québec"
       url:    http://raquebec.ulaval.ca/2017/archives/12723
       date:   2017-01-08
-      where:  "Québec, Qc, Canada"
+      where:  "Québec, QC, Canada"
   html:       https://kevcaz.github.io/Talk_alien/
   github:     KevCaz/Talk_alien/
 
@@ -108,7 +108,7 @@
     - name:   "QCBS - Annual Symposium"
       url:    http://raquebec.ulaval.ca/2017/archives/12723
       date:   2015-12-01
-      where:  "Montreal, Qc, Canada"
+      where:  "Montreal, QC, Canada"
   pdf:        "talks/talks/CSBQ_2015.pdf"
 
 - title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
@@ -155,5 +155,5 @@
     - name:   "Model in Population Biology"
       date:   2012-08-01
       url:    "https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/sp237/conferences/mpde12-report"
-      where:  UFSM, Santa Maria, Brazil
+      where:  Santa Maria, Brazil
   pdf:        "talks/talks/MIPD_2012.pdf"

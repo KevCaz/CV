@@ -10,6 +10,8 @@ library(htmltools)
 
 rfa <- function(...) fontawesome(...)
 
+base_gh <- "https://github.com/"
+
 glue_href <- function(val, url) {
   glue("<a href='{url}'>{val}</a>")
 }
@@ -100,18 +102,36 @@ insert_pubs <- function() {
 
 insert_popu <- function() {
   tmp <- yaml.load_file("data/popularization.yaml")
-  # cat(HTML("<ol>"))
   for (i in seq_along(tmp)) {
     auth <- glue_authors(tmp[[i]]$author) 
     year <- tmp[[i]]$year
     title <- tmp[[i]]$title
     conta <- tmp[[i]]$'container-title'
-    # if (is.null(conta)) conta <- "Preprint"
-    # doi <- pubs[[i]]$doi
     cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. [{rfa('link')}]({tmp[[i]]$url})\n\n"))
   }
 }
 
+
+insert_talks <- function() {
+  tmp <- yaml.load_file("data/talks.yaml")
+  for (i in seq_along(tmp)) {
+    auth <- glue_authors(tmp[[i]]$author) 
+    title <- tmp[[i]]$title
+    conf <- tmp[[i]]$conference[[1]]
+    
+    out <- glue("{i}. {auth}. {title}. [{conf$name}]({conf$url}). {conf$where} ({conf$date}).")
+    
+    if (!is.null(tmp$github)) {
+      out <- glue("{out} [{rfa('github')}]({base_gh}{tmp$github})")
+    }
+    
+    if (!is.null(tmp$html)) {
+      out <- glue("{out} [{rfa('html5')}]({tmp$html})")
+    }
+    
+    cat(glue("{out}\n\n"))
+  }
+}
 
 
 

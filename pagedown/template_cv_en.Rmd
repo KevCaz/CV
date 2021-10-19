@@ -62,10 +62,15 @@ insert_education()
 <hr>
 
 
-## `r rfa("tachometer-alt")` Skills
+## `r rfa('university')` Teaching
 
 <hr>
 
+
+
+## `r rfa("tachometer-alt")` Skills
+
+<hr>
 
 
 
@@ -102,6 +107,10 @@ insert_reviewer()
 
 
 ### Talks 
+
+```{R talks, echo = FALSE, results = "asis"}
+insert_talks()
+```
 
 ### Seminars
 
