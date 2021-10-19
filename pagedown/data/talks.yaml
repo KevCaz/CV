@@ -93,7 +93,7 @@
       url:    http://raquebec.ulaval.ca/2017/archives/12723
       date:   2017-01-08
       where:  "Québec, QC, Canada"
-  html:       https://kevcaz.github.io/Talk_alien/
+  html:       /Talk_alien
   github:     KevCaz/Talk_alien/
 
 - title:      "Do ecological interaction impact geographical distributions of species?"

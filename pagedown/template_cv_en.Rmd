@@ -26,6 +26,7 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 <div class="left details font90 width40">
   <!-- <img class="logo" src="css/logo.png" alt="Logo"/> -->
   <h1> Kevin Cazelles </h1>
+  <h2> PhD, ecologist, data scientist</h2>
   
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details()
@@ -66,7 +67,9 @@ insert_education()
 
 <hr>
 
-
+```{R teach, echo = FALSE, results = "asis"}
+insert_teach()
+```
 
 ## `r rfa("tachometer-alt")` Skills
 
