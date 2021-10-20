@@ -225,6 +225,20 @@ insert_sems <- function() {
   }
 }
 
+insert_skills <- function(what = "sci_pro") {
+  tmp <- yaml.load_file("data/skills.yaml")
+  id <- which(unlist(lapply(tmp, function(x) x$name)) == what)
+  sk <- tmp[[id]]$skills
+  for (i in seq_along(sk)) {
+    out <- glue_collapse(
+      c(rep("&#9632;", sk[[i]]$lvl), rep("&#9633;", 5 - sk[[i]]$lvl)), 
+      sep = " ")
+    
+    cat(glue("*", out, sk[[i]]$name, "\n\n", .sep = " "))
+  }
+  
+}
+
 insert_posters <- function() {
   tmp <- yaml.load_file("data/posters.yaml")
   for (i in seq_along(tmp)) {

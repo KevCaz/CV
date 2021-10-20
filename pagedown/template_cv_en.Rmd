@@ -26,7 +26,7 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 <div class="left details font90 width40">
   <!-- <img class="logo" src="css/logo.png" alt="Logo"/> -->
   <h1> Kevin Cazelles </h1>
-  <h2> PhD, ecologist, data scientist</h2>
+  <h2> PhD, computational ecologist</h2>
   
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details()
@@ -71,12 +71,58 @@ insert_education()
 insert_teach()
 ```
 
-## `r rfa("tachometer-alt")` Skills
+
+## `r rfa("tachometer-alt")` Computational Skills
 
 <hr>
 
 
+<div class="left details width100">
 
+
+<div class="left width50">
+
+#### Scientific programming
+
+```{R sci_pro, echo = FALSE, results = "asis"}
+insert_skills()
+```
+
+#### Reproducibility
+
+```{R repro, echo = FALSE, results = "asis"}
+insert_skills("repro")
+```
+
+</div>
+
+
+<div class="left width50">
+
+#### Database
+
+```{R db, echo = FALSE, results = "asis"}
+insert_skills("db")
+```
+
+
+#### Modern web technologies
+
+```{R web, echo = FALSE, results = "asis"}
+insert_skills("web")
+```
+
+#### Document preparation
+
+```{R doc, echo = FALSE, results = "asis"}
+insert_skills("db")
+```
+
+
+</div>
+
+
+</div>
 
 
 ## `r rfa("book")` Publications
@@ -173,7 +219,7 @@ insert_posters()
 
 
 
-## `r rfa("search-dollar")` Grants
+## `r rfa("search-dollar")` Grants and awards
 
 <hr>
 
