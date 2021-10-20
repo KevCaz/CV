@@ -139,9 +139,7 @@ insert_compendia()
 ```
 
 
-
 ### Manuals  
-
 
 ```{R man, echo = FALSE, results = "asis"}
 insert_man()
@@ -171,6 +169,16 @@ insert_sems()
 
 ```{R posters, echo = FALSE, results = "asis"}
 insert_posters()
+```
+
+
+
+## `r rfa("search-dollar")` Grants
+
+<hr>
+
+```{R grants, echo = FALSE, results = "asis"}
+insert_grants()
 ```
 
 

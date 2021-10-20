@@ -158,6 +158,14 @@ insert_soft <- function() {
   }
 }
 
+insert_grants <- function() {
+  tmp <- yaml.load_file("data/grants.yaml")
+  for (i in seq_along(tmp)) {
+    cat(glue("* **{tmp[[i]]$year}**, {tmp[[i]]$amount}. ({tmp[[i]]$title}). \n\n"))
+  }
+}
+
+
 insert_compendia <- function() {
   tmp <- yaml.load_file("data/compendia.yaml")
   for (i in seq_along(tmp)) {
