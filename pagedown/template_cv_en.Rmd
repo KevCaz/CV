@@ -21,25 +21,29 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 ```
 
 
+
+
 <div class = "details_container">
 
-<div class="left details font90 width40">
-  <!-- <img class="logo" src="css/logo.png" alt="Logo"/> -->
+<div class="left details font90 width60">
+
+<div class = "main_title">
   <h1> Kevin Cazelles </h1>
-  <h2> PhD, computational ecologist</h2>
-  
+  <h3> `r rfa("chevron-right")` Theoretical and computational ecologist</h3>
+</div>
+
+I am ecologist who uses algebra, analysis, probability, statistics, data science and computational sciences to study ecological networks and how global change affects them in order to conserve ecosystem functions and biodiversity that are essential to our good health and well being.
+
+</div>
+
+
+<div class="right details font85 width40">
+
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details()
 ```  
 </div>
 
-
-<div class="right font80 width60">
-  </br></br>
-  I am ecologist who uses algebra, analysis, probability, statistics, data science and computational sciences to study ecological networks and how global change affects them in order to conserve ecosystem functions and biodiversity that are essential to our good health and well being.
-</div>
-
-<!-- <div class = "details_container "> -->
 
 </div>
 
@@ -61,6 +65,13 @@ insert_education()
 ## `r rfa("briefcase")` Professional experience 
 
 <hr>
+
+<div class="profxp">
+
+```{R xp, echo = FALSE, results = "asis"}
+insert_xp()
+```
+</div>
 
 
 ## `r rfa('university')` Teaching

@@ -1,0 +1,52 @@
+- role: "Co-founder of inSileco Inc."
+  date: "10/2020--present"
+  where: Guelph, ON, Canada
+  did:
+    - Developed a shiny app for DFO Halifax that generates reproducible reports including spatial analysis
+    - Led 2 workshops on using R as a GIS and 1 worshop on reproducible research with R
+    - Developed 2 chapters of a course that introduces students to spatial data science (TELUQ université) 
+  
+- role: Research Associate
+  date: "03/2021--present"
+  where: "McCann Lab, University of Guelph, ON, Canada"
+  did:
+    - Worked on various projects lin
+    - Develped a R package 
+    
+- role: Postdoctoral Researcher 
+  date: "03/2020--present"
+  where: "McCann Lab, University of Guelph, ON, Canada"
+  desc: 
+  did:
+      - developed R code 
+      - developed Julia code code analus 
+      - developed code for 
+      - suported students with sciemce 
+    
+- role: PhD candidate
+  date: "10/2012--12/2016"
+  where: University of Montpellier, France/ UQAR, QC, Canada
+  did: 
+    - developed code biogeography 
+    - expanded theory on species co-occurrence 
+    - applicationvia C++/R 
+    - developed several tutorials on porbability and statistics (theory and application with R)
+        
+- role: Research Associate 
+  date: "06/2012--09/2012"
+  where: Ecole Normale Supérieure, Paris, France
+  did:
+    - Ported wavelets code written in Matlab to C++
+    - Develped of visualisation of the spread of dengue in Southern Asia
+  
+- role: Research assistant 
+  date: "01/2011--11/2011"
+  where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+  did:
+    - Carried out germination experiments
+    
+- role: Research assistant
+  date: "07/2010--12/2010"
+  where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
+  did: 
+    - Expanded a model (coded in C++) of fungal growth dynamics in a realistic soil environ­ment

@@ -89,6 +89,7 @@ glue_authors <- function(names, focus = "Cazelles K.") {
 
 
 
+
 insert_perso_details <- function() {
   val <- lapply(
     yaml.load_file("data/perso_details.yaml"), 
@@ -104,6 +105,19 @@ insert_education <- function() {
   }
 } 
 
+insert_xp <- function() {
+  tmp <- yaml.load_file("data/prof_xp.yaml")
+  for (i in seq_along(tmp)) {
+    cat(glue("#### &nbsp;&nbsp;{tmp[[i]]$date}: **{tmp[[i]]$role}** \n\n <h5>&nbsp;&nbsp;{rfa('map-marker-alt')} {tmp[[i]]$where}</h5> \n\n"))
+    
+    cat("<ul>")
+    for (j in seq_along(tmp[[i]]$did)) {
+      cat(glue("<li> {tmp[[i]]$did[j]}</li>\n"))
+    }
+    cat("</ul>\n\n")
+
+  }
+}
 
 insert_teach <- function() {
   tmp <- yaml.load_file("data/teaching.yaml")

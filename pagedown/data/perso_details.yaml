@@ -1,10 +1,19 @@
+- name: nationality
+  icon: flag
+  value: French
+- name: nationality2
+  icon: flag
+  value: Canadian permanent resident
+- name: lang_mom
+  icon: language
+  value: "French: native speaker"
+- name: lang_mom
+  icon: language
+  value: "English: fluent"
 - name: city
   icon: home
   value: Guelph, Ontario
-  url: https://www.openstreetmap.org/#map=17/43.53071/-80.22864&layers=N
-- name: phone
-  value: " +1 514-318-8945"
-  icon: mobile-alt
+  # url: https://www.openstreetmap.org/#map=17/43.53071/-80.22864&layers=N
 - name: email
   value: kevin.cazelles@gmail.com
   icon: at
