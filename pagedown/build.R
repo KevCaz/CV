@@ -40,6 +40,12 @@ glue_pdf <- function(x) {
   } else ""
 }
 
+glue_doi <- function(x) {
+  if (!is.null(x)) {
+    out <- glue_href_md(x, glue("{base_doi}{x}"))
+  } else ""
+}
+
 initials <- function(x) {
   paste0(toupper(substr(x, 1, 1)), ".")
 }
@@ -136,6 +142,45 @@ insert_popu <- function() {
     title <- tmp[[i]]$title
     conta <- tmp[[i]]$'container-title'
     cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. [{rfa('link')}]({tmp[[i]]$url})\n\n"))
+  }
+}
+
+
+insert_soft <- function() {
+  tmp <- yaml.load_file("data/package.yaml")
+  for (i in seq_along(tmp)) {
+    out <- glue("* **{tmp[[i]]$name}** ({tmp[[i]]$role}): {tmp[[i]]$desc}.")
+    
+    gh <- glue_gh(tmp[[i]]$github)
+    ht <- glue_html(tmp[[i]]$url)
+
+    cat(glue(out, gh, ht, "\n\n", .sep = " "))
+  }
+}
+
+insert_compendia <- function() {
+  tmp <- yaml.load_file("data/compendia.yaml")
+  for (i in seq_along(tmp)) {
+    out <- glue("* **{tmp[[i]]$name}**: {tmp[[i]]$desc} (paper's doi: {glue_doi(tmp[[i]]$doi_paper)}).")
+    
+    gh <- glue_gh(tmp[[i]]$github)
+    ht <- glue_html(tmp[[i]]$url)
+    do <- glue_doi(tmp[[i]]$doi)
+
+    cat(glue(out, gh, ht, do, "\n\n", .sep = " "))
+  }
+}
+
+insert_man <- function() {
+  tmp <- yaml.load_file("data/manuals.yaml")
+  for (i in seq_along(tmp)) {
+    out <- glue("* {glue_authors(tmp[[i]]$author)} {tmp[[i]]$title} ({tmp[[i]]$year}) ")
+    
+    gh <- glue_gh(tmp[[i]]$github)
+    ht <- glue_html(tmp[[i]]$url)
+    do <- glue_doi(tmp[[i]]$doi)
+
+    cat(glue(out, gh, ht, do, "\n\n", .sep = " "))
   }
 }
 
