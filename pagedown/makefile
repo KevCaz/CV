@@ -3,7 +3,7 @@ bib2yaml:
 	
 build:
 	Rscript build.R
-	mv cv_en* final/
+	mv cv_en* ../docs/
 	
 open:
-	firefox final/cv_en.html
+	firefox ../docs/cv_en.html

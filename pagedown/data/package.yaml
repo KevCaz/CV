@@ -26,6 +26,12 @@
   role: maintainer
   github: KevCaz/disker
   url: https://kevcaz.github.io/diskers/
+
+- name: motifcensus
+  desc: |
+    Rcpp implementation that counts the different positions occupied by the different species in all the 3 species motifs of a given unipartite network 
+  role: maintainer
+  github: KevCaz/motifcensus
   
 - name: rmangal
   desc: |

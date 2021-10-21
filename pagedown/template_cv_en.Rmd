@@ -66,22 +66,10 @@ insert_education()
 
 <hr>
 
-<div class="profxp">
 
 ```{R xp, echo = FALSE, results = "asis"}
 insert_xp()
 ```
-</div>
-
-
-## `r rfa('university')` Teaching
-
-<hr>
-
-```{R teach, echo = FALSE, results = "asis"}
-insert_teach()
-```
-
 
 ## `r rfa("tachometer-alt")` Computational Skills
 
@@ -108,7 +96,7 @@ insert_skills("repro")
 </div>
 
 
-<div class="left width50">
+<div class="right width50">
 
 #### Database
 
@@ -129,11 +117,24 @@ insert_skills("web")
 insert_skills("db")
 ```
 
-
 </div>
 
 
 </div>
+
+
+
+## `r rfa('university')` Teaching
+
+<hr>
+
+```{R teach, echo = FALSE, results = "asis"}
+insert_teach()
+```
+
+
+
+
 
 
 ## `r rfa("book")` Publications
@@ -161,12 +162,11 @@ insert_reviewer()
 
 
 
-
 ## `r rfa("code")` Software
 
 <hr>
 
-This section includes a subset of my contributions to open-source software. If you are interested in seeing more, most of my contributions can be found on my [GitHub account](https://github.com/KevCaz). 
+This section includes a subset of my contributions to open-source software. If you are interested in seeing more, most of my contributions can be found on my [GitHub account](https://github.com/KevCaz), see also the section "[notes](https://kevcaz.github.io/notes/)" of my website. 
 
 
 

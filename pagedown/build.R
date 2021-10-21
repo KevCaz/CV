@@ -110,9 +110,9 @@ insert_xp <- function() {
   for (i in seq_along(tmp)) {
     cat(glue("#### &nbsp;&nbsp;{tmp[[i]]$date}: **{tmp[[i]]$role}** \n\n <h5>&nbsp;&nbsp;{rfa('map-marker-alt')} {tmp[[i]]$where}</h5> \n\n"))
     
-    cat("<ul>")
+    cat("<ul style='margin-top: 0.05in;'>")
     for (j in seq_along(tmp[[i]]$did)) {
-      cat(glue("<li> {tmp[[i]]$did[j]}</li>\n"))
+      cat(glue("<li style='font-size: 0.9em;'> {tmp[[i]]$did[j]}.</li>\n"))
     }
     cat("</ul>\n\n")
 

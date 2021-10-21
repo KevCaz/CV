@@ -28,7 +28,9 @@
 
 .section > h2 {
   margin-bottom: 0px;
+  margin-top: 0.25in;
 }
+
 
 .section hr {
   margin-top: 0px
@@ -65,22 +67,16 @@ h3, h4, h5, p {
 }
 
 
-.profxp ul {
-  padding-left: 0.4in;
-  margin-top: 0.05in;
-};
-
-
 .details ul {
   list-style-type: none;
   padding-left: 0.4in;
   margin-top: 0.05in;
 };
 
-/* .skills ul {
-  list-style-type: none;
+
+/* .listxp {
+  padding-left: 0.4in;
   margin-top: 0.05in !important;
-  padding-left: 0.2in;
 }; */
 
 .notes {
