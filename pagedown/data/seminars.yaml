@@ -32,7 +32,7 @@
   author:
     - family: Cazelles
       given: Kevin
-  where: Department of Ecology & Evolutionary Biology, University of Toronto.
+  where: Department of Ecology & Evolutionary Biology, University of Toronto
   date: 2018-01-08
   url: http://www.eeb.utoronto.ca/home.html
   github: KevCaz/talkETIB
@@ -42,7 +42,7 @@
   author:
     - family: Cazelles
       given: Kevin
-  where: Laboratoire d'ECologie Alpine, Université Grenoble Alpes.
+  where: Laboratoire d'ECologie Alpine, Université Grenoble Alpes
   date: 2017-02-09
   url: http://www-leca.ujf-grenoble.fr/?lang=en
   github: KevCaz/talkETIB

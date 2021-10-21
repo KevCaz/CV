@@ -214,7 +214,7 @@ insert_talks <- function() {
     title <- tmp[[i]]$title
     conf <- tmp[[i]]$conference[[1]]
     
-    out <- glue("{i}. {auth}. {title}. [{conf$name}]({conf$url}). {conf$where} ({conf$date}).")
+    out <- glue("{i}. {auth} ({conf$date}). {title}. [{conf$name}]({conf$url}). {conf$where}.")
     
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
@@ -229,7 +229,7 @@ insert_sems <- function() {
   for (i in seq_along(tmp)) {
     auth <- glue_authors(tmp[[i]]$author) 
     
-    out <- glue("{i}. {auth}. {tmp[[i]]$title}. [{tmp[[i]]$where}]({tmp[[i]]$url}). {tmp[[i]]$where} ({tmp[[i]]$date}).")
+    out <- glue("{i}. {auth} ({tmp[[i]]$date}). {tmp[[i]]$title}. [{tmp[[i]]$where}]({tmp[[i]]$url}). {tmp[[i]]$where}.")
     
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
@@ -279,7 +279,7 @@ insert_reviewer <- function() {
     sep = ", ", 
     last = " and "
   )
-  glue("As an academic, I have been actively involved in the peer-review process and I have been a reviewer for the following journals: ", out, "I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
+  glue("As an academic, I have been actively involved in the peer-review process and I have been a reviewer for the following journals: ", out, " I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
 }
 
 

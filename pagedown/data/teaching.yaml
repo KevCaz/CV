@@ -2,7 +2,7 @@
   duration:      2 days
   where:         Environment and Climate Change Canada, Dartmouth, NS, Canada
   description: | 
-    Led a workshop on manipulating and visualizing spatial data with R
+    Led a workshop on manipulating and visualising spatial data with R
   github:         inSilecoInc/wksh_raster_CWS
 
 - year:          2021
@@ -17,7 +17,7 @@
   duration:      2 days
   where:         Bedford Institute of Oceanography, Halifax NS, Canada
   description: |
-    Led a workshop on manipulating and visualizing rasters with R
+    Led a workshop on manipulating and visualising rasters with R
   html:           https://insilecoinc.github.io/wksh_raster_CWS/_part1.html#1
   github:         inSilecoInc/workshop_reproducibility
 
@@ -25,7 +25,7 @@
   duration:      1 week
   where:         Université du Québec à Rimouski, Rimouski QC, Canada
   description: |
-    Led an advanced statitsics workshop (QCBS R workshop series)
+    Led an advanced statistics workshop (QCBS R workshop series)
   github:        QCBSRworkshops
 
 - year:          2019
@@ -38,30 +38,34 @@
 - year:          2018
   duration:      3h
   where:         Institut de recherche en biologie végétale, Montreal QC, Canada
-  description:   Use R as a geographic information system
+  description:   |
+    Led a workshop on how to R as a geographic information system
 
 - year:          2017
   duration:      3 days
   where:         Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
-  description:   Instructor in a meta-analyses workshop
+  description:   |
+    Instructor in a meta-analyses workshop
 
 - year:          2017
   duration:      5 days
   where:         University of Sherbrooke, Sherbrooke QC, Canada
-  description:   Instructor in the summer school "Bayesian Statistics for Ecologists"
+  description:   |
+    Instructor in the summer school "Bayesian Statistics for Ecologists"
   github:        EcoNumUdS/Bayes2017
 
 - year:          2016
   duration:      2 days
   where:         Quebec Centre For Biodiversity Science, Canada
   description: |
-    Organized a two-days event on data visualization in biodiversity science for graduate students
+    Organized a two-days event on data visualisation in biodiversity science for graduate students
   html: http://kevcaz.github.io/QCBSgraphR/#1
 
 - year:          2015
   duration:      3h
   where:         Université du Québec à Rimouski, Canada
-  description:   "Led an introduction to Markov chains"
+  description: | 
+    "Led an introduction to Markov chains"
   pdf:           /talks/talks/presMC.pdf
 
 - year:          2014--2016
@@ -75,7 +79,7 @@
   duration:      1 day/year
   where:         Université du Québec à Rimouski, Canada
   description: | 
-    Advanced R course on data visualization and graphics editing
+    Advanced R course on data visualisation and graphics editing
   html:         https://insileco.github.io/VisualiseR/
 
 - year:          2013--2015
@@ -87,4 +91,5 @@
 - year:          2014
   duration:      1 day
   where:         Universidade Federal de Minas Gerais, Brazil
-  description:   Led an advanced R course on map editing
+  description:   |
+    Led an advanced R course on map editing

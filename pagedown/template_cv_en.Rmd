@@ -187,7 +187,7 @@ insert_soft()
 
 <div class="font90">
 
-I am strongly committed to making the science I do reproducible. To that end, every study I lead come with a [research compendium](https://research-compendium.science/). Below is a list of selected research compendia that were published along side with the corresponding paper. 
+I am strongly committed to making the science I do reproducible. To that end, every study I lead comes with a [research compendium](https://research-compendium.science/). Below is a list of selected research compendia that were published along side with the corresponding paper. 
 
 </div>
 
