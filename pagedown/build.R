@@ -132,6 +132,13 @@ insert_teach <- function() {
   }
 }
 
+insert_mentor <- function() {
+  tmp <- yaml.load_file("data/mentor.yaml")
+  for (i in seq_along(tmp)) {
+    cat(glue("* {tmp[[i]]$name}, {tmp[[i]]$lvl} ({tmp[[i]]$year}). {tmp[[i]]$did}.\n\n"))
+  }
+}
+
 
 insert_pubs <- function() {
   pubs <- yaml.load_file("data/pubs.yaml")[[1]]

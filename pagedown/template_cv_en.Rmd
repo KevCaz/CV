@@ -132,8 +132,13 @@ insert_skills("db")
 insert_teach()
 ```
 
+## `r rfa('user-graduate')` Mentoring experience
 
+<hr>
 
+```{R mentor, echo = FALSE, results = "asis"}
+insert_mentor()
+```
 
 
 
