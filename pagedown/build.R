@@ -16,13 +16,18 @@ tpl <- switch(lang,
   fr = glue("template_{type}_fr.Rmd"),
   stop("not available")
   )
+tit <- switch(lang, 
+  en = "KevCaz's CV",
+  fn = "CV de KevCaz",
+  stop("not available")
+  )
 template <- readLines(tpl)
 # NB by default whisker forward the parent envi and I used this
 
 rmd_cv <- glue("cv_{type}_{lang}.Rmd")
 
 writeLines(
-  whisker::whisker.render(template, list(title = "KevCaz's CV")), 
+  whisker::whisker.render(template, list(title = tit)), 
   rmd_cv
 )
 html <- file_move(rmarkdown::render(rmd_cv), "../docs/")
