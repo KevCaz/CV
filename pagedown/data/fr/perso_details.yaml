@@ -1,9 +1,9 @@
 - name: nationality
   icon: flag
-  value: français
+  value: Français
 - name: nationality2
   icon: flag
-  value: résident permanent au Canada
+  value: Résident permanent au Canada
 - name: lang_mom
   icon: language
   value: "Français: langue maternelle"

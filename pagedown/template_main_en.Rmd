@@ -23,11 +23,11 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 
 
 
-<div class = "details_container">
+<div class="details_container">
 
 <div class="left details font90 width60">
 
-<div class = "main_title">
+<div class="main_title">
   <h1> Kevin Cazelles </h1>
   <h3> `r rfa("chevron-right")` Theoretical and computational ecologist</h3>
 </div>
@@ -192,7 +192,7 @@ insert_soft()
 
 <div class="font90">
 
-I am strongly committed to making the science I do reproducible. To that end, every study I lead comes with a [research compendium](https://research-compendium.science/). Below is a list of selected research compendia that were published along side with the corresponding paper. 
+I am strongly committed to making the research I do reproducible. To that end, every study I lead comes with a [research compendium](https://research-compendium.science/). Below is a list of selected research compendia that were published along side with the corresponding paper. 
 
 </div>
 
@@ -252,6 +252,7 @@ insert_grants()
 ```{R media, echo = FALSE, results = "asis"}
 insert_media()
 ```
+
 
 
 </div>

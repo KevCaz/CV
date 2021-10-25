@@ -1,12 +1,12 @@
 - year:          2021
-  duration:      2 days
+  duration:      2&nbsp;jours
   where:         Environment and Climate Change Canada, Dartmouth, NS, Canada
   description: | 
     Atelier sur la manipulation et la visualisation de données spatiales avec R
   github:         inSilecoInc/wksh_raster_CWS
 
 - year:          2021
-  duration:      2 days
+  duration:      2&nbsp;jours
   where:         Bedford Institute of Oceanography, Halifax NS, Canada
   description: | 
     Atelier sur la création de flux de travail reproductibles 
@@ -14,7 +14,7 @@
   github:         inSilecoInc/workshop_reproducibility
 
 - year:          2021
-  duration:      2 days
+  duration:      2&nbsp;jours
   where:         Bedford Institute of Oceanography, Halifax NS, Canada
   description: |
     Atelier sur la manipulation et la visualisation de données spatiales avec R  
@@ -22,74 +22,74 @@
   github:         inSilecoInc/workshop_reproducibility
 
 - year:          2020
-  duration:      1 week
+  duration:      5&nbsp;jours
   where:         Université du Québec à Rimouski, Rimouski QC, Canada
   description: |
     Atelier de statistiques avancées (ateliers R du CSBQ)
   github:        QCBSRworkshops
 
 - year:          2019
-  duration:      2 days
+  duration:      2&nbsp;jours
   where:         Université du Québec à Montréal, Montreal QC, Canada
   description:   | 
     Introduction à R
   github:        inSileco/IntroR
 
 - year:          2018
-  duration:      3h
+  duration:      3&nbsp;h
   where:         Institut de recherche en biologie végétale, Montreal QC, Canada
   description:   |
     Atelier sur la manipulation et la visualisation de données spatiales avec R
 
 - year:          2017
-  duration:      3 days
+  duration:      3&nbsp;jours
   where:         Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description:   |
     Instructeur dans un atelier sur les méta-analyses
 
 - year:          2017
-  duration:      5 days
+  duration:      5&nbsp;jours
   where:         University of Sherbrooke, Sherbrooke QC, Canada
   description:   |
     Instructeur dans l'école d'été "Bayesian Statistics for Ecologists"
   github:        EcoNumUdS/Bayes2017
 
 - year:          2016
-  duration:      2 days
+  duration:      2&nbsp;jours
   where:         Quebec Centre For Biodiversity Science, Canada
   description: |
-    Organisation d'un évènement sur deux jours sur la visualisation de données en science de la biodiversité pour les étudiants gradués
+    Organisation d'un évènement sur deux jours portant sur la visualisation de données en science de la biodiversité pour les étudiants gradués
   html: http://kevcaz.github.io/QCBSgraphR/#1
 
 - year:          2015
-  duration:      3h
+  duration:      3&nbsp;h
   where:         Université du Québec à Rimouski, Canada
   description: | 
     Introduction aux chaînes de Markov
   pdf:           /talks/talks/presMC.pdf
 
 - year:          2014--2016
-  duration:      16h/year
+  duration:      16&nbsp;h/année
   where:         Université du Québec à Rimouski, Canada
   description: |
-    Présentateur pour les ateliers R du QCBS
+    Présentateur pour les ateliers R de programation et de statistiques du QCBS
   github:        QCBSRworkshops
 
 - year:          2014--2015
-  duration:      1 day/year
+  duration:      1&nbsp;jour/année
   where:         Université du Québec à Rimouski, Canada
   description: | 
     Cours avancé sur visualisation de données avec R
   html:         https://insileco.github.io/VisualiseR/
 
 - year:          2013--2015
-  duration:      64h/year
+  duration:      64&nbsp;h/année
   where:         Université de Montpelier, France
   description: |
     Instructeur dans les travaux pratiques et dirigés dans le cours de biologie du développement pour étudiants en première année de biologie
 
 - year:          2014
-  duration:      1 day
+  duration:      1&nbsp;jour
   where:         Universidade Federal de Minas Gerais, Brazil
   description:   |
     Atelier sur la manipulation et la visualisation de données spatiales avec R

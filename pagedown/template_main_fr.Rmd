@@ -28,11 +28,11 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 <div class="left details font90 width60">
 
 <div class = "main_title">
-  <h1> Kevin Cazelles </h1>
-  <h3> `r rfa("chevron-right")` Theoretical and computational ecologist</h3>
+  <h1> Dr. Kevin Cazelles </h1>
+  <h3> `r rfa("chevron-right")` Écologiste théoricien </h3>
 </div>
 
-Je suis un écologue qui utilise l'analyse, les probabilités les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comment le changement global les affectent, dans le but de conservé le bon fonctionnement des écosystèmes et la biodiversité qui sont sont essentielles pour notre santé et notre bien-être.
+Je suis un écologue qui utilise l'analyse, les probabilités les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comment les changements globaux les affectent dans le but de conserver la biodiversité et le bon fonctionnement des écosystèmes qui sont sont essentiels à notre santé et notre bien-être.
 
 </div>
 
@@ -40,7 +40,7 @@ Je suis un écologue qui utilise l'analyse, les probabilités les statistiques, 
 <div class="right details font85 width40">
 
 ```{R perso_details, echo = FALSE, results = "asis"}
-insert_perso_details()
+insert_perso_details("data/fr/perso_details.yaml")
 ```  
 </div>
 
@@ -129,7 +129,7 @@ insert_skills(what = "db")
 <hr>
 
 ```{R teach, echo = FALSE, results = "asis"}
-insert_teach()
+insert_teach("data/fr/teaching.yaml")
 ```
 
 ## `r rfa('user-graduate')` Expérience de mentorat
@@ -137,7 +137,7 @@ insert_teach()
 <hr>
 
 ```{R mentor, echo = FALSE, results = "asis"}
-insert_mentor()
+insert_mentor("data/fr/mentor.yaml")
 ```
 
 
@@ -162,7 +162,7 @@ insert_popu()
 ### Activité de réviseur
 
 ```{R reviewer, echo = FALSE, results = "asis"}
-insert_reviewer()
+insert_reviewer(lang = "fr")
 ```
 
 
@@ -171,7 +171,7 @@ insert_reviewer()
 
 <hr>
 
-This section includes a subset of my contributions to open-source software. If you are interested in seeing more, most of my contributions can be found on my [GitHub account](https://github.com/KevCaz), see also the section "[notes](https://kevcaz.github.io/notes/)" of my website. 
+Cette section inclue un sous-ensemble de mes contributions à des logiciels libres. Si vous êtes intéressé à voir davantage de mes contributions, elles sont presque toutes visible sur [mon compte GitHub](https://github.com/KevCaz) (voir également la section "[notes](https://kevcaz.github.io/notes/)" de mon site internet). 
 
 
 
@@ -179,12 +179,12 @@ This section includes a subset of my contributions to open-source software. If y
 
 <div class="font90">
 
-Below is a selection of R packages I significantly contributed to. 
+La selection ci-dessous présente des packages R auxquels j'ai contribué significativement. 
 
 </div>
 
 ```{R rpkgs, echo = FALSE, results = "asis"}
-insert_soft()
+insert_soft("data/fr/package.yaml")
 ```
 
 
@@ -192,12 +192,12 @@ insert_soft()
 
 <div class="font90">
 
-I am strongly committed to making the science I do reproducible. To that end, every study I lead comes with a [research compendium](https://research-compendium.science/). Below is a list of selected research compendia that were published along side with the corresponding paper. 
+Je suis très engagé dans la recherche reproductible. À chaque étude que je publie est associé un [compendium de recherche](https://research-compendium.science/). La liste ci-dessous est une selection de compendia de recherche qui ont été publié avec un article scientifique auquel j'ai contribué significativement. 
 
 </div>
 
 ```{R compendia, echo = FALSE, results = "asis"}
-insert_compendia()
+insert_compendia("data/fr/compendia.yaml")
 ```
 
 
@@ -240,7 +240,7 @@ insert_posters()
 <hr>
 
 ```{R grants, echo = FALSE, results = "asis"}
-insert_grants()
+insert_grants("data/fr/grants.yaml")
 ```
 
 

@@ -119,7 +119,7 @@ insert_xp <- function(file = "data/en/prof_xp.yaml") {
 insert_teach <- function(file = "data/en/teaching.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    out <- glue("- **{tmp[[i]]$year}**: _{tmp[[i]]$description}_ {tmp[[i]]$where}, {tmp[[i]]$duration}.")
+    out <- glue("- **{tmp[[i]]$year}**: _{tmp[[i]]$description}_. {tmp[[i]]$where}, {tmp[[i]]$duration}.")
     
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
@@ -179,7 +179,7 @@ insert_soft <- function(file = "data/en/package.yaml") {
 insert_grants <- function(file = "data/en/grants.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    cat(glue("* **{tmp[[i]]$year}**, {tmp[[i]]$amount}. ({tmp[[i]]$title}). \n\n"))
+    cat(glue("* **{tmp[[i]]$year}**, {tmp[[i]]$amount}. {tmp[[i]]$title}. \n\n"))
   }
 }
 
@@ -276,14 +276,23 @@ insert_posters <- function(file = "data/en/posters.yaml") {
 
 
 
-insert_reviewer <- function(file = "data/en/reviewer.yaml") {
+insert_reviewer <- function(file = "data/en/reviewer.yaml", lang = "en") {
   rev <- yaml.load_file(file)
+  sepa <-  switch(lang,
+      en = " and ",
+      fr = " et " 
+  )
+
   out <- glue_collapse(
     lapply(rev, function(x) do.call(glue_href_md, x)), 
     sep = ", ", 
-    last = " and "
+    last = sepa
   )
-  glue("As an academic, I have been actively involved in the peer-review process and I have been a reviewer for the following journals: ", out, " I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
+  switch(lang,
+    en = glue("As an academic, I have been actively involved in the peer-review process. I have been a reviewer for the following journals: ", out, ". I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019."), 
+    fr = glue("En tant que chercheur, je suis activement impliqué dans le processus de révision par les pairs. J'ai agi en tant que réviseur pour les revues internationales à comité de lecture suivantes: ", out, ". Je suis aussi un 'recommender' pour [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
+  )
+  
 }
 
 
