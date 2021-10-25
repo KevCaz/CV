@@ -1,0 +1,48 @@
+- name: rcites
+  desc: |
+    R client to access the Speciesplus database via the Speciesplus/CITES Checklist API.
+  role: maintainer
+  doi: 10.5281/zenodo.3925896
+  github: ropensci/rcites
+  url: https://docs.ropensci.org/rcites
+  
+- name: graphicsutils
+  desc: | 
+    Miscellenous graphical functions
+  role: maintainer
+  github: inSileco/graphicsutils
+  url: http://insileco.github.io/graphicsutils
+    
+- name: inSilecoMisc
+  desc: | 
+    Miscellenous R functions
+  role: maintainer
+  github: inSileco/inSilecoMisc
+  url: http://insileco.github.io/graphicsutils
+
+- name: disker
+  desc: |
+    Rcpp implementation of 5 isotropic dispersal kernels
+  role: maintainer
+  github: KevCaz/disker
+  url: https://kevcaz.github.io/diskers/
+
+- name: motifcensus
+  desc: |
+    Rcpp implementation that counts the different positions occupied by the different species in all the 3 species motifs of a given unipartite network 
+  role: maintainer
+  github: KevCaz/motifcensus
+  
+- name: rmangal
+  desc: |
+    R Client for the Mangal database 
+  role: contributor 
+  github: ropensci/rmangal
+  url: https://docs.ropensci.org/rmangal
+    
+- name: rgovcan
+  desc: |
+    R package to interact with the Open Canada API
+  role: contributor 
+  github: VLucet/rgovcan 
+  url: https://github.com/VLucet/rgovcan

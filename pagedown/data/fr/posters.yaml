@@ -1,0 +1,112 @@
+- title: "Mangal, a global ecological interactions database"
+  author:
+    - family: Vissault
+      given: Steve
+    - family: Gravel
+      given: Dominique
+    - family: Cazelles
+      given: Kevin
+    - family: Poisot
+      given: Timothée
+  conference:
+    - name: "biodiversitynext"
+      url: "https://biodiversitynext.org/"
+      date: 2018-08-01
+      where: "Leiden – The Netherlands"
+  pdf: "/talks/posters/MANGAL_2019.pdf"
+
+- title: "Long-term forest community changes in the boreal-temperate ecotone"
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Legendre
+      given: Pierre
+    - family: Cazelles
+      given: Kevin
+    - family: Fortin
+      given: Marie-Josée
+  conference:
+    - name: "ESA Annual Meeting"
+      url: "https://esa.org/neworleans/"
+      date: 2018-08-01
+      where: "New-Orleans, LA, USA"
+  pdf: "/talks/posters/ESA_MH_2018.png"
+
+- title: "Using Distributions of Biotracers to Predict Global Food Traceability"
+  author:
+    - family: Myles-Gonzalez
+      given: Emelia
+    - family: Cazelles
+      given: Kevin
+    - family: Zemlak
+      given: Tyler
+    - family: McCann
+      given: Kevin
+  conference:
+    - name: "69th Pacific Fisheries Technologists' (PFT) conference 2018"
+      url: "http://conferences.academicjournals.org/cat/agricultural-sciences/69th-pacific-fisheries-technologists-pft-conference-2018"
+      date: 2018-02-01
+      where: "Alaska"
+  pdf: "/talks/posters/PFT_EG_2018.pdf"
+
+- title: "Predicting the spatial distribution of ecological networks"
+  author:
+    - family: Beauchesne
+      given: David
+    - family: Cazelles
+      given: Kevin
+    - family: Archambault
+      given: Philippe
+    - family: Gravel
+      given: Dominique
+  conference:
+    - name: "CSEE Annual meeting"
+      url: "https://esa.org/neworleans/"
+      date: 2017-08-01
+      where: "Victoria, BC, Canada"
+  doi: "10.13140/RG.2.2.19537.74082"
+  pdf: "/talks/posters/CSEE_DB_2017.pdf"
+
+
+- title: "The Earth Tribune"
+  author:
+    - family: Legagneux
+      given: Pierre
+    - family: Casajus
+      given: Nicolas
+    - family: Cazelles
+      given: Kevin
+    - family: Chevallier
+      given: Clément
+    - family: Chevrinais
+      given: Marion
+    - family: Guéry
+      given: Lorelei
+    - family: Jacquet
+      given: Claire
+    - family: Jaffré
+      given: Mikael
+    - family: Naud
+      given: Marie-José
+    - family: Noisette
+      given: Fanny
+    - family: Ropars
+      given: Pascale
+    - family: Vissault
+      given: Steve
+    - family: Archambault
+      given: Philippe
+    - family: Bêty
+      given: Joel
+    - family: Berteaux
+      given: Dominique
+    - family: Gravel
+      given: Dominique
+  conference:
+    - name: "ArcticNet Meeting"
+      url: "http://www.arcticnetmeetings.ca/asm2016/"
+      date: 2016-12-01
+      where: "Winnipeg, MB, Canada"
+  pdf: "/talks/posters/QCBS_PR_2016.pdf"
+  # researchgate: |
+  # publication/312232420_Our_house_is_burning_and_we_are_looking_elsewhere_climate_change_vs_biodiversity_loss_coverage_in_the_media

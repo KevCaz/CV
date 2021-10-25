@@ -1,0 +1,19 @@
+- title: Visualiser vos données avec R
+  author:
+    - family: Casajus
+      given: Nicolas
+    - family: Cazelles
+      given: Kevin
+  year: 2020
+  github: inSileco/VisualiseR
+  url: https://insileco.github.io/VisualiseR/
+
+- title: Utiliser R Markdown pour créer des documents dynamiques
+  author:
+    - family: Cazelles
+      given: Kevin
+  year: 2020
+  github: KevCaz/Rmarkdowndocfr
+  url: https://insileco.github.io/VisualiseR/
+
+

@@ -90,7 +90,7 @@ insert_skills()
 #### Reproducibility
 
 ```{R repro, echo = FALSE, results = "asis"}
-insert_skills("repro")
+insert_skills(what = "repro")
 ```
 
 </div>
@@ -101,20 +101,20 @@ insert_skills("repro")
 #### Database
 
 ```{R db, echo = FALSE, results = "asis"}
-insert_skills("db")
+insert_skills(what = "db")
 ```
 
 
 #### Modern web technologies
 
 ```{R web, echo = FALSE, results = "asis"}
-insert_skills("web")
+insert_skills(what = "web")
 ```
 
 #### Document preparation
 
 ```{R doc, echo = FALSE, results = "asis"}
-insert_skills("db")
+insert_skills(what = "db")
 ```
 
 </div>
