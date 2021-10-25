@@ -4,7 +4,7 @@ library(yaml)
 library(glue)
 library(pagedown)
 library(icons)
-library(kableExtra)
+# library(kableExtra)
 library(htmltools)
 library(fs)
 

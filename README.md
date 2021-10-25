@@ -5,6 +5,8 @@ This is the repository where I share the source code I've been using to create m
 
 ## XeTeX
 
+:warning: This CV will no longer be updated. 
+
 This older version, available in folder `xetex` was created with [XeTeX](https://en.wikipedia.org/wiki/XeTeX). For this version, was strongly inspired by what
 [SteveViss](https://github.com/SteveViss) did (see these
 [files](https://github.com/SteveViss/steveviss.github.com/tree/dev/public/_cv)
@@ -19,16 +21,26 @@ For the records, I previously used the
 
 ## pagedown
 
-:construction:
-
-This version uses the R package [`pagedown`](https://CRAN.R-project.org/package=pagedown).
-
 
 ### Installation
 
 The following R packages are required
 
 ```R
-install.package(c("glue", "htmltools", "kableExtra", "pagedown", "whisker"))
+install.package(
+  c("fs", "glue", "htmltools", "pagedown", "whisker", "yaml")
+)
 remotes::install_github("mitchelloharawild/icons")
+```
+
+### Buiding CV 
+
+On UNIX, using GNU make 
+
+```sh
+cd pagedown
+# EN CV 
+make build
+# FR CV
+make build lang='fr'
 ```

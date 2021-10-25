@@ -27,4 +27,4 @@ writeLines(
 )
 html <- file_move(rmarkdown::render(rmd_cv), "../docs/")
 pdf <- pagedown::chrome_print(html)
-file.remove(rmd_cv)
+end <- file.remove(rmd_cv)
