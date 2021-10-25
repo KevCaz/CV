@@ -2,48 +2,48 @@
   date: "10/2020--present"
   where: Guelph, ON, Canada
   did:
-    - Developed a shiny application for DFO Halifax that generates reproducible reports including spatial analysis
-    - Led 2 workshops on using R as a GIS and 1 workshop on reproducible research with R
-    - Developed 2 chapters of a course that introduces students to spatial data science (université TÉLUQ) and handled the deployment of online materials (bookdown)
+    - Développement d'une application Shiny pour Pêches et Océans Canada Halifax qui permet de générer des rapports reproductibles incluant des analyses spatiales
+    - Animation de deux ateliers pour apprendre à utiliser R comme un SIG et un atelier sur la création de flux de travail reproductibles
+    - Création de 2 chapitres pour un cours sur les données spatiales  (université TÉLUQ) et mise en place du déploiement continu du matériel disponible en ligne (bookdown)
   
 - role: Research Associate
   date: "03/2021--present"
   where: "McCann Lab, University of Guelph, ON, Canada"
   did:
-    - Theoretical investigations on metaecosystem theory (working on dynamical systems using Julia to solve ordinary differential equations)
-    - Develop an R package that provides several statistical analyses of species co-occurrence 
+    - Développements en théorie des méta-écosystèmes (implementation numérique avec Julia)
+    - Développement d'un package R qui permet de réaliser différentes analyses statistiques de co-occurrence 
     
 - role: Postdoctoral Researcher 
   date: "06/2017--10/2020"
   where: "McCann Lab, University of Guelph, ON, Canada"
   did:
-      - Analysis of homogenization of fish communities in freshwater lakes (designed an R pipeline to retrieve, clean and analyze data ot that end) 
-      - Worked on using multiple biotracers as spatial fingerprints to determine the geographical origin of food products (numerical implementation in R and Julia, extensive simulations on Compute Canada's servers) 
-      - Helped students and colleagues with designing data pipelinse and numerical implementations for various projects 
+      - Analyses statistiques sur l'homogénéisation de communautés de poisson dans les lacs en Ontario (création d'un flux de données R pour collecter, nettoyer et analyser des données) 
+      - Travail sur la combinaison de bio-traceurs multiples pour créer des empreintes digitales spatialisée pour déterminer l'origine géographique de produits alimentaires (implementations numériques utilisant R et Julia, simulations intensives roulées sur les serveurs de Calcul Canada)
+      - Support donné à des étudiants et collègues pour la création de chaîne d'analyses de données et pour les implementations numériques dans des projets variés
     
 - role: PhD candidate
   date: "10/2012--12/2016"
   where: Université de Montpellier, France/ Université du Québec à Rimouski, QC, Canada
   did: 
-    - Theoretical investigations on the integration of biotic and abiotic constraints in the theory in biogeography (worked on the mathematical modeling and a numerical implementation using R and C++) 
-    - Worked on co-occurrence inference of biotic interactions from co-occurrence data (used probability theory and numerical implmentations in R)
-    - Developed several tutorials on probability and statistics (theory and applications with R)
+    - Travaux théoriques menés sur l'intégration de contraintes biotiques et abiotiques en théorie de la biogéographie (modélisation mathématique et implémentation numérique en R and C++) 
+    - Travaux menés sur le lien entre l'inférence possible des interactions biotiques à partir des données de co-occurrence (modélisation probabiliste et implémentation numérique en R)
+    - Développement de plusieurs tutoriels sur les probabilités et les statistiques (théorie et applications avec R)
         
 - role: Research Associate 
   date: "06/2012--09/2012"
-  where: Ecole Normale Supérieure, Paris, France
+  where: École Normale Supérieure, Paris, France
   did:
-    - Ported wavelets code written in Matlab to C++
-    - Developed a data visualisation of the spread of dengue in Southern Asia
+    - Traduction d'un code pour faire des analyses en ondelettes écrit en Matlab en C++
+    - Développement d'une visualisation de donnée sur la propagation de la dengue en Asie du sud-est
   
 - role: Research assistant 
   date: "01/2011--11/2011"
   where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
   did:
-    - Carried out germination experiments
+    - Travail en laboratoire sur la germination 
     
 - role: Research assistant
   date: "07/2010--12/2010"
   where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
   did: 
-    - Expanded a model (coded in C++) of fungal growth dynamics in a realistic soil environ­ment to integrate a new phisiological process
+    - Extension d'un model de croissance mycorhizienne (codé en C++) pour intégrer un nouveau processus physiologique

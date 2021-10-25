@@ -1,15 +1,15 @@
 - name: nationality
   icon: flag
-  value: French
+  value: français
 - name: nationality2
   icon: flag
-  value: Canadian permanent resident
+  value: résident permanent au Canada
 - name: lang_mom
   icon: language
-  value: "French: native speaker"
+  value: "Français: langue maternelle"
 - name: lang_mom
   icon: language
-  value: "English: fluent"
+  value: "English: courant"
 - name: city
   icon: home
   value: Guelph, Ontario

@@ -1,3 +1,15 @@
+- name: Katerina Coveny
+  lvl: undergraduate student
+  year: 2021
+  did: | 
+    Co-supervisor/second reader of Honours Thesis 
+
+- name: Alexandra Huybregts
+  lvl: undergraduate student
+  year: 2021
+  did: | 
+    Co-supervisor/second reader of Honours Thesis 
+  
 - name: Sarah Marshall
   lvl: undergraduate student
   year: 2018
@@ -10,12 +22,6 @@
   did: | 
     Co-supervisor/second reader of Honours Thesis 
     
-- name: Katerina Coveny
-  lvl: undergraduate student
-  year: 2021
-  did: | 
-    Co-supervisor/second reader of Honours Thesis 
-
 - name: Emelia Myles-Gonzales
   lvl: B.Sc. student
   what: Integrative biology
@@ -23,9 +29,4 @@
   did: | 
     Mentored student in development of statistical modeling
   
-- name: Alexandra Huybregts
-  lvl: undergraduate student
-  year: 2021
-  did: | 
-    Co-supervisor/second reader of Honours Thesis 
-  
+

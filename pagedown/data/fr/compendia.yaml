@@ -1,27 +1,27 @@
 - name: Spatial Fingerprinting
   desc: |
-    Creation of spatial fingerprint combining biotracers, determination of geographic origin using machine learning
+    Création d'empreinte digitale spatiale en combinant des traceurs biologiques, détermination de l'origine géographique en utilisant des approches d'apprentissage machine
   github: McCannLab/spatial_fingerprints
   doi: 10.5281/zenodo.4602032
   doi_paper: 10.3390/foods10040717
   
 - name: NDID
   desc: |
-    Theoretical investigations in metaecosystem theory, build and solve ordinary differential equations 
+    Développements théoriques sur les méta-écosystèmes, construction et résolution d'équations différentielles
   github: McCannLab/NDID
   doi: 10.5281/zenodo.4081347
   doi_paper: 10.1111/ele.13644
 
 - name: coocNotInteract
   desc: |
-    Theoretical investigations that explain why co-occurrence is not evidence of ecological interaction
+    Modélisation probabiliste pour comprendre pourquoi la co-occurrence n'est pas une preuve de l'existence d'interaction écologique
   github: TheoreticalEcosystemEcology/coocNotInteract
   doi: 10.5281/zenodo.3733206
   doi_paper: 10.1111/ele.13525
     
 - name: HomogenFishOntario
   desc: |
-    Analysis of homogenization in fresh water lakes
+    Analyses statistiques montrant l’homogénéisation des communautés de poissons dans les lacs d'eau douce d'Ontario
   github: McCannLab/HomogenFishOntario
   url: https://mccannlab.ca/HomogenFishOntario/
   doi: 10.5281/zenodo.3383237
@@ -29,21 +29,21 @@
 
 - name: monitoringOutcomes
   desc: |
-    Networks analysis to identify key needs for the integration of social–ecological outcomes in arctic wildlife monitoring
+    Analyse de réseau visant à identifier les attendus du suivi continu de la faune arctique ainsi que les liens entre ces attendus
   github: KevCaz/monitoringOutcomes
   doi: 10.5281/zenodo.1652737
   doi_paper: 10.1111/cobi.13257
   
 - name: burningHouse
   desc: |
-    Comparison of media coverage of climate change and media coverage of biodiversity crisis
+    Comparaison de la couverture médiatique entre les changements climatiques et l'érosion de la biodiversité
   github: KevCaz/burningHouse 
   doi: 10.5281/zenodo.1134897
   doi_paper: 10.1111/cobi.13257
 
 - name: Biogeonet
   desc: |
-    Theoretical investigations in metaecosystem theory Build and solve Markov chains
+    Développements théoriques en biogéographie, construction et résolution de chaîne de Markov
   github: KevCaz/biogeonet
   url: https://kevcaz.github.io/biogeonet/
   doi_paper: 10.3389/fevo.2017.00175

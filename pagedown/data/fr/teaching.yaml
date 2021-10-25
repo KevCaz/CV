@@ -2,14 +2,14 @@
   duration:      2 days
   where:         Environment and Climate Change Canada, Dartmouth, NS, Canada
   description: | 
-    Led a workshop on manipulating and visualising spatial data with R
+    Atelier sur la manipulation et la visualisation de données spatiales avec R
   github:         inSilecoInc/wksh_raster_CWS
 
 - year:          2021
   duration:      2 days
   where:         Bedford Institute of Oceanography, Halifax NS, Canada
   description: | 
-    Led a workshop on creating reproducible workflows
+    Atelier sur la création de flux de travail reproductibles 
   html:           https://insilecoinc.github.io/workshop_reproducibility/#1
   github:         inSilecoInc/workshop_reproducibility
 
@@ -17,7 +17,7 @@
   duration:      2 days
   where:         Bedford Institute of Oceanography, Halifax NS, Canada
   description: |
-    Led a workshop on manipulating and visualising rasters with R
+    Atelier sur la manipulation et la visualisation de données spatiales avec R  
   html:           https://insilecoinc.github.io/wksh_raster_CWS/_part1.html#1
   github:         inSilecoInc/workshop_reproducibility
 
@@ -25,71 +25,71 @@
   duration:      1 week
   where:         Université du Québec à Rimouski, Rimouski QC, Canada
   description: |
-    Led an advanced statistics workshop (QCBS R workshop series)
+    Atelier de statistiques avancées (ateliers R du CSBQ)
   github:        QCBSRworkshops
 
 - year:          2019
   duration:      2 days
   where:         Université du Québec à Montréal, Montreal QC, Canada
   description:   | 
-    Led an introduction to R
+    Introduction à R
   github:        inSileco/IntroR
 
 - year:          2018
   duration:      3h
   where:         Institut de recherche en biologie végétale, Montreal QC, Canada
   description:   |
-    Led a workshop on how to R as a geographic information system
+    Atelier sur la manipulation et la visualisation de données spatiales avec R
 
 - year:          2017
   duration:      3 days
   where:         Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description:   |
-    Instructor in a meta-analyses workshop
+    Instructeur dans un atelier sur les méta-analyses
 
 - year:          2017
   duration:      5 days
   where:         University of Sherbrooke, Sherbrooke QC, Canada
   description:   |
-    Instructor in the summer school "Bayesian Statistics for Ecologists"
+    Instructeur dans l'école d'été "Bayesian Statistics for Ecologists"
   github:        EcoNumUdS/Bayes2017
 
 - year:          2016
   duration:      2 days
   where:         Quebec Centre For Biodiversity Science, Canada
   description: |
-    Organized a two-days event on data visualisation in biodiversity science for graduate students
+    Organisation d'un évènement sur deux jours sur la visualisation de données en science de la biodiversité pour les étudiants gradués
   html: http://kevcaz.github.io/QCBSgraphR/#1
 
 - year:          2015
   duration:      3h
   where:         Université du Québec à Rimouski, Canada
   description: | 
-    "Led an introduction to Markov chains"
+    Introduction aux chaînes de Markov
   pdf:           /talks/talks/presMC.pdf
 
 - year:          2014--2016
   duration:      16h/year
   where:         Université du Québec à Rimouski, Canada
   description: |
-    Presenter for the QCBS R workshop series
+    Présentateur pour les ateliers R du QCBS
   github:        QCBSRworkshops
 
 - year:          2014--2015
   duration:      1 day/year
   where:         Université du Québec à Rimouski, Canada
   description: | 
-    Advanced R course on data visualisation and graphics editing
+    Cours avancé sur visualisation de données avec R
   html:         https://insileco.github.io/VisualiseR/
 
 - year:          2013--2015
   duration:      64h/year
-  where:         Université de Monpellier, France
+  where:         Université de Montpelier, France
   description: |
-    Practical course for first year undergraduates in developmental biology (TA)
+    Instructeur dans les travaux pratiques et dirigés dans le cours de biologie du développement pour étudiants en première année de biologie
 
 - year:          2014
   duration:      1 day
   where:         Universidade Federal de Minas Gerais, Brazil
   description:   |
-    Led an advanced R course on map editing
+    Atelier sur la manipulation et la visualisation de données spatiales avec R
