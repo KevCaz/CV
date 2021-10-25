@@ -6,6 +6,7 @@ library(pagedown)
 library(icons)
 library(kableExtra)
 library(htmltools)
+library(fs)
 
 
 rfa <- function(...) fontawesome(...)

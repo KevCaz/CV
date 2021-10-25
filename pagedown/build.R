@@ -1,20 +1,30 @@
 #!/usr/bin/env Rscript
+
+# handling external arguments
 args = commandArgs(trailingOnly = TRUE)
 lang <- args[1]
 cat("LANG --->", lang, "\n")
+type <- ifelse(is.na(args[2]), "main", args[2])
+cat("TYPE --->", type, "\n")
 
+# load packages and functions
 source("helpers.R")
 
+# chose template
 tpl <- switch(lang, 
-  en = "template_main_en.Rmd",
+  en = glue("template_{type}_en.Rmd"),
+  fr = glue("template_{type}_fr.Rmd"),
   stop("not available")
   )
 template <- readLines(tpl)
 # NB by default whisker forward the parent envi and I used this
 
+rmd_cv <- glue("cv_{type}_{lang}.Rmd")
+
 writeLines(
   whisker::whisker.render(template, list(title = "KevCaz's CV")), 
-  "cv_en.Rmd"
+  rmd_cv
 )
-out <- rmarkdown::render("cv_en.Rmd")
-pagedown::chrome_print(out)
+html <- file_move(rmarkdown::render(rmd_cv), "../docs/")
+pdf <- pagedown::chrome_print(html)
+file.remove(rmd_cv)
