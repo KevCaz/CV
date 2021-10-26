@@ -23,11 +23,11 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 
 
 
-<div class = "details_container">
+<div class="details_container">
 
-<div class="left details font90 width60">
+<div class="left details font90 width62">
 
-<div class = "main_title">
+<div class="main_title">
   <h1> Dr. Kevin Cazelles </h1>
   <h3> `r rfa("chevron-right")` Écologiste théoricien </h3>
 </div>
@@ -37,7 +37,7 @@ Je suis un écologue qui utilise l'analyse, les probabilités les statistiques, 
 </div>
 
 
-<div class="right details font85 width40">
+<div class="right details font85 width38">
 
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details("data/fr/perso_details.yaml")
@@ -146,7 +146,7 @@ insert_mentor("data/fr/mentor.yaml")
 
 <hr>
 
-### Revues internationales à commité de lecture
+### Revues internationales à comité de lecture
 
 ```{R pubs, echo = FALSE, results = "asis"}
 insert_pubs()
@@ -172,6 +172,8 @@ insert_reviewer(lang = "fr")
 <hr>
 
 Cette section inclue un sous-ensemble de mes contributions à des logiciels libres. Si vous êtes intéressé à voir davantage de mes contributions, elles sont presque toutes visible sur [mon compte GitHub](https://github.com/KevCaz) (voir également la section "[notes](https://kevcaz.github.io/notes/)" de mon site internet). 
+
+<br>
 
 
 
@@ -249,9 +251,13 @@ insert_grants("data/fr/grants.yaml")
 
 <hr>
 
+<div class="left details">
+
 ```{R media, echo = FALSE, results = "asis"}
 insert_media()
 ```
+
+</div>
 
 
 </div>

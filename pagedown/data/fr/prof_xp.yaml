@@ -1,16 +1,16 @@
 - role: "Co-foundateur de inSileco Inc."
-  date: "10/2020--present"
+  date: "10/2020--présent"
   where: Guelph, ON, Canada
   did:
-    - Développement d'une application Shiny pour Pêches et Océans Canada Halifax qui permet de générer des rapports reproductibles incluant des analyses spatiales
+    - Développement d'une application Shiny pour Pêches et Océans Canada Halifax permettant de générer des rapports reproductibles incluant des analyses spatiales
     - Animation de deux ateliers pour apprendre à utiliser R comme un système d'information géographique et d'un atelier sur la création de flux de travail reproductibles
     - Écriture de deux chapitres pour un cours sur les données spatiales  (université TÉLUQ) et mise en place du déploiement continu du matériel disponible en ligne (bookdown)
   
 - role: Associé de recherche
-  date: "03/2021--present"
+  date: "03/2021--présent"
   where: "McCann Lab, University of Guelph, ON, Canada"
   did:
-    - Développements en théorie des méta-écosystèmes (implementation numérique avec Julia)
+    - Développements en théorie des méta-écosystèmes (implémentation numérique avec Julia)
     - Développement d'un package R qui permet de réaliser différentes analyses statistiques de co-occurrence 
     
 - role: Chercheur post-doctoral
@@ -18,8 +18,8 @@
   where: "McCann Lab, University of Guelph, ON, Canada"
   did:
       - Analyses statistiques sur l'homogénéisation de communautés de poisson dans les lacs en Ontario (création d'un flux de données R pour collecter, nettoyer et analyser des données) 
-      - Travail sur la combinaison de bio-traceurs multiples pour créer des empreintes digitales spatialisée pour déterminer l'origine géographique de produits alimentaires (implementations numériques utilisant R et Julia, simulations intensives roulées sur les serveurs de Calcul Canada)
-      - Support donné à des étudiants et collègues pour la création de chaîne d'analyses de données et pour les implementations numériques dans des projets variés
+      - Travail sur la combinaison de bio-traceurs multiples pour créer des empreintes digitales spatialisées afin de déterminer l'origine géographique de produits alimentaires (implémentation numérique utilisant R et Julia, simulations intensives utilisant les serveurs de Calcul Canada)
+      - Support donné à des étudiants et collègues pour la création de chaîne d'analyses de données et pour les implémentations numériques dans des projets variés
     
 - role: Candidat au doctorat
   date: "10/2012--12/2016"
@@ -29,18 +29,18 @@
     - Travaux menés sur le lien entre l'inférence possible des interactions biotiques à partir des données de co-occurrence (modélisation probabiliste et implémentation numérique en R)
     - Développement de plusieurs tutoriels sur les probabilités et les statistiques (théorie et applications avec R)
         
-- role: Professionel de recherche
+- role: Professionnel de recherche
   date: "06/2012--09/2012"
   where: École Normale Supérieure, Paris, France
   did:
-    - Traduction d'un code pour faire des analyses en ondelettes écrit en Matlab en C++
+    - Traduction d'un code pour faire des analyses en ondelettes de Matlab à C++
     - Développement d'une visualisation de donnée sur la propagation de la dengue en Asie du sud-est
   
 - role: Assistant de recherche
   date: "01/2011--11/2011"
   where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
   did:
-    - Travail en laboratoire sur la germination 
+    - Travail en laboratoire sur la germination de graines d'espèces endémiques de la Serra do Cipó
     
 - role: Assistant de recherche
   date: "07/2010--12/2010"

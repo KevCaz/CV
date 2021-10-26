@@ -69,9 +69,15 @@ h3, h4, h5, p {
 
 .details ul {
   list-style-type: none;
-  padding-left: 0.4in;
+  padding-left: 0.3in;
   margin-top: 0.05in;
 };
+
+
+.media ul {
+  list-style-type: none !important;
+
+}
 
 
 /* .listxp {
@@ -105,6 +111,10 @@ h3, h4, h5, p {
 
 .width35 {
   width: 35%;
+}
+
+.width38 {
+  width: 38%;
 }
 
 .width40 {

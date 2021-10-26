@@ -7,4 +7,4 @@ build:
 	Rscript build.R "$(lang)"	
 	
 open:
-	firefox ../docs/cv_main_en.html
+	firefox ../docs/cv_main_$(lang).html

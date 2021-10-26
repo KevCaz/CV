@@ -25,7 +25,7 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 
 <div class="details_container">
 
-<div class="left details font90 width60">
+<div class="left details font90 width62">
 
 <div class="main_title">
   <h1> Kevin Cazelles </h1>
@@ -37,7 +37,7 @@ I am ecologist who uses algebra, analysis, probability, statistics, data science
 </div>
 
 
-<div class="right details font85 width40">
+<div class="right details font85 width38">
 
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details()
@@ -173,6 +173,7 @@ insert_reviewer()
 
 This section includes a subset of my contributions to open-source software. If you are interested in seeing more, most of my contributions can be found on my [GitHub account](https://github.com/KevCaz), see also the section "[notes](https://kevcaz.github.io/notes/)" of my website. 
 
+<br>
 
 
 ### `r rfa("r-project")` packages
