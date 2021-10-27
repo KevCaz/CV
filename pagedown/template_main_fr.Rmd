@@ -29,10 +29,10 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 
 <div class="main_title">
   <h1> Dr. Kevin Cazelles </h1>
-  <h3> `r rfa("chevron-right")` Écologiste théoricien </h3>
+  <h3> `r rfa("chevron-right")` Écologue théoricien </h3>
 </div>
 
-Je suis un écologue qui utilise l'analyse, les probabilités les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comment les changements globaux les affectent dans le but de conserver la biodiversité et le bon fonctionnement des écosystèmes qui sont sont essentiels à notre santé et notre bien-être.
+Je suis un écologue qui utilise l'analyse, les probabilités, les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comprendre comment les changements globaux les affectent dans le but de conserver la biodiversité et le bon fonctionnement des écosystèmes qui sont essentiels à notre santé et notre bien-être.
 
 </div>
 
@@ -194,7 +194,7 @@ insert_soft("data/fr/package.yaml")
 
 <div class="font90">
 
-Je suis très engagé dans la recherche reproductible. À chaque étude que je publie est associé un [compendium de recherche](https://research-compendium.science/). La liste ci-dessous est une selection de compendia de recherche qui ont été publié avec un article scientifique auquel j'ai contribué significativement. 
+Je suis très engagé dans la recherche reproductible. À chaque étude que je publie est associé un [compendium de recherche](https://research-compendium.science/). La liste ci-dessous est une selection de compendia de recherche qui ont été publiés avec un article scientifique auquel j'ai contribué significativement. 
 
 </div>
 

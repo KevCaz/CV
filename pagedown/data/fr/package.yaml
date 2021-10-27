@@ -22,14 +22,14 @@
 
 - name: disker
   desc: |
-    Implémentation Rcpp de 5 kernels de dispersion isotropiques
+    Implémentation Rcpp de 5 kernels de dispersions isotropiques
   role: maintainer
   github: KevCaz/disker
   url: https://kevcaz.github.io/diskers/
 
 - name: motifcensus
   desc: |
-    Implémentation Rcpp qui compte les différente positions occupées par les espèces de tout les motifs à 3 espèces d'un réseau uniparti
+    Implémentation Rcpp qui compte les différente positions occupées par les espèces de tous les motifs à 3 espèces d'un réseau uniparti
   role: maintainer
   github: KevCaz/motifcensus
   

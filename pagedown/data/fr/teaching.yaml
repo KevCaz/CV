@@ -1,6 +1,6 @@
 - year:          2021
   duration:      2&nbsp;jours
-  where:         Environment and Climate Change Canada, Dartmouth, NS, Canada
+  where:         Environnement et Changements Climatiques Canada, Dartmouth, NS, Canada
   description: | 
     Atelier sur la manipulation et la visualisation de données spatiales avec R
   github:         inSilecoInc/wksh_raster_CWS
@@ -56,7 +56,7 @@
 
 - year:          2016
   duration:      2&nbsp;jours
-  where:         Quebec Centre For Biodiversity Science, Canada
+  where:         Centre de la Science de la Biodiversité du Québec (CSBQ), Canada
   description: |
     Organisation d'un évènement sur deux jours portant sur la visualisation de données en science de la biodiversité pour les étudiants gradués
   html: http://kevcaz.github.io/QCBSgraphR/#1
