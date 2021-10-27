@@ -1,0 +1,263 @@
+---
+title: {{ title }}
+output:
+  pagedown::html_resume:
+    css: ["default-fonts", "default-page", "default", "css/extra.css", "css/fonts.css"]
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+library(icons)
+library(kableExtra)
+library(yaml)
+library(htmltools)
+rfa <- function(...) fontawesome(...)
+options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
+```
+
+
+
+
+<div class="details_container">
+
+<div class="left details font90 width62">
+
+<div class="main_title">
+  <h1> Dr. Kevin Cazelles </h1>
+  <h3> `r rfa("chevron-right")` Écologue théoricien </h3>
+</div>
+
+Je suis un écologue qui utilise l'analyse, les probabilités, les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comprendre comment les changements globaux les affectent dans le but de conserver la biodiversité et le bon fonctionnement des écosystèmes qui sont essentiels à notre santé et notre bien-être.
+
+</div>
+
+
+<div class="right details font85 width38">
+
+```{R perso_details, echo = FALSE, results = "asis"}
+insert_perso_details("data/fr/perso_details.yaml")
+```  
+</div>
+
+
+</div>
+
+
+
+<div class="left sections_container width100">
+
+
+
+## `r rfa("graduation-cap")` Formation
+
+<hr>
+
+```{R edu, echo = FALSE, results = "asis"}
+insert_education("data/fr/education.yaml")
+```
+
+
+## `r rfa("briefcase")` Expérience professionnelle
+
+<hr>
+
+
+```{R xp, echo = FALSE, results = "asis"}
+insert_xp("data/fr/prof_xp.yaml", use_did = TRUE)
+```
+
+## `r rfa("tachometer-alt")` Compétences computationnelles
+
+<hr>
+
+
+<div class="left details width100">
+
+
+<div class="left width50">
+
+#### Calcul scientifique
+
+```{R sci_pro, echo = FALSE, results = "asis"}
+insert_skills()
+```
+
+#### Reproductibilité
+
+```{R repro, echo = FALSE, results = "asis"}
+insert_skills(what = "repro")
+```
+
+</div>
+
+
+<div class="right width50">
+
+#### Bases de données
+
+```{R db, echo = FALSE, results = "asis"}
+insert_skills(what = "db")
+```
+
+
+#### Technologies Internet modernes
+
+```{R web, echo = FALSE, results = "asis"}
+insert_skills(what = "web")
+```
+
+#### Préparation de documents
+
+```{R doc, echo = FALSE, results = "asis"}
+insert_skills(what = "db")
+```
+
+</div>
+
+
+</div>
+
+
+
+## `r rfa('university')` Enseignement
+
+<hr>
+
+```{R teach, echo = FALSE, results = "asis"}
+insert_teach("data/fr/teaching.yaml")
+```
+
+## `r rfa('user-graduate')` Expérience de mentorat
+
+<hr>
+
+```{R mentor, echo = FALSE, results = "asis"}
+insert_mentor("data/fr/mentor.yaml")
+```
+
+
+
+## `r rfa("book")` Publications
+
+<hr>
+
+### Revues internationales à comité de lecture
+
+```{R pubs, echo = FALSE, results = "asis"}
+insert_pubs()
+```
+
+### Vulgarisation scientifique
+
+```{R popu, echo = FALSE, results = "asis"}
+insert_popu()
+```
+
+
+### Activité de réviseur
+
+```{R reviewer, echo = FALSE, results = "asis"}
+insert_reviewer(lang = "fr")
+```
+
+
+
+## `r rfa("code")` Logiciels
+
+<hr>
+
+Cette section inclue un sous-ensemble de mes contributions à des logiciels libres. Si vous êtes intéressé à voir davantage de mes contributions, elles sont presque toutes visible sur [mon compte GitHub](https://github.com/KevCaz) (voir également la section "[notes](https://kevcaz.github.io/notes/)" de mon site internet). 
+
+<br>
+
+
+
+### `r rfa("r-project")` packages
+
+<div class="font90">
+
+La selection ci-dessous présente des packages R auxquels j'ai contribué significativement. 
+
+</div>
+
+```{R rpkgs, echo = FALSE, results = "asis"}
+insert_soft("data/fr/package.yaml")
+```
+
+
+### Compendia de recherche
+
+<div class="font90">
+
+Je suis très engagé dans la recherche reproductible. À chaque étude que je publie est associé un [compendium de recherche](https://research-compendium.science/). La liste ci-dessous est une selection de compendia de recherche qui ont été publiés avec un article scientifique auquel j'ai contribué significativement. 
+
+</div>
+
+```{R compendia, echo = FALSE, results = "asis"}
+insert_compendia("data/fr/compendia.yaml")
+```
+
+
+### Manuels  
+
+```{R man, echo = FALSE, results = "asis"}
+insert_man()
+```
+
+
+
+
+## `r rfa("bullhorn")` Présentations
+
+<hr>
+
+
+### Présentations orales
+
+```{R talks, echo = FALSE, results = "asis"}
+insert_talks()
+```
+
+### Séminaires
+
+```{R seminars, echo = FALSE, results = "asis"}
+insert_sems()
+```
+
+### Posters
+
+```{R posters, echo = FALSE, results = "asis"}
+insert_posters()
+```
+
+
+
+## `r rfa("search-dollar")` Bourses et récompenses
+
+<hr>
+
+```{R grants, echo = FALSE, results = "asis"}
+insert_grants("data/fr/grants.yaml")
+```
+
+
+
+## `r rfa("newspaper")` Couverture médiatique
+
+<hr>
+
+<div class="left details">
+
+```{R media, echo = FALSE, results = "asis"}
+insert_media()
+```
+
+</div>
+
+
+</div>

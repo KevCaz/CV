@@ -1,6 +1,7 @@
 - role: "Co-foundateur de inSileco Inc."
   date: "10/2020--présent"
   where: Guelph, ON, Canada
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   did:
     - Développement d'une application Shiny pour Pêches et Océans Canada Halifax permettant de générer des rapports reproductibles incluant des analyses spatiales
     - Animation de deux ateliers pour apprendre à utiliser R comme un système d'information géographique et d'un atelier sur la création de flux de travail reproductibles
@@ -9,6 +10,7 @@
 - role: Associé de recherche
   date: "03/2021--présent"
   where: "McCann Lab, University of Guelph, ON, Canada"
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   did:
     - Développements en théorie des méta-écosystèmes (implémentation numérique avec Julia)
     - Développement d'un package R qui permet de réaliser différentes analyses statistiques de co-occurrence 
@@ -16,6 +18,7 @@
 - role: Chercheur post-doctoral
   date: "06/2017--10/2020"
   where: "McCann Lab, University of Guelph, ON, Canada"
+  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   did:
       - Analyses statistiques sur l'homogénéisation de communautés de poisson dans les lacs en Ontario (création d'un flux de données R pour collecter, nettoyer et analyser des données) 
       - Travail sur la combinaison de bio-traceurs multiples pour créer des empreintes digitales spatialisées afin de déterminer l'origine géographique de produits alimentaires (implémentation numérique utilisant R et Julia, simulations intensives utilisant les serveurs de Calcul Canada)
@@ -23,6 +26,8 @@
     
 - role: Candidat au doctorat
   date: "10/2012--12/2016"
+  desc: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   where: Université de Montpellier, France/ Université du Québec à Rimouski, QC, Canada
   did: 
     - Travaux théoriques menés sur l'intégration de contraintes biotiques et abiotiques en théorie de la biogéographie (modélisation mathématique et implémentation numérique en R and C++) 
@@ -32,6 +37,8 @@
 - role: Professionnel de recherche
   date: "06/2012--09/2012"
   where: École Normale Supérieure, Paris, France
+  desc: |
+    Travaux sur les analyses en ondelettes appliquée à la propagation de la dengue en Asie du sud-est
   did:
     - Traduction d'un code pour faire des analyses en ondelettes de Matlab à C++
     - Développement d'une visualisation de donnée sur la propagation de la dengue en Asie du sud-est
@@ -39,11 +46,15 @@
 - role: Assistant de recherche
   date: "01/2011--11/2011"
   where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+  desc: |
+    Travail en laboratoire sur la germination de graines d'espèces endémiques de la Serra do Cipó
   did:
     - Travail en laboratoire sur la germination de graines d'espèces endémiques de la Serra do Cipó
     
 - role: Assistant de recherche
   date: "07/2010--12/2010"
   where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
+  desc: |
+    Recherche sur la modélisation de la croissance mycorhizienne
   did: 
     - Extension d'un model de croissance mycorhizienne (codé en C++) pour intégrer un nouveau processus physiologique

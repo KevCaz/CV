@@ -102,16 +102,22 @@ insert_education <- function(file = "data/en/education_en.yaml") {
   }
 } 
 
-insert_xp <- function(file = "data/en/prof_xp.yaml") {
+# allows me to have one version of the cv using the field "desc" and another 
+# using "did"
+insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE) {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
     cat(glue("#### &nbsp;&nbsp;{tmp[[i]]$date}: **{tmp[[i]]$role}** \n\n <h5>&nbsp;&nbsp;{rfa('map-marker-alt')} {tmp[[i]]$where}</h5> \n\n"))
     
-    cat("<ul style='margin-top: 0.05in;'>")
-    for (j in seq_along(tmp[[i]]$did)) {
-      cat(glue("<li style='font-size: 0.9em;'> {tmp[[i]]$did[j]}.</li>\n"))
+    if (use_did) {
+      cat("<ul style='margin-top: 0.05in;'>")
+      for (j in seq_along(tmp[[i]]$did)) {
+        cat(glue("<li style='font-size: 0.9em;'> {tmp[[i]]$did[j]}.</li>\n"))
+      }
+      cat("</ul>\n\n")
+    } else {
+      cat(glue("<h5 style='padding-bottom: .4em;'>&nbsp;&nbsp;{rfa('chevron-right')} {tmp[[i]]$desc}</h5> \n\n"))
     }
-    cat("</ul>\n\n")
 
   }
 }

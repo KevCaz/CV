@@ -43,4 +43,6 @@ cd pagedown
 make build
 # FR CV
 make build lang='fr'
+# FR CV spec 
+make build lang='fr' type='spec'
 ```
