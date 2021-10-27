@@ -37,7 +37,7 @@ For the past 10 years, I have conducted theoretical, statistical and computation
 </div>
 
 
-<div class="right details font85 width40  ">
+<div class="right details width40">
 
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details()

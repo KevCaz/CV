@@ -37,7 +37,7 @@ Je suis un écologue qui utilise l'analyse, les probabilités, les statistiques,
 </div>
 
 
-<div class="right details font85 width38">
+<div class="right details font90 width38">
 
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details("data/fr/perso_details.yaml")
