@@ -112,7 +112,7 @@ insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE) {
     if (use_did) {
       cat("<ul style='margin-top: 0.05in;'>")
       for (j in seq_along(tmp[[i]]$did)) {
-        cat(glue("<li style='font-size: 1em;'> {tmp[[i]]$did[j]}.</li>\n"))
+        cat(glue("<li style='font-size: 0.9em;'> {tmp[[i]]$did[j]}.</li>\n"))
       }
       cat("</ul>\n\n")
     } else {

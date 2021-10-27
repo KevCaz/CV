@@ -8,4 +8,4 @@ build:
 	Rscript build.R "$(lang)"	"$(type)"
 	
 open:
-	firefox ../docs/cv_main_$(lang).html
+	firefox ../docs/cv_$(type)_$(lang).html
