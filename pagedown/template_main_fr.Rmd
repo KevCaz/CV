@@ -229,7 +229,7 @@ insert_talks()
 insert_sems()
 ```
 
-### Posters
+### Affiches
 
 ```{R posters, echo = FALSE, results = "asis"}
 insert_posters()

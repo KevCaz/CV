@@ -23,9 +23,9 @@
   desc: |
     Travaux de recherche sur les réseaux écologiques, les méta-écosystèmes, la biogéographie et l'origine géographique des produits alimentaires.
   did:
-      - Analyses statistiques sur l'homogénéisation de communautés de poisson dans les lacs en Ontario (création d'un flux de données R pour collecter, nettoyer et analyser des données) 
-      - Travail sur la combinaison de bio-traceurs multiples pour créer des empreintes digitales spatialisées afin de déterminer l'origine géographique de produits alimentaires (implémentation numérique utilisant R et Julia, simulations intensives utilisant les serveurs de Calcul Canada)
-      - Support donné à des étudiants et collègues pour la création de chaîne d'analyses de données et pour les implémentations numériques dans des projets variés
+    - Analyses statistiques sur l'homogénéisation de communautés de poisson dans les lacs en Ontario (création d'un flux de données R pour collecter, nettoyer et analyser des données) 
+    - Travail sur la combinaison de bio-traceurs multiples pour créer des empreintes digitales spatialisées afin de déterminer l'origine géographique de produits alimentaires (implémentation numérique utilisant R et Julia, simulations intensives utilisant les serveurs de Calcul Canada)
+    - Support donné à des étudiants et collègues pour la création de chaîne d'analyses de données et pour les implémentations numériques dans des projets variés
     
 - role: Candidat au doctorat
   date: "10/2012--12/2016"

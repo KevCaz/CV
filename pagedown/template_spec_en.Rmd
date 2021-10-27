@@ -25,19 +25,19 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 
 <div class="details_container">
 
-<div class="left details font90 width62">
+<div class="left details font90 width60">
 
 <div class="main_title">
   <h1> Kevin Cazelles </h1>
-  <h3> `r rfa("chevron-right")` Theoretical and computational ecologist</h3>
+  <h3> `r rfa("chevron-right")` Data and computational scientist</h3>
 </div>
 
-I am ecologist who uses algebra, analysis, probability, statistics, data science and computational science to study ecological networks and how global change affects them in order to conserve ecosystem functions and biodiversity that are essential to our good health and well being.
+For the past 10 years, I have conducted theoretical, statistical and computational research in ecology. I have significantly contributed to the scientific literature and presented my findings in various international conferences. In most projects I have been involved in, I have designed, developed and contributed to software that implement mathematical and statistical modelling as well as reproducible analysis pipelines. Today, I am seeking job opportunities to leverage my expertise in mathematics, statistics, data science and computational science. 
 
 </div>
 
 
-<div class="right details font85 width38">
+<div class="right details font85 width40  ">
 
 ```{R perso_details, echo = FALSE, results = "asis"}
 insert_perso_details()
@@ -68,7 +68,7 @@ insert_education()
 
 
 ```{R xp, echo = FALSE, results = "asis"}
-insert_xp()
+insert_xp(use_did = TRUE)
 ```
 
 ## `r rfa("tachometer-alt")` Computational Skills
