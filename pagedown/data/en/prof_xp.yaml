@@ -1,6 +1,8 @@
 - role: "Co-founder of inSileco Inc."
   date: "10/2020--present"
   where: Guelph, ON, Canada
+  desc: |
+    Created data science workshops and developed Shiny applications.
   did:
     - Developed a Shiny application for DFO Halifax that generates reproducible reports including spatial analysis
     - Led 2 workshops on using R as a GIS and 1 workshop on reproducible research with R
@@ -9,6 +11,8 @@
 - role: Research Associate
   date: "03/2021--present"
   where: "McCann Lab, University of Guelph, ON, Canada"
+  desc:  |
+    Worked on ecological networks, meta-ecosystems and food provenance.
   did:
     - Theoretical investigations on meta-ecosystem theory (working on dynamical systems using Julia to solve ordinary differential equations)
     - Develop an R package that provides several statistical analyses of species co-occurrence 
@@ -16,6 +20,8 @@
 - role: Postdoctoral Researcher 
   date: "06/2017--10/2020"
   where: "McCann Lab, University of Guelph, ON, Canada"
+  desc:  |
+    Worked on biogeography, ecological networks, meta-ecosystems and food provenance.
   did:
       - Analysis of homogenization of fish communities in freshwater lakes (designed an R pipeline to retrieve, clean and analyze data) 
       - Worked on using multiple bio-tracers as spatial fingerprints to determine the geographical origin of food products (numerical implementation in R and Julia, extensive simulations on Compute Canada's servers) 
@@ -24,6 +30,8 @@
 - role: PhD candidate
   date: "10/2012--12/2016"
   where: Université de Montpellier, France/ Université du Québec à Rimouski, QC, Canada
+  desc:  |
+      Ph.D. thesis on the relationship between co-occurrence and ecological interactions.
   did: 
     - Theoretical investigations on the integration of biotic and abiotic constraints in the theory in biogeography (worked on the mathematical modeling and a numerical implementation using R and C++) 
     - Worked on co-occurrence inference of biotic interactions from co-occurrence data (used probability theory and numerical implementation in R)
@@ -32,6 +40,8 @@
 - role: Research Associate 
   date: "06/2012--09/2012"
   where: École Normale Supérieure, Paris, France
+  desc: |
+    Worked on applying wavelets analysis to the spread of dengue in Southern Asia.
   did:
     - Ported wavelets code written in Matlab to C++
     - Developed a data visualisation of the spread of dengue in Southern Asia
@@ -39,11 +49,14 @@
 - role: Research assistant 
   date: "01/2011--11/2011"
   where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+  desc: |
+    Carried out germination experiments on endemic plant species of the Serra do Cipó.
   did:
-    - Carried out germination experiments
-    
+    - Carried out germination experiments on endemic plant species of the Serra do Cip
 - role: Research assistant
   date: "07/2010--12/2010"
   where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
+  desc: |
+    Research on fungal growth modelling.
   did: 
     - Expanded a model (coded in C++) of fungal growth dynamics in a realistic soil environ­ment to integrate a new physiological process

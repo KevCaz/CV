@@ -17,8 +17,8 @@ tpl <- switch(lang,
   stop("not available")
   )
 tit <- switch(lang, 
-  en = "KevCaz's CV",
-  fr = "CV de KevCaz",
+  en = "CV Kevin Cazelles",
+  fr = "CV de Kevin Cazelles",
   stop("not available")
   )
 template <- readLines(tpl)

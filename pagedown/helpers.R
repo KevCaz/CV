@@ -112,11 +112,11 @@ insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE) {
     if (use_did) {
       cat("<ul style='margin-top: 0.05in;'>")
       for (j in seq_along(tmp[[i]]$did)) {
-        cat(glue("<li style='font-size: 0.9em;'> {tmp[[i]]$did[j]}.</li>\n"))
+        cat(glue("<li style='font-size: 1em;'> {tmp[[i]]$did[j]}.</li>\n"))
       }
       cat("</ul>\n\n")
     } else {
-      cat(glue("<h5 style='padding-bottom: .4em;'>&nbsp;&nbsp;{rfa('chevron-right')} {tmp[[i]]$desc}</h5> \n\n"))
+      cat(glue("<h5 style='font-size: 0.95em; padding-bottom: .45em;'>&nbsp;&nbsp;{rfa('chevron-right')} {tmp[[i]]$desc}</h5> \n\n"))
     }
 
   }
@@ -138,7 +138,7 @@ insert_teach <- function(file = "data/en/teaching.yaml") {
 insert_mentor <- function(file = "data/en/mentor.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    cat(glue("* {tmp[[i]]$name}, {tmp[[i]]$lvl} ({tmp[[i]]$year}). {tmp[[i]]$did}.\n\n"))
+    cat(glue("* __{tmp[[i]]$name}__, {tmp[[i]]$lvl} ({tmp[[i]]$year}). {tmp[[i]]$did}.\n\n"))
   }
 }
 
