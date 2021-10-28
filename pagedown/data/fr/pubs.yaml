@@ -222,31 +222,6 @@ references:
   url: "https://doi.org/10.1111%2F1365-2745.13311"
   volume: 108
 - author:
-  - family: Poisot
-    given: Timothee
-  - family: Bergeron
-    given: Gabriel
-  - family: Cazelles
-    given: Kevin
-  - family: Dallas
-    given: Tad
-  - family: Gravel
-    given: Dominique
-  - family: MacDonald
-    given: Andrew
-  - family: Mercier
-    given: Benjamin
-  - family: Vissault
-    given: Steve
-  doi: 10.1101/2020.01.27.921429
-  id: Poisot_2020
-  issued: 2020-01
-  publisher: Cold Spring Harbor Laboratory
-  title: Environmental biases in the study of ecological networks at the
-    planetary scale
-  type: article-journal
-  url: "https://doi.org/10.1101%2F2020.01.27.921429"
-- author:
   - family: Brice
     given: Marie-Hélène
   - family: Cazelles
@@ -626,7 +601,8 @@ references:
   - family: Stouffer
     given: D. B.
   container-title: Methods in Ecology and Evolution
-  id: Cazelles2016
+  doi: 10.1111/2041-210X.12468
+  id: Poisot2016
   issue: 3
   issued: 2016
   page: 303-312
