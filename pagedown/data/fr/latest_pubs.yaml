@@ -1,0 +1,105 @@
+---
+references:
+- author:
+  - family: Beauchesne
+    given: David
+  - family: Cazelles
+    given: Kevin
+  - family: Archambault
+    given: Philippe
+  - family: Dee
+    given: Laura E.
+  - family: Gravel
+    given: Dominique
+  container-title: Ecology Letters
+  doi: 10.1111/ele.13841
+  editor:
+  - family: Wootton
+    given: Tim
+  id: Beauchesne_2021
+  issued: 2021-07
+  publisher: Wiley
+  title: On the sensitivity of food webs to multiple stressors
+  type: article-journal
+  url: "https://doi.org/10.1111%2Fele.13841"
+- author:
+  - family: McCann
+    given: Kevin S.
+  - family: Cazelles
+    given: Kevin
+  - family: MacDougall
+    given: Andrew S.
+  - family: Fussmann
+    given: Gregor F.
+  - family: Bieg
+    given: Carling
+  - family: Cristescu
+    given: Melania
+  - family: Fryxell
+    given: John M.
+  - family: Gellner
+    given: Gabriel
+  - family: Lapointe
+    given: Brian
+  - family: Gonzalez
+    given: Andrew
+  container-title: Ecology Letters
+  doi: 10.1111/ele.13644
+  editor:
+  - family: Drake
+    given: John
+  id: McCann_2020
+  issue: 3
+  issued: 2020-11
+  page: 398-414
+  publisher: Wiley
+  title: Landscape modification and nutrient-driven instability at a
+    distance
+  type: article-journal
+  url: "https://doi.org/10.1111%2Fele.13644"
+  volume: 24
+- author:
+  - family: Cazelles
+    given: Kevin
+  - family: Zemlak
+    given: Tyler Stephen
+  - family: Gutgesell
+    given: Marie
+  - family: Myles-Gonzalez
+    given: Emelia
+  - family: Hanner
+    given: Robert
+  - family: McCann
+    given: Kevin Shear
+  container-title: Foods
+  doi: 10.3390/foods10040717
+  id: Kevin_Cazelles_91605085
+  issued: 2021
+  title: "Spatial fingerprinting: Horizontal fusion of multi-dimensional
+    bio-tracers as solution to global food provenance problems"
+  title-short: Spatial fingerprinting
+  type: article-journal
+  url: "http://doi.org/10.3390/foods10040717"
+- author:
+  - family: Blanchet
+    given: F. Guillaume
+  - family: Cazelles
+    given: Kevin
+  - family: Gravel
+    given: Dominique
+  container-title: Ecology Letters
+  doi: 10.1111/ele.13525
+  editor:
+  - family: Jeffers
+    given: Elizabeth
+  id: Blanchet_2020
+  issue: 7
+  issued: 2020-05
+  page: 1050-1063
+  publisher: Wiley
+  title: Co-occurrence is not evidence of ecological interactions
+  type: article-journal
+  url: "https://doi.org/10.1111%2Fele.13525"
+  volume: 23
+---
+

@@ -48,9 +48,9 @@ glue_doi <- function(x) {
 }
 
 glue_details <- function(name, icon, value, url = NULL) {
-  
+
   ic <- rfa(icon)
-  
+
   if (!is.null(url)) {
     nm <- glue_href(value, url)
   } else nm <- value
@@ -76,7 +76,7 @@ initials <- function(x) {
 
 first_let <- function(given) {
   glue_collapse(
-    unlist(lapply(strsplit(given, " "), function(x) initial(x))), 
+    unlist(lapply(strsplit(given, " "), function(x) initial(x))),
     " "
   )
 }
@@ -90,7 +90,7 @@ author_focus <- function(x, focus) {
 
 insert_perso_details <- function(file = "data/en/perso_details.yaml") {
   val <- lapply(
-    yaml.load_file(file), 
+    yaml.load_file(file),
     function(x) do.call(glue_details, x)
   )
 }
@@ -100,15 +100,17 @@ insert_education <- function(file = "data/en/education_en.yaml") {
   for (i in seq_along(tmp)) {
     cat(glue("* {tmp[[i]]$years}:  **{tmp[[i]]$honour}**.  {tmp[[i]]$institute}.\n\n"))
   }
-} 
+}
 
-# allows me to have one version of the cv using the field "desc" and another 
+# allows me to have one version of the cv using the field "desc" and another
 # using "did"
-insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE) {
+insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE,
+    max_item = 100) {
   tmp <- yaml.load_file(file)
-  for (i in seq_along(tmp)) {
+  mn = min(length(tmp), max_item)
+  for (i in seq_len(mn)) {
     cat(glue("#### &nbsp;&nbsp;{tmp[[i]]$date}: **{tmp[[i]]$role}** \n\n <h5>&nbsp;&nbsp;{rfa('map-marker-alt')} {tmp[[i]]$where}</h5> \n\n"))
-    
+
     if (use_did) {
       cat("<ul style='margin-top: 0.05in;'>")
       for (j in seq_along(tmp[[i]]$did)) {
@@ -126,11 +128,11 @@ insert_teach <- function(file = "data/en/teaching.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
     out <- glue("- **{tmp[[i]]$year}**: _{tmp[[i]]$description}_. {tmp[[i]]$where}, {tmp[[i]]$duration}.")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
     pd <- glue_pdf(tmp[[i]]$pdf)
-    
+
     cat(glue(out, gh, ht, pd, "\n\n", .sep = " "))
   }
 }
@@ -147,7 +149,7 @@ insert_pubs <- function(file = "data/en/pubs.yaml") {
   pubs <- yaml.load_file(file)[[1]]
   # cat(HTML("<ol>"))
   for (i in seq_along(pubs)) {
-    auth <- glue_authors(pubs[[i]]$author) 
+    auth <- glue_authors(pubs[[i]]$author)
     year <- substr(pubs[[i]]$issued, 1, 4)
     title <- pubs[[i]]$title
     conta <- pubs[[i]]$'container-title'
@@ -161,7 +163,7 @@ insert_pubs <- function(file = "data/en/pubs.yaml") {
 insert_popu <- function(file = "data/en/popularization.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    auth <- glue_authors(tmp[[i]]$author) 
+    auth <- glue_authors(tmp[[i]]$author)
     year <- tmp[[i]]$year
     title <- tmp[[i]]$title
     conta <- tmp[[i]]$'container-title'
@@ -174,7 +176,7 @@ insert_soft <- function(file = "data/en/package.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
     out <- glue("* **{tmp[[i]]$name}** ({tmp[[i]]$role}): {tmp[[i]]$desc}.")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$url)
 
@@ -194,7 +196,7 @@ insert_compendia <- function(file = "data/en/compendia.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
     out <- glue("* **{tmp[[i]]$name}**: {tmp[[i]]$desc} (paper's doi: {glue_doi(tmp[[i]]$doi_paper)}).")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$url)
     do <- glue_doi(tmp[[i]]$doi)
@@ -207,7 +209,7 @@ insert_man <- function(file = "data/en/manuals.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
     out <- glue("* {glue_authors(tmp[[i]]$author)} {tmp[[i]]$title} ({tmp[[i]]$year}) ")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$url)
     do <- glue_doi(tmp[[i]]$doi)
@@ -220,16 +222,16 @@ insert_man <- function(file = "data/en/manuals.yaml") {
 insert_talks <- function(file = "data/en/talks.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    auth <- glue_authors(tmp[[i]]$author) 
+    auth <- glue_authors(tmp[[i]]$author)
     title <- tmp[[i]]$title
     conf <- tmp[[i]]$conference[[1]]
-    
+
     out <- glue("{i}. {auth} ({conf$date}). {title}. [{conf$name}]({conf$url}). {conf$where}.")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
     pd <- glue_pdf(tmp[[i]]$pdf)
-    
+
     cat(glue(out, gh, ht, pd, "\n\n", .sep = " "))
   }
 }
@@ -237,14 +239,14 @@ insert_talks <- function(file = "data/en/talks.yaml") {
 insert_sems <- function(file = "data/en/seminars.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    auth <- glue_authors(tmp[[i]]$author) 
-    
+    auth <- glue_authors(tmp[[i]]$author)
+
     out <- glue("{i}. {auth} ({tmp[[i]]$date}). {tmp[[i]]$title}. [{tmp[[i]]$where}]({tmp[[i]]$url}). {tmp[[i]]$where}.")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
     pd <- glue_pdf(tmp[[i]]$pdf)
-    
+
     cat(glue(out, gh, ht, pd, "\n\n", .sep = " "))
   }
 }
@@ -255,27 +257,27 @@ insert_skills <- function(file = "data/en/skills.yaml",  what = "sci_pro") {
   sk <- tmp[[id]]$skills
   for (i in seq_along(sk)) {
     out <- glue_collapse(
-      c(rep("&#9632;", sk[[i]]$lvl), rep("&#9633;", 5 - sk[[i]]$lvl)), 
+      c(rep("&#9632;", sk[[i]]$lvl), rep("&#9633;", 5 - sk[[i]]$lvl)),
       sep = " ")
-    
+
     cat(glue("*", out, sk[[i]]$name, "\n\n", .sep = " "))
   }
-  
+
 }
 
 insert_posters <- function(file = "data/en/posters.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
-    auth <- glue_authors(tmp[[i]]$author) 
+    auth <- glue_authors(tmp[[i]]$author)
     title <- tmp[[i]]$title
     conf <- tmp[[i]]$conference[[1]]
-    
+
     out <- glue("{i}. {auth}. {title}. [{conf$name}]({conf$url}). {conf$where} ({conf$date}).")
-    
+
     gh <- glue_gh(tmp[[i]]$github)
     ht <- glue_html(tmp[[i]]$html)
     pd <- glue_pdf(tmp[[i]]$pdf)
-    
+
     cat(glue(out, gh, ht, pd, "\n\n", .sep = " "))
   }
 }
@@ -286,19 +288,19 @@ insert_reviewer <- function(file = "data/en/reviewer.yaml", lang = "en") {
   rev <- yaml.load_file(file)
   sepa <-  switch(lang,
       en = " and ",
-      fr = " et " 
+      fr = " et "
   )
 
   out <- glue_collapse(
-    lapply(rev, function(x) do.call(glue_href_md, x)), 
-    sep = ", ", 
+    lapply(rev, function(x) do.call(glue_href_md, x)),
+    sep = ", ",
     last = sepa
   )
   switch(lang,
-    en = glue("As an academic, I have been actively involved in the peer-review process. I have been a reviewer for the following journals: ", out, ". I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019."), 
+    en = glue("As an academic, I have been actively involved in the peer-review process. I have been a reviewer for the following journals: ", out, ". I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019."),
     fr = glue("En tant que chercheur, je suis activement impliqué dans le processus de révision par les pairs. J'ai agi en tant que réviseur pour les revues internationales à comité de lecture suivantes: ", out, ". Je suis aussi un 'recommender' pour [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
   )
-  
+
 }
 
 

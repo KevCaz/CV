@@ -79,14 +79,14 @@
   duration:      1&nbsp;jour/année
   where:         Université du Québec à Rimouski, Canada
   description: | 
-    Cours avancé sur visualisation de données avec R
+    Cours avancé sur la visualisation de données avec R
   html:         https://insileco.github.io/VisualiseR/
 
 - year:          2013--2015
   duration:      64&nbsp;h/année
   where:         Université de Montpelier, France
   description: |
-    Instructeur dans les travaux pratiques et dirigés dans le cours de biologie du développement pour étudiants en première année de biologie
+    Instructeur dans les travaux pratiques et dirigés dans le cours de biologie du développement pour les étudiants en première année de biologie
 
 - year:          2014
   duration:      1&nbsp;jour

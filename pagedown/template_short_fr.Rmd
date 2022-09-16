@@ -1,0 +1,169 @@
+---
+title: {{ title }}
+output:
+  pagedown::html_resume:
+    css: ["default-fonts", "default-page", "default", "css/extra.css", "css/fonts.css"]
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+library(icons)
+library(kableExtra)
+library(yaml)
+library(htmltools)
+rfa <- function(...) fontawesome(...)
+options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
+```
+
+
+
+
+<div class="details_container">
+
+<div class="left details font90 width62">
+
+<div class="main_title">
+  <h1> Dr. Kevin Cazelles </h1>
+  <h3> `r rfa("chevron-right")` Scientifique des donnés </h3>
+</div>
+
+Docteur en écologie computationnelle, durant ma carière académique j'ai utilisé l'analyse, les probabilités, les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comprendre comment les changements globaux les affectent dans le but de conserver la biodiversité et le bon fonctionnement des écosystèmes. Aujourd'hui, j'utilise mes compétences en science des données pour créer des outils numériques intelligents au service de la santé humaine.
+
+
+</div>
+
+
+<div class="right details font85 width38">
+
+```{R perso_details, echo = FALSE, results = "asis"}
+insert_perso_details("data/fr/perso_details.yaml")
+```  
+</div>
+
+
+</div>
+
+
+
+<div class="left sections_container width100">
+
+
+
+## `r rfa("graduation-cap")` Formation
+
+<hr>
+
+```{R edu, echo = FALSE, results = "asis"}
+insert_education("data/fr/education.yaml")
+```
+
+
+## `r rfa("briefcase")` Expérience professionnelle
+
+<hr>
+
+
+```{R xp, echo = FALSE, results = "asis"}
+insert_xp("data/fr/prof_xp.yaml", max_item = 5)
+```
+
+## `r rfa("book")` Publications récentes
+
+<hr>
+
+### Revues internationales à comité de lecture
+
+```{R pubs, echo = FALSE, results = "asis"}
+insert_pubs("data/fr/latest_pubs.yaml")
+```
+
+## `r rfa("tachometer-alt")` Compétences computationnelles
+
+<hr>
+
+
+<div class="left details width100">
+
+
+<div class="left width50">
+
+#### Calcul scientifique
+
+```{R sci_pro, echo = FALSE, results = "asis"}
+insert_skills(file = "data/fr/skills.yaml")
+```
+
+#### DevOps
+
+```{R devops, echo = FALSE, results = "asis"}
+insert_skills(file = "data/fr/skills.yaml", what = "devops")
+```
+
+</div>
+
+
+<div class="right width50">
+
+#### Bases de données
+
+```{R db, echo = FALSE, results = "asis"}
+insert_skills(file = "data/fr/skills.yaml", what = "db")
+```
+
+
+#### Technologies Internet modernes
+
+```{R web, echo = FALSE, results = "asis"}
+insert_skills(file = "data/fr/skills.yaml", what = "web")
+```
+
+#### Préparation de documents
+
+```{R doc, echo = FALSE, results = "asis"}
+insert_skills(file = "data/fr/skills.yaml", what = "doc_prep")
+```
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+## `r rfa("code")` Contributions à des logiciels libres (sélection)
+
+<hr>
+
+Voir [mon compte GitHub](https://github.com/KevCaz) pour un voir l'ensemble de mes contributions.
+
+
+</div>
+
+```{R rpkgs, echo = FALSE, results = "asis"}
+insert_soft("data/fr/package.yaml")
+```
+
+
+
+
+## `r rfa("search-dollar")` Bourses et récompenses
+
+<hr>
+
+```{R grants, echo = FALSE, results = "asis"}
+insert_grants("data/fr/grants.yaml")
+```
+
+
+</div>
+
+
+</div>

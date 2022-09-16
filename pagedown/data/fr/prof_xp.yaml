@@ -1,6 +1,15 @@
+- role: "Scientifique des données"
+  date: "02/2022--présent"
+  where: Omnimed, Cookshire-Eaton, QC, Canada
+  desc: |
+    Amélioration du processus d'imporation des données par la mise en place d'un outil intelligent de tests de qualité des données.
+  did:
+    - Suite DQA
+    - Amélioration des requetes
+    - Developpement d'un micro service d'impression
 - role: "Co-fondateur de inSileco Inc."
   date: "10/2020--présent"
-  where: Guelph, ON, Canada
+  where: Québec, QC, Canada
   desc: |
     Création d'ateliers de formation à la science des données et à la recherche reproductible, développement d'applications Shiny.
   did:

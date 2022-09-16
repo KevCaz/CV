@@ -10,11 +10,11 @@
     lvl: 3
   - name: C/C++
     lvl: 3
+  - name: Java
+    lvl: 3
   - name: Sage
     lvl: 2
   - name: Bash
-    lvl: 3
-  - name: Torque/Slurm
     lvl: 3
   
 - name: doc_prep
@@ -32,34 +32,31 @@
 
 - name: web
   skills:
-  - name: HTML/CSS
+  - name: HTML/CSS/Javascript
     lvl: 4
-  - name: Javascript
-    lvl: 2
-  - name: JSON/XML
-    lvl: 3
-  - name: YAML/TOML
-    lvl: 5
-  - name: Jekyll/Hugo
+  - name: Hugo
     lvl: 4
   - name: Shiny App
     lvl: 4
+  - name: Springboot
+    lvl: 2
     
 - name: db
   skills:
-  - name: SQLite
-    lvl: 3
-  - name: postgreSQL
+  - name: SQL (postgreSQL, SQLite, etc.)
+    lvl: 4
+  - name: mongoDB
     lvl: 2
     
-- name: repro
+- name: devops
   skills: 
   - name: Git 
-    lvl: 4
-  - name: GNU make
     lvl: 4
   - name: GitHub Actions
     lvl: 4
   - name: Docker
-    lvl: 2 
-    
+    lvl: 4
+  - name: Kubernetes
+    lvl: 2
+  - name: Torque/Slurm
+    lvl: 3
