@@ -3,24 +3,24 @@
   - name: R
     lvl: 5  
   - name: Julia
-    lvl: 3
+    lvl: 4
   - name: Python
-    lvl: 2
+    lvl: 3
   - name: Matlab/Octave
     lvl: 3
   - name: C/C++
     lvl: 3
-  - name: Java
+  - name: Java (Spring)
     lvl: 3
   - name: Sage
-    lvl: 2
-  - name: Bash
     lvl: 3
-  
+  - name: Bash
+    lvl: 4
+
 - name: doc_prep
   skills:
-  - name: Makrdown/R Markdown
-    lvl: 5
+  - name: Markdown/R Markdown/Quarto
+    lvl: 4
   - name: Latex
     lvl: 4
   - name: Pandoc
@@ -38,17 +38,19 @@
     lvl: 4
   - name: Shiny App
     lvl: 4
-  - name: Springboot
+  - name: Spring Framework
     lvl: 2
     
 - name: db
   skills:
   - name: SQL (postgreSQL, SQLite, etc.)
     lvl: 4
+  - name: DuckDB
+    lvl: 2
   - name: mongoDB
     lvl: 2
     
-- name: devops
+- name: repro
   skills: 
   - name: Git 
     lvl: 4
@@ -56,6 +58,8 @@
     lvl: 4
   - name: Docker
     lvl: 4
+  - name: Dagster 
+    lvl: 3
   - name: Kubernetes
     lvl: 2
   - name: Torque/Slurm

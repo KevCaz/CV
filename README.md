@@ -25,16 +25,17 @@ On UNIX systems, using GNU make
 ```sh
 cd pagedown
 # EN CV 
-make build
+make all
 # FR CV
-make build lang='fr'
+make all lang='fr'
 # FR CV spec 
-make build lang='fr' type='spec'
+make all lang='fr' type='spec'
 ```
+
 
 ## XeTeX
 
-:warning: This CV will no longer be updated. 
+:warning: This will no longer be updated. 
 
 This older version, available in folder `xetex` was created with [XeTeX](https://en.wikipedia.org/wiki/XeTeX). For this version, was strongly inspired by what
 [SteveViss](https://github.com/SteveViss) did (see these

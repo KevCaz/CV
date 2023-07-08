@@ -26,34 +26,43 @@ glue_href_md <- function(name, url) {
 glue_gh <- function(x) {
   if (!is.null(x)) {
     out <- glue_href_md(rfa("github"), glue("{base_gh}{x}"))
-  } else ""
+  } else {
+    ""
+  }
 }
 
 glue_html <- function(x) {
   if (!is.null(x)) {
     out <- glue_href_md(rfa("html5"), x)
-  } else ""
+  } else {
+    ""
+  }
 }
 
 glue_pdf <- function(x) {
   if (!is.null(x)) {
     out <- glue_href_md(rfa("file-pdf"), glue("{base_perso}{x}"))
-  } else ""
+  } else {
+    ""
+  }
 }
 
 glue_doi <- function(x) {
   if (!is.null(x)) {
     out <- glue_href_md(x, glue("{base_doi}{x}"))
-  } else ""
+  } else {
+    ""
+  }
 }
 
 glue_details <- function(name, icon, value, url = NULL) {
-
   ic <- rfa(icon)
 
   if (!is.null(url)) {
     nm <- glue_href(value, url)
-  } else nm <- value
+  } else {
+    nm <- value
+  }
   # HTML(glue("<li>{ ic } { nm }</li>"))
   cat(glue("* { ic } { nm }\n\n"))
 }
@@ -104,10 +113,11 @@ insert_education <- function(file = "data/en/education_en.yaml") {
 
 # allows me to have one version of the cv using the field "desc" and another
 # using "did"
-insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE,
+insert_xp <- function(
+    file = "data/en/prof_xp.yaml", use_did = FALSE,
     max_item = 100) {
   tmp <- yaml.load_file(file)
-  mn = min(length(tmp), max_item)
+  mn <- min(length(tmp), max_item)
   for (i in seq_len(mn)) {
     cat(glue("#### &nbsp;&nbsp;{tmp[[i]]$date}: **{tmp[[i]]$role}** \n\n <h5>&nbsp;&nbsp;{rfa('map-marker-alt')} {tmp[[i]]$where}</h5> \n\n"))
 
@@ -120,7 +130,6 @@ insert_xp <- function(file = "data/en/prof_xp.yaml", use_did = FALSE,
     } else {
       cat(glue("<h5 style='font-size: 0.95em; padding-bottom: .45em;'>&nbsp;&nbsp;{rfa('chevron-right')} {tmp[[i]]$desc}</h5> \n\n"))
     }
-
   }
 }
 
@@ -145,17 +154,34 @@ insert_mentor <- function(file = "data/en/mentor.yaml") {
 }
 
 
-insert_pubs <- function(file = "data/en/pubs.yaml") {
-  pubs <- yaml.load_file(file)[[1]]
+dois_xcl <- c("10.1101/2020.04.20.050302")
+insert_pubs <- function(file = "data/en/pubs.yaml", doi_exclude = dois_xcl) {
+  pubs <- yaml.load_file(file)[[2L]]
   # cat(HTML("<ol>"))
+  k <- 0
   for (i in seq_along(pubs)) {
     auth <- glue_authors(pubs[[i]]$author)
     year <- substr(pubs[[i]]$issued, 1, 4)
     title <- pubs[[i]]$title
-    conta <- pubs[[i]]$'container-title'
+    conta <- pubs[[i]]$"container-title"
     if (is.null(conta)) conta <- "Preprint"
     doi <- pubs[[i]]$doi
-    cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. doi: [{doi}]({base_doi}{doi}).\n\n"))
+    if (!doi %in% doi_exclude) {
+      k <- k + 1
+      cat(glue("{k}. {auth} ({year}). {title}. *{conta}*. doi: [{doi}]({base_doi}{doi}).\n\n"))
+    }
+  }
+}
+
+insert_reports <- function(file = "data/en/reports.yaml") {
+  rpts <- yaml.load_file(file)
+  for (i in seq_along(rpts)) {
+    auth <- glue_authors(rpts[[i]]$author)
+    year <- rpts[[i]]$year
+    title <- rpts[[i]]$title
+    conta <- rpts[[i]]$"container-title"
+    if (is.null(conta)) conta <- "Non-published report"
+    cat(glue("{i}. {auth} ({year}). {title}. *{conta}*.\n\n"))
   }
 }
 
@@ -166,7 +192,7 @@ insert_popu <- function(file = "data/en/popularization.yaml") {
     auth <- glue_authors(tmp[[i]]$author)
     year <- tmp[[i]]$year
     title <- tmp[[i]]$title
-    conta <- tmp[[i]]$'container-title'
+    conta <- tmp[[i]]$"container-title"
     cat(glue("{i}. {auth} ({year}). {title}. *{conta}*. [{rfa('link')}]({tmp[[i]]$url})\n\n"))
   }
 }
@@ -251,18 +277,18 @@ insert_sems <- function(file = "data/en/seminars.yaml") {
   }
 }
 
-insert_skills <- function(file = "data/en/skills.yaml",  what = "sci_pro") {
+insert_skills <- function(file = "data/en/skills.yaml", what = "sci_pro") {
   tmp <- yaml.load_file(file)
   id <- which(unlist(lapply(tmp, function(x) x$name)) == what)
   sk <- tmp[[id]]$skills
   for (i in seq_along(sk)) {
     out <- glue_collapse(
       c(rep("&#9632;", sk[[i]]$lvl), rep("&#9633;", 5 - sk[[i]]$lvl)),
-      sep = " ")
+      sep = " "
+    )
 
     cat(glue("*", out, sk[[i]]$name, "\n\n", .sep = " "))
   }
-
 }
 
 insert_posters <- function(file = "data/en/posters.yaml") {
@@ -282,13 +308,11 @@ insert_posters <- function(file = "data/en/posters.yaml") {
   }
 }
 
-
-
 insert_reviewer <- function(file = "data/en/reviewer.yaml", lang = "en") {
   rev <- yaml.load_file(file)
-  sepa <-  switch(lang,
-      en = " and ",
-      fr = " et "
+  sepa <- switch(lang,
+    en = " and ",
+    fr = " et "
   )
 
   out <- glue_collapse(
@@ -300,7 +324,6 @@ insert_reviewer <- function(file = "data/en/reviewer.yaml", lang = "en") {
     en = glue("As an academic, I have been actively involved in the peer-review process. I have been a reviewer for the following journals: ", out, ". I have also been a 'recommender' for [PCI Ecology](https://ecology.peercommunityin.org/) since 2019."),
     fr = glue("En tant que chercheur, je suis activement impliqué dans le processus de révision par les pairs. J'ai agi en tant que réviseur pour les revues internationales à comité de lecture suivantes: ", out, ". Je suis aussi un 'recommender' pour [PCI Ecology](https://ecology.peercommunityin.org/) since 2019.")
   )
-
 }
 
 
@@ -311,6 +334,3 @@ insert_media <- function(file = "data/en/media.yaml") {
     cat(glue("* {rfa(tmp$icon)}: {glue_href_md(tmp$title, tmp$url)} -- {tmp$media} ({tmp$year}, {tmp$lang}).\n\n"))
   }
 }
-
-
-

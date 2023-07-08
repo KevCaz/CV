@@ -1,15 +1,24 @@
 - role: "Co-founder of inSileco Inc."
   date: "10/2020--present"
-  where: Guelph, ON, Canada
+  where: Montreal, QC, Canada
   desc: |
     Created data science workshops and developed Shiny applications.
   did:
     - Was contracted by DFO Halifax to develop a Shiny application that allows for the creation of reproducible reports. A first version of the application with the core features has been delivered in a first contract. A second contract has recently been signed to add new features to the application
     - Was contracted by DFO Halifax and Environment and Climate Change Canada to develop and present workshops on using R as a Geographic Information system (GIS) and on reproducible research
     - Developed 2 chapters of a course that introduces students to spatial data science (université TÉLUQ) and handled the deployment of online materials (bookdown)
-  
+
+- role: Data scientists
+  date: "02/2022--07/2023"
+  where: "Omnimed, Cookshire, QC, Canada"
+  desc:  |
+    Developed data tools to assess data quality and to generate dynamic internal reports including data.
+  did:
+    - Created data tools to assess overall quality of data.
+    - Created tools to ease the generation of reports (using R and Java).
+
 - role: Research Associate
-  date: "03/2021--present"
+  date: "03/2021--02/2022"
   where: "McCann Lab, University of Guelph, ON, Canada"
   desc:  |
     Worked on ecological networks, meta-ecosystems and food provenance.
@@ -26,7 +35,6 @@
       - Led statistical analysis of homogenization of fish communities in freshwater lakes. Designed an R data pipeline to retrieve, clean and analyze data
       - Applied supervised learning technics to use multiple bio-tracers as spatial fingerprints to determine the geographical origin of food products. Designed and developed R and Julia libraries to that end, ran extensive simulations on Compute Canada's servers. This work is still being for future work and has already led me to act as an expert for food provenance issues
       - Developed an R package to turn R into a client for the public Speciesplus/CITES Checklist API to ease access to the Species+ database
-
     
 - role: PhD candidate
   date: "10/2012--12/2016"
@@ -36,7 +44,7 @@
   did: 
     - Led extensive theoretical and applied statistical analysis to understand the link between species co-occurrence and species interactions. Designed custom numerical tool, ran extensive numerical simulations aa well as statistical analysis of several datasets using R and C++. This work led to several publications and to point out major limitations of very popular species distribution models
     - Developed and presented several tutorials on probability, statistics and data science (theory and applications with R) for graduate student to disseminate best practices
-        
+
 - role: Research Associate 
   date: "06/2012--09/2012"
   where: École Normale Supérieure, Paris, France
@@ -46,17 +54,3 @@
     - Ported wavelets code written in Matlab to C++
     - Designed a data pipeline to create a data driven animation of the spread of dengue in Southern Asia. This helped decision makers to understand the role of major urban centers on the timing of epidemics
   
-- role: Research assistant 
-  date: "01/2011--11/2011"
-  where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
-  desc: |
-    Carried out germination experiments on endemic plant species of the Serra do Cipó to better understand the key ecological mechanisms involved.
-  did:
-    - Carried out germination experiments on endemic plant species of the Serra do Cipó to better understand the key ecological mechanisms involved
-- role: Research assistant
-  date: "07/2010--12/2010"
-  where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
-  desc: |
-    Research on fungal growth modelling.
-  did: 
-    - Expanded a model coded in C++ to integrate a new physiological process and identify the models parameters with the highest impact on the growth

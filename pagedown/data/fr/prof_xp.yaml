@@ -1,12 +1,3 @@
-- role: "Scientifique des données"
-  date: "02/2022--présent"
-  where: Omnimed, Cookshire-Eaton, QC, Canada
-  desc: |
-    Amélioration du processus d'imporation des données par la mise en place d'un outil intelligent de tests de qualité des données.
-  did:
-    - Suite DQA
-    - Amélioration des requetes
-    - Developpement d'un micro service d'impression
 - role: "Co-fondateur de inSileco Inc."
   date: "10/2020--présent"
   where: Québec, QC, Canada
@@ -16,9 +7,19 @@
     - Développement d'une application Shiny pour Pêches et Océans Canada Halifax permettant de générer des rapports reproductibles incluant des analyses spatiales
     - Animation de deux ateliers pour apprendre à utiliser R comme un système d'information géographique et d'un atelier sur la création de flux de travail reproductibles
     - Écriture de deux chapitres pour un cours sur les données spatiales  (université TÉLUQ) et mise en place du déploiement continu du matériel disponible en ligne (bookdown)
+
+- role: "Scientifique des données"
+  date: "02/2022--07/2023"
+  where: Omnimed, Cookshire-Eaton, QC, Canada
+  desc: |
+    Amélioration du processus d'imporation des données par la mise en place d'un outil intelligent de tests de qualité des données.
+  did:
+    - Suite DQA
+    - Amélioration des requetes
+    - Developpement d'un micro service d'impression
   
 - role: Associé de recherche
-  date: "03/2021--présent"
+  date: "03/2021--02/2022"
   where: "McCann Lab, University of Guelph, ON, Canada"
   desc: |
     Travaux de recherche sur les réseaux écologiques, les méta-écosystèmes et l'origine géographique des produits alimentaires.
@@ -70,3 +71,12 @@
     Recherche sur la modélisation de la croissance mycorhizienne.
   did: 
     - Extension d'un model de croissance mycorhizienne (codé en C++) pour intégrer un nouveau processus physiologique
+
+- role: Professionnel de recherche
+  date: "06/2012--09/2012"
+  where: École Normale Supérieure, Paris, France
+  desc: |
+    Travaux sur les analyses en ondelettes appliquées à la propagation de la dengue en Asie du sud-est.
+  did:
+    - Traduction d'un code pour faire des analyses en ondelettes de Matlab à C++
+    - Développement d'une visualisation de données sur la propagation de la dengue en Asie du sud-est

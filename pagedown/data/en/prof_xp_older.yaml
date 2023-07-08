@@ -1,0 +1,14 @@
+- role: Research assistant 
+  date: "01/2011--11/2011"
+  where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+  desc: |
+    Carried out germination experiments on endemic plant species of the Serra do Cipó to better understand the key ecological mechanisms involved.
+  did:
+    - Carried out germination experiments on endemic plant species of the Serra do Cipó to better understand the key ecological mechanisms involved
+- role: Research assistant
+  date: "07/2010--12/2010"
+  where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
+  desc: |
+    Research on fungal growth modelling.
+  did: 
+    - Expanded a model coded in C++ to integrate a new physiological process and identify the models parameters with the highest impact on the growth

@@ -29,7 +29,7 @@ options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 
 <div class="main_title">
   <h1> Dr. Kevin Cazelles </h1>
-  <h3> `r rfa("chevron-right")` Scientifique des donnés </h3>
+  <h3 style = "margin: 2px;"> `r rfa("chevron-right")` Scientifique des données </h3>
 </div>
 
 Docteur en écologie computationnelle, durant ma carière académique j'ai utilisé l'analyse, les probabilités, les statistiques, la science des données et la science numérique pour étudier les réseaux écologiques et comprendre comment les changements globaux les affectent dans le but de conserver la biodiversité et le bon fonctionnement des écosystèmes. Aujourd'hui, j'utilise mes compétences en science des données pour créer des outils numériques intelligents au service de la santé humaine.

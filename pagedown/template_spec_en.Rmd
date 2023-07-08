@@ -254,6 +254,4 @@ insert_grants()
 insert_media()
 ```
 
-
-
 </div>

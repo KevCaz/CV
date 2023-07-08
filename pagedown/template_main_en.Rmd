@@ -152,11 +152,18 @@ insert_mentor()
 insert_pubs()
 ```
 
+### Reports
+
+```{R reports, echo = FALSE, results = "asis"}
+insert_reports()
+```
+
 ### Popularization
 
 ```{R popu, echo = FALSE, results = "asis"}
 insert_popu()
 ```
+
 
 
 ### Editorial and review activities
@@ -245,7 +252,6 @@ insert_grants()
 ```
 
 
-
 ## `r rfa("newspaper")` Media Coverage
 
 <hr>
@@ -253,7 +259,5 @@ insert_grants()
 ```{R media, echo = FALSE, results = "asis"}
 insert_media()
 ```
-
-
 
 </div>

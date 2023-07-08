@@ -1,0 +1,15 @@
+- role: Assistant de recherche
+  date: "01/2011--11/2011"
+  where: Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+  desc: |
+    Travail en laboratoire sur la germination de graines d'espèces endémiques de la Serra do Cipó.
+  did:
+    - Travail en laboratoire sur la germination de graines d'espèces endémiques de la Serra do Cipó
+    
+- role: Assistant de recherche
+  date: "07/2010--12/2010"
+  where: SIMBIOS Centre, Abertay University, Dundee, United Kingdom
+  desc: |
+    Recherche sur la modélisation de la croissance mycorhizienne.
+  did: 
+    - Extension d'un model de croissance mycorhizienne (codé en C++) pour intégrer un nouveau processus physiologique

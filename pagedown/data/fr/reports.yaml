@@ -1,0 +1,32 @@
+---
+- author:
+  - family: Stoyel
+    given: Quentin
+  - family: Finnis
+    given: Stephen
+  - family: Gomez
+    given: Catalina
+  - family: Lazin
+    given: Gordana
+  - family: Daigle
+    given: Rémi
+  - family: Lindsay
+    given: Brager
+  - family: Adrian
+    given: Hamer
+  - family: Charlotte
+    given: Smith
+  - family: David
+    given: Beauchesne
+  - family: Sean
+    given: Butler
+  - family: Cazelles
+    given: Kevin
+  container-title: |
+    Canadian Technical Report of Fisheries and Aquatic Sciences 3495
+  year: 2022
+  page: 416-430
+  publisher: Bedford Institute of Oceanography
+  title: |
+    An open, efficient, and transparent spatial reproducible reporting tool for data discovery and science advice
+  type: technical-report

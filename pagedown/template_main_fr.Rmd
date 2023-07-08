@@ -152,6 +152,12 @@ insert_mentor("data/fr/mentor.yaml")
 insert_pubs()
 ```
 
+### Rapports
+
+```{R reports, echo = FALSE, results = "asis"}
+insert_reports()
+```
+
 ### Vulgarisation scientifique
 
 ```{R popu, echo = FALSE, results = "asis"}

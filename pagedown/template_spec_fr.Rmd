@@ -258,5 +258,4 @@ insert_media()
 
 </div>
 
-
 </div>

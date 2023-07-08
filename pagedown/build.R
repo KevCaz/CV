@@ -10,24 +10,23 @@ type <- switch(type,
   spec = "spec",
   short = "short",
   stop("not available")
-  )
+)
 cat("TYPE --->", type, "\n")
-
 
 # load packages and functions
 source("helpers.R")
 
 # chose template
-tpl <- switch(lang, 
+tpl <- switch(lang,
   en = glue("template_{type}_en.Rmd"),
   fr = glue("template_{type}_fr.Rmd"),
   stop("not available")
-  )
-tit <- switch(lang, 
+)
+tit <- switch(lang,
   en = "CV Kevin Cazelles",
   fr = "CV de Kevin Cazelles",
   stop("not available")
-  )
+)
 template <- readLines(tpl)
 # NB by default whisker forward the parent envi and I used this
 
