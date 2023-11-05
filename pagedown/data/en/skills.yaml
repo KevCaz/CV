@@ -10,7 +10,7 @@
     lvl: 3
   - name: C/C++
     lvl: 3
-  - name: Java (Spring)
+  - name: Java
     lvl: 3
   - name: Sage
     lvl: 3
@@ -27,7 +27,7 @@
     lvl: 4
   - name: Inkscape
     lvl: 4
-  - name: LibreOffice
+  - name: LibreOffice / Microsoft Office
     lvl: 4
 
 - name: web
@@ -43,7 +43,7 @@
     
 - name: db
   skills:
-  - name: SQL (postgreSQL, SQLite, etc.)
+  - name: SQL (postgreSQL, SQLite, Oracle, etc.)
     lvl: 4
   - name: DuckDB
     lvl: 2

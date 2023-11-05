@@ -9,6 +9,18 @@ library(htmltools)
 library(fs)
 
 
+mypubs  <- function(
+    orcid = "0000-0001-6619-9874", filename = "pubs.bib",
+    rm = TRUE) {
+  my_dois <- unique(rorcid::identifiers(rorcid::works(orcid)))
+  pubs <- rcrossref::cr_cn(dois = my_dois, format = "bibtex")
+  if (rm) {
+    file.remove(filename)
+  }
+  invisible(lapply(pubs, write, filename, append = TRUE))
+}
+
+
 rfa <- function(...) fontawesome(...)
 
 base_gh <- "https://github.com/"
@@ -198,7 +210,7 @@ insert_popu <- function(file = "data/en/popularization.yaml") {
 }
 
 
-insert_soft <- function(file = "data/en/package.yaml") {
+insert_soft <- function(file = "data/en/packages.yaml") {
   tmp <- yaml.load_file(file)
   for (i in seq_along(tmp)) {
     out <- glue("* **{tmp[[i]]$name}** ({tmp[[i]]$role}): {tmp[[i]]$desc}.")

@@ -2,6 +2,175 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Harvey
+    given: Eric
+  - family: Marleau
+    given: Justin N.
+  - family: Gounand
+    given: Isabelle
+  - family: Leroux
+    given: Shawn J.
+  - family: Firkowski
+    given: Carina R.
+  - family: Altermatt
+    given: Florian
+  - family: Blanchet
+    given: F. Guillaume
+  - family: Cazelles
+    given: Kevin
+  - family: Chu
+    given: Cindy
+  - family: DAloia
+    given: Cassidy C.
+  - family: Donelle
+    given: Louis
+  - family: Gravel
+    given: Dominique
+  - family: Guichard
+    given: Frédéric
+  - family: McCann
+    given: Kevin
+  - family: Ruppert
+    given: Jonathan L. W.
+  - family: Ward
+    given: Colette
+  - family: Fortin
+    given: Marie-Josée
+  container-title: Ecography
+  doi: 10.1111/ecog.06790
+  id: Harvey_2023
+  issue: 11
+  issued: 2023-09
+  publisher: Wiley
+  title: A general meta-ecosystem model to predict ecosystem functions
+    at landscape extents
+  type: article-journal
+  url: "https://doi.org/10.1111%2Fecog.06790"
+  volume: 2023
+- author:
+  - family: Cazelles
+    given: Bernard
+  - family: Cazelles
+    given: Kévin
+  - family: Tian
+    given: Huaiyu
+  - family: Chavez
+    given: Mario
+  - family: Pascual
+    given: Mercedes
+  container-title: Science Advances
+  doi: 10.1126/sciadv.adf7202
+  id: Cazelles_2023
+  issue: 39
+  issued: 2023-09
+  publisher: American Association for the Advancement of Science (AAAS)
+  title: Disentangling local and global climate drivers in the
+    population dynamics of mosquito-borne infections
+  type: article-journal
+  url: "https://doi.org/10.1126%2Fsciadv.adf7202"
+  volume: 9
+- author:
+  - family: Beauchesne
+    given: David
+  - family: Cazelles
+    given: Kevin
+  - family: Daigle
+    given: Rémi
+  - family: Gravel
+    given: Dominique
+  - family: Archambault
+    given: Philippe
+  doi: 10.21203/rs.3.rs-3296860/v1
+  id: Beauchesne_2023
+  issued: 2023-09
+  publisher: Research Square Platform LLC
+  title: Ecological interactions amplify cumulative effects in marine
+    ecosystems
+  type: article-journal
+  url: "https://doi.org/10.21203%2Frs.3.rs-3296860%2Fv1"
+- author:
+  - dropping-particle: Émilie
+    family: Saulnier-Talbot
+  - family: Duchesne
+    given: Eliane
+  - family: Antoniades
+    given: Dermot
+  - family: Arseneault
+    given: Dominique
+  - family: Barnard
+    given: Christine
+  - family: Berteaux
+    given: Dominique
+  - family: Bhiry
+    given: Najat
+  - family: Bouchard
+    given: Frédéric
+  - family: Boudreau
+    given: Stéphane
+  - family: Cazelles
+    given: Kevin
+  - family: Comte
+    given: Jérôme
+  - family: Corbeil-Robitaille
+    given: Madeleine-Zoé
+  - family: Côté
+    given: Steeve
+  - family: Couture
+    given: Raoul-Marie
+  - dropping-particle: de la
+    family: Fontaine
+    given: Guillaume
+  - family: Domine
+    given: Florent
+  - family: Fauteux
+    given: Dominique
+  - family: Fortier
+    given: Daniel
+  - family: Garneau
+    given: Michelle
+  - family: Gauthier
+    given: Gilles
+  - family: Gravel
+    given: Dominique
+  - family: Laurion
+    given: Isabelle
+  - family: Lavoie
+    given: Martin
+  - family: Lecomte
+    given: Nicolas
+  - family: Legagneux
+    given: Pierre
+  - family: Lévesque
+    given: Esther
+  - family: Naud
+    given: Marie-José
+  - family: Paquette
+    given: Michel
+  - family: Payette
+    given: Serge
+  - family: Pienitz
+    given: Reinhard
+  - family: Rautio
+    given: Milla
+  - family: Roy
+    given: Alexandre
+  - family: Royer
+    given: Alain
+  - family: Simard
+    given: Martin
+  - family: Vincent
+    given: Warwick
+  - family: Bêty
+    given: Joël
+  doi: 10.21203/rs.3.rs-3026284/v1
+  id: Saulnier_Talbot_2023
+  issued: 2023-08
+  publisher: Research Square Platform LLC
+  title: State shifts and divergent sensitivities to climate warming
+    across northern ecosystems
+  type: article-journal
+  url: "https://doi.org/10.21203%2Frs.3.rs-3026284%2Fv1"
+- author:
   - family: Gutgesell
     given: Marie K
   - family: McCann
@@ -112,81 +281,6 @@ references:
   url: "https://doi.org/10.1038%2Fs41559-021-01644-4"
   volume: 6
 - author:
-  - family: Harvey
-    given: Eric
-  - family: Marleau
-    given: Justin
-  - family: Gounand
-    given: Isabelle
-  - family: Leroux
-    given: Shawn
-  - family: Firkowski
-    given: Carina Rauen
-  - family: Altermatt
-    given: Florian
-  - family: Blanchet
-    given: F. Guillaume
-  - family: Cazelles
-    given: Kevin
-  - family: Chu
-    given: Cindy
-  - family: DAloia
-    given: Cassidy
-  - family: Donelle
-    given: Louis
-  - family: Gravel
-    given: Dominique
-  - family: Guichard
-    given: Frédéric
-  - family: McCann
-    given: Kevin
-  - family: Ruppert
-    given: Jonathan
-  - family: Ward
-    given: Colette
-  - family: Fortin
-    given: Marie-Josee
-  doi: 10.22541/au.162799968.80128369/v1
-  id: Harvey_2021
-  issued: 2021-08
-  publisher: Authorea, Inc.
-  title: A general meta-ecosystem model to predict ecosystem function at
-    landscape extents
-  type: article-journal
-  url: "https://doi.org/10.22541%2Fau.162799968.80128369%2Fv1"
-- author:
-  - family: Poisot
-    given: Timothée
-  - family: Bergeron
-    given: Gabriel
-  - family: Cazelles
-    given: Kevin
-  - family: Dallas
-    given: Tad
-  - family: Gravel
-    given: Dominique
-  - family: MacDonald
-    given: Andrew
-  - family: Mercier
-    given: Benjamin
-  - family: Violet
-    given: Clément
-  - family: Vissault
-    given: Steve
-  - family: Chapman
-    given: Daniel
-  container-title: Journal of Biogeography
-  doi: 10.1111/jbi.14127
-  id: Poisot_2021
-  issue: 7
-  issued: 2021-04
-  page: 1552-1563
-  publisher: Wiley
-  title: Global knowledge gaps in species interaction networks data
-  type: article-journal
-  url: "https://doi.org/10.1111%2Fjbi.14127"
-  volume: 48
-- author:
   - family: Beauchesne
     given: David
   - family: Cazelles
@@ -211,6 +305,36 @@ references:
   type: article-journal
   url: "https://doi.org/10.1111%2Fele.13841"
   volume: 24
+- author:
+  - family: Poisot
+    given: Timothée
+  - family: Bergeron
+    given: Gabriel
+  - family: Cazelles
+    given: Kevin
+  - family: Dallas
+    given: Tad
+  - family: Gravel
+    given: Dominique
+  - family: MacDonald
+    given: Andrew
+  - family: Mercier
+    given: Benjamin
+  - family: Violet
+    given: Clément
+  - family: Vissault
+    given: Steve
+  container-title: Journal of Biogeography
+  doi: 10.1111/jbi.14127
+  id: Poisot_2021
+  issue: 7
+  issued: 2021-04
+  page: 1552-1563
+  publisher: Wiley
+  title: Global knowledge gaps in species interaction networks data
+  type: article-journal
+  url: "https://doi.org/10.1111%2Fjbi.14127"
+  volume: 48
 - author:
   - family: McCann
     given: Kevin S.
@@ -425,6 +549,19 @@ references:
 - author:
   - family: Cazelles
     given: Kevin
+  - family: Vissault
+    given: Steve
+  doi: 10.59350/51nby-5v347
+  id: Cazelles_2019
+  issued: 2019-10
+  publisher: Front Matter
+  title: "Rmangal: Making ecological networks easily accessible"
+  title-short: Rmangal
+  type: article-journal
+  url: "https://doi.org/10.59350%2F51nby-5v347"
+- author:
+  - family: Cazelles
+    given: Kevin
   - family: Bartley
     given: Timothy
   - family: Guzzo
@@ -568,6 +705,20 @@ references:
   type: article-journal
   url: "https://doi.org/10.1038%2Fs41559-018-0772-3"
   volume: 3
+- author:
+  - family: Bartomeus
+    given: Ignasi
+  - family: Cazelles
+    given: Kevin
+  - family: Geschke
+    given: Jonas
+  doi: 10.59350/4q40p-bxr56
+  id: Bartomeus_2018
+  issued: 2018-12
+  publisher: Front Matter
+  title: Rcites - the story behind the package
+  type: article-journal
+  url: "https://doi.org/10.59350%2F4q40p-bxr56"
 - author:
   - family: Wheeler
     given: Helen C.

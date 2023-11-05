@@ -2,7 +2,7 @@
   date: "10/2020--present"
   where: Montreal, QC, Canada
   desc: |
-    Created data science workshops and developed Shiny applications.
+    A consulting company that supports academics and governments with data challenges and develops data science workshops and micro scientific applications.
   did:
     - Was contracted by DFO Halifax to develop a Shiny application that allows for the creation of reproducible reports. A first version of the application with the core features has been delivered in a first contract. A second contract has recently been signed to add new features to the application
     - Was contracted by DFO Halifax and Environment and Climate Change Canada to develop and present workshops on using R as a Geographic Information system (GIS) and on reproducible research
@@ -12,7 +12,7 @@
   date: "02/2022--07/2023"
   where: "Omnimed, Cookshire, QC, Canada"
   desc:  |
-    Developed data tools to assess data quality and to generate dynamic internal reports including data.
+    Developed data tools to assess data quality and to generate dynamic internal reports including data. Analyzed the possibility of using Artificial Intelligence to improve user experience. 
   did:
     - Created data tools to assess overall quality of data.
     - Created tools to ease the generation of reports (using R and Java).

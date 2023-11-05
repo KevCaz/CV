@@ -1,0 +1,6 @@
+- name: Spatial Reproducible Reporting
+  desc: | 
+    R Shiny App to select search area(s) and generate reproducible reports (R Markdown)
+  role: developer
+  github: dfo-mar-odis/shinySpatialApp
+  

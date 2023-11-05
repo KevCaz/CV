@@ -1,3 +1,24 @@
+- year:          2022
+  duration:      2&nbsp;days
+  where:         Environment and Climate Change Canada, Dartmouth, NS, Canada
+  description: | 
+    Led a workshop on building Shiny applications
+  github:         inSilecoInc/wksh_raster_CWS
+
+- year:          2022
+  duration:      2&nbsp;days
+  where:         Environment and Climate Change Canada, Dartmouth, NS, Canada
+  description: | 
+    Led a workshop to learn how to use git, GitHub and R Markdown to work more collaboratively 
+  github:         inSilecoInc/wksh_raster_CWS
+
+- year:          2022
+  duration:      4&nbsp;days
+  where:         Bedford Institute of Oceanography, Halifax NS, Canada
+  description: | 
+    Led a workshop to learn how to use git and GitHub to work more collaboratively 
+  github:         inSilecoInc/wksh_raster_CWS
+
 - year:          2021
   duration:      2&nbsp;days
   where:         Environment and Climate Change Canada, Dartmouth, NS, Canada

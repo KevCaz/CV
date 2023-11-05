@@ -4,6 +4,7 @@ old/
 !docs/*.pdf
 !docs/*.html
 docs/*.Rmd
+.vscode
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

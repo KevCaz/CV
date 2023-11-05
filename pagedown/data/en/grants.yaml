@@ -1,5 +1,5 @@
 - year:          2022
-  title:         "Grant from the Ministère de l’économie et de l’innovation du Québec (NovaScience program)"
+  title:         "Grant from the Ministère de l'Économie, de l'Innovation et de l'Énergie du Québec (NovaScience program)"
   desc: |      
     "Volet 2b: Soutien à l’emploi en recherche et en innovation pour favoriser le transfert de talents académiques vers l’industrie."
   amount:        "$CA30,000"
@@ -20,7 +20,7 @@
   amount:        CA$6,000/year
 - year:          2012--2015
   title:         Grant from the Ministry of Higher Education and Research of France
-  amount:        "€24 000/year"
+  amount:        "€24,000/year"
 - year:          2012--2015
   title:         Grant from the FRQNT
   amount:        "CA$4,000/year"

@@ -1,9 +1,16 @@
+- media: "The Conversation"
+  title: |
+    Maladies transmises par les moustiques, météo et climat : des liaisons dangereuses
+  year: 2023
+  icon: pencil-alt
+  lang: fr
+  url: https://theconversation.com/maladies-transmises-par-les-moustiques-meteo-et-climat-des-liaisons-dangereuses-214779
 - media: "BiRN podcast"
   title: "Geographical Fingerprint and Tracking Seafood provenance"
   year: 2020
   icon: microphone-alt
   lang: en
-  url: "https://www.biodiversityresilience.com/podcast/resilience-podcast-ep-3-dr-kevin-cazelles"
+  url: https://www.biodiversityresilience.com/podcast/resilience-podcast-ep-3-dr-kevin-cazelles
 - media: "Québec Science"
   title: "Une carte des interactions entre les poissons de toutes les mers"
   year: 2020

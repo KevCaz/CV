@@ -10,12 +10,13 @@ The following R packages are required
 
 ```R
 install.package(
-  c("fs", "glue", "htmltools", "pagedown", "whisker", "yaml")
+  c("fs", "glue", "htmltools", "pagedown" "rcrossref", "rorcid", "whisker", 
+  "yaml")
 )
 remotes::install_github("mitchelloharawild/icons")
 ```
 
-CV will be added to the`/docs/` folder. 
+CV will be added to the `/docs/` folder. 
 
 
 ### Building CV 

@@ -4,6 +4,8 @@ works = 'data/$(lang)/works.bib'
 
 all: getPubs bib2yaml build open
 
+nodl: bib2yaml build open
+
 getPubs: 
 	Rscript -e "mypubs(filename = $(works))"
 	sed -i "s/{\\\&}amp\\$$\\\mathsemicolon\\$$/\&/g" $(works)
