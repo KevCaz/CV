@@ -26,6 +26,19 @@
 } 
 
 
+a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #333;
+}
+
+a:hover {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #333;
+}
+
+
 .section > h2 {
   margin-bottom: 0.04in;
   margin-top: 0.24in;
