@@ -1,9 +1,6 @@
 - name: nationality
   icon: flag
-  value: French
-- name: nationality2
-  icon: flag
-  value: Canadian permanent resident
+  value: French / Canadian permanent resident
 - name: lang_mom
   icon: language
   value: "French: native speaker"

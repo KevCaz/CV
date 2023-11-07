@@ -1,14 +1,22 @@
-- role: "Co-founder of inSileco Inc."
-  date: "10/2020--present"
-  where: Montreal, QC, Canada
+- role: Researcher
+  date: "07/2023--present" 
+  where: Great Lakes Fishery Commission, Guelph, ON, Canada
   desc: |
-    A consulting company that supports academics and governments with data challenges and develops data science workshops and micro scientific applications.
+    Work on the research project "Forecasting fisheries productivity responses to management options under multiple stressors in the Great Lakes".
+  did:
+    - Work on predicting interactions strength from time series
+
+- role: Data scientist
+  date: "10/2020--present"
+  where: inSileco, Montreal, QC, Canada
+  desc: |
+    Co-founded a consulting company that supports academics and governments with data challenges and develops data science workshops and micro scientific applications.
   did:
     - Was contracted by DFO Halifax to develop a Shiny application that allows for the creation of reproducible reports. A first version of the application with the core features has been delivered in a first contract. A second contract has recently been signed to add new features to the application
     - Was contracted by DFO Halifax and Environment and Climate Change Canada to develop and present workshops on using R as a Geographic Information system (GIS) and on reproducible research
     - Developed 2 chapters of a course that introduces students to spatial data science (université TÉLUQ) and handled the deployment of online materials (bookdown)
 
-- role: Data scientists
+- role: Data scientist
   date: "02/2022--07/2023"
   where: "Omnimed, Cookshire, QC, Canada"
   desc:  |
