@@ -2,6 +2,21 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Cazelles
+    given: Kevin
+  container-title: Nature Ecology &amp; Evolution
+  doi: 10.1038/s41559-023-02245-z
+  id: Cazelles_2023
+  issn: 2397-334X
+  issue: 2
+  issued: 2023-11
+  page: 184-185
+  publisher: Springer Science; Business Media LLC
+  title: Isolating interactions from co-occurrences
+  type: article-journal
+  url: "http://dx.doi.org/10.1038/s41559-023-02245-z"
+  volume: 8
+- author:
   - family: Harvey
     given: Eric
   - family: Marleau
@@ -14,13 +29,13 @@ references:
     given: Carina R.
   - family: Altermatt
     given: Florian
-  - family: Blanchet
-    given: F. Guillaume
+  - family: Guillaume Blanchet
+    given: F.
   - family: Cazelles
     given: Kevin
   - family: Chu
     given: Cindy
-  - family: DAloia
+  - family: D'Aloia
     given: Cassidy C.
   - family: Donelle
     given: Louis
@@ -35,17 +50,18 @@ references:
   - family: Ward
     given: Colette
   - family: Fortin
-    given: Marie-Josée
+    given: Marie‐Josée
   container-title: Ecography
   doi: 10.1111/ecog.06790
   id: Harvey_2023
+  issn: 1600-0587
   issue: 11
   issued: 2023-09
   publisher: Wiley
-  title: A general meta-ecosystem model to predict ecosystem functions
+  title: A general meta‐ecosystem model to predict ecosystem functions
     at landscape extents
   type: article-journal
-  url: "https://doi.org/10.1111%2Fecog.06790"
+  url: "http://dx.doi.org/10.1111/ecog.06790"
   volume: 2023
 - author:
   - family: Cazelles
@@ -61,13 +77,14 @@ references:
   container-title: Science Advances
   doi: 10.1126/sciadv.adf7202
   id: Cazelles_2023
+  issn: 2375-2548
   issue: 39
   issued: 2023-09
   publisher: American Association for the Advancement of Science (AAAS)
   title: Disentangling local and global climate drivers in the
     population dynamics of mosquito-borne infections
   type: article-journal
-  url: "https://doi.org/10.1126%2Fsciadv.adf7202"
+  url: "http://dx.doi.org/10.1126/sciadv.adf7202"
   volume: 9
 - author:
   - family: Beauchesne
@@ -87,10 +104,10 @@ references:
   title: Ecological interactions amplify cumulative effects in marine
     ecosystems
   type: article-journal
-  url: "https://doi.org/10.21203%2Frs.3.rs-3296860%2Fv1"
+  url: "http://dx.doi.org/10.21203/rs.3.rs-3296860/v1"
 - author:
-  - dropping-particle: Émilie
-    family: Saulnier-Talbot
+  - family: Saulnier-Talbot
+    given: Émilie
   - family: Duchesne
     given: Eliane
   - family: Antoniades
@@ -117,9 +134,8 @@ references:
     given: Steeve
   - family: Couture
     given: Raoul-Marie
-  - dropping-particle: de la
-    family: Fontaine
-    given: Guillaume
+  - family: Fontaine
+    given: Guillaume de la
   - family: Domine
     given: Florent
   - family: Fauteux
@@ -169,7 +185,7 @@ references:
   title: State shifts and divergent sensitivities to climate warming
     across northern ecosystems
   type: article-journal
-  url: "https://doi.org/10.21203%2Frs.3.rs-3026284%2Fv1"
+  url: "http://dx.doi.org/10.21203/rs.3.rs-3026284/v1"
 - author:
   - family: Gutgesell
     given: Marie K
@@ -189,7 +205,7 @@ references:
     given: Connor P K
   - family: Ward
     given: Charlotte A
-  - family: OConnor
+  - family: O'Connor
     given: Reilly F
   - family: Scott
     given: Alexa M
@@ -202,13 +218,14 @@ references:
   container-title: BioScience
   doi: 10.1093/biosci/biab144
   id: Gutgesell_2022
+  issn: 1525-3244
   issue: 5
   issued: 2022-02
   page: 416-430
   publisher: Oxford University Press (OUP)
   title: On the dynamic nature of omnivory in a changing world
   type: article-journal
-  url: "https://doi.org/10.1093%2Fbiosci%2Fbiab144"
+  url: "http://dx.doi.org/10.1093/biosci/biab144"
   volume: 72
 - author:
   - family: Galiana
@@ -269,16 +286,17 @@ references:
     given: Wilfried
   - family: Montoya
     given: José M.
-  container-title: Nature Ecology & Evolution
+  container-title: Nature Ecology &amp; Evolution
   doi: 10.1038/s41559-021-01644-4
   id: Galiana_2022
+  issn: 2397-334X
   issue: 3
   issued: 2022-01
   page: 307-314
   publisher: Springer Science; Business Media LLC
   title: Ecological network complexity scales with area
   type: article-journal
-  url: "https://doi.org/10.1038%2Fs41559-021-01644-4"
+  url: "http://dx.doi.org/10.1038/s41559-021-01644-4"
   volume: 6
 - author:
   - family: Beauchesne
@@ -297,13 +315,14 @@ references:
   - family: Wootton
     given: Tim
   id: Beauchesne_2021
+  issn: 1461-0248
   issue: 10
   issued: 2021-07
   page: 2219-2237
   publisher: Wiley
   title: On the sensitivity of food webs to multiple stressors
   type: article-journal
-  url: "https://doi.org/10.1111%2Fele.13841"
+  url: "http://dx.doi.org/10.1111/ele.13841"
   volume: 24
 - author:
   - family: Poisot
@@ -327,13 +346,14 @@ references:
   container-title: Journal of Biogeography
   doi: 10.1111/jbi.14127
   id: Poisot_2021
+  issn: 1365-2699
   issue: 7
   issued: 2021-04
   page: 1552-1563
   publisher: Wiley
   title: Global knowledge gaps in species interaction networks data
   type: article-journal
-  url: "https://doi.org/10.1111%2Fjbi.14127"
+  url: "http://dx.doi.org/10.1111/jbi.14127"
   volume: 48
 - author:
   - family: McCann
@@ -363,7 +383,7 @@ references:
   title: Ecosystem entanglement and the propagation of nutrient-driven
     instability
   type: article-journal
-  url: "https://doi.org/10.1101%2F2020.04.20.050302"
+  url: "http://dx.doi.org/10.1101/2020.04.20.050302"
 - author:
   - family: McCann
     given: Kevin S.
@@ -391,14 +411,15 @@ references:
   - family: Drake
     given: John
   id: McCann_2020
+  issn: 1461-0248
   issue: 3
   issued: 2020-11
   page: 398-414
   publisher: Wiley
-  title: Landscape modification and nutrient-driven instability at a
+  title: Landscape modification and nutrient‐driven instability at a
     distance
   type: article-journal
-  url: "https://doi.org/10.1111%2Fele.13644"
+  url: "http://dx.doi.org/10.1111/ele.13644"
   volume: 24
 - author:
   - family: Cazelles
@@ -411,11 +432,12 @@ references:
     given: Emelia
   - family: Hanner
     given: Robert
-  - family: McCann
-    given: Kevin Shear
+  - family: Shear McCann
+    given: Kevin
   container-title: Foods
   doi: 10.3390/foods10040717
   id: Cazelles_2021
+  issn: 2304-8158
   issue: 4
   issued: 2021-03
   page: 717
@@ -424,7 +446,7 @@ references:
     bio-tracers as solution to global food provenance problems"
   title-short: Spatial fingerprinting
   type: article-journal
-  url: "https://doi.org/10.3390%2Ffoods10040717"
+  url: "http://dx.doi.org/10.3390/foods10040717"
   volume: 10
 - author:
   - family: Blanchet
@@ -439,13 +461,14 @@ references:
   - family: Jeffers
     given: Elizabeth
   id: Blanchet_2020
+  issn: 1461-0248
   issue: 7
   issued: 2020-05
   page: 1050-1063
   publisher: Wiley
-  title: Co-occurrence is not evidence of ecological interactions
+  title: Co‐occurrence is not evidence of ecological interactions
   type: article-journal
-  url: "https://doi.org/10.1111%2Fele.13525"
+  url: "http://dx.doi.org/10.1111/ele.13525"
   volume: 23
 - author:
   - family: Warne
@@ -461,13 +484,14 @@ references:
   container-title: Geophysical Research Letters
   doi: 10.1029/2020gl087953
   id: Warne_2020
+  issn: 1944-8007
   issue: 12
   issued: 2020-06
   publisher: American Geophysical Union (AGU)
   title: Geography and morphology affect the ice duration dynamics of
     northern hemisphere lakes worldwide
   type: article-journal
-  url: "https://doi.org/10.1029%2F2020gl087953"
+  url: "http://dx.doi.org/10.1029/2020GL087953"
   volume: 47
 - author:
   - family: Solarik
@@ -486,6 +510,7 @@ references:
   - family: Gilliam
     given: Frank
   id: Solarik_2019
+  issn: 1365-2745
   issue: 3
   issued: 2019-11
   page: 1155-1173
@@ -493,7 +518,7 @@ references:
   title: Priority effects will impede range shifts of temperate tree
     species into the boreal forest
   type: article-journal
-  url: "https://doi.org/10.1111%2F1365-2745.13311"
+  url: "http://dx.doi.org/10.1111/1365-2745.13311"
   volume: 108
 - author:
   - family: Poisot
@@ -521,30 +546,31 @@ references:
   title: Environmental biases in the study of ecological networks at the
     planetary scale
   type: article-journal
-  url: "https://doi.org/10.1101%2F2020.01.27.921429"
+  url: "http://dx.doi.org/10.1101/2020.01.27.921429"
 - author:
   - family: Brice
-    given: Marie-Hélène
+    given: Marie‐Hélène
   - family: Cazelles
     given: Kevin
   - family: Legendre
     given: Pierre
   - family: Fortin
-    given: Marie-Josée
+    given: Marie‐Josée
   container-title: Global Ecology and Biogeography
   doi: 10.1111/geb.12971
   editor:
-  - family: Boucher-Lalonde
+  - family: Boucher‐Lalonde
     given: Véronique
   id: Brice_2019
+  issn: 1466-8238
   issue: 11
   issued: 2019-07
   page: 1668-1681
   publisher: Wiley
   title: Disturbances amplify tree community responses to climate change
-    in the temperate`\textendash`{=latex}boreal ecotone
+    in the temperate--boreal ecotone
   type: article-journal
-  url: "https://doi.org/10.1111%2Fgeb.12971"
+  url: "http://dx.doi.org/10.1111/geb.12971"
   volume: 28
 - author:
   - family: Cazelles
@@ -558,7 +584,7 @@ references:
   title: "Rmangal: Making ecological networks easily accessible"
   title-short: Rmangal
   type: article-journal
-  url: "https://doi.org/10.59350%2F51nby-5v347"
+  url: "http://dx.doi.org/10.59350/51nby-5v347"
 - author:
   - family: Cazelles
     given: Kevin
@@ -567,7 +593,7 @@ references:
   - family: Guzzo
     given: Matthew M.
   - family: Brice
-    given: Marie-Hélène
+    given: Marie‐Hélène
   - family: MacDougall
     given: Andrew S.
   - family: Bennett
@@ -579,7 +605,7 @@ references:
   - family: Kelly
     given: Jocelyn
   - family: Matsuzaki
-    given: Shin-ichiro
+    given: Shin‐ichiro
   - family: Nilsson
     given: Karin A.
   - family: McCann
@@ -587,6 +613,7 @@ references:
   container-title: Global Change Biology
   doi: 10.1111/gcb.14829
   id: Cazelles_2019
+  issn: 1365-2486
   issue: 12
   issued: 2019-10
   page: 4222-4233
@@ -596,7 +623,7 @@ references:
     not climate change"
   title-short: Homogenization of freshwater lakes
   type: article-journal
-  url: "https://doi.org/10.1111%2Fgcb.14829"
+  url: "http://dx.doi.org/10.1111/gcb.14829"
   volume: 25
 - author:
   - family: Albouy
@@ -629,16 +656,17 @@ references:
     given: Spencer A.
   - family: Gravel
     given: Dominique
-  container-title: Nature Ecology & Evolution
+  container-title: Nature Ecology &amp; Evolution
   doi: 10.1038/s41559-019-0950-y
   id: Albouy_2019
+  issn: 2397-334X
   issue: 8
   issued: 2019-07
   page: 1153-1161
   publisher: Springer Science; Business Media LLC
   title: The marine fish food web is globally connected
   type: article-journal
-  url: "https://doi.org/10.1038%2Fs41559-019-0950-y"
+  url: "http://dx.doi.org/10.1038/s41559-019-0950-y"
   volume: 3
 - author:
   - family: Cazelles
@@ -648,12 +676,13 @@ references:
   container-title: Peer Community In Ecology
   doi: 10.24072/pci.ecology.100017
   id: Cazelles_2019
+  issn: 2606-4979
   issued: 2019-04
   page: 100017
   publisher: Peer Community In
   title: Diversity-stability and the structure of perturbations
   type: article-journal
-  url: "https://doi.org/10.24072%2Fpci.ecology.100017"
+  url: "http://dx.doi.org/10.24072/pci.ecology.100017"
 - author:
   - family: Bartley
     given: Timothy J.
@@ -674,7 +703,7 @@ references:
   title: Thermal preference influences depth use but not biomass of
     predatory fishes in response to lake morphometry
   type: article-journal
-  url: "https://doi.org/10.1101%2F572925"
+  url: "http://dx.doi.org/10.1101/572925"
 - author:
   - family: Bartley
     given: Timothy J.
@@ -694,16 +723,17 @@ references:
     given: Tyler D.
   - family: McMeans
     given: Bailey C.
-  container-title: Nature Ecology & Evolution
+  container-title: Nature Ecology &amp; Evolution
   doi: 10.1038/s41559-018-0772-3
   id: Bartley_2019
+  issn: 2397-334X
   issue: 3
   issued: 2019-02
   page: 345-354
   publisher: Springer Science; Business Media LLC
   title: Food web rewiring in a changing world
   type: article-journal
-  url: "https://doi.org/10.1038%2Fs41559-018-0772-3"
+  url: "http://dx.doi.org/10.1038/s41559-018-0772-3"
   volume: 3
 - author:
   - family: Bartomeus
@@ -718,7 +748,7 @@ references:
   publisher: Front Matter
   title: Rcites - the story behind the package
   type: article-journal
-  url: "https://doi.org/10.59350%2F4q40p-bxr56"
+  url: "http://dx.doi.org/10.59350/4q40p-bxr56"
 - author:
   - family: Wheeler
     given: Helen C.
@@ -735,15 +765,15 @@ references:
   container-title: Conservation Biology
   doi: 10.1111/cobi.13257
   id: Wheeler_2019
+  issn: 1523-1739
   issue: 4
   issued: 2019-01
   page: 861-872
   publisher: Wiley
-  title: Identifying key needs for the integration of
-    social`\textendash`{=latex}ecological outcomes in arctic wildlife
-    monitoring
+  title: Identifying key needs for the integration of social--ecological
+    outcomes in arctic wildlife monitoring
   type: article-journal
-  url: "https://doi.org/10.1111%2Fcobi.13257"
+  url: "http://dx.doi.org/10.1111/cobi.13257"
   volume: 33
 - author:
   - family: Geschke
@@ -755,6 +785,7 @@ references:
   container-title: Journal of Open Source Software
   doi: 10.21105/joss.01091
   id: Geschke_2018
+  issn: 2475-9066
   issue: 31
   issued: 2018-11
   page: 1091
@@ -762,7 +793,7 @@ references:
   title: "Rcites: An r package to access the CITES speciesplus database"
   title-short: Rcites
   type: article-journal
-  url: "https://doi.org/10.21105%2Fjoss.01091"
+  url: "http://dx.doi.org/10.21105/joss.01091"
   volume: 3
 - author:
   - family: Galiana
@@ -781,16 +812,17 @@ references:
     given: Dominique
   - family: Montoya
     given: José M.
-  container-title: Nature Ecology & Evolution
+  container-title: Nature Ecology &amp; Evolution
   doi: 10.1038/s41559-018-0517-3
   id: Galiana_2018
+  issn: 2397-334X
   issue: 5
   issued: 2018-04
   page: 782-790
   publisher: Springer Science; Business Media LLC
   title: The spatial scaling of species interaction networks
   type: article-journal
-  url: "https://doi.org/10.1038%2Fs41559-018-0517-3"
+  url: "http://dx.doi.org/10.1038/s41559-018-0517-3"
   volume: 2
 - author:
   - family: MacDougall
@@ -830,13 +862,14 @@ references:
   container-title: Nature Communications
   doi: 10.1038/s41467-018-03419-1
   id: MacDougall_2018
+  issn: 2041-1723
   issue: 1
   issued: 2018-03
   publisher: Springer Science; Business Media LLC
   title: Context-dependent interactions and the regulation of species
     richness in freshwater fish
   type: article-journal
-  url: "https://doi.org/10.1038%2Fs41467-018-03419-1"
+  url: "http://dx.doi.org/10.1038/s41467-018-03419-1"
   volume: 9
 - author:
   - family: Legagneux
@@ -874,6 +907,7 @@ references:
   container-title: Frontiers in Ecology and Evolution
   doi: 10.3389/fevo.2017.00175
   id: Legagneux_2018
+  issn: 2296-701X
   issued: 2018-01
   publisher: Frontiers Media SA
   title: "Our house is burning: Discrepancy in climate change vs.
@@ -881,11 +915,11 @@ references:
     literature"
   title-short: Our house is burning
   type: article-journal
-  url: "https://doi.org/10.3389%2Ffevo.2017.00175"
+  url: "http://dx.doi.org/10.3389/fevo.2017.00175"
   volume: 5
 - author:
   - family: Kopelke
-    given: Jens-Peter
+    given: Jens‐Peter
   - family: Nyman
     given: Tommi
   - family: Cazelles
@@ -899,14 +933,15 @@ references:
   container-title: Ecology
   doi: 10.1002/ecy.1832
   id: Kopelke_2017
+  issn: 1939-9170
   issue: 6
   issued: 2017-05
   page: 1730-1730
   publisher: Wiley
-  title: Food-web structure of willow-galling sawflies and their natural
+  title: Food‐web structure of willow‐galling sawflies and their natural
     enemies across europe
   type: article-journal
-  url: "https://doi.org/10.1002%2Fecy.1832"
+  url: "http://dx.doi.org/10.1002/ecy.1832"
   volume: 98
 - author:
   - family: Massol
@@ -923,15 +958,17 @@ references:
     given: S.
   - family: Gravel
     given: D.
-  container-title: "Networks of invasion: A synthesis of concepts"
+  container-title: Advances in ecological research
   doi: 10.1016/bs.aecr.2016.10.004
   id: Massol_2017
+  isbn: 9780128043387
+  issn: 0065-2504
   issued: 2017
   page: 183-262
   publisher: Elsevier
   title: Island biogeography of food webs
   type: chapter
-  url: "https://doi.org/10.1016%2Fbs.aecr.2016.10.004"
+  url: "http://dx.doi.org/10.1016/bs.aecr.2016.10.004"
 - author:
   - family: Cazelles
     given: Kévin
@@ -944,6 +981,7 @@ references:
   container-title: Ecography
   doi: 10.1111/ecog.01714
   id: Cazelles_2016
+  issn: 1600-0587
   issue: 10
   issued: 2016-01
   page: 921-931
@@ -951,7 +989,7 @@ references:
   title: On the integration of biotic interaction and environmental
     constraints at the biogeographical scale
   type: article-journal
-  url: "https://doi.org/10.1111%2Fecog.01714"
+  url: "http://dx.doi.org/10.1111/ecog.01714"
   volume: 39
 - author:
   - family: Poisot
@@ -963,7 +1001,7 @@ references:
   - family: Gravel
     given: Dominique
   - family: Fortin
-    given: Marie-Josée
+    given: Marie‐Josée
   - family: Stouffer
     given: Daniel B.
   container-title: Methods in Ecology and Evolution
@@ -972,13 +1010,14 @@ references:
   - family: Vamosi
     given: Jana
   id: Poisot_2015
+  issn: 2041-210X
   issue: 3
   issued: 2015-10
   page: 303-312
   publisher: Wiley
   title: The structure of probabilistic networks
   type: article-journal
-  url: "https://doi.org/10.1111%2F2041-210x.12468"
+  url: "http://dx.doi.org/10.1111/2041-210X.12468"
   volume: 7
 - author:
   - family: Cazelles
@@ -992,17 +1031,18 @@ references:
   container-title: Theoretical Ecology
   doi: 10.1007/s12080-015-0281-9
   id: Cazelles_2015
+  issn: 1874-1746
   issue: 1
   issued: 2015-10
   page: 39-48
   publisher: Springer Science; Business Media LLC
   title: A theory for species co-occurrence in interaction networks
   type: article-journal
-  url: "https://doi.org/10.1007%2Fs12080-015-0281-9"
+  url: "http://dx.doi.org/10.1007/s12080-015-0281-9"
   volume: 9
 - author:
-  - family: Stradic
-    given: Soizig Le
+  - family: Le Stradic
+    given: Soizig
   - family: Silveira
     given: Fernando A. O.
   - family: Buisson
@@ -1016,6 +1056,7 @@ references:
   container-title: Austral Ecology
   doi: 10.1111/aec.12221
   id: Le_Stradic_2015
+  issn: 1442-9993
   issue: 5
   issued: 2015-02
   page: 537-546
@@ -1023,7 +1064,7 @@ references:
   title: Diversity of germination strategies and seed dormancy in
     herbaceous species of campo rupestre grasslands
   type: article-journal
-  url: "https://doi.org/10.1111%2Faec.12221"
+  url: "http://dx.doi.org/10.1111/aec.12221"
   volume: 40
 - author:
   - family: Cazelles
@@ -1033,13 +1074,14 @@ references:
   container-title: International Journal of Infectious Diseases
   doi: 10.1016/j.ijid.2014.03.873
   id: Cazelles_2014
+  issn: 1201-9712
   issued: 2014-04
   page: 217
   publisher: Elsevier BV
   title: Major urban centers have weak influence on the timing of dengue
     epidemics in southeast asia
   type: article-journal
-  url: "https://doi.org/10.1016%2Fj.ijid.2014.03.873"
+  url: "http://dx.doi.org/10.1016/j.ijid.2014.03.873"
   volume: 21
 - author:
   - family: Cazelles
@@ -1051,6 +1093,7 @@ references:
   container-title: Journal of The Royal Society Interface
   doi: 10.1098/rsif.2013.0585
   id: Cazelles_2014
+  issn: 1742-5662
   issue: 91
   issued: 2014-02
   page: 20130585
@@ -1059,7 +1102,7 @@ references:
     statistical tests"
   title-short: Wavelet analysis in ecology and epidemiology
   type: article-journal
-  url: "https://doi.org/10.1098%2Frsif.2013.0585"
+  url: "http://dx.doi.org/10.1098/rsif.2013.0585"
   volume: 11
 - author:
   - family: Cazelles
@@ -1073,6 +1116,7 @@ references:
   container-title: Ecological Modelling
   doi: 10.1016/j.ecolmodel.2012.08.008
   id: Cazelles_2013
+  issn: 0304-3800
   issued: 2013-01
   page: 165-173
   publisher: Elsevier BV
@@ -1081,7 +1125,7 @@ references:
     carbon distribution"
   title-short: Soil fungal dynamics
   type: article-journal
-  url: "https://doi.org/10.1016%2Fj.ecolmodel.2012.08.008"
+  url: "http://dx.doi.org/10.1016/j.ecolmodel.2012.08.008"
   volume: 248
 ---
 
