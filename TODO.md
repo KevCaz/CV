@@ -1,0 +1,2 @@
+- [ ] add Grondin internal report 
+- [ ] review CV so fr and en have the same content

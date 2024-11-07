@@ -1,6 +1,6 @@
 # CV
 
-This is the repository where I share the source code I've been using to create my CV. 
+Source code for my CV (html and pdf). 
 
 ## pagedown
 
@@ -21,7 +21,7 @@ CV will be added to the `/docs/` folder.
 
 ### Building CV 
 
-On UNIX systems, using GNU make 
+On UNIX systems, using [GNU make](https://www.gnu.org/software/make/):
 
 ```sh
 cd pagedown

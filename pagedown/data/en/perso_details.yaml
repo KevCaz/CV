@@ -1,6 +1,6 @@
 - name: nationality
   icon: flag
-  value: French / Canadian permanent resident
+  value: French / Canadian
 - name: lang_mom
   icon: language
   value: "French: native speaker"
@@ -12,9 +12,9 @@
   value: Montreal, Québec
   # url: https://www.openstreetmap.org/#map=17/43.53071/-80.22864&layers=N
 - name: email
-  value: kevin.cazelles@gmail.com
+  value: kevin.cazelles@insileco.io
   icon: at
-  url: "mailto:kevin.cazelles@gmail.com?subject=Contact&body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"
+  url: "mailto:kevin.cazelles@insileco.io?subject=Contact&body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"
 - name: website 
   value: kevcaz.insileco.io
   icon: globe

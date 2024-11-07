@@ -2,6 +2,118 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Saulnier-Talbot
+    given: Émilie
+  - family: Duchesne
+    given: Éliane
+  - family: Antoniades
+    given: Dermot
+  - family: Arseneault
+    given: Dominique
+  - family: Barnard
+    given: Christine
+  - family: Berteaux
+    given: Dominique
+  - family: Bhiry
+    given: Najat
+  - family: Bouchard
+    given: Frédéric
+  - family: Boudreau
+    given: Stéphane
+  - family: Cazelles
+    given: Kevin
+  - family: Comte
+    given: Jérôme
+  - family: Corbeil-Robitaille
+    given: Madeleine-Zoé
+  - family: Côté
+    given: Steeve D.
+  - family: Couture
+    given: Raoul-Marie
+  - dropping-particle: de
+    family: Lafontaine
+    given: Guillaume
+  - family: Domine
+    given: Florent
+  - family: Fauteux
+    given: Dominique
+  - family: Fortier
+    given: Daniel
+  - family: Garneau
+    given: Michelle
+  - family: Gauthier
+    given: Gilles
+  - family: Gravel
+    given: Dominique
+  - family: Laurion
+    given: Isabelle
+  - family: Lavoie
+    given: Martin
+  - family: Lecomte
+    given: Nicolas
+  - family: Legagneux
+    given: Pierre
+  - family: Lévesque
+    given: Esther
+  - family: Naud
+    given: Marie-José
+  - family: Paquette
+    given: Michel
+  - family: Payette
+    given: Serge
+  - family: Pienitz
+    given: Reinhard
+  - family: Rautio
+    given: Milla
+  - family: Roy
+    given: Alexandre
+  - family: Royer
+    given: Alain
+  - family: Simard
+    given: Martin
+  - family: Vincent
+    given: Warwick F.
+  - family: Bêty
+    given: Joël
+  container-title: Communications Earth &amp; Environment
+  doi: 10.1038/s43247-024-01791-z
+  id: Saulnier_Talbot_2024
+  issn: 2662-4435
+  issue: 1
+  issued: 2024-10
+  publisher: Springer Science; Business Media LLC
+  title: Expert elicitation of state shifts and divergent sensitivities
+    to climate warming across northern ecosystems
+  type: article-journal
+  url: "http://dx.doi.org/10.1038/s43247-024-01791-z"
+  volume: 5
+- author:
+  - family: Warne
+    given: Connor P. K.
+  - family: Guzzo
+    given: Matthew M.
+  - family: Cazelles
+    given: Kevin
+  - family: Chu
+    given: Cindy
+  - family: Rooney
+    given: Neil
+  - family: McCann
+    given: Kevin S.
+  container-title: Canadian Journal of Fisheries and Aquatic Sciences
+  doi: 10.1139/cjfas-2023-0233
+  id: Warne_2024
+  issn: 1205-7533
+  issue: 4
+  issued: 2024-04
+  page: 488-496
+  publisher: Canadian Science Publishing
+  title: Thermal tolerance and habitat preferences mediate how
+    freshwater fish body sizes respond to warming
+  type: article-journal
+  url: "http://dx.doi.org/10.1139/cjfas-2023-0233"
+  volume: 81
+- author:
   - family: Cazelles
     given: Kevin
   container-title: Nature Ecology &amp; Evolution
@@ -181,7 +293,7 @@ references:
   doi: 10.21203/rs.3.rs-3026284/v1
   id: Saulnier_Talbot_2023
   issued: 2023-08
-  publisher: Research Square Platform LLC
+  publisher: Springer Science; Business Media LLC
   title: State shifts and divergent sensitivities to climate warming
     across northern ecosystems
   type: article-journal
@@ -448,6 +560,28 @@ references:
   type: article-journal
   url: "http://dx.doi.org/10.3390/foods10040717"
   volume: 10
+- author:
+  - family: Cazelles
+    given: Kevin
+  - family: Zemlak
+    given: Tyler
+  - family: Gutgesell
+    given: Marie
+  - family: Myles-Gonzalez
+    given: Emelia
+  - family: Hanner
+    given: Robert
+  - family: McCann
+    given: Kevin S.
+  doi: 10.1101/2020.10.01.322453
+  id: Cazelles_2020
+  issued: 2020-10
+  publisher: Cold Spring Harbor Laboratory
+  title: "Spatial fingerprinting: Horizontal fusion of multi-dimensional
+    bio-tracers as solution to global food provenance problems"
+  title-short: Spatial fingerprinting
+  type: article-journal
+  url: "http://dx.doi.org/10.1101/2020.10.01.322453"
 - author:
   - family: Blanchet
     given: F. Guillaume
@@ -958,7 +1092,7 @@ references:
     given: S.
   - family: Gravel
     given: D.
-  container-title: Advances in ecological research
+  container-title: "Networks of invasion: A synthesis of concepts"
   doi: 10.1016/bs.aecr.2016.10.004
   id: Massol_2017
   isbn: 9780128043387
